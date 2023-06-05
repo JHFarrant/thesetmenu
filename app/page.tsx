@@ -1,8 +1,6 @@
 'use client';
 
 import Image from 'next/image'
-import ArtistList from './components/ArtistList'
-import Search from './components/Search'
 
 import { Button, Card, Footer } from 'flowbite-react';
 
@@ -17,14 +15,14 @@ export default function Home() {
              </h1>
              <div>
              <p className={`mb-2 text-xs text-center opacity-50`}>
-               You can't remember every artists name
+               {"You can't remember every artists name"}
              </p>
 
              </div>
              <Card href="#">
               <h5 className="text-m font-bold tracking-tight text-gray-900 dark:text-white">
                 <p>
-              Use your Spotify history to find your Glasto 23 'Sets Menu'
+                  {"Use your Spotify history to find your Glasto 23 'Sets Menu'"}
                 </p>
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -64,7 +62,7 @@ export default function Home() {
                   </h2>
 
               <Button color="dark">                    
-                <Image src='/spotifylogo.png' width="200" height="50"/>
+                <Image alt="spotify logo" src='/spotifylogo.png' width="200" height="50"/>
               </Button>
             <h2 className={`text-xs text-center opacity-50 pt-1`}>
                 No data leaves your device            
