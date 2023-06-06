@@ -169,8 +169,8 @@ export default function Home() {
   
   return intialLoadDone ? (
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
-      <div className='self-end pr-2 pt-2'>
-          { true && <a
+      <div className='self-end pr-2 pt-2 h-6'>
+          { user && <a
       className="text-xs font-medium text-cyan-600 hover:underline dark:text-cyan-500"
       href="#"
       onClick={logout}
