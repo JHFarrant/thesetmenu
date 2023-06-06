@@ -1,6 +1,6 @@
 'use client';
 
-import {useEffect, useState} from 'react'
+import {useEffect, useState, useMemo} from 'react'
 import { SpotifyApi } from '@spotify/web-api-ts-sdk';
 import { Page, Artist, Track} from '@spotify/web-api-ts-sdk/dist/mjs/types';
 
@@ -10,10 +10,6 @@ import moment from 'moment';
 
 import { Button, Card, Footer, Spinner } from 'flowbite-react';
 import { useReadLocalStorage } from 'usehooks-ts'
-
-const SpotifyClientID = "7116f40f98d64f5cbb9e2aafb2209702"
-const RedirectURL = "https://sets-menu.pages.dev/"
-const sdk = SpotifyApi.withUserAuthorization(SpotifyClientID, RedirectURL, ["user-top-read"]);
 
 const removeDupes = (totalArray: any[]) => {
   let uniqueArray: any[]  = []
@@ -25,10 +21,23 @@ const removeDupes = (totalArray: any[]) => {
   return uniqueArray
 }
 
+
 export default function Home() {
 
-  const spotifyKeyExists: any = useReadLocalStorage('spotify-sdk:AuthorizationCodeWithPKCEStrategy:token')
+  const spotifyKeys: any = useReadLocalStorage('spotify-sdk:AuthorizationCodeWithPKCEStrategy:token')
 
+  const SpotifyClientID = "7116f40f98d64f5cbb9e2aafb2209702"
+  const RedirectURL = typeof window !== "undefined" ?  window.location.origin + "/" : "RedirectURLUnknown"
+
+  console.log(`RedirectURL=${RedirectURL}`)
+
+
+  const sdk = useMemo(() => SpotifyApi.withUserAuthorization(SpotifyClientID, RedirectURL, ["user-top-read"]),[]);
+
+  // const [sdk, setSDK] = useState<SpotifyApi>()
+  const [user, setUser] = useState<any>()
+
+  
   const [artistsLoading, setArtistsLoading] = useState<boolean>(false)
   const [tracksLoading, setTracksLoading] = useState<boolean>(false)
   const [intialLoadDone, setInitialLoadDone] = useState<boolean>(false)
@@ -42,11 +51,11 @@ export default function Home() {
   //   sdk?.currentUser.topItems("artists")
   // }
 
-  const performSpotifyAuth = () => {
-    console.log("test")
-    console.log(RedirectURL)
+  const performSpotifyAuth = async () => {
+    console.log("Triggered Auth - Started")
     // setSDK(sdk)
-    sdk.authenticate()
+    await sdk.authenticate()
+    console.log("Triggered Auth - Finished")
   }
 
   const fetchAll = () => {
@@ -61,9 +70,13 @@ export default function Home() {
       const mediumTerm2 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=49&time_range=medium_term`)
       const longTerm1 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=0&time_range=long_term`)
       const longTerm2 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=49&time_range=long_term`)
-
-      const artistsPage = await Promise.all([shortTerm1, shortTerm2, mediumTerm1, mediumTerm2, longTerm1, longTerm2])
-      setTopArtists(artistsPage.reduce((artists,a)=> artists.concat(a.items) ,[] as Array<any> ))
+      try{
+        const artistsPage = await Promise.all([shortTerm1, shortTerm2, mediumTerm1, mediumTerm2, longTerm1, longTerm2])
+        setTopArtists(artistsPage.reduce((artists,a)=> artists.concat(a.items) ,[] as Array<any> ))
+      }
+      catch (error){
+          console.error(error)
+      }
       setArtistsLoading(false)
     }
     const fetchTracks = async () => {
@@ -77,10 +90,16 @@ export default function Home() {
       const mediumTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=medium_term`)
       const longTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=long_term`)
       const longTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=long_term`)
-
-      const artistsPage = await Promise.all([shortTerm1, shortTerm2, mediumTerm1, mediumTerm2, longTerm1, longTerm2])
-      setTopTracks(artistsPage.reduce((tracks,a)=> tracks.concat(a.items) ,[] as Array<any>))
+      
+      try{
+        const tracksPage = await Promise.all([shortTerm1, shortTerm2, mediumTerm1, mediumTerm2, longTerm1, longTerm2])
+        setTopTracks(tracksPage.reduce((tracks,a)=> tracks.concat(a.items) ,[] as Array<any>))
+      }
+      catch (error){
+          console.error(error)
+      }
       setTracksLoading(false)
+
     }
     setArtistsLoading(true)
     setTopArtists([])
@@ -105,15 +124,40 @@ export default function Home() {
     
   
   useEffect(() => {
-    setInitialLoadDone(true)
+    console.log(`spotifyKeys=${spotifyKeys}`)
+    const initSpotify = async () => {
+      const hashParams = new URLSearchParams(window.location.search);
+      const code = hashParams.get("code");
+      console.log("Initialising...")
+      if(!!spotifyKeys?.access_token || code){
+        console.log("Initialising..., getting spotify user")
+        sdk.currentUser.profile().then((user) =>{
+          console.log("Initialising..., got spotify user")
+          setUser(user)
+          setInitialLoadDone(true)
+          fetchAll()
+        }).catch(error => {
+          console.error("Initialising..., Failed to get spotify user")
+          setUser(undefined); 
+          setInitialLoadDone(true); 
+          console.error(error)
+        })
+      }else{
+        console.log("Initialising..., skipping get spotify user, no token detected")
+        setUser(undefined); 
+        setInitialLoadDone(true)
+      }
+    }
+    initSpotify()
   }, [])
   
   const eventsByArtist = processCFjson(g2023)
-  console.log("test")
-  console.log(artistsLoading)
-  console.log(tracksLoading)
-  console.log(topArtists)
-  console.log(!spotifyKeyExists)
+
+  console.log("Finishing Render...")
+  console.log(`artistsLoading=${artistsLoading}`)
+  console.log(`tracksLoading=${tracksLoading}`)
+  console.log(`topArtists=${topArtists}`)
+  console.log(`user=${user}`)
 
   
   return intialLoadDone ? (
@@ -134,7 +178,7 @@ export default function Home() {
         <div className="flex flex-col items-center flex-grow justify-start">
 
 
-        { !spotifyKeyExists && <Card href="#">
+        { !user && <Card href="#">
           < div>
               <h5 className="text-m font-bold tracking-tight text-gray-900 dark:text-white">
                 <p>
@@ -164,7 +208,7 @@ export default function Home() {
                   </div> */}
                   
           
-         { !spotifyKeyExists && <div id={"connectAccount"} className={'justify-self-center pt-10'}>
+         { !user && <div id={"connectAccount"} className={'justify-self-center pt-10'}>
          <h2 className={`text-m font-semibold opacity-50 text-center pb-3`}>
                       Connect your account using
                   </h2>
@@ -180,10 +224,10 @@ export default function Home() {
           }
    
 
-  { spotifyKeyExists &&  <Card>
+  { user &&  <Card>
   <div className="flex items-center justify-between">
     <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
-      Your top artists 🔥
+      {user.display_name}{"'s top artists 🔥"}
     </h5>
     {/* <a
       className="text-sm font-medium text-cyan-600 hover:underline dark:text-cyan-500"
@@ -223,7 +267,7 @@ export default function Home() {
         </div>
       </li>
       ))}
-      {!!spotifyKeyExists && !topArtists.length && !artistsLoading &&  <div id={"connectAccount"} className={'flex flex-col align-center py-10'}>
+      {/* {!!user && !topArtists.length && !artistsLoading &&  <div id={"connectAccount"} className={'flex flex-col align-center py-10'}>
             
 
             <Button color="dark" onClick={fetchAll}>                    
@@ -232,7 +276,13 @@ export default function Home() {
                 </h2>              
                 </Button>
         </div>
-        }
+        } */}
+        {artistsLoading && 
+        <div className="flex justify-center py-10">
+        <Spinner
+          aria-label="Extra large spinner example"
+          size="xl"
+        /></div>}
       {!matchedArtists.length && !!topArtists.length && <li className="py-3 sm:py-4">
         <div className="flex items-center space-x-4">
           <div className="min-w-0 flex-1">
