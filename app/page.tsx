@@ -12,7 +12,7 @@ import { Button, Card, Footer, Spinner } from 'flowbite-react';
 import { useReadLocalStorage } from 'usehooks-ts'
 
 const SpotifyClientID = "7116f40f98d64f5cbb9e2aafb2209702"
-const RedirectURL = "https://06e180ad.sets-menu.pages.dev/"
+const RedirectURL = "https://sets-menu.pages.dev/"
 const sdk = SpotifyApi.withUserAuthorization(SpotifyClientID, RedirectURL, ["user-top-read"]);
 
 const removeDupes = (totalArray: any[]) => {
@@ -144,7 +144,7 @@ export default function Home() {
             </div>
           </Card> }
 
-                  <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
+                  {/* <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
                     <h2 className={`text-m font-semibold opacity-50 text-left`}>
                               Choose your festival
                           </h2>
@@ -161,7 +161,7 @@ export default function Home() {
                     <h2 className={`m-0 text-xs text-center opacity-50`}>
                         More festivals coming soon...           
                     </h2>
-                  </div>
+                  </div> */}
                   
           
          { !spotifyKeyExists && <div id={"connectAccount"} className={'justify-self-center pt-10'}>
