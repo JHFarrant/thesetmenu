@@ -11,6 +11,8 @@ import moment from 'moment';
 import { Button, Card, Footer, Spinner } from 'flowbite-react';
 import { useReadLocalStorage } from 'usehooks-ts'
 
+const spotifyTokenStorageID = 'spotify-sdk:AuthorizationCodeWithPKCEStrategy:token'
+
 const removeDupes = (totalArray: any[]) => {
   let uniqueArray: any[]  = []
   totalArray.forEach(x => {
@@ -24,7 +26,7 @@ const removeDupes = (totalArray: any[]) => {
 
 export default function Home() {
 
-  const spotifyKeys: any = useReadLocalStorage('spotify-sdk:AuthorizationCodeWithPKCEStrategy:token')
+  const spotifyKeys: any = useReadLocalStorage(spotifyTokenStorageID)
 
   const SpotifyClientID = "7116f40f98d64f5cbb9e2aafb2209702"
   const RedirectURL = typeof window !== "undefined" ?  window.location.origin + "/" : "RedirectURLUnknown"
@@ -47,6 +49,11 @@ export default function Home() {
   const [topTracks, setTopTracks] = useState<Track[]>([])
 
 
+  const logout = () => {
+    typeof window !== "undefined" 
+    window.localStorage.removeItem(spotifyTokenStorageID)
+    window.location.reload()
+  }
   // const isAuth = () => {
   //   sdk?.currentUser.topItems("artists")
   // }
@@ -162,7 +169,18 @@ export default function Home() {
   
   return intialLoadDone ? (
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
-      <div className={"px-5 py-10 flex-grow"} >
+      <div className='self-end pr-2 pt-2'>
+          { true && <a
+      className="text-xs font-medium text-cyan-600 hover:underline dark:text-cyan-500"
+      href="#"
+      onClick={logout}
+    >
+      <p>
+        Log out
+      </p>
+    </a> }
+    </div> 
+      <div className={"px-5 py-5 flex-grow"} >
         <div id={"header"} className="relative flex place-items-center flex-col mb-5">
             <h1 className={`mb-3 text-3xl font-semibold text-center`}>
                Sets Menu
@@ -229,14 +247,6 @@ export default function Home() {
     <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
       {user.display_name}{"'s top artists 🔥"}
     </h5>
-    {/* <a
-      className="text-sm font-medium text-cyan-600 hover:underline dark:text-cyan-500"
-      href="#"
-    >
-      <p>
-        View all
-      </p>
-    </a> */}
   </div>
   <div className="flow-root">
     <ul className="divide-y divide-gray-200 dark:divide-gray-700">
