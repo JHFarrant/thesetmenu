@@ -196,15 +196,21 @@ export default function Home() {
         <div className="flex flex-col items-center flex-grow justify-start">
 
 
-        { !user && <Card href="#">
+        { !user && 
           < div>
-              <h5 className="text-m font-bold tracking-tight text-gray-900 dark:text-white">
-                <p>
-                  {"Use your Spotify history to find your Glasto 23 'Sets Menu'"}
-                </p>
+              <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
+                
+                  {"Use your Spotify history to discover your"}
+              
               </h5>
+              <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
+                
+                {"Glasto 23 'Sets Menu'"}
+            
+            </h5>
+              
             </div>
-          </Card> }
+           }
 
                   {/* <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
                     <h2 className={`text-m font-semibold opacity-50 text-left`}>
@@ -252,7 +258,7 @@ export default function Home() {
     <ul className="divide-y divide-gray-200 dark:divide-gray-700">
       {matchedArtists.map((a => 
       <li key={a.artist.id} className="py-3 sm:py-4">
-        <div className="flex flex-col items-center space-x-4 sm:flex-row">
+        <div className="flex flex-col space-y-2 items-center sm:space-x-4 sm:flex-row">
           <div className="shrink-0">
             <img
               alt={a.artist.name}
