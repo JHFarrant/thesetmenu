@@ -2,7 +2,7 @@
 
 import {useEffect, useState, useMemo} from 'react'
 import { SpotifyApi } from '@spotify/web-api-ts-sdk';
-import { Page, Artist, Track} from '@spotify/web-api-ts-sdk/dist/mjs/types';
+import { Page, Artist, TrackWithAlbum, Image} from '@spotify/web-api-ts-sdk/dist/mjs/types';
 
 import g2023SpotifyIDsJson from '../public/g2023SpotifyIDs.json';
 import g2023 from '../public/g2023.json';
@@ -12,6 +12,12 @@ import { Button, Card, Footer, Spinner } from 'flowbite-react';
 import { useReadLocalStorage } from 'usehooks-ts'
 
 const spotifyTokenStorageID = 'spotify-sdk:AuthorizationCodeWithPKCEStrategy:token'
+
+type Favorite = {
+  artist: Artist
+  track?: TrackWithAlbum
+  setName: string
+}
 
 const removeDupes = (totalArray: any[]) => {
   let uniqueArray: any[]  = []
@@ -23,18 +29,26 @@ const removeDupes = (totalArray: any[]) => {
   return uniqueArray
 }
 
+const getImage = (favourite: Favorite): Image => {
+    console.log(favourite)
+    const artistImage = favourite.artist.images && favourite.artist.images.find((i: Image) => (i.width <= 600))
+    if(artistImage){return artistImage}
+    const albumImage = favourite.track?.album?.images && favourite.track.album.images.find((i: Image) => (i.width <= 600))
+  return albumImage || {url: "disc.png", width:512, height:512 }
+}
+
 
 export default function Home() {
 
   const spotifyKeys: any = useReadLocalStorage(spotifyTokenStorageID)
 
   const SpotifyClientID = "7116f40f98d64f5cbb9e2aafb2209702"
-  const RedirectURL = typeof window !== "undefined" ?  window.location.origin + "/" : "RedirectURLUnknown"
+  const ThisURL = typeof window !== "undefined" ?  window.location.origin + "/" : "RedirectURLUnknown"
 
-  console.log(`RedirectURL=${RedirectURL}`)
+  console.log(`RedirectURL=${ThisURL}`)
 
 
-  const sdk = useMemo(() => SpotifyApi.withUserAuthorization(SpotifyClientID, RedirectURL, ["user-top-read"]),[]);
+  const sdk = useMemo(() => SpotifyApi.withUserAuthorization(SpotifyClientID, ThisURL, ["user-top-read"]),[]);
 
   // const [sdk, setSDK] = useState<SpotifyApi>()
   const [user, setUser] = useState<any>()
@@ -48,6 +62,20 @@ export default function Home() {
   const [topArtists, setTopArtists] = useState<Artist[]>([])
   const [topTracks, setTopTracks] = useState<Track[]>([])
 
+  const share = () => {
+    if (navigator.share) {
+      navigator.share({
+        title: 'The Set Menu',
+        url: 'https://thesetmenu.co.uk'
+      }).then(() => {
+        console.log('Share success');
+      })
+      .catch(console.error);
+    } else {
+      console.log('Native sharing unavailable');
+      window.open("whatsapp://send?text=The Set Menu - https://thesetmenu.co.uk");
+    } 
+  }
 
   const logout = () => {
     typeof window !== "undefined" 
@@ -71,14 +99,14 @@ export default function Home() {
       // const artistsPage = await sdk.currentUser.topItems("artists")
       const offset  = 0
       const timeRange = "medium_term"
-      const shortTerm1 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=0&time_range=short_term`)
-      const shortTerm2 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=49&time_range=short_term`)
+      // const shortTerm1 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=0&time_range=short_term`)
+      // const shortTerm2 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=49&time_range=short_term`)
       const mediumTerm1 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=0&time_range=medium_term`)
       const mediumTerm2 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=49&time_range=medium_term`)
       const longTerm1 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=0&time_range=long_term`)
       const longTerm2 = sdk.makeRequest<Promise<Page<Artist>>>("GET", `me/top/artists?limit=50&offset=49&time_range=long_term`)
       try{
-        const artistsPage = await Promise.all([shortTerm1, shortTerm2, mediumTerm1, mediumTerm2, longTerm1, longTerm2])
+        const artistsPage = await Promise.all([mediumTerm1, mediumTerm2, longTerm1, longTerm2])
         setTopArtists(artistsPage.reduce((artists,a)=> artists.concat(a.items) ,[] as Array<any> ))
       }
       catch (error){
@@ -91,15 +119,15 @@ export default function Home() {
       // const artistsPage = await sdk.currentUser.topItems("artists")
       const offset  = 0
       const timeRange = "medium_term"
-      const shortTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=short_term`)
-      const shortTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=short_term`)
+      // const shortTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=short_term`)
+      // const shortTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=short_term`)
       const mediumTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=medium_term`)
       const mediumTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=medium_term`)
       const longTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=long_term`)
       const longTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=long_term`)
       
       try{
-        const tracksPage = await Promise.all([shortTerm1, shortTerm2, mediumTerm1, mediumTerm2, longTerm1, longTerm2])
+        const tracksPage = await Promise.all([ mediumTerm1, mediumTerm2, longTerm1, longTerm2])
         setTopTracks(tracksPage.reduce((tracks,a)=> tracks.concat(a.items) ,[] as Array<any>))
       }
       catch (error){
@@ -119,15 +147,16 @@ export default function Home() {
   }
   const g2023SpotifyIDs: any = g2023SpotifyIDsJson
   const glastoIDs: any = Object.keys(g2023SpotifyIDs)
-  const matchedArtists = removeDupes(topArtists.filter(a => glastoIDs.includes(a.id)).map(a=> ({artist: a, setName: g2023SpotifyIDs[a.id]})))
+  const matchedArtists = topArtists.filter(a => glastoIDs.includes(a.id)).map(a=> ({artist: a, setName: g2023SpotifyIDs[a.id]}))
   const matchedArtistsWithTracks = topTracks.reduce((artists, t) => ({...artists, ...t.artists.filter(a => glastoIDs.includes(a.id)).reduce((trackArtists, a) => ({...trackArtists, [a.id]: {track: t, artist: a, setName: g2023SpotifyIDs[a.id]}}),{})  }), {})
-  
+
   const processCFjson = (json: any) => {
     const events = json.locations.reduce((events: any, location: any) => events.concat(location.events.map((e: any) => ({...e, location: location.name}))), [] )
     return events.reduce((artistEvents: any, e: any) => ({...artistEvents, [e.name]: {events: [e].concat(artistEvents[e.name]?.events ?? [])}}),{}) 
     }
-
-  matchedArtists.sort((a,b)=> b.artist.popularity - a.artist.popularity)
+  
+  const favoriteArtists = removeDupes(matchedArtists.concat(Object.values(matchedArtistsWithTracks)))
+  favoriteArtists.sort((a,b)=> b.artist.popularity - a.artist.popularity)
     
   
   useEffect(() => {
@@ -171,7 +200,7 @@ export default function Home() {
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
       <div className='self-end pr-2 pt-2 h-6'>
           { user && <a
-      className="text-xs font-medium text-cyan-600 hover:underline dark:text-cyan-500"
+      className="text-xs font-medium hover:underline dark:text-cyan-500"
       href="#"
       onClick={logout}
     >
@@ -183,7 +212,7 @@ export default function Home() {
       <div className={"px-5 py-5 flex-grow"} >
         <div id={"header"} className="relative flex place-items-center flex-col mb-5">
             <h1 className={`mb-3 text-3xl font-semibold text-center`}>
-               Sets Menu
+               The Set Menu
              </h1>
              <div>
              <p className={`text-xs text-center opacity-50`}>
@@ -205,7 +234,7 @@ export default function Home() {
               </h5>
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
                 
-                {"Glasto 23 'Sets Menu'"}
+                {"Glasto 23 Set Menu"}
             
             </h5>
               
@@ -251,35 +280,50 @@ export default function Home() {
   { user &&  <Card>
   <div className="flex items-center justify-between">
     <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
-      {user.display_name}{"'s top artists 🔥"}
+      {user.display_name}{"'s Glasto Set Menu 🔥"}
     </h5>
   </div>
   <div className="flow-root">
     <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-      {matchedArtists.map((a => 
-      <li key={a.artist.id} className="py-3 sm:py-4">
-        <div className="flex flex-col space-y-2 items-center sm:space-x-4 sm:flex-row">
-          <div className="shrink-0">
+      {favoriteArtists.map((favourite => 
+      <li key={favourite.artist.id} className="py-3 sm:py-4">
+        <div className="flex space-x-2 "> 
+        <div className="shrink-0">
             <img
-              alt={a.artist.name}
+              alt={favourite.artist.name}
               // className="rounded-full"
               // height="32"
-              src={a.artist.images[0].url}
+              src={getImage(favourite).url}
               width="100"
             />
           </div>
+        <div className="flex flex-col space-y-2 items-left w-full justify-between"> 
           {/* <div className='flex' > */}
-            <div className="min-w-0 flex-1">
-              <p className="truncate text-sm font-medium text-center sm:text-left text-gray-900 dark:text-white">
-                {a.setName}
+          <div className='flex flex-col'>
+            <div>
+              <p className="truncate text-sm font-medium text-left   text-gray-900 dark:text-white">
+                {favourite.setName}
               </p>
             </div>
-            <div className="items-center text-center sm:text-right text-base font-semibold text-gray-900 dark:text-white">
-              {eventsByArtist[a.setName]?.events.map((e: any) =>(<p key={`${e.start}-${e.end}-${e.location}`} className="truncate text-sm text-gray-500 dark:text-gray-400">
+            <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
+              {eventsByArtist[favourite.setName]?.events.map((e: any) =>(<p key={`${e.start}-${e.end}-${e.location}`} className="truncate text-sm text-gray-500 dark:text-gray-400">
                   {e.location}{" @ "}{moment(e.start).format('ddd')}{" "}{moment(e.start).format('ha')}
                   </p>))}
             </div>
+          </div>
+            <div className='flex w-full justify-end'>
+              <a href={favourite.artist.external_urls.spotify}>
+                <img
+                  alt={favourite.artist.name}
+                  // className="rounded-full"
+                  // height="32"
+                  src="spotifylogosmallblack.png"
+                  width="25"
+                />
+              </a>
+            </div>
           {/* </div> */}
+        </div>
         </div>
       </li>
       ))}
@@ -312,10 +356,17 @@ export default function Home() {
   </div>
 </Card>
 }
-
-
-
-
+<div className='flex items-center space-x-2 pt-5'>
+  <h2 className={`text-m font-semibold opacity-50 text-center`}>
+      If you liked this then
+  </h2>
+<Button color="dark" onClick={share}>                    
+  <h1 className={`text-m font-semibold text-center`}>Share</h1>
+</Button>
+  <h2 className={`text-m font-semibold opacity-50 text-center`}>
+    it with mates
+  </h2>
+</div>
           </div>
       </div>
       <Footer bgDark>
