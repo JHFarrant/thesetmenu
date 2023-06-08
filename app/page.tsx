@@ -486,15 +486,13 @@ export default function Home() {
       <Footer container>
         {/* <div className="w-full">
           <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between"> */}
-            <Footer.Copyright by="The Set Menu" href="/" year={2023} />
-            <Footer.LinkGroup>
-              {/* <Footer.Link href="#">About</Footer.Link> */}
-              <Footer.Link href="disclaimer">Disclaimer</Footer.Link>
-              <Footer.Link href="mailto:jhfarrant@gmail.com">
-                Contact
-              </Footer.Link>
-            </Footer.LinkGroup>
-          {/* </div>
+        <Footer.Copyright by="The Set Menu" href="/" year={2023} />
+        <Footer.LinkGroup>
+          {/* <Footer.Link href="#">About</Footer.Link> */}
+          <Footer.Link href="disclaimer">Disclaimer</Footer.Link>
+          <Footer.Link href="mailto:jhfarrant@gmail.com">Contact</Footer.Link>
+        </Footer.LinkGroup>
+        {/* </div>
         </div> */}
       </Footer>
     </main>

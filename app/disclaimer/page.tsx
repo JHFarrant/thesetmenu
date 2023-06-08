@@ -1,7 +1,7 @@
 "use client";
 
 import { Button, Card, Spinner } from "flowbite-react";
-import Footer from "../../components/footer"
+import Footer from "../../components/footer";
 
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
@@ -56,7 +56,7 @@ export default function Disclaimer() {
           </Card>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </main>
   );
 }
