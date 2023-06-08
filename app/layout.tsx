@@ -15,10 +15,10 @@ export default function RootLayout({
     <html lang="en">
       <title>The Set Menu</title>
       <meta property="og:title" content="The Set Menu" />
-      <meta property="og:url" content="https://www.thesetmenu.co.uk" />
+      <meta property="og:url" content="https://www.thesetmenu.co.uk/" />
       <meta name="description" content="Use your Spotify history to discover your Glasto 23 Set Menu" />
       <meta property="og:description" content="Use your Spotify history to discover your Glasto 23 Set Menu" />
-      {/* <meta property="og:image" content="//cdn.example.com/uploads/images/webpage_300x200.png" /> */}
+      <meta property="og:image" content="https://www.thesetmenu.co.uk/disc.png" />
       <body className={inter.className}>
       {children}
       </body>

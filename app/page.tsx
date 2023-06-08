@@ -209,9 +209,10 @@ export default function Home() {
       </p>
     </a> }
     </div> 
-      <div className={"px-5 py-5 flex-grow"} >
+      <div className={"flex flex-col px-5 py-5 flex-grow"} >
         <div id={"header"} className="relative flex place-items-center flex-col mb-5">
-            <h1 className={`mb-3 text-3xl font-semibold text-center`}>
+        <img alt="disc logo" src='/disc.png' width="25"/>
+            <h1 className={`text-3xl font-semibold text-center`}>
                The Set Menu
              </h1>
              <div>
@@ -356,17 +357,18 @@ export default function Home() {
   </div>
 </Card>
 }
-<div className='flex items-center space-x-2 pt-5'>
-  <h2 className={`text-m font-semibold opacity-50 text-center`}>
-      If you liked this then
-  </h2>
-<Button color="dark" onClick={share}>                    
-  <h1 className={`text-m font-semibold text-center`}>Share</h1>
-</Button>
-  <h2 className={`text-m font-semibold opacity-50 text-center`}>
-    it with mates
-  </h2>
+
 </div>
+          <div className='flex items-center space-x-2 pt-5 justify-center'>
+            {user && <h2 className={`text-m font-semibold opacity-50 text-center`}>
+                If you liked this then
+            </h2> }
+          <Button color="dark" onClick={share}>                    
+            <h1 className={`text-m font-semibold text-center`}>Share</h1>
+          </Button>
+            {user && <h2 className={`text-m font-semibold opacity-50 text-center`}>
+              it with your mates
+            </h2> }
           </div>
       </div>
       <Footer bgDark>
