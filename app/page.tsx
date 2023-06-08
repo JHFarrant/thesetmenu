@@ -60,7 +60,7 @@ export default function Home() {
 
   
   const [topArtists, setTopArtists] = useState<Artist[]>([])
-  const [topTracks, setTopTracks] = useState<Track[]>([])
+  const [topTracks, setTopTracks] = useState<TrackWithAlbum[]>([])
 
   const share = () => {
     if (navigator.share) {
@@ -119,12 +119,12 @@ export default function Home() {
       // const artistsPage = await sdk.currentUser.topItems("artists")
       const offset  = 0
       const timeRange = "medium_term"
-      // const shortTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=short_term`)
+      // const shortTerm1 = sdk.makeRequest<Promise<Page<TrackWithAlbum>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=short_term`)
       // const shortTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=short_term`)
-      const mediumTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=medium_term`)
-      const mediumTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=medium_term`)
-      const longTerm1 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=long_term`)
-      const longTerm2 = sdk.makeRequest<Promise<Page<Track>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=long_term`)
+      const mediumTerm1 = sdk.makeRequest<Promise<Page<TrackWithAlbum>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=medium_term`)
+      const mediumTerm2 = sdk.makeRequest<Promise<Page<TrackWithAlbum>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=medium_term`)
+      const longTerm1 = sdk.makeRequest<Promise<Page<TrackWithAlbum>>>("GET", `me/top/tracks?limit=50&offset=0&time_range=long_term`)
+      const longTerm2 = sdk.makeRequest<Promise<Page<TrackWithAlbum>>>("GET", `me/top/tracks?limit=50&offset=49&time_range=long_term`)
       
       try{
         const tracksPage = await Promise.all([ mediumTerm1, mediumTerm2, longTerm1, longTerm2])
