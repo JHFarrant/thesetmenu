@@ -1,6 +1,7 @@
 "use client";
 
-import { Button, Card, Footer, Spinner } from "flowbite-react";
+import { Button, Card, Spinner } from "flowbite-react";
+import Footer from "../../components/footer"
 
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
@@ -55,20 +56,7 @@ export default function Disclaimer() {
           </Card>
         </div>
       </div>
-      <Footer>
-        <div className="w-full">
-          <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
-            <Footer.Copyright by="The Set Menu" href="/" year={2023} />
-            <Footer.LinkGroup>
-              {/* <Footer.Link href="#">About</Footer.Link> */}
-              <Footer.Link href="disclaimer">Disclaimer</Footer.Link>
-              <Footer.Link href="mailto:jhfarrant@gmail.com">
-                Contact
-              </Footer.Link>
-            </Footer.LinkGroup>
-          </div>
-        </div>
-      </Footer>
+      <Footer/>
     </main>
   );
 }

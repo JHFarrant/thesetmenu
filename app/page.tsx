@@ -483,9 +483,9 @@ export default function Home() {
           )}
         </div>
       </div>
-      <Footer>
-        <div className="w-full">
-          <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
+      <Footer container>
+        {/* <div className="w-full">
+          <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between"> */}
             <Footer.Copyright by="The Set Menu" href="/" year={2023} />
             <Footer.LinkGroup>
               {/* <Footer.Link href="#">About</Footer.Link> */}
@@ -494,8 +494,8 @@ export default function Home() {
                 Contact
               </Footer.Link>
             </Footer.LinkGroup>
-          </div>
-        </div>
+          {/* </div>
+        </div> */}
       </Footer>
     </main>
   ) : (
