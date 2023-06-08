@@ -66,14 +66,14 @@ export default function Home() {
     if (navigator.share) {
       navigator.share({
         title: 'The Set Menu',
-        url: 'https://thesetmenu.co.uk'
+        url: 'https://thesetmenu.co.uk/'
       }).then(() => {
         console.log('Share success');
       })
       .catch(console.error);
     } else {
       console.log('Native sharing unavailable');
-      window.open("whatsapp://send?text=The Set Menu - https://thesetmenu.co.uk");
+      window.open("whatsapp://send?text=The Set Menu - https://thesetmenu.co.uk/");
     } 
   }
 
