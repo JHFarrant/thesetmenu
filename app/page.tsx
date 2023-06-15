@@ -13,8 +13,9 @@ import g2023SpotifyIDsJson from "../public/g2023SpotifyIDs.json";
 import g2023 from "../public/g2023.json";
 import moment from "moment";
 
-import { Button, Card, Footer, Spinner } from "flowbite-react";
+import { Button, Card, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
+import Footer from "../components/footer";
 
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
@@ -25,10 +26,11 @@ type Favorite = {
   setName: string;
 };
 
-const removeDupes = (totalArray: any[]) => {
+const removeDupes = (totalArray: any[], key?: string) => {
+  const _key = key ?? "setName";
   let uniqueArray: any[] = [];
   totalArray.forEach((x) => {
-    if (!uniqueArray.some((y) => y.setName === x.setName)) {
+    if (!uniqueArray.some((y) => y[_key] === x[_key])) {
       uniqueArray.push(x);
     }
   });
@@ -36,7 +38,7 @@ const removeDupes = (totalArray: any[]) => {
 };
 
 const getImage = (favourite: Favorite): Image => {
-  console.log(favourite);
+  // console.log(favourite);
   const artistImage =
     favourite.artist.images &&
     favourite.artist.images.find((i: Image) => i.width <= 600);
@@ -58,7 +60,7 @@ export default function Home() {
       ? window.location.origin + "/"
       : "RedirectURLUnknown";
 
-  console.log(`RedirectURL=${ThisURL}`);
+  // console.log(`RedirectURL=${ThisURL}`);
 
   const sdk = useMemo(
     () =>
@@ -144,11 +146,15 @@ export default function Home() {
           longTerm1,
           longTerm2,
         ]);
-        setTopArtists(
-          artistsPage.reduce(
-            (artists, a) => artists.concat(a.items),
-            [] as Array<any>
-          )
+        const newTopArtists = artistsPage.reduce(
+          (artists, a) => artists.concat(a.items),
+          [] as Array<any>
+        );
+        setTopArtists(newTopArtists);
+        console.log(
+          `Your Top Artists:\n${removeDupes(newTopArtists, "name")
+            .map((a) => `${a.name} --> ${a.id}`)
+            .join("\n")}`
         );
       } catch (error) {
         console.error(error);
@@ -186,11 +192,20 @@ export default function Home() {
           longTerm1,
           longTerm2,
         ]);
-        setTopTracks(
-          tracksPage.reduce(
-            (tracks, a) => tracks.concat(a.items),
-            [] as Array<any>
+        const newTopTracks = tracksPage.reduce(
+          (tracks, a) => tracks.concat(a.items),
+          [] as Array<any>
+        );
+        setTopTracks(newTopTracks);
+        console.log(
+          `Your Top Artists (from your top tracks):\n${removeDupes(
+            newTopTracks,
+            "name"
           )
+            .map((t) =>
+              t.artists.map((a: any) => `${a.name} --> ${a.id}`).join(", ")
+            )
+            .join("\n")}`
         );
       } catch (error) {
         console.error(error);
@@ -207,9 +222,17 @@ export default function Home() {
   };
   const g2023SpotifyIDs: any = g2023SpotifyIDsJson;
   const glastoIDs: any = Object.keys(g2023SpotifyIDs);
+  console.log(JSON.stringify(glastoIDs, null, 3));
   const matchedArtists = topArtists
     .filter((a) => glastoIDs.includes(a.id))
     .map((a) => ({ artist: a, setName: g2023SpotifyIDs[a.id] }));
+
+  console.log(
+    `Your Matched Top Artists:\n${removeDupes(matchedArtists)
+      .map((a) => `${a.artist.name} --> ${a.artist.id}`)
+      .join("\n")}`
+  );
+
   const matchedArtistsWithTracks = topTracks.reduce(
     (artists, t) => ({
       ...artists,
@@ -249,7 +272,7 @@ export default function Home() {
   favoriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
 
   useEffect(() => {
-    console.log(`spotifyKeys=${spotifyKeys}`);
+    // console.log(`spotifyKeys=${spotifyKeys}`);
     const initSpotify = async () => {
       const hashParams = new URLSearchParams(window.location.search);
       const code = hashParams.get("code");
@@ -261,6 +284,7 @@ export default function Home() {
           .then((user) => {
             console.log("Initialising..., got spotify user");
             setUser(user);
+            console.log(`Spotify User Information\n${JSON.stringify(user)}`);
             setInitialLoadDone(true);
             fetchAll();
           })
@@ -283,11 +307,9 @@ export default function Home() {
 
   const eventsByArtist = processCFjson(g2023);
 
-  console.log("Finishing Render...");
-  console.log(`artistsLoading=${artistsLoading}`);
-  console.log(`tracksLoading=${tracksLoading}`);
-  console.log(`topArtists=${topArtists}`);
-  console.log(`user=${user}`);
+  // console.log(`artistsLoading=${artistsLoading}`);
+  // console.log(`tracksLoading=${tracksLoading}`);
+  // console.log(`topArtists=${topArtists}`);
 
   return intialLoadDone ? (
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
@@ -373,8 +395,7 @@ export default function Home() {
             <Card>
               <div className="flex items-center justify-between">
                 <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
-                  {user.display_name}
-                  {"'s Glasto Set Menu 🔥"}
+                  {"Your Glasto Set Menu 🔥"}
                 </h5>
               </div>
               <div className="flow-root">
@@ -483,18 +504,7 @@ export default function Home() {
           )}
         </div>
       </div>
-      <Footer container>
-        {/* <div className="w-full">
-          <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between"> */}
-        <Footer.Copyright by="The Set Menu" href="/" year={2023} />
-        <Footer.LinkGroup>
-          {/* <Footer.Link href="#">About</Footer.Link> */}
-          <Footer.Link href="disclaimer">Disclaimer</Footer.Link>
-          <Footer.Link href="mailto:jhfarrant@gmail.com">Contact</Footer.Link>
-        </Footer.LinkGroup>
-        {/* </div>
-        </div> */}
-      </Footer>
+      <Footer />
     </main>
   ) : (
     <main className="flex min-h-screen w-full flex-col items-center justify-center">
