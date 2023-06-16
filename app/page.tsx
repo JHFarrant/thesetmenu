@@ -19,11 +19,19 @@ import Footer from "../components/footer";
 
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
+const TIME_SHIFT = 6; // hours
 
 type Favorite = {
   artist: Artist;
   track?: TrackWithAlbum;
   setName: string;
+};
+
+type Event = {
+  start: moment.Moment;
+  end: moment.Moment;
+  name: string;
+  location: string;
 };
 
 const removeDupes = (totalArray: any[], key?: string) => {
@@ -225,10 +233,16 @@ export default function Home() {
   // console.log(JSON.stringify(glastoIDs, null, 3));
   const matchedArtists = topArtists
     .filter((a) => glastoIDs.includes(a.id))
-    .map((a) => ({ artist: a, setName: g2023SpotifyIDs[a.id] }));
+    .reduce(
+      (artists, a) => ({
+        ...artists,
+        [g2023SpotifyIDs[a.id]]: { artist: a, setName: g2023SpotifyIDs[a.id] },
+      }),
+      {}
+    );
 
   console.log(
-    `Your Matched Top Artists:\n${removeDupes(matchedArtists)
+    `Your Matched Top Artists:\n${removeDupes(Object.values(matchedArtists))
       .map((a) => `${a.artist.name} --> ${a.artist.id}`)
       .join("\n")}`
   );
@@ -241,7 +255,11 @@ export default function Home() {
         .reduce(
           (trackArtists, a) => ({
             ...trackArtists,
-            [a.id]: { track: t, artist: a, setName: g2023SpotifyIDs[a.id] },
+            [g2023SpotifyIDs[a.id]]: {
+              track: t,
+              artist: a,
+              setName: g2023SpotifyIDs[a.id],
+            },
           }),
           {}
         ),
@@ -249,14 +267,24 @@ export default function Home() {
     {}
   );
 
-  const processCFjson = (json: any) => {
+  const extractEventsByTime = (json: any): Event[] => {
     const events = json.locations.reduce(
       (events: any, location: any) =>
         events.concat(
-          location.events.map((e: any) => ({ ...e, location: location.name }))
+          location.events.map((e: any) => ({
+            ...e,
+            start: moment(e.start),
+            end: moment(e.end),
+            location: location.name,
+          }))
         ),
       []
     );
+    events.sort((a: any, b: any) => a.start - b.start);
+    return events;
+  };
+
+  const extractEventsByArtist = (events: any[]) => {
     return events.reduce(
       (artistEvents: any, e: any) => ({
         ...artistEvents,
@@ -266,10 +294,53 @@ export default function Home() {
     );
   };
 
-  const favoriteArtists = removeDupes(
-    matchedArtists.concat(Object.values(matchedArtistsWithTracks))
+  // const favoriteArtists = removeDupes(
+  //   Object.values(matchedArtists).concat(Object.values(matchedArtistsWithTracks))
+  // );
+
+  const favoriteArtists: { [key: string]: Favorite } = {
+    ...matchedArtistsWithTracks,
+    ...matchedArtists,
+  };
+
+  // favoriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
+
+  const eventsByTime = extractEventsByTime(g2023);
+  // const eventsByArtist = extractEventsByArtist(eventsByTime);
+
+  const itinearry = eventsByTime.filter(
+    (e: Event) => e.name in favoriteArtists
   );
-  favoriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
+
+  const shiftedDay = (dateTime: moment.Moment) => {
+    let out = dateTime.clone();
+    out.subtract(TIME_SHIFT, "hours").startOf("day");
+    console.log(out);
+    return out;
+  };
+  const itinearryInDays = itinearry.reduce(
+    (daily: Event[][], e: Event): Event[][] => {
+      const mostRecentDay: Event[] =
+        (daily.length && daily.length && daily[daily.length - 1]) || [];
+      if (
+        mostRecentDay.length &&
+        shiftedDay(mostRecentDay[mostRecentDay.length - 1].start).isSame(
+          shiftedDay(e.start)
+        )
+      ) {
+        mostRecentDay.push(e);
+      } else {
+        daily.push([e]);
+      }
+      return daily;
+    },
+    []
+  );
+
+  console.log(JSON.stringify(itinearryInDays, null, 3));
+  // console.log(`artistsLoading=${artistsLoading}`);
+  // console.log(`tracksLoading=${tracksLoading}`);
+  // console.log(`topArtists=${topArtists}`);
 
   useEffect(() => {
     // console.log(`spotifyKeys=${spotifyKeys}`);
@@ -304,12 +375,6 @@ export default function Home() {
     };
     initSpotify();
   }, []);
-
-  const eventsByArtist = processCFjson(g2023);
-
-  // console.log(`artistsLoading=${artistsLoading}`);
-  // console.log(`tracksLoading=${tracksLoading}`);
-  // console.log(`topArtists=${topArtists}`);
 
   return intialLoadDone ? (
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
@@ -393,63 +458,82 @@ export default function Home() {
 
           {user && (
             <Card>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-center">
                 <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
                   {"Your Glasto Set Menu 🔥"}
                 </h5>
               </div>
               <div className="flow-root">
                 <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-                  {favoriteArtists.map((favourite) => (
-                    <li key={favourite.artist.id} className="py-3 sm:py-4">
-                      <div className="flex space-x-2 ">
-                        <div className="shrink-0">
-                          <img
-                            alt={favourite.artist.name}
-                            src={getImage(favourite).url}
-                            width="100"
-                          />
-                        </div>
-                        <div className="flex flex-col space-y-2 items-left w-full justify-between">
-                          {/* <div className='flex' > */}
-                          <div className="flex flex-col">
-                            <div>
-                              <p className="text-sm font-medium text-left   text-gray-900 dark:text-white">
-                                {favourite.setName}
-                              </p>
-                            </div>
-                            <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
-                              {eventsByArtist[favourite.setName]?.events.map(
-                                (e: any) => (
-                                  <p
-                                    key={`${e.start}-${e.end}-${e.location}`}
-                                    className="text-sm text-gray-500 dark:text-gray-400"
-                                  >
-                                    {e.location}
-                                    {" @ "}
-                                    {moment(e.start).format("ddd")}{" "}
-                                    {moment(e.start).format("ha")}
-                                  </p>
-                                )
-                              )}
-                            </div>
+                  {itinearryInDays.map((dailyItinearry) => {
+                    const date = shiftedDay(dailyItinearry[0]?.start);
+                    return (
+                      <>
+                        <li key={`DayHeader-${date}`} className="py-3 sm:py-4">
+                          <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
+                            {date?.format("ddd")}
                           </div>
-                          <div className="flex w-full justify-end">
-                            <a href={favourite.artist.external_urls.spotify}>
-                              <img
-                                alt={favourite.artist.name}
-                                // className="rounded-full"
-                                // height="32"
-                                src="spotifylogosmallblack.png"
-                                width="25"
-                              />
-                            </a>
-                          </div>
-                          {/* </div> */}
-                        </div>
-                      </div>
-                    </li>
-                  ))}
+                        </li>
+                        {dailyItinearry.map((event) => {
+                          const favourite = favoriteArtists[event.name];
+                          return (
+                            <li
+                              key={`${event.location}-${event.start}-${event.name}`}
+                              className="py-3 sm:py-4"
+                            >
+                              <div className="flex space-x-2 ">
+                                <div className="shrink-0">
+                                  <img
+                                    alt={favourite.artist.name}
+                                    src={getImage(favourite).url}
+                                    width="100"
+                                  />
+                                </div>
+                                <div className="flex flex-col space-y-2 items-left w-full justify-between">
+                                  {/* <div className='flex' > */}
+                                  <div className="flex flex-col">
+                                    <div>
+                                      <p className="text-sm font-medium text-left   text-gray-900 dark:text-white">
+                                        {favourite.setName}
+                                      </p>
+                                    </div>
+                                    <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
+                                      {/* {eventsByArtist[favourite.setName]?.events.map( */}
+                                      {/* (e: any) => ( */}
+                                      <p className="text-sm text-gray-500 dark:text-gray-400">
+                                        {event.location}
+                                        {" @ "}
+                                        {event.start.format("ddd")}{" "}
+                                        {event.start.format("ha")}
+                                      </p>
+                                      {/* ) */}
+                                      {/* )} */}
+                                    </div>
+                                  </div>
+                                  <div className="flex w-full justify-end">
+                                    <a
+                                      href={
+                                        favourite.artist.external_urls.spotify
+                                      }
+                                    >
+                                      <img
+                                        alt={favourite.artist.name}
+                                        // className="rounded-full"
+                                        // height="32"
+                                        src="spotifylogosmallblack.png"
+                                        width="25"
+                                      />
+                                    </a>
+                                  </div>
+                                  {/* </div> */}
+                                </div>
+                              </div>
+                            </li>
+                          );
+                        })}
+                      </>
+                    );
+                  })}
                   {/* {!!user && !topArtists.length && !artistsLoading &&  <div id={"connectAccount"} className={'flex flex-col align-center py-10'}>
             
 
@@ -468,7 +552,7 @@ export default function Home() {
                       />
                     </div>
                   )}
-                  {!matchedArtists.length && !!topArtists.length && (
+                  {!itinearry.length && (
                     <li className="py-3 sm:py-4">
                       <div className="flex items-center space-x-4">
                         <div className="min-w-0 flex-1">
