@@ -222,7 +222,7 @@ export default function Home() {
   };
   const g2023SpotifyIDs: any = g2023SpotifyIDsJson;
   const glastoIDs: any = Object.keys(g2023SpotifyIDs);
-  console.log(JSON.stringify(glastoIDs, null, 3));
+  // console.log(JSON.stringify(glastoIDs, null, 3));
   const matchedArtists = topArtists
     .filter((a) => glastoIDs.includes(a.id))
     .map((a) => ({ artist: a, setName: g2023SpotifyIDs[a.id] }));
@@ -406,8 +406,6 @@ export default function Home() {
                         <div className="shrink-0">
                           <img
                             alt={favourite.artist.name}
-                            // className="rounded-full"
-                            // height="32"
                             src={getImage(favourite).url}
                             width="100"
                           />
@@ -416,7 +414,7 @@ export default function Home() {
                           {/* <div className='flex' > */}
                           <div className="flex flex-col">
                             <div>
-                              <p className="truncate text-sm font-medium text-left   text-gray-900 dark:text-white">
+                              <p className="text-sm font-medium text-left   text-gray-900 dark:text-white">
                                 {favourite.setName}
                               </p>
                             </div>
@@ -425,7 +423,7 @@ export default function Home() {
                                 (e: any) => (
                                   <p
                                     key={`${e.start}-${e.end}-${e.location}`}
-                                    className="truncate text-sm text-gray-500 dark:text-gray-400"
+                                    className="text-sm text-gray-500 dark:text-gray-400"
                                   >
                                     {e.location}
                                     {" @ "}
