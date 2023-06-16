@@ -25,3 +25,16 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.wave-box {
+  --mask: radial-gradient(
+        31.5px at 50% calc(100% - 44.4px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(100% - 48px) 0%/96px 91% repeat-x,
+    radial-gradient(31.5px at 50% calc(100% + 20.4px), #0000 99%, #000 101%)
+      100% 0%/96px calc(91% - 24px) repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+}
