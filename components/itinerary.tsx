@@ -1,6 +1,7 @@
 "use client";
 
 import { Card, Spinner } from "flowbite-react";
+import { DateTime, Duration } from "luxon";
 import {
   Page,
   Artist,
@@ -8,17 +9,17 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 
-import { Favorite } from "@/types";
+import { Favourite } from "@/types";
 
 const TIME_SHIFT = 6; // hours
 
-export const shiftedDay = (dateTime: moment.Moment) => {
-  let out = dateTime.clone();
-  out.subtract(TIME_SHIFT, "hours").startOf("day");
-  return out;
+export const shiftedDay = (dateTime: DateTime) => {
+  return dateTime
+    .minus(Duration.fromObject({ hours: TIME_SHIFT }))
+    .startOf("day");
 };
 
-const getImage = (favourite: Favorite): Image => {
+export const getImage = (favourite: Favourite): Image => {
   // console.log(favourite);
   const artistImage =
     favourite.artist.images &&
@@ -34,16 +35,16 @@ const getImage = (favourite: Favorite): Image => {
 
 const Itinearry = ({
   itineraryInDays,
-  favoriteArtists,
+  favouriteArtists,
   artistsLoading,
 }: any) => {
   return (
     <Card>
-      <div className="flex items-center justify-center">
+      {/* <div className="flex items-center justify-center">
         <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
           {"Your Glasto Set Menu 🔥"}
         </h5>
-      </div>
+      </div> */}
       <div className="flow-root">
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {itineraryInDays.map((dailyItinerary: any) => {
@@ -52,11 +53,11 @@ const Itinearry = ({
               <>
                 <li key={`DayHeader-${date}`} className="py-3 sm:py-4">
                   <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
-                    {date?.format("ddd")}
+                    {date?.toFormat("ccc")}
                   </div>
                 </li>
                 {dailyItinerary.map((event: any) => {
-                  const favourite = favoriteArtists[event.name];
+                  const favourite = favouriteArtists[event.name];
                   return (
                     <li
                       key={`${event.location}-${event.start}-${event.name}`}
@@ -84,8 +85,8 @@ const Itinearry = ({
                               <p className="text-sm text-gray-500 dark:text-gray-400">
                                 {event.location}
                                 {" @ "}
-                                {event.start.format("ddd")}{" "}
-                                {event.start.format("ha")}
+                                {event.start.toFormat("ccc")}{" "}
+                                {event.start.toFormat("h:mma")}
                               </p>
                               {/* ) */}
                               {/* )} */}

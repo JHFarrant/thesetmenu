@@ -5,17 +5,18 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 
-import moment from "moment";
+import { DateTime } from "luxon";
 
-export type Favorite = {
+export type Favourite = {
   artist: Artist;
   track?: TrackWithAlbum;
   setName: string;
 };
 
 export type Event = {
-  start: moment.Moment;
-  end: moment.Moment;
+  start: DateTime;
+  end: DateTime;
   name: string;
+  short: string;
   location: string;
 };
