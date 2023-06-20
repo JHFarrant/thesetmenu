@@ -2,6 +2,8 @@
 
 import { useEffect, useState, useMemo } from "react";
 import { SpotifyApi } from "@spotify/web-api-ts-sdk";
+import { FollowedArtists } from "@spotify/web-api-ts-sdk/dist/mjs/types";
+
 import {
   Page,
   Artist,
@@ -48,6 +50,7 @@ export default function Home() {
     () =>
       SpotifyApi.withUserAuthorization(SpotifyClientID, ThisURL, [
         "user-top-read",
+        "user-follow-read",
       ]),
     []
   );
@@ -57,9 +60,15 @@ export default function Home() {
 
   const [artistsLoading, setArtistsLoading] = useState<boolean>(false);
   const [tracksLoading, setTracksLoading] = useState<boolean>(false);
+  const [followsLoading, setFollowsLoading] = useState<boolean>(false);
+
+  const loadingSpotifyData = artistsLoading || tracksLoading || followsLoading;
+
   const [intialLoadDone, setInitialLoadDone] = useState<boolean>(false);
 
   const [topArtists, setTopArtists] = useState<Artist[]>([]);
+  const [follows, setFollows] = useState<Artist[]>([]);
+
   const [topTracks, setTopTracks] = useState<TrackWithAlbum[]>([]);
 
   const share = () => {
@@ -99,7 +108,7 @@ export default function Home() {
 
   const fetchAll = () => {
     const fetchArtists = async () => {
-      console.log("Fetching artists");
+      console.log("Fetching artists...");
       // const artistsPage = await sdk.currentUser.topItems("artists")
       const offset = 0;
       const timeRange = "medium_term";
@@ -143,8 +152,40 @@ export default function Home() {
       }
       setArtistsLoading(false);
     };
+
+    const fetchFollows = async () => {
+      console.log("Fetching follows...");
+      // const artistsPage = await sdk.currentUser.topItems("artists")
+      let cursor = undefined;
+      let followsPage = [];
+      let count = 0;
+      try {
+        while (cursor !== null && count < 5) {
+          // console.log(`cursor ${cursor} count ${count}`)
+          const response: FollowedArtists & { artists: { cursors?: any } } =
+            await sdk.currentUser.followedArtists(cursor, 49);
+          followsPage.push(response);
+          cursor = response.artists.cursors.after;
+          count++;
+        }
+        const newFollows = followsPage.reduce(
+          (artists, a) => artists.concat(a.artists.items),
+          [] as Array<any>
+        );
+        setFollows(newFollows);
+        console.log(
+          `Your Artist Follows:\n${removeDupes(newFollows, "name")
+            .map((a) => `${a.name} --> ${a.id}`)
+            .join("\n")}`
+        );
+      } catch (error) {
+        console.error(error);
+      }
+      setFollowsLoading(false);
+    };
+
     const fetchTracks = async () => {
-      console.log("Fetching tracks");
+      console.log("Fetching tracks...");
       // const artistsPage = await sdk.currentUser.topItems("artists")
       const offset = 0;
       const timeRange = "medium_term";
@@ -201,6 +242,10 @@ export default function Home() {
     setTracksLoading(true);
     setTopTracks([]);
     fetchTracks().catch(console.error);
+
+    setFollowsLoading(true);
+    setFollows([]);
+    fetchFollows().catch(console.error);
   };
   const g2023SpotifyIDs: any = g2023SpotifyIDsJson;
   const glastoIDs: any = Object.keys(g2023SpotifyIDs);
@@ -215,11 +260,15 @@ export default function Home() {
       {}
     );
 
-  console.log(
-    `Your Matched Top Artists:\n${removeDupes(Object.values(matchedArtists))
-      .map((a) => `${a.artist.name} --> ${a.artist.id}`)
-      .join("\n")}`
-  );
+  const matchedFollows = follows
+    .filter((a) => glastoIDs.includes(a.id))
+    .reduce(
+      (artists, a) => ({
+        ...artists,
+        [g2023SpotifyIDs[a.id]]: { artist: a, setName: g2023SpotifyIDs[a.id] },
+      }),
+      {}
+    );
 
   const matchedArtistsWithTracks = topTracks.reduce(
     (artists, t) => ({
@@ -258,15 +307,15 @@ export default function Home() {
     return events;
   };
 
-  const extractEventsByArtist = (events: any[]) => {
-    return events.reduce(
-      (artistEvents: any, e: any) => ({
-        ...artistEvents,
-        [e.name]: { events: [e].concat(artistEvents[e.name]?.events ?? []) },
-      }),
-      {}
-    );
-  };
+  // const extractEventsByArtist = (events: any[]) => {
+  //   return events.reduce(
+  //     (artistEvents: any, e: any) => ({
+  //       ...artistEvents,
+  //       [e.name]: { events: [e].concat(artistEvents[e.name]?.events ?? []) },
+  //     }),
+  //     {}
+  //   );
+  // };
 
   // const favoriteArtists = removeDupes(
   //   Object.values(matchedArtists).concat(Object.values(matchedArtistsWithTracks))
@@ -275,6 +324,7 @@ export default function Home() {
   const favoriteArtists: { [key: string]: Favorite } = {
     ...matchedArtistsWithTracks,
     ...matchedArtists,
+    ...matchedFollows,
   };
 
   // favoriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
@@ -304,8 +354,40 @@ export default function Home() {
     },
     []
   );
-  // console.log("favoriteArtists")
-  // console.log(favoriteArtists)
+
+  if (!loadingSpotifyData && itineraryInDays.length) {
+    console.log(
+      `Your Matched Top Artists:\n${removeDupes(Object.values(matchedArtists))
+        .map((a) => `${a.artist.name} --> ${a.artist.id}`)
+        .join("\n")}`
+    );
+
+    console.log(
+      `Your Matched Artist Follows:\n${removeDupes(
+        Object.values(matchedFollows)
+      )
+        .map((a) => `${a.artist.name} --> ${a.artist.id}`)
+        .join("\n")}`
+    );
+
+    console.log(
+      `Your Matched Artist With Tracks:\n${removeDupes(
+        Object.values(matchedArtistsWithTracks)
+      )
+        .map((a) => `${a.artist.name} --> ${a.artist.id}`)
+        .join("\n")}`
+    );
+    console.log(
+      `Your Personal Itinerary:\n${itineraryInDays
+        .map(
+          (day) =>
+            `${day[0].start.format("ddd")}\n########\n${day
+              .map((e) => `${e.name} | ${e.location} | ${e.start} - ${e.end}`)
+              .join("\n")}`
+        )
+        .join("\n")}`
+    );
+  }
   const dummyItinearryInDays = [
     [
       {
@@ -2452,10 +2534,8 @@ export default function Home() {
     },
   };
 
-  console.log(JSON.stringify(itineraryInDays, null, 3));
-  // console.log(`artistsLoading=${artistsLoading}`);
-  // console.log(`tracksLoading=${tracksLoading}`);
-  // console.log(`topArtists=${topArtists}`);
+  // console.log(JSON.stringify(itineraryInDays, null, 3));
+  // console.log(`loadingSpotifyData=${loadingSpotifyData}`);
 
   useEffect(() => {
     // console.log(`spotifyKeys=${spotifyKeys}`);
@@ -2575,7 +2655,7 @@ export default function Home() {
             <Itinerary
               itineraryInDays={itineraryInDays}
               favoriteArtists={favoriteArtists}
-              artistsLoading={artistsLoading}
+              loadingSpotifyData={loadingSpotifyData}
             />
           )}
           {!user && (
@@ -2588,7 +2668,7 @@ export default function Home() {
               <Itinerary
                 itineraryInDays={dummyItinearryInDays}
                 favoriteArtists={dummyFavouriteArtists}
-                artistsLoading={false}
+                loadingSpotifyData={false}
               />
             </div>
           )}
