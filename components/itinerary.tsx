@@ -83,9 +83,10 @@ const Itinearry = ({
                               {/* (e: any) => ( */}
                               <p className="text-sm text-gray-500 dark:text-gray-400">
                                 {event.location}
-                                {" @ "}
+                              </p>
+                              <p className="text-sm text-gray-500 dark:text-gray-400">
                                 {event.start.format("ddd")}{" "}
-                                {event.start.format("ha")}
+                                {event.start.format("h:mma")}
                               </p>
                               {/* ) */}
                               {/* )} */}
