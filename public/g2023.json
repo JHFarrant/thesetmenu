@@ -1,10 +1,10 @@
 {
   "copyright": "Licensed under a Creative Commons Attribution-NonCommercial 3.0 License http://creativecommons.org/licenses/by-nc/3.0/. Free for non-commercial use. Contact halvin@clashfinder.com for other uses.",
-  "modified": "2023-06-15 16:51",
+  "modified": "2023-06-20 12:25",
   "name": "Glastonbury Festival 2023",
   "id": "g2023",
   "url": "https://clashfinder.com/s/g2023/",
-  "printAdvisory": 3,
+  "printAdvisory": 1,
   "timezone": "Europe/London",
   "tzOffset": 3600,
   "tzNote": "Start and end times are given in the timezone of the event. Offset by -tzOffset for UTC.",
@@ -45,7 +45,7 @@
           "name": "The Churnups",
           "short": "churnu(1)",
           "start": "2023-06-23 18:15",
-          "end": "2023-06-23 19:30",
+          "end": "2023-06-23 19:20",
           "mbId": "67f66c07-6e61-4026-ade5-7e782fad3a5d"
         },
         {
@@ -575,7 +575,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(4)",
+          "short": "tba(3)",
           "start": "2023-06-23 19:30",
           "end": "2023-06-23 20:30",
           "mbId": "bdc343bd-1c45-4a5d-b956-c4429f3dbba5"
@@ -631,7 +631,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(9)",
+          "short": "tba(8)",
           "start": "2023-06-24 18:00",
           "end": "2023-06-24 19:00",
           "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430"
@@ -715,6 +715,7 @@
           "short": "phoeni(1)",
           "start": "2023-06-25 21:30",
           "end": "2023-06-25 22:45",
+          "mbId": "8d455809-96b3-4bb6-8829-ea4beb580d35",
           "url": "https://wearephoenix.com/"
         }
       ]
@@ -832,7 +833,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(10)",
+          "short": "tba(9)",
           "start": "2023-06-24 19:45",
           "end": "2023-06-24 20:45",
           "mbId": "e9c832b0-384b-4ee6-aec0-111372784aac"
@@ -1687,28 +1688,28 @@
         {
           "name": "Delilah Bon",
           "short": "delila(1)",
-          "start": "2023-06-24 17:00",
-          "end": "2023-06-24 17:45",
+          "start": "2023-06-24 17:30",
+          "end": "2023-06-24 18:15",
           "url": "https://www.delilahbon.co.uk/about"
         },
         {
           "name": "Crawlers",
           "short": "crawle(1)",
-          "start": "2023-06-24 18:15",
-          "end": "2023-06-24 19:00",
+          "start": "2023-06-24 18:45",
+          "end": "2023-06-24 19:30",
           "url": "https://www.crawlersband.com/"
         },
         {
           "name": "Kid Kapichi",
           "short": "kidkap(1)",
-          "start": "2023-06-24 19:30",
-          "end": "2023-06-24 20:30",
+          "start": "2023-06-24 20:00",
+          "end": "2023-06-24 20:50",
           "url": "https://www.kidkapichi.com/"
         },
         {
           "name": "Dréya Mac",
           "short": "dryama(1)",
-          "start": "2023-06-24 21:00",
+          "start": "2023-06-24 21:20",
           "end": "2023-06-24 22:00",
           "url": "https://www.facebook.com/dreyamac/"
         },
@@ -1746,11 +1747,11 @@
           "url": "https://www.facebook.com/limegardenband/"
         },
         {
-          "name": "Will Varley",
-          "short": "willva(1)",
+          "name": "Lottery Winners",
+          "short": "lotter(5)",
           "start": "2023-06-25 19:30",
-          "end": "2023-06-25 20:30",
-          "url": "https://www.willvarley.com/"
+          "end": "2023-06-25 20:15",
+          "url": "https://www.thelotterywinners.co.uk"
         },
         {
           "name": "Cavetown",
@@ -2040,27 +2041,27 @@
         {
           "name": "Sub Focus DJ Set & Id",
           "short": "subfoc4(1)",
-          "start": "2023-06-24 20:00",
-          "end": "2023-06-24 21:30",
+          "start": "2023-06-24 19:30",
+          "end": "2023-06-24 21:00",
           "mbId": "8cf49f40-b8fe-4a63-b4ea-f922d6145bb4",
           "url": "https://www.instagram.com/subfocus/https://www.instagram.com/dimension/"
         },
         {
           "name": "Girls Don't Sync",
           "short": "girlsd(2)",
-          "start": "2023-06-24 21:30",
-          "end": "2023-06-24 23:00"
+          "start": "2023-06-24 21:00",
+          "end": "2023-06-24 22:30"
         },
         {
           "name": "Katy B B2B Emerald",
           "short": "katybb(1)",
-          "start": "2023-06-24 23:00",
-          "end": "2023-06-25 00:30"
+          "start": "2023-06-24 22:30",
+          "end": "2023-06-25 00:00"
         },
         {
           "name": "Nia Archives Presents Up Ya Archives: Nia Archives, Izco & Reek0, Vanessa Maria",
           "short": "niaarc2(1)",
-          "start": "2023-06-25 00:30",
+          "start": "2023-06-25 00:00",
           "end": "2023-06-25 03:00"
         },
         {
@@ -2335,12 +2336,12 @@
           "name": "Soichi Terada (Live)",
           "short": "soichi(1)",
           "start": "2023-06-25 18:00",
-          "end": "2023-06-25 19:30"
+          "end": "2023-06-25 19:00"
         },
         {
           "name": "Bobby.",
           "short": "bobby(1)",
-          "start": "2023-06-25 19:30",
+          "start": "2023-06-25 19:00",
           "end": "2023-06-25 20:30"
         },
         {
@@ -3252,7 +3253,8 @@
           "name": "Lottery Winners",
           "short": "lotter(4)",
           "start": "2023-06-24 23:00",
-          "end": "2023-06-25 00:00"
+          "end": "2023-06-25 00:00",
+          "url": "https://www.thelotterywinners.co.uk/"
         },
         {
           "name": "DJ Andy Cato (Groove Armada)",
@@ -3264,7 +3266,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(14)",
+          "short": "tba(12)",
           "start": "2023-06-25 01:00",
           "end": "2023-06-25 02:00",
           "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
@@ -3384,6 +3386,7 @@
           "short": "robdab(1)",
           "start": "2023-06-22 21:00",
           "end": "2023-06-22 22:30",
+          "mbId": "f58c4610-bde9-4fb7-b3c5-13808a548d8c",
           "url": "https://www.mixcloud.com/purplerave/rob-da-bank-tayo-present-purple-rave-october-mix/"
         },
         {
@@ -3516,18 +3519,18 @@
           "end": "2023-06-22 23:00"
         },
         {
-          "name": "Elmiene",
-          "short": "elmien(1)",
-          "start": "2023-06-23 13:00",
-          "end": "2023-06-23 13:30",
-          "url": "https://www.instagram.com/elmiene/"
-        },
-        {
           "name": "Diana Drill",
           "short": "dianad(1)",
+          "start": "2023-06-23 13:00",
+          "end": "2023-06-23 13:30",
+          "url": "https://www.instagram.com/dianadrill"
+        },
+        {
+          "name": "Nieve Ella",
+          "short": "nievee(1)",
           "start": "2023-06-23 14:00",
           "end": "2023-06-23 14:30",
-          "url": "https://www.instagram.com/dianadrill"
+          "url": "https://www.nieveella.com/"
         },
         {
           "name": "Gardna",
@@ -3537,18 +3540,17 @@
           "url": "https://gardnamusic.bandcamp.com/"
         },
         {
-          "name": "Nieve Ella",
-          "short": "nievee(1)",
+          "name": "Elmiene",
+          "short": "elmien(1)",
           "start": "2023-06-23 16:00",
-          "end": "2023-06-23 16:30",
-          "url": "https://www.nieveella.com/"
+          "end": "2023-06-23 17:00",
+          "url": "https://www.instagram.com/elmiene/"
         },
         {
-          "name": "TBA",
-          "short": "tba(3)",
+          "name": "Deyaz",
+          "short": "deyaz(1)",
           "start": "2023-06-23 17:00",
-          "end": "2023-06-23 17:30",
-          "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
+          "end": "2023-06-23 17:30"
         },
         {
           "name": "Juice Menace",
@@ -3604,23 +3606,29 @@
         {
           "name": "Vlure",
           "short": "vlure(3)",
-          "start": "2023-06-24 16:00",
-          "end": "2023-06-24 16:30",
+          "start": "2023-06-24 15:50",
+          "end": "2023-06-24 16:20",
           "url": "https://www.instagram.com/vlure.gla/"
+        },
+        {
+          "name": "Future Utopia x Avelino x Tomorrow's Warriors",
+          "short": "future2(1)",
+          "start": "2023-06-24 16:35",
+          "end": "2023-06-24 16:45"
+        },
+        {
+          "name": "TBA",
+          "short": "tba(7)",
+          "start": "2023-06-24 17:30",
+          "end": "2023-06-24 17:55",
+          "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
         },
         {
           "name": "Wunderhorse",
           "short": "wunder(2)",
-          "start": "2023-06-24 17:00",
-          "end": "2023-06-24 17:30",
+          "start": "2023-06-24 18:20",
+          "end": "2023-06-24 18:50",
           "url": "https://www.instagram.com/wunderhorse_"
-        },
-        {
-          "name": "TBA",
-          "short": "tba(8)",
-          "start": "2023-06-24 17:45",
-          "end": "2023-06-24 18:30",
-          "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
         },
         {
           "name": "BBC 1xtra at Glastonbury with DJ Target & Friends",
@@ -3642,8 +3650,8 @@
           "url": "https://www.instagram.com/wearemothersky/"
         },
         {
-          "name": "Emerging Talent - Primae Queen",
-          "short": "emergi(1)",
+          "name": "Prima Queen",
+          "short": "primaq(5)",
           "start": "2023-06-25 14:00",
           "end": "2023-06-25 14:30",
           "url": "https://www.instagram.com/prima__queen/"
@@ -3664,7 +3672,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(20)",
+          "short": "tba(19)",
           "start": "2023-06-25 17:00",
           "end": "2023-06-25 17:30",
           "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
@@ -3869,6 +3877,7 @@
           "short": "lovebu1(3)",
           "start": "2023-06-23 21:30",
           "end": "2023-06-23 22:15",
+          "mbId": "8f1ff72b-9ec3-419c-8334-f6cf6dece5ae",
           "url": "https://www.thelovebuzz.com/"
         },
         {
@@ -4035,7 +4044,7 @@
         },
         {
           "name": "Junior Bill",
-          "short": "junior(3)",
+          "short": "junior(4)",
           "start": "2023-06-25 15:00",
           "end": "2023-06-25 15:45",
           "url": "https://www.facebook.com/juniorbillmusic"
@@ -4149,11 +4158,10 @@
           "url": "https://www.bimbleinn.com"
         },
         {
-          "name": "Open",
-          "short": "open(2)",
+          "name": "Billy's Warm Hug",
+          "short": "billys(1)",
           "start": "2023-06-22 12:00",
-          "end": "2023-06-22 13:30",
-          "url": "https://www.bimbleinn.com"
+          "end": "2023-06-22 13:30"
         },
         {
           "name": "The Flamenco Thief",
@@ -4166,6 +4174,13 @@
           "short": "jonnyr(1)",
           "start": "2023-06-22 14:30",
           "end": "2023-06-22 15:15"
+        },
+        {
+          "name": "Junior Bill",
+          "short": "junior(1)",
+          "start": "2023-06-22 15:45",
+          "end": "2023-06-22 16:30",
+          "url": "http://juniorbill.co.uk/"
         },
         {
           "name": "Dead Reds",
@@ -4208,156 +4223,214 @@
         },
         {
           "name": "Open",
-          "short": "open(3)",
+          "short": "open(2)",
           "start": "2023-06-23 12:00",
           "end": "2023-06-23 14:00",
           "url": "https://www.bimbleinn.com"
         },
         {
+          "name": "Higherelves",
+          "short": "higher(1)",
+          "start": "2023-06-23 13:30",
+          "end": "2023-06-23 14:00"
+        },
+        {
+          "name": "Django Chutney",
+          "short": "django(1)",
+          "start": "2023-06-23 14:30",
+          "end": "2023-06-23 15:15"
+        },
+        {
+          "name": "Mozart Estate",
+          "short": "mozart(1)",
+          "start": "2023-06-23 15:45",
+          "end": "2023-06-23 16:30"
+        },
+        {
           "name": "Funke and the Two Tone Baby",
           "short": "funkea(2)",
+          "start": "2023-06-23 17:00",
+          "end": "2023-06-23 18:00",
+          "url": "https://funkeandthetwotonebaby.co.uk/"
+        },
+        {
+          "name": "La Fanfarria Del Capitán",
+          "short": "fanfar(2)",
           "start": "2023-06-23 18:30",
           "end": "2023-06-23 19:30",
-          "url": "https://funkeandthetwotonebaby.co.uk/"
+          "url": "https://www.lafanfarriadelcapitan.com/"
         },
         {
           "name": "Sleaze",
           "short": "sleaze(2)",
-          "start": "2023-06-23 21:30",
-          "end": "2023-06-23 23:00"
+          "start": "2023-06-23 20:15",
+          "end": "2023-06-23 21:15"
         },
         {
           "name": "DJ Beerwax",
           "short": "djbeer(1)",
-          "start": "2023-06-23 23:15",
-          "end": "2023-06-24 00:30"
+          "start": "2023-06-23 21:15",
+          "end": "2023-06-24 00:15"
         },
         {
           "name": "Too Many T's",
-          "short": "tooman(1)",
-          "start": "2023-06-24 00:30",
-          "end": "2023-06-24 01:30",
+          "short": "tooman(3)",
+          "start": "2023-06-24 00:15",
+          "end": "2023-06-24 01:15",
           "url": "https://www.toomanyts.com/"
         },
         {
           "name": "Shaka Loves You",
           "short": "shakal(2)",
-          "start": "2023-06-24 02:00",
-          "end": "2023-06-24 03:00",
+          "start": "2023-06-24 01:45",
+          "end": "2023-06-24 02:45",
           "mbId": "52f8d0dd-e4a7-4e06-a8e1-c6048da8543d",
           "url": "https://shakalovesyou.com/"
         },
         {
           "name": "Phil Hartnoll (Orbital) DJ Set",
           "short": "philha(1)",
-          "start": "2023-06-24 03:15",
+          "start": "2023-06-24 03:00",
           "end": "2023-06-24 05:00",
           "mbId": "c991293d-30db-4036-9bf3-2cd5a6b8102e",
           "url": "https://www.mixcloud.com/phil-hartnoll-orbital/"
         },
         {
           "name": "Open",
-          "short": "open(4)",
+          "short": "open(3)",
           "start": "2023-06-24 12:00",
           "end": "2023-06-24 13:30",
           "url": "https://www.bimbleinn.com"
         },
         {
+          "name": "Gemma Rogers",
+          "short": "gemmar(4)",
+          "start": "2023-06-24 13:30",
+          "end": "2023-06-24 14:00",
+          "url": "https://www.gemmarogersmusic.com/"
+        },
+        {
+          "name": "Kangaroo Moon",
+          "short": "kangar(3)",
+          "start": "2023-06-24 14:30",
+          "end": "2023-06-24 15:15",
+          "url": "https://www.kangaroomoon.com/"
+        },
+        {
           "name": "The Scribes",
           "short": "scribe(4)",
-          "start": "2023-06-24 17:00",
-          "end": "2023-06-24 18:00",
+          "start": "2023-06-24 15:45",
+          "end": "2023-06-24 16:30",
           "url": "https://www.facebook.com/scribesmusic/"
         },
         {
           "name": "Mellowmatic",
           "short": "mellow(6)",
-          "start": "2023-06-24 18:30",
-          "end": "2023-06-24 19:30",
+          "start": "2023-06-24 17:00",
+          "end": "2023-06-24 18:00",
           "url": "https://www.mellowmaticmusic.com/"
         },
         {
           "name": "Rum Buffalo",
           "short": "rumbuf(2)",
-          "start": "2023-06-24 20:15",
-          "end": "2023-06-24 21:30",
+          "start": "2023-06-24 18:45",
+          "end": "2023-06-24 19:45",
           "url": "https://www.rumbuffalo.com/"
         },
         {
           "name": "Beatbox Collective",
-          "short": "beatbo(9)",
-          "start": "2023-06-24 21:30",
-          "end": "2023-06-24 23:00",
+          "short": "beatbo(8)",
+          "start": "2023-06-24 20:15",
+          "end": "2023-06-24 21:15",
           "url": "https://www.thebeatboxcollective.com/"
         },
         {
           "name": "Bimble DJs",
           "short": "bimble(1)",
-          "start": "2023-06-24 23:15",
-          "end": "2023-06-25 00:30"
+          "start": "2023-06-24 21:15",
+          "end": "2023-06-25 00:15"
         },
         {
           "name": "Showhawk Duo",
           "short": "showha(5)",
-          "start": "2023-06-25 00:30",
-          "end": "2023-06-25 01:30",
+          "start": "2023-06-25 00:15",
+          "end": "2023-06-25 01:15",
           "mbId": "cfb443b2-f0e6-4158-a7d7-8d90638cbf02",
           "url": "https://www.facebook.com/showhawkduo/"
         },
         {
           "name": "Future Shape of Sound",
           "short": "future(1)",
-          "start": "2023-06-25 02:15",
-          "end": "2023-06-25 03:15",
+          "start": "2023-06-25 02:00",
+          "end": "2023-06-25 03:00",
           "mbId": "14cdd096-81bc-44d8-926e-c8bc68756925",
           "url": "https://www.facebook.com/thefutureshapeofsound/"
         },
         {
           "name": "Stanton Warriors",
           "short": "stanto(2)",
-          "start": "2023-06-25 03:45",
+          "start": "2023-06-25 03:30",
           "end": "2023-06-25 05:30",
           "url": "https://www.facebook.com/stantonwarriors/"
         },
         {
-          "name": "Open",
-          "short": "open(5)",
+          "name": "Bangin' Brazilian Brunch",
+          "short": "bangin(1)",
           "start": "2023-06-25 12:00",
-          "end": "2023-06-25 15:00",
-          "url": "https://www.bimbleinn.com"
+          "end": "2023-06-25 14:30"
         },
         {
-          "name": "La Fanfarria Del Capitán",
-          "short": "fanfar(2)",
-          "start": "2023-06-25 20:15",
-          "end": "2023-06-25 21:30",
-          "url": "https://www.lafanfarriadelcapitan.com/"
+          "name": "Trevor Moss & Hannah Lou",
+          "short": "trevor(1)",
+          "start": "2023-06-25 14:30",
+          "end": "2023-06-25 15:15"
+        },
+        {
+          "name": "TBA",
+          "short": "tba(18)",
+          "start": "2023-06-25 15:45",
+          "end": "2023-06-25 16:30",
+          "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
+        },
+        {
+          "name": "Mauvey",
+          "short": "mauvey(1)",
+          "start": "2023-06-25 17:00",
+          "end": "2023-06-25 18:00",
+          "url": "https://www.mauvey.com/"
+        },
+        {
+          "name": "The Marching Skaletons",
+          "short": "marchi(2)",
+          "start": "2023-06-25 18:30",
+          "end": "2023-06-25 19:30",
+          "url": "https://www.marchingskaletons.co.uk/"
         },
         {
           "name": "Duncan Disorderly & the Scallywags",
           "short": "duncan(3)",
-          "start": "2023-06-25 21:30",
-          "end": "2023-06-25 23:00",
+          "start": "2023-06-25 20:00",
+          "end": "2023-06-25 21:00",
           "url": "https://www.facebook.com/scallywaggin/"
         },
         {
           "name": "Bimble DJs",
           "short": "bimble(2)",
-          "start": "2023-06-25 23:15",
-          "end": "2023-06-26 00:30"
+          "start": "2023-06-25 20:55",
+          "end": "2023-06-26 00:25"
         },
         {
           "name": "Chainska Brassika",
           "short": "chains(3)",
-          "start": "2023-06-26 00:30",
-          "end": "2023-06-26 01:45",
+          "start": "2023-06-26 00:25",
+          "end": "2023-06-26 01:40",
           "url": "https://www.chainskabrassika.com/"
         },
         {
-          "name": "Bimble DJs",
-          "short": "bimble(3)",
-          "start": "2023-06-26 01:45",
-          "end": "2023-06-26 03:30"
+          "name": "Lsdj",
+          "short": "lsdj(1)",
+          "start": "2023-06-26 01:40",
+          "end": "2023-06-26 03:25"
         }
       ]
     },
@@ -4616,7 +4689,7 @@
         },
         {
           "name": "Beatbox Collective",
-          "short": "beatbo(8)",
+          "short": "beatbo(9)",
           "start": "2023-06-24 20:50",
           "end": "2023-06-24 21:15",
           "url": "https://www.facebook.com/thebeatboxcollective"
@@ -4731,7 +4804,7 @@
           "short": "lorrai(1)",
           "start": "2023-06-26 00:45",
           "end": "2023-06-26 01:55",
-          "url": "https://www.instagram.com/_laidlaw/?hl=en"
+          "url": "https://www.facebook.com/djlorrainepsilocybetribe"
         }
       ]
     },
@@ -4998,8 +5071,8 @@
           "url": "https://www.instagram.com/gerdjansonofficial/?hl=en"
         },
         {
-          "name": "Astra Club - DJ Tennis & Carlita",
-          "short": "astrac(1)",
+          "name": "Astra Club - Carlita + DJ Tennis",
+          "short": "astrac1(1)",
           "start": "2023-06-25 22:00",
           "end": "2023-06-26 01:00",
           "url": "https://www.instagram.com/djtennis/?hl=en//https://www.instagram.com/carlita_music/?hl=en"
@@ -5539,15 +5612,16 @@
         },
         {
           "name": "Junior Bill",
-          "short": "junior(1)",
+          "short": "junior(2)",
           "start": "2023-06-24 21:05",
           "end": "2023-06-24 21:35"
         },
         {
           "name": "Junior Bill",
-          "short": "junior(2)",
+          "short": "junior(3)",
           "start": "2023-06-24 22:35",
-          "end": "2023-06-24 23:05"
+          "end": "2023-06-24 23:05",
+          "url": "http://juniorbill.co.uk/info"
         },
         {
           "name": "Track Dogs",
@@ -5583,10 +5657,10 @@
         },
         {
           "name": "Kangaroo Moon",
-          "short": "kangar(3)",
+          "short": "kangar(4)",
           "start": "2023-06-25 16:20",
           "end": "2023-06-25 16:50",
-          "url": "https://www.kangaroomoon.com/"
+          "url": "https://kangaroomoon.com/"
         },
         {
           "name": "The Delta Du Bruit",
@@ -5601,10 +5675,13 @@
           "end": "2023-06-25 19:50"
         },
         {
-          "name": "Devil's Perfect",
-          "short": "devils(1)",
+          "name": "The Devil's Prefects",
+          "short": "devils1(1)",
           "start": "2023-06-25 20:50",
-          "end": "2023-06-25 21:20"
+          "end": "2023-06-25 21:20",
+          "blurb": "The Devil’s Prefects started out as a side project for two of the guys from ‘festival favourites’ Hobo Jones & The Junkyard Dogs. They are a country music  comedy act: 'They do for country music what Scooby Doo did for paranormal investigation.' is a quote that seems to sum them up.   Their zombie apocalypse song 'Shoot 'Em In The Head' was described by The Official Walking Dead Facebook Page as 'Sweet'. The songs are interspersed with comedy banter that has entertained many an audience.  They have spent the last 7 years touring the show around the country and have spent their summers playing the festival circuit. Some of the festivals they have performed at include Glastonbury, Bearded Theory, Watchet and The Godney Gathering. They are also regulars at the Something Else family of festivals.  They have recently added a new member to the lineup to make three vocals, one guitar, one banjo, a bullhorn, a stomp box and cowboy hats.   10-4 good buddy...",
+          "url": "https://www.facebook.com/TheDevilsPrefects",
+          "video": "https://www.youtube.com/@thedevilsprefects"
         },
         {
           "name": "The Schmoozenbergs",
@@ -6291,6 +6368,13 @@
           "url": "https://ujimaradio.com/show/super-soca-show/"
         },
         {
+          "name": "Notting Hill Carnival - Super Soca Show",
+          "short": "nottin3(2)",
+          "start": "2023-06-23 13:00",
+          "end": "2023-06-23 15:00",
+          "url": "https://nhcarnival.org/"
+        },
+        {
           "name": "The Beatbox Collective",
           "short": "beatbo(3)",
           "start": "2023-06-23 17:00",
@@ -6341,7 +6425,7 @@
         },
         {
           "name": "Notting Hill Carnival - Super Soca Show",
-          "short": "nottin3(2)",
+          "short": "nottin3(3)",
           "start": "2023-06-25 12:00",
           "end": "2023-06-25 14:00",
           "url": "https://nhcarnival.org/"
@@ -6750,7 +6834,8 @@
           "short": "nottin(1)",
           "start": "2023-06-24 16:00",
           "end": "2023-06-24 20:00",
-          "url": "https://www.facebook.com/jahshakamusic/?locale=en_gb"
+          "url": "https://www.facebook.com/jahshakamusic/?locale=en_gb",
+          "type": "other"
         },
         {
           "name": "Rough But Sweet + Love Tko",
@@ -7187,6 +7272,7 @@
           "short": "peteba(1)",
           "start": "2023-06-25 01:15",
           "end": "2023-06-25 02:00",
+          "mbId": "cb1f0c8f-072c-4985-a96d-ef3b494dfce6",
           "url": "https://www.instagram.com/pete_and_bas/"
         },
         {
@@ -7251,7 +7337,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(23)",
+          "short": "tba(22)",
           "start": "2023-06-26 00:00",
           "end": "2023-06-26 01:00",
           "mbId": "34c63966-445c-4613-afe1-4f0e1e53ae9a"
@@ -7395,7 +7481,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(12)",
+          "short": "tba(10)",
           "start": "2023-06-25 00:00",
           "end": "2023-06-25 01:30",
           "mbId": "34c63966-445c-4613-afe1-4f0e1e53ae9a"
@@ -7409,7 +7495,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(16)",
+          "short": "tba(14)",
           "start": "2023-06-25 03:00",
           "end": "2023-06-25 04:30",
           "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
@@ -7451,17 +7537,17 @@
           "url": "https://www.instagram.com/voltage_uk_/"
         },
         {
-          "name": "T&gt;i B2B D-Minds (Run in the Jungle Showcase)",
-          "short": "tib2bd(1)",
-          "start": "2023-06-26 02:00",
-          "end": "2023-06-26 03:00",
-          "url": "https://www.instagram.com/the_infuriator/https://www.instagram.com/dminds__/"
-        },
-        {
           "name": "30 Years of V Recordings: Bryan Gee B2B Sl8r ft. Darrison",
           "short": "30year2(1)",
+          "start": "2023-06-26 02:00",
+          "end": "2023-06-26 03:00"
+        },
+        {
+          "name": "T&gt;i B2B D-Minds (Run in the Jungle Showcase)",
+          "short": "tib2bd(1)",
           "start": "2023-06-26 03:00",
-          "end": "2023-06-26 04:00"
+          "end": "2023-06-26 04:00",
+          "url": "https://www.instagram.com/the_infuriator/https://www.instagram.com/dminds__/"
         },
         {
           "name": "Uncommon Records vs Gorilla Tactics; Closing Party Special",
@@ -7482,8 +7568,8 @@
           "end": "2023-06-22 14:00"
         },
         {
-          "name": "Blind Tiger Residents & Guests - Skwellz",
-          "short": "blindt1(1)",
+          "name": "Blind Tiger Residents & Guests - Loko",
+          "short": "blindt5(1)",
           "start": "2023-06-22 14:00",
           "end": "2023-06-22 15:00"
         },
@@ -7790,9 +7876,16 @@
           "end": "2023-06-25 15:00"
         },
         {
-          "name": "Rumble in the Jungle Takeover ft:",
-          "short": "rumble(1)",
+          "name": "Rumble in the Jungle Takeover - Zoro Btb Noisy Antics ft Rivibes",
+          "short": "rumble1(1)",
           "start": "2023-06-25 15:00",
+          "end": "2023-06-25 16:00",
+          "url": "https://rumbleinthejungleevents.com/"
+        },
+        {
+          "name": "Rumble in the Jungle Takeover - Katalyst Btb Monroller ft Ydott",
+          "short": "rumble2(1)",
+          "start": "2023-06-25 16:00",
           "end": "2023-06-25 17:00",
           "url": "https://rumbleinthejungleevents.com/"
         },
@@ -7816,8 +7909,8 @@
           "url": "https://soundcloud.com/tobyspin"
         },
         {
-          "name": "N4 Records Takeover - Samurai Breaks, Ivan Cargo & More!",
-          "short": "n4reco(1)",
+          "name": "N4 Records Takeover - Samurai Breaks, Benton, Ivan Cargo & More!",
+          "short": "n4reco1(1)",
           "start": "2023-06-25 20:00",
           "end": "2023-06-25 22:00",
           "url": "https://n4records.bandcamp.com/"
@@ -8218,37 +8311,23 @@
         {
           "name": "Brass Off",
           "short": "brasso(1)",
-          "start": "2023-06-22 13:00",
-          "end": "2023-06-22 14:00",
-          "url": "https://www.newyorkbrassband.co.uk/"
-        },
-        {
-          "name": "Too Many T's Welcome Party",
-          "short": "tooman1(1)",
           "start": "2023-06-22 14:00",
-          "end": "2023-06-22 14:45",
-          "url": "https://www.facebook.com/toomanyts/"
-        },
-        {
-          "name": "Cal Jader (Movimientos)",
-          "short": "caljad(1)",
-          "start": "2023-06-22 14:45",
-          "end": "2023-06-22 15:05",
-          "url": "https://www.facebook.com/djcaljader/?locale=en_gb"
+          "end": "2023-06-22 15:00",
+          "url": "https://www.newyorkbrassband.co.uk/"
         },
         {
           "name": "Bloco B",
           "short": "blocob(2)",
-          "start": "2023-06-22 15:05",
+          "start": "2023-06-22 15:00",
           "end": "2023-06-22 15:45",
           "url": "https://www.facebook.com/blocob.uk/"
         },
         {
           "name": "Cal Jader (Movimientos)",
-          "short": "caljad(2)",
+          "short": "caljad(1)",
           "start": "2023-06-22 15:45",
           "end": "2023-06-22 16:15",
-          "url": "https://linktr.ee/caljader"
+          "url": "https://www.facebook.com/djcaljader/?locale=en_gb"
         },
         {
           "name": "Colectiva (Global Local)",
@@ -8314,60 +8393,67 @@
           "url": "https://www.instagram.com/bhangraallstarsband/?hl=en"
         },
         {
-          "name": "DJ PRIYA (Going South Takeover)",
-          "short": "djpriy1(2)",
+          "name": "Bobby Friction (Going South Takeover)",
+          "short": "bobbyf3(1)",
           "start": "2023-06-22 22:00",
-          "end": "2023-06-22 22:30",
-          "url": "https://linktr.ee/deejaypri"
-        },
-        {
-          "name": "Snazzback Meets Flowdan and Grove",
-          "short": "snazzb(1)",
-          "start": "2023-06-22 22:30",
-          "end": "2023-06-22 23:15",
-          "url": "https://www.facebook.com/snazzback/"
-        },
-        {
-          "name": "Fizzy Gillespie",
-          "short": "fizzyg(1)",
-          "start": "2023-06-22 23:15",
-          "end": "2023-06-22 23:45"
+          "end": "2023-06-22 22:30"
         },
         {
           "name": "Skindred (Earache Records Takeover)",
           "short": "skindr(1)",
-          "start": "2023-06-22 23:45",
-          "end": "2023-06-23 00:45",
+          "start": "2023-06-22 22:30",
+          "end": "2023-06-22 23:30",
           "mbId": "36e371e9-e76b-4b66-b813-e1d1af6d7128",
           "url": "https://webstore.earache.com/skindred"
         },
         {
-          "name": "Mike Freear",
-          "short": "mikefr(1)",
-          "start": "2023-06-23 00:45",
-          "end": "2023-06-23 01:15"
+          "name": "Fizzy Gillespie",
+          "short": "fizzyg(1)",
+          "start": "2023-06-22 23:30",
+          "end": "2023-06-23 00:00"
         },
         {
           "name": "Ho99o9 (Earache Records Takeover)",
           "short": "ho99o9(1)",
-          "start": "2023-06-23 01:15",
-          "end": "2023-06-23 02:00",
+          "start": "2023-06-23 00:00",
+          "end": "2023-06-23 00:45",
           "mbId": "e0458faa-82b2-4011-b851-6a0ed1f5a0e6",
           "url": "https://ho99o9.com/"
         },
         {
-          "name": "Fizzy Gillespie (Swing & Bass)",
-          "short": "fizzyg1(1)",
-          "start": "2023-06-23 02:00",
-          "end": "2023-06-23 02:30",
-          "url": "https://www.facebook.com/djfizzygillespie/?locale=en_gb"
+          "name": "Too Many T's",
+          "short": "tooman(1)",
+          "start": "2023-06-23 00:45",
+          "end": "2023-06-23 01:15",
+          "url": "https://www.facebook.com/toomanyts/"
         },
         {
           "name": "Alt Blk Era (Earache Records Takeover)",
           "short": "altblk(1)",
-          "start": "2023-06-23 02:30",
-          "end": "2023-06-23 03:00",
+          "start": "2023-06-23 01:15",
+          "end": "2023-06-23 01:45",
           "url": "https://www.altblkera.com/"
+        },
+        {
+          "name": "Too Many T's",
+          "short": "tooman(2)",
+          "start": "2023-06-23 01:45",
+          "end": "2023-06-23 02:15",
+          "url": "https://www.toomanyts.com/"
+        },
+        {
+          "name": "Snazzback Meets Flowdan and Grove",
+          "short": "snazzb(1)",
+          "start": "2023-06-23 02:15",
+          "end": "2023-06-23 03:00",
+          "url": "https://www.facebook.com/snazzback/"
+        },
+        {
+          "name": "Smoove & Turrell Live",
+          "short": "smoove(1)",
+          "start": "2023-06-23 14:00",
+          "end": "2023-06-23 14:30",
+          "url": "https://smooveandturrell.com/"
         },
         {
           "name": "Craig Charles & Friends",
@@ -8377,7 +8463,7 @@
         },
         {
           "name": "Smoove & Turrell Live",
-          "short": "smoove(1)",
+          "short": "smoove(2)",
           "start": "2023-06-23 17:30",
           "end": "2023-06-23 18:30",
           "url": "https://smooveandturrell.com/"
@@ -8495,7 +8581,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(15)",
+          "short": "tba(13)",
           "start": "2023-06-25 01:30",
           "end": "2023-06-25 02:15",
           "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430",
@@ -8531,7 +8617,7 @@
         },
         {
           "name": "Ivicore",
-          "short": "ivicor(1)",
+          "short": "ivicor(2)",
           "start": "2023-06-25 04:45",
           "end": "2023-06-25 05:15",
           "url": "https://www.facebook.com/ivicore/"
@@ -8950,7 +9036,7 @@
         },
         {
           "name": "Narx",
-          "short": "narx(1)",
+          "short": "narx(2)",
           "start": "2023-06-25 22:00",
           "end": "2023-06-25 23:00"
         },
@@ -8963,7 +9049,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(22)",
+          "short": "tba(21)",
           "start": "2023-06-26 00:00",
           "end": "2023-06-26 01:00",
           "mbId": "a5cce1aa-b8eb-4592-a0d9-a021be3bdcf8",
@@ -8971,7 +9057,7 @@
         },
         {
           "name": "TBA",
-          "short": "tba(24)",
+          "short": "tba(23)",
           "start": "2023-06-26 01:00",
           "end": "2023-06-26 02:00",
           "mbId": "34c63966-445c-4613-afe1-4f0e1e53ae9a"
@@ -9755,7 +9841,7 @@
         },
         {
           "name": "Hardwicke Circus",
-          "short": "hardwi(3)",
+          "short": "hardwi(2)",
           "start": "2023-06-25 23:00",
           "end": "2023-06-26 00:00",
           "url": "https://www.hardwickecircus.tv/"
@@ -9805,7 +9891,7 @@
           "short": "humble(1)",
           "start": "2023-06-21 18:00",
           "end": "2023-06-21 19:00",
-          "url": "http://ig@karysjourney"
+          "url": "https://www.instagram.com/karysjourney/"
         },
         {
           "name": "Rise + Shine Yoga with Lana Smith",
@@ -10864,13 +10950,6 @@
           "url": "https://www.instagram.com/pigeonhaslanded/?hl=en"
         },
         {
-          "name": "Hardwicke Circus",
-          "short": "hardwi(2)",
-          "start": "2023-06-23 18:15",
-          "end": "2023-06-23 18:45",
-          "url": "https://www.hardwickecircus.tv/"
-        },
-        {
           "name": "Firouzeh",
           "short": "firouz(1)",
           "start": "2023-06-23 19:00",
@@ -10963,6 +11042,7 @@
           "short": "lovebu1(4)",
           "start": "2023-06-24 19:00",
           "end": "2023-06-24 19:45",
+          "mbId": "8f1ff72b-9ec3-419c-8334-f6cf6dece5ae",
           "url": "https://www.instagram.com/thelovebuzz_/?hl=en"
         },
         {
@@ -10971,6 +11051,13 @@
           "start": "2023-06-24 20:00",
           "end": "2023-06-24 20:45",
           "url": "https://www.lielamoss.com/"
+        },
+        {
+          "name": "The Murder Capital",
+          "short": "murder(2)",
+          "start": "2023-06-24 21:00",
+          "end": "2023-06-24 21:45",
+          "url": "https://themurdercapital.com/"
         },
         {
           "name": "Callum Easter",
@@ -11038,32 +11125,32 @@
           "url": "https://www.oliviadeano.com/"
         },
         {
-          "name": "Slick and Bobbie Takeover",
-          "short": "slicka(1)",
-          "start": "2023-06-25 19:00",
-          "end": "2023-06-25 19:45"
+          "name": "Sports Banger",
+          "short": "sports(1)",
+          "start": "2023-06-25 18:45",
+          "end": "2023-06-25 20:45"
         },
         {
           "name": "Slick and Bobbie Takeover",
-          "short": "slicka(2)",
+          "short": "slicka(1)",
           "start": "2023-06-25 20:00",
           "end": "2023-06-25 20:30"
         },
         {
           "name": "Slick and Bobbie Takeover",
-          "short": "slicka(3)",
+          "short": "slicka(2)",
           "start": "2023-06-25 21:00",
           "end": "2023-06-25 21:30"
         },
         {
           "name": "Slick and Bobbie Takeover",
-          "short": "slicka(4)",
+          "short": "slicka(3)",
           "start": "2023-06-25 22:00",
           "end": "2023-06-25 22:30"
         },
         {
           "name": "Slick and Bobbie Takeover",
-          "short": "slicka(5)",
+          "short": "slicka(4)",
           "start": "2023-06-25 23:00",
           "end": "2023-06-25 23:30"
         },
@@ -11083,7 +11170,8 @@
           "name": "Decadent Times Takeover (Comedy, Theatre and Circus)",
           "short": "decade(1)",
           "start": "2023-06-21 12:00",
-          "end": "2023-06-21 12:40"
+          "end": "2023-06-21 12:40",
+          "url": "https://www.decadenttimes.com"
         },
         {
           "name": "Twisted Time Machine",
@@ -11269,7 +11357,7 @@
           "name": "Bimini",
           "short": "bimini(1)",
           "start": "2023-06-22 20:50",
-          "end": "2023-06-22 21:30",
+          "end": "2023-06-22 21:20",
           "mbId": "d6b2f92c-4bf8-4057-a220-c5534df68c1d",
           "url": "https://www.instagram.com/biminibabes"
         },
@@ -11377,43 +11465,43 @@
           "url": "https://www.instagram.com/girlsoftheinternetmusic/"
         },
         {
-          "name": "Glitterbox Takeover: Gina Breeze",
-          "short": "glitte(1)",
+          "name": "Glitterbox Takeover: Melle Brown",
+          "short": "glitte3(1)",
           "start": "2023-06-23 21:50",
           "end": "2023-06-23 22:30",
           "url": "https://glitterboxibiza.com/"
         },
         {
-          "name": "Glitterbox Takeover: Melle Brown",
-          "short": "glitte3(1)",
+          "name": "Glitterbox Takeover: Eats Everything B2B Andy Cato (Groove Armada)",
+          "short": "glitte6(1)",
           "start": "2023-06-23 22:30",
-          "end": "2023-06-23 23:00",
-          "url": "https://glitterboxibiza.com/"
-        },
-        {
-          "name": "Glitterbox Takeover: Fat Tony",
-          "short": "glitte4(1)",
-          "start": "2023-06-23 23:00",
           "end": "2023-06-23 23:45",
           "url": "https://glitterboxibiza.com/"
         },
         {
-          "name": "Glitterbox Takeover",
-          "short": "glitte5(1)",
+          "name": "Glitterbox Takeover: Gina Breeze",
+          "short": "glitte(1)",
           "start": "2023-06-23 23:45",
           "end": "2023-06-24 00:30",
           "url": "https://glitterboxibiza.com/"
         },
         {
-          "name": "Glitterbox Takeover",
-          "short": "glitte5(2)",
+          "name": "Glitterbox Takeover: Fat Tony",
+          "short": "glitte4(1)",
           "start": "2023-06-24 00:30",
+          "end": "2023-06-24 01:15",
+          "url": "https://glitterboxibiza.com/"
+        },
+        {
+          "name": "Glitterbox Takeover: Melvo Baptiste",
+          "short": "glitte7(1)",
+          "start": "2023-06-24 01:15",
           "end": "2023-06-24 02:00",
           "url": "https://glitterboxibiza.com/"
         },
         {
-          "name": "Glitterbox Takeover",
-          "short": "glitte5(3)",
+          "name": "Glitterbox Takeover: Shapeshifters B2B Sophie Lloyd",
+          "short": "glitte8(1)",
           "start": "2023-06-24 02:00",
           "end": "2023-06-24 03:00",
           "url": "https://glitterboxibiza.com/"
@@ -11436,7 +11524,7 @@
           "short": "joyind(1)",
           "start": "2023-06-24 11:15",
           "end": "2023-06-24 12:00",
-          "url": "https://twitter.com/thejoyindance"
+          "url": "https://www.instagram.com/thejoyindance/"
         },
         {
           "name": "N'Famady Kouyaté",
@@ -11505,27 +11593,27 @@
           "name": "Fleetmac Wood",
           "short": "fleetm(2)",
           "start": "2023-06-24 21:15",
-          "end": "2023-06-24 22:45",
+          "end": "2023-06-24 22:15",
           "url": "https://www.instagram.com/fleetmac_wood"
+        },
+        {
+          "name": "Seth Troxler",
+          "short": "sethtr(1)",
+          "start": "2023-06-24 22:15",
+          "end": "2023-06-24 23:45",
+          "url": "https://www.instagram.com/stroxler"
         },
         {
           "name": "Subb-An",
           "short": "subban(1)",
-          "start": "2023-06-24 22:45",
-          "end": "2023-06-25 00:00",
+          "start": "2023-06-24 23:45",
+          "end": "2023-06-25 01:15",
           "url": "https://www.instagram.com/subb_an/"
-        },
-        {
-          "name": "TBA",
-          "short": "tba(13)",
-          "start": "2023-06-25 00:00",
-          "end": "2023-06-25 01:30",
-          "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
         },
         {
           "name": "Lauren Lo Sung",
           "short": "lauren(1)",
-          "start": "2023-06-25 01:30",
+          "start": "2023-06-25 01:15",
           "end": "2023-06-25 03:00",
           "url": "https://www.instagram.com/laurenlosung/reels/"
         },
@@ -11564,11 +11652,10 @@
         },
         {
           "name": "TBA",
-          "short": "tba(19)",
+          "short": "tba(17)",
           "start": "2023-06-25 15:30",
           "end": "2023-06-25 17:00",
-          "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430",
-          "url": "http://tbc"
+          "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
         },
         {
           "name": "The Beatbox Collective & Friends",
@@ -11847,16 +11934,46 @@
       "name": "The Rhizosphere",
       "events": [
         {
+          "name": "Fungi and Soil Biosonification - Help Us Create Audio Samples for the Rhizosphere",
+          "short": "fungia(1)",
+          "start": "2023-06-21 15:00",
+          "end": "2023-06-21 16:30"
+        },
+        {
+          "name": "I-Spy a Microbe - Drop-In To Look for Life Through the Microscope with Fin Jordao",
+          "short": "ispyam(1)",
+          "start": "2023-06-21 15:00",
+          "end": "2023-06-21 16:30"
+        },
+        {
           "name": "Underfoot, Overlooked: Soil As Our Muse a Day of Workshops and Drop-In Activities Relating To Soil Hosted By Poppy Flint & Benji Bailes",
           "short": "underf(1)",
           "start": "2023-06-21 15:00",
           "end": "2023-06-21 19:00"
         },
         {
-          "name": "Underfoot: Life Amongst the Roots (Installation)",
-          "short": "underf1(1)",
+          "name": "Discover Your Inner Nematode - An Imaginary Dinner Party with the Characters Underfoot",
+          "short": "discov(1)",
+          "start": "2023-06-21 16:45",
+          "end": "2023-06-21 17:45"
+        },
+        {
+          "name": "Fungi: Meet, Greet and Eat - Talk and Myco Feast with Rights for Weeds",
+          "short": "fungim(1)",
+          "start": "2023-06-21 18:00",
+          "end": "2023-06-21 19:00"
+        },
+        {
+          "name": "Underfoot: Life Amongst the Roots (Installation). By Poppy Flint & Benji Bailes with Contributing Artists Lex Kosanke, Michelle Tylicki and Barrington",
+          "short": "underf2(1)",
           "start": "2023-06-21 19:00",
-          "end": "2023-06-21 22:00"
+          "end": "2023-06-21 21:00"
+        },
+        {
+          "name": "Dreaming of Reparative Futures - Interactive Talk with the Land in Our Names (Lion) Collective",
+          "short": "dreami(1)",
+          "start": "2023-06-22 12:00",
+          "end": "2023-06-22 13:00"
         },
         {
           "name": "We Belong To the Earth: Roots, Gathering, Connections, Histories and Futures a Day of Creative Workshops, Talks and Drop-In Acttivities Hosted By Lion - Land in Our Names.",
@@ -11865,9 +11982,33 @@
           "end": "2023-06-22 19:00"
         },
         {
-          "name": "Underfoot: Life Amongst the Roots (Installation)",
-          "short": "underf1(2)",
+          "name": "Zine Time with Zoe Miles From Out On the Land and Solidarity Amoung Land Trades - Drop in To Collage, Doddle, Write, Paint, Etch and Sketch On the Themes of Connection and Soil",
+          "short": "zineti(1)",
+          "start": "2023-06-22 13:15",
+          "end": "2023-06-22 15:30"
+        },
+        {
+          "name": "Decolonial Approaches To Land and Farming - Interactive and Interdisciplinary Workshop Led By Naomi Terry of Lion",
+          "short": "decolo(1)",
+          "start": "2023-06-22 15:45",
+          "end": "2023-06-22 17:15"
+        },
+        {
+          "name": "Sonic Soil Meditation: Drop-In 10 Minute Sensory Healing Practice Connecting Humans and Non-Humans in a Sonic Compost. Facilitated By Ecological Theatre Maker Hannah Calascione with Sounds By Hari Byles and Jas Butt, Compost Mentis",
+          "short": "sonics(1)",
+          "start": "2023-06-22 17:30",
+          "end": "2023-06-22 18:30"
+        },
+        {
+          "name": "Film: Harvest (2020) - the Struggle of a Splintered Family Living Off the Wet Rice Fields of Northern Vietnam. Dir. Harvey Bunegar",
+          "short": "filmha(1)",
           "start": "2023-06-22 19:00",
+          "end": "2023-06-22 20:30"
+        },
+        {
+          "name": "Underfoot: Life Amongst the Roots (Installation). By Poppy Flint & Benji Bailes with Contributing Artists Lex Kosanke, Michelle Tylicki and Barrington",
+          "short": "underf2(2)",
+          "start": "2023-06-22 20:30",
           "end": "2023-06-22 22:00"
         },
         {
@@ -11877,15 +12018,71 @@
           "end": "2023-06-23 02:00"
         },
         {
+          "name": "Chris Gee B2B Stacky",
+          "short": "chrisg(1)",
+          "start": "2023-06-22 22:00",
+          "end": "2023-06-22 23:00"
+        },
+        {
+          "name": "Siânageddon",
+          "short": "sinage(1)",
+          "start": "2023-06-22 23:00",
+          "end": "2023-06-23 00:30",
+          "url": "https://www.instagram.com/siansmusicbox/"
+        },
+        {
+          "name": "Cosmic Tits",
+          "short": "cosmic(1)",
+          "start": "2023-06-23 00:30",
+          "end": "2023-06-23 02:00",
+          "url": "https://www.instagram.com/globalhealthglobalbeats/"
+        },
+        {
+          "name": "Come and Meet Artist Ione Marie Rojas in Her Temporary Earth Based Studio Apothacary",
+          "short": "comean(1)",
+          "start": "2023-06-23 12:00",
+          "end": "2023-06-23 15:00"
+        },
+        {
+          "name": "Practices of Intimacy and Resistance: Invitations & Drop-In Happenings By Pir Collective",
+          "short": "practi1(1)",
+          "start": "2023-06-23 12:00",
+          "end": "2023-06-23 15:00"
+        },
+        {
           "name": "Practices of Intimacy and Resistance: Creative Offerings To the Earth Ione Marie Rojas Is Artist-In-Residence for the Day, Sharing Their Work As Part of Pir Collective, Plus Hosting Workshops and a Myco-Feast",
           "short": "practi(1)",
           "start": "2023-06-23 12:00",
           "end": "2023-06-23 19:00"
         },
         {
-          "name": "Underfoot: Life Amongst the Roots (Installation)",
-          "short": "underf1(3)",
+          "name": "Fungi: Meet, Greet and Eat - Talk and Myco Feast with Rights for Weeds",
+          "short": "fungim(2)",
+          "start": "2023-06-23 15:15",
+          "end": "2023-06-23 16:15"
+        },
+        {
+          "name": "Inklings: a Drop-In Drawing Workshop with Botanical Inks and Earth Pigments",
+          "short": "inklin(1)",
+          "start": "2023-06-23 16:30",
+          "end": "2023-06-23 17:30"
+        },
+        {
+          "name": "Mya-Rose Craig in Conversation with Greenpeace UK Co-Executive Director, Areeba Hamid",
+          "short": "myaros(1)",
+          "start": "2023-06-23 18:00",
+          "end": "2023-06-23 19:00"
+        },
+        {
+          "name": "Film: Delikado (2022) - the Struggle of Land Defenders in the Phillipines As They Try To Save Natural Resources From Being Plundered By Corporations and Government. Dir. Karl Malakunas",
+          "short": "filmde(1)",
           "start": "2023-06-23 19:00",
+          "end": "2023-06-23 20:30"
+        },
+        {
+          "name": "Underfoot: Life Amongst the Roots (Installation). By Poppy Flint & Benji Bailes with Contributing Artists Lex Kosanke, Michelle Tylicki and Barrington",
+          "short": "underf2(3)",
+          "start": "2023-06-23 20:30",
           "end": "2023-06-23 22:00"
         },
         {
@@ -11895,22 +12092,108 @@
           "end": "2023-06-24 02:00"
         },
         {
-          "name": "Multiplicity of Nature: Cultivating Justice, Intersectionality, Queer Liberation & Racial Justice a Day of Creative Workshops, Talks and Drop-In Acttivities Hosted By Lion - Land in Our Names.",
-          "short": "multip(1)",
+          "name": "Beth Metal",
+          "short": "bethme(1)",
+          "start": "2023-06-23 22:00",
+          "end": "2023-06-23 23:00",
+          "url": "https://www.instagram.com/bethgmiles/"
+        },
+        {
+          "name": "Watcha",
+          "short": "watcha(1)",
+          "start": "2023-06-23 23:00",
+          "end": "2023-06-24 00:30",
+          "url": "https://www.instagram.com/watcha_dj/"
+        },
+        {
+          "name": "Ivicore",
+          "short": "ivicor(1)",
+          "start": "2023-06-24 00:30",
+          "end": "2023-06-24 02:00",
+          "url": "https://www.instagram.com/ivicore/"
+        },
+        {
+          "name": "Decolonise Your Senses - Informal Panel Hosted By Sam and Jamila of Lion with Guest Speakers Exploring Intersectionality, Land and Housing Justice in Urban Space, Recreation, Inclusive Events Venues and Rest As a Form of Resistance",
+          "short": "decolo1(1)",
+          "start": "2023-06-24 12:00",
+          "end": "2023-06-24 13:30"
+        },
+        {
+          "name": "Multiplicity of Nature: Queer and Trans Liberation, Racial Justice, Afro-Futurism a Day of Creative Workshops, Talks and Drop-In Acttivities Hosted By Lion - Land in Our Names.",
+          "short": "multip1(1)",
           "start": "2023-06-24 12:00",
           "end": "2023-06-24 19:00"
         },
         {
-          "name": "Underfoot: Life Amongst the Roots (Installation)",
-          "short": "underf1(4)",
-          "start": "2023-06-24 19:00",
+          "name": "Badge Babes with Zoe Miles - Make Your Own Propaganda: Visibility Is Important!",
+          "short": "badgeb(1)",
+          "start": "2023-06-24 13:45",
+          "end": "2023-06-24 15:45"
+        },
+        {
+          "name": "Divine Ink: Drop-In Divination Session with Ione Marie Rojas. Bring a Question and See How the Ink Responds",
+          "short": "divine(1)",
+          "start": "2023-06-24 13:45",
+          "end": "2023-06-24 15:45"
+        },
+        {
+          "name": "Bpoc Retreat Space - Collective Care Session Led By Lion Featuring Self-Massage, Mud Foot Masks, Diy Face Masks and More",
+          "short": "bpocre(1)",
+          "start": "2023-06-24 16:00",
+          "end": "2023-06-24 18:00"
+        },
+        {
+          "name": "Short Films Screening - Selected and Hosted By Lion",
+          "short": "shortf(1)",
+          "start": "2023-06-24 18:15",
+          "end": "2023-06-24 20:00"
+        },
+        {
+          "name": "Underfoot: Life Amongst the Roots (Installation). By Poppy Flint & Benji Bailes with Contributing Artists Lex Kosanke, Michelle Tylicki and Barrington",
+          "short": "underf2(4)",
+          "start": "2023-06-24 20:00",
           "end": "2023-06-24 22:00"
         },
         {
           "name": "Soil Sessions: Journey Beneath the Rave Tree - Musicians and DJs",
           "short": "soilse(3)",
-          "start": "2023-06-24 22:00",
+          "start": "2023-06-24 21:00",
           "end": "2023-06-25 02:00"
+        },
+        {
+          "name": "DJ Loocee",
+          "short": "djlooc(1)",
+          "start": "2023-06-24 21:00",
+          "end": "2023-06-24 22:00",
+          "url": "https://www.instagram.com/lovely_stuff_by_loocee"
+        },
+        {
+          "name": "Araminta",
+          "short": "aramin(2)",
+          "start": "2023-06-24 22:00",
+          "end": "2023-06-24 23:00",
+          "url": "https://www.instagram.com/thearaminta/"
+        },
+        {
+          "name": "Carly Wilford",
+          "short": "carlyw(2)",
+          "start": "2023-06-24 23:00",
+          "end": "2023-06-25 00:30",
+          "mbId": "0faabeb9-1fc8-4aa1-9db5-b49e1f2f5f2f",
+          "url": "https://www.instagram.com/carlywilford/"
+        },
+        {
+          "name": "Narx",
+          "short": "narx(1)",
+          "start": "2023-06-25 00:30",
+          "end": "2023-06-25 02:00",
+          "url": "https://www.instagram.com/narxldn"
+        },
+        {
+          "name": "Bacteria Buffet: Celebrate the World Building Gifts of These Microscopic Hidden Gems with Fin Jordao From Criw Compostio and the Centre for Alternative Technology",
+          "short": "bacter(1)",
+          "start": "2023-06-25 12:00",
+          "end": "2023-06-25 13:00"
         },
         {
           "name": "Making the Invisible Visible: How the Micro Shapes the Macro Jeng Au Is Artist-In-Residence for the Day, Plus Creative Workshops and Drop-In Activities Hosted By Fin Jordao.",
@@ -11919,9 +12202,33 @@
           "end": "2023-06-25 19:00"
         },
         {
-          "name": "Underfoot: Life Amongst the Roots (Installation)",
-          "short": "underf1(5)",
-          "start": "2023-06-25 19:00",
+          "name": "I-Spy a Microbe - Drop-In To Look for Life Through the Microscope",
+          "short": "ispyam1(1)",
+          "start": "2023-06-25 13:00",
+          "end": "2023-06-25 16:00"
+        },
+        {
+          "name": "Join Artisit in Residence Jeng Au in Myco Network Building Using Soil and Cob Techniques",
+          "short": "joinar(1)",
+          "start": "2023-06-25 13:00",
+          "end": "2023-06-25 16:00"
+        },
+        {
+          "name": "How To Set Up a Community Composting Project - Practical Talk By Fin Jordao",
+          "short": "howtos(1)",
+          "start": "2023-06-25 16:30",
+          "end": "2023-06-25 17:30"
+        },
+        {
+          "name": "Film: London Grows (2022) - Nine Stories of Nature in the City Directed By Cristina Monteiro",
+          "short": "filmlo(1)",
+          "start": "2023-06-25 18:00",
+          "end": "2023-06-25 19:15"
+        },
+        {
+          "name": "Underfoot: Life Amongst the Roots (Installation). By Poppy Flint & Benji Bailes with Contributing Artists Lex Kosanke, Michelle Tylicki and Barrington",
+          "short": "underf2(5)",
+          "start": "2023-06-25 19:15",
           "end": "2023-06-25 22:00"
         }
       ]
@@ -12111,10 +12418,11 @@
           "end": "2023-06-23 19:15"
         },
         {
-          "name": "Ccornhead",
-          "short": "ccornh(1)",
+          "name": "H. Eldritch",
+          "short": "heldri1(1)",
           "start": "2023-06-23 19:45",
-          "end": "2023-06-23 20:30"
+          "end": "2023-06-23 20:30",
+          "url": "https://www.instagram.com/h.eldritch"
         },
         {
           "name": "Kid Hyena",
@@ -12208,6 +12516,12 @@
           "end": "2023-06-25 13:00"
         },
         {
+          "name": "The Little Unsaid",
+          "short": "little(2)",
+          "start": "2023-06-25 12:30",
+          "end": "2023-06-26 01:45"
+        },
+        {
           "name": "Kitty Stewart",
           "short": "kittys(1)",
           "start": "2023-06-25 13:15",
@@ -12240,7 +12554,7 @@
         },
         {
           "name": "Merry Mccloud",
-          "short": "merrym1(1)",
+          "short": "merrym1(2)",
           "start": "2023-06-25 20:00",
           "end": "2023-06-25 21:00",
           "url": "https://suriyarecordings.bandcamp.com/album/the-false-bride"
@@ -12259,14 +12573,8 @@
           "url": "http://mazaika-music.com/"
         },
         {
-          "name": "The Little Unsaid",
-          "short": "little(2)",
-          "start": "2023-06-26 00:30",
-          "end": "2023-06-26 01:45"
-        },
-        {
-          "name": "Moonshine Malarkey & Friends",
-          "short": "moonsh(1)",
+          "name": "Moonshine Malarkey",
+          "short": "moonsh1(1)",
           "start": "2023-06-26 02:00",
           "end": "2023-06-26 03:00"
         }
@@ -12568,7 +12876,7 @@
         },
         {
           "name": "Kangaroo Moon",
-          "short": "kangar(4)",
+          "short": "kangar(5)",
           "start": "2023-06-25 19:00",
           "end": "2023-06-25 20:00",
           "url": "https://kangaroomoon.com/"
@@ -12647,8 +12955,8 @@
           "url": "https://www.facebook.com/mandalastage/videos/1189661938337162/"
         },
         {
-          "name": "Natsuma",
-          "short": "natsum(1)",
+          "name": "David Celia and Zuffalo",
+          "short": "davidc2(1)",
           "start": "2023-06-22 15:00",
           "end": "2023-06-22 16:00",
           "url": "https://www.youtube.com/channel/ucdv7ej0sdzd2q8sdxyed8lg"
@@ -12867,8 +13175,14 @@
           "url": "https://www.facebook.com/herecomethecrows/"
         },
         {
+          "name": "Keyboardist Matt",
+          "short": "keyboa(1)",
+          "start": "2023-06-24 17:00",
+          "end": "2023-06-24 18:00"
+        },
+        {
           "name": "Natsuma",
-          "short": "natsum(2)",
+          "short": "natsum(1)",
           "start": "2023-06-24 18:00",
           "end": "2023-06-24 19:00",
           "url": "https://www.youtube.com/channel/ucdv7ej0sdzd2q8sdxyed8lg"
@@ -12888,8 +13202,8 @@
           "url": "https://www.hollierogers.com/"
         },
         {
-          "name": "Merry Mcloud",
-          "short": "merrym(1)",
+          "name": "Merry Mccloud",
+          "short": "merrym1(1)",
           "start": "2023-06-24 21:00",
           "end": "2023-06-24 22:00",
           "url": "https://suriyarecordings.bandcamp.com/album/the-false-bride"
@@ -12952,7 +13266,7 @@
         },
         {
           "name": "Merry Mcloud",
-          "short": "merrym(2)",
+          "short": "merrym(1)",
           "start": "2023-06-25 16:00",
           "end": "2023-06-25 17:00",
           "url": "https://suriyarecordings.bandcamp.com/album/the-false-bride"
@@ -13011,6 +13325,12 @@
           "start": "2023-06-26 00:00",
           "end": "2023-06-26 01:00",
           "url": "https://youtu.be/f9by7yn9ayy"
+        },
+        {
+          "name": "DJ Dalaman",
+          "short": "djdala(1)",
+          "start": "2023-06-26 01:00",
+          "end": "2023-06-26 02:00"
         }
       ]
     },
@@ -13401,7 +13721,7 @@
         },
         {
           "name": "Mauvey",
-          "short": "mauvey(1)",
+          "short": "mauvey(2)",
           "start": "2023-06-25 23:50",
           "end": "2023-06-26 00:30",
           "url": "https://www.mauvey.com"
@@ -13713,8 +14033,8 @@
           "url": "http://culture&revolutionaryshifts"
         },
         {
-          "name": "Nick Davies, Kirsty Kenney & Aja Aluwalia",
-          "short": "nickda1(1)",
+          "name": "Nick Davies, Kirsty Kenney & Ajai Ahluwalia",
+          "short": "nickda2(1)",
           "start": "2023-06-25 15:00",
           "end": "2023-06-25 16:00",
           "url": "http://2033noukfossilfuels"
@@ -14051,7 +14371,8 @@
           "short": "tba(1)",
           "start": "2023-06-23 12:00",
           "end": "2023-06-23 12:00",
-          "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430"
+          "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430",
+          "url": "http://tbc"
         },
         {
           "name": "Jamie Cook",
@@ -16485,7 +16806,8 @@
           "name": "Hands On: Nfats Open House / Library Readings",
           "short": "handso1(1)",
           "start": "2023-06-22 16:15",
-          "end": "2023-06-22 17:00"
+          "end": "2023-06-22 17:00",
+          "url": "https://billlloyd.co.uk/"
         },
         {
           "name": "Music: Thomas Mccarthy",
@@ -16543,7 +16865,8 @@
           "name": "Hands On: Badgemaking",
           "short": "handso2(1)",
           "start": "2023-06-23 16:15",
-          "end": "2023-06-23 17:00"
+          "end": "2023-06-23 17:00",
+          "url": "https://billlloyd.co.uk/"
         },
         {
           "name": "Music: Thomas Mccarthy",
@@ -18289,7 +18612,7 @@
           "short": "tba(2)",
           "start": "2023-06-23 12:40",
           "end": "2023-06-23 13:10",
-          "mbId": "a5cce1aa-b8eb-4592-a0d9-a021be3bdcf8"
+          "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430"
         },
         {
           "name": "Beatbox Collective",
@@ -18343,10 +18666,10 @@
         },
         {
           "name": "TBA",
-          "short": "tba(7)",
+          "short": "tba(6)",
           "start": "2023-06-24 12:35",
           "end": "2023-06-24 13:05",
-          "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430"
+          "mbId": "a5cce1aa-b8eb-4592-a0d9-a021be3bdcf8"
         },
         {
           "name": "Beatbox Collective",
@@ -18406,10 +18729,10 @@
         },
         {
           "name": "TBA",
-          "short": "tba(17)",
+          "short": "tba(15)",
           "start": "2023-06-25 12:35",
           "end": "2023-06-25 13:05",
-          "mbId": "34c63966-445c-4613-afe1-4f0e1e53ae9a"
+          "mbId": "573f2d10-82c2-43f0-8726-d560c82eb430"
         },
         {
           "name": "Beatbox Collective",
@@ -18634,13 +18957,6 @@
           "url": "https://www.thecrazygolfcompany.com"
         },
         {
-          "name": "Amazing Camera Obscura",
-          "short": "amazin(3)",
-          "start": "2023-06-24 12:00",
-          "end": "2023-06-24 16:00",
-          "url": "http://www.amazingcameraobscura.co.uk"
-        },
-        {
           "name": "Magpie's Fortune",
           "short": "magpie(3)",
           "start": "2023-06-24 12:00",
@@ -18652,6 +18968,13 @@
           "start": "2023-06-24 12:00",
           "end": "2023-06-24 18:00",
           "url": "http://www.thesolcinema.org"
+        },
+        {
+          "name": "Amazing Camera Obscura",
+          "short": "amazin(3)",
+          "start": "2023-06-24 12:00",
+          "end": "2023-06-24 16:00",
+          "url": "http://www.amazingcameraobscura.co.uk"
         },
         {
           "name": "Mr Peewee and the Drumming Puppet",
@@ -19209,10 +19532,10 @@
         },
         {
           "name": "TBA",
-          "short": "tba(18)",
+          "short": "tba(16)",
           "start": "2023-06-25 15:25",
           "end": "2023-06-25 16:20",
-          "mbId": "bdc343bd-1c45-4a5d-b956-c4429f3dbba5"
+          "mbId": "34c63966-445c-4613-afe1-4f0e1e53ae9a"
         },
         {
           "name": "Luke Wright",
@@ -20085,24 +20408,24 @@
       "events": [
         {
           "name": "TBA",
-          "short": "tba(6)",
+          "short": "tba(4)",
           "start": "2023-06-24 00:00",
           "end": "2023-06-24 03:00",
-          "mbId": "a5cce1aa-b8eb-4592-a0d9-a021be3bdcf8"
+          "mbId": "bdc343bd-1c45-4a5d-b956-c4429f3dbba5"
         },
         {
           "name": "TBA",
           "short": "tba(11)",
           "start": "2023-06-25 00:00",
           "end": "2023-06-25 03:00",
-          "mbId": "a5cce1aa-b8eb-4592-a0d9-a021be3bdcf8"
+          "mbId": "na"
         },
         {
           "name": "TBA",
-          "short": "tba(21)",
+          "short": "tba(20)",
           "start": "2023-06-26 00:00",
           "end": "2023-06-26 02:00",
-          "mbId": "6d394d8e-df41-4207-8485-08d1e59723b7"
+          "mbId": "a5cce1aa-b8eb-4592-a0d9-a021be3bdcf8"
         }
       ]
     },
@@ -20512,13 +20835,6 @@
           "url": "http://www.akustrik.com/"
         },
         {
-          "name": "Natural Diversions",
-          "short": "natura(1)",
-          "start": "2023-06-22 11:30",
-          "end": "2023-06-22 12:00",
-          "url": "https://naturaltheatre.co.uk/"
-        },
-        {
           "name": "Natural Theatre Company",
           "short": "natura1(1)",
           "start": "2023-06-22 11:30",
@@ -20531,6 +20847,13 @@
           "start": "2023-06-22 11:30",
           "end": "2023-06-22 13:30",
           "url": "https://www.gatheringvoices.org.uk/"
+        },
+        {
+          "name": "Natural Diversions",
+          "short": "natura(1)",
+          "start": "2023-06-22 11:30",
+          "end": "2023-06-22 12:00",
+          "url": "https://naturaltheatre.co.uk/"
         },
         {
           "name": "The Sky at Day",
@@ -21049,7 +21372,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(1)",
           "start": "2023-06-23 12:10",
-          "end": "2023-06-23 12:55"
+          "end": "2023-06-23 12:55",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "Disco Robot Girlz",
@@ -21311,8 +21635,8 @@
           "url": "https://www.amadanensemble.com/"
         },
         {
-          "name": "Anyone for Tennis",
-          "short": "anyone(2)",
+          "name": "Ministry of Happy",
+          "short": "minist(6)",
           "start": "2023-06-23 15:00",
           "end": "2023-06-23 15:45"
         },
@@ -21324,17 +21648,17 @@
           "url": "https://www.fairplaycomedy.com/"
         },
         {
-          "name": "Ministry of Happy",
-          "short": "minist(6)",
-          "start": "2023-06-23 15:00",
-          "end": "2023-06-23 15:45"
-        },
-        {
           "name": "The Dapper Chaps",
           "short": "dapper(4)",
           "start": "2023-06-23 15:00",
           "end": "2023-06-23 16:00",
           "url": "http://www.stevekaos.co.uk/"
+        },
+        {
+          "name": "Anyone for Tennis",
+          "short": "anyone(2)",
+          "start": "2023-06-23 15:00",
+          "end": "2023-06-23 15:45"
         },
         {
           "name": "Ukelele Thrash Mob",
@@ -21404,12 +21728,6 @@
           "end": "2023-06-23 16:25"
         },
         {
-          "name": "Moaning Lisa and Leo",
-          "short": "moanin(1)",
-          "start": "2023-06-23 15:45",
-          "end": "2023-06-23 16:15"
-        },
-        {
           "name": "Liver Cottage Kitchen",
           "short": "liverc(2)",
           "start": "2023-06-23 15:45",
@@ -21421,6 +21739,12 @@
           "start": "2023-06-23 15:45",
           "end": "2023-06-23 16:40",
           "url": "https://www.catandmousetheatre.com/"
+        },
+        {
+          "name": "Moaning Lisa and Leo",
+          "short": "moanin(1)",
+          "start": "2023-06-23 15:45",
+          "end": "2023-06-23 16:15"
         },
         {
           "name": "Richard Stamp",
@@ -21482,7 +21806,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(2)",
           "start": "2023-06-23 16:10",
-          "end": "2023-06-23 16:55"
+          "end": "2023-06-23 16:55",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "Scary & Spooky Skeletons",
@@ -21589,7 +21914,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(3)",
           "start": "2023-06-23 17:05",
-          "end": "2023-06-23 17:50"
+          "end": "2023-06-23 17:50",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "Rustle",
@@ -21924,7 +22250,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(4)",
           "start": "2023-06-24 12:10",
-          "end": "2023-06-24 12:55"
+          "end": "2023-06-24 12:55",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "Liver Cottage Kitchen",
@@ -22316,7 +22643,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(5)",
           "start": "2023-06-24 16:10",
-          "end": "2023-06-24 16:55"
+          "end": "2023-06-24 16:55",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "The Sky at Day",
@@ -22363,7 +22691,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(6)",
           "start": "2023-06-24 16:40",
-          "end": "2023-06-24 17:25"
+          "end": "2023-06-24 17:25",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "Laura London",
@@ -22724,7 +23053,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(7)",
           "start": "2023-06-25 12:10",
-          "end": "2023-06-25 12:55"
+          "end": "2023-06-25 12:55",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "Liver Cottage Kitchen",
@@ -23061,7 +23391,8 @@
           "name": "Fairly Famous Family",
           "short": "fairly1(8)",
           "start": "2023-06-25 16:10",
-          "end": "2023-06-25 16:55"
+          "end": "2023-06-25 16:55",
+          "url": "https://www.fairplaycomedy.com/"
         },
         {
           "name": "Hummingbirds",
@@ -23348,6 +23679,7 @@
           "short": "lovebu1(1)",
           "start": "2023-06-22 17:30",
           "end": "2023-06-22 18:30",
+          "mbId": "8f1ff72b-9ec3-419c-8334-f6cf6dece5ae",
           "url": "https://www.thelovebuzz.com/"
         },
         {
@@ -24032,7 +24364,7 @@
           "name": "John E Vistic",
           "short": "johnev1(1)",
           "start": "2023-06-23 15:00",
-          "end": "2023-06-23 16:40",
+          "end": "2023-06-23 15:40",
           "url": "https://vistic.co.uk/"
         },
         {
@@ -24233,7 +24565,7 @@
         },
         {
           "name": "Junior Bill",
-          "short": "junior(4)",
+          "short": "junior(5)",
           "start": "2023-06-25 20:30",
           "end": "2023-06-25 21:30",
           "url": "http://juniorbill.co.uk/info"
@@ -24251,86 +24583,6 @@
           "start": "2023-06-25 23:30",
           "end": "2023-06-26 01:30",
           "url": "https://www.facebook.com/kirrisriviereandthedeltadubruit/"
-        }
-      ]
-    },
-    {
-      "name": "Woods Stage",
-      "events": [
-        {
-          "name": "Dr Andy Pickering With The Splinters",
-          "short": "drandy(1)",
-          "start": "2023-06-21 12:00",
-          "end": "2023-06-21 12:30",
-          "type": "other"
-        },
-        {
-          "name": "Michael Wood And Steve Knightly: Voices Of The Land",
-          "short": "michae3(1)",
-          "start": "2023-06-21 12:45",
-          "end": "2023-06-21 13:15",
-          "type": "other"
-        },
-        {
-          "name": "Billy Bragg",
-          "short": "billyb(1)",
-          "start": "2023-06-21 13:30",
-          "end": "2023-06-21 14:00"
-        },
-        {
-          "name": "Ceremonial Lighting Of The Tolpuddle Fire With The Wisdom Keepers From Mexico",
-          "short": "ceremo(1)",
-          "start": "2023-06-21 15:00",
-          "end": "2023-06-21 15:50"
-        },
-        {
-          "name": "Notting Hill Carnival Workshops",
-          "short": "nottin4(1)",
-          "start": "2023-06-22 10:00",
-          "end": "2023-06-22 12:00",
-          "type": "other"
-        },
-        {
-          "name": "Tolpuddle Fire Circle Fire Lighting",
-          "short": "tolpud1(1)",
-          "start": "2023-06-22 20:45",
-          "end": "2023-06-22 21:00",
-          "type": "other"
-        },
-        {
-          "name": "Xicome Glastonbury: The Call Of Quetzalcoatl ",
-          "short": "xicome2(1)",
-          "start": "2023-06-22 23:45",
-          "end": "2023-06-23 00:35",
-          "type": "other"
-        },
-        {
-          "name": "Tolpuddle Fire Circle Fire Lighting",
-          "short": "tolpud1(2)",
-          "start": "2023-06-23 20:45",
-          "end": "2023-06-23 21:00",
-          "type": "other"
-        },
-        {
-          "name": "Tolpuddle Fire Circle Fire Lighting",
-          "short": "tolpud1(3)",
-          "start": "2023-06-24 20:45",
-          "end": "2023-06-24 21:00",
-          "type": "other"
-        },
-        {
-          "name": "Xicome Glastonbury: The Call Of Quetzalcoatl Ritual Concert Featuring Alyosha Barreiro Electrónica Pre Hispanica",
-          "short": "xicome3(1)",
-          "start": "2023-06-24 23:45",
-          "end": "2023-06-25 00:35",
-          "type": "other"
-        },
-        {
-          "name": "Tolpuddle Fire Circle Fire Lighting",
-          "short": "tolpud1(4)",
-          "start": "2023-06-25 20:45",
-          "end": "2023-06-25 21:00",
-          "type": "other"
         }
       ]
     },
@@ -24463,56 +24715,6 @@
           "start": "2023-06-25 22:30",
           "end": "2023-06-25 23:30",
           "url": "https://www.djfaydz.com/"
-        }
-      ]
-    },
-    {
-      "name": "Tolpuddle Stage",
-      "events": [
-        {
-          "name": "Caravan Of Lost Souls Sideshow ",
-          "short": "carava(1)",
-          "start": "2023-06-22 20:00",
-          "end": "2023-06-22 20:45",
-          "type": "other"
-        },
-        {
-          "name": "Professor Elemental",
-          "short": "profes1(1)",
-          "start": "2023-06-22 21:00",
-          "end": "2023-06-22 21:45"
-        },
-        {
-          "name": "Maxwell Dj",
-          "short": "maxwel(1)",
-          "start": "2023-06-22 22:00",
-          "end": "2023-06-22 23:30"
-        },
-        {
-          "name": "Caravan Of Lost Souls Sideshow ",
-          "short": "carava(2)",
-          "start": "2023-06-23 23:45",
-          "end": "2023-06-24 00:30",
-          "type": "other"
-        },
-        {
-          "name": "Professor Elemental",
-          "short": "profes1(2)",
-          "start": "2023-06-24 00:45",
-          "end": "2023-06-24 01:30"
-        },
-        {
-          "name": "Professor Elemental",
-          "short": "profes1(4)",
-          "start": "2023-06-25 00:45",
-          "end": "2023-06-25 01:30"
-        },
-        {
-          "name": "Caravan Of Lost Souls Sideshow ",
-          "short": "carava(3)",
-          "start": "2023-06-25 01:45",
-          "end": "2023-06-25 02:30",
-          "type": "other"
         }
       ]
     },
@@ -24931,14 +25133,6 @@
           "type": "film"
         },
         {
-          "name": "Oh Jeremy Corbyn - the Big Lie 18",
-          "short": "ohjere1(1)",
-          "start": "2023-06-25 14:45",
-          "end": "2023-06-25 16:35",
-          "url": "https://www.platformfilms.co.uk/",
-          "type": "film"
-        },
-        {
           "name": "The Fence 18",
           "short": "fence1(1)",
           "start": "2023-06-25 16:45",
@@ -24955,6 +25149,136 @@
           "url": "https://www.imdb.com/title/tt0066921/",
           "type": "film",
           "imdb": "https://www.imdb.com/title/tt0066921/"
+        }
+      ]
+    },
+    {
+      "name": "Woods Stage",
+      "events": [
+        {
+          "name": "Dr Andy Pickering With The Splinters",
+          "short": "drandy(1)",
+          "start": "2023-06-21 12:00",
+          "end": "2023-06-21 12:30",
+          "type": "other"
+        },
+        {
+          "name": "Michael Wood And Steve Knightly: Voices Of The Land",
+          "short": "michae3(1)",
+          "start": "2023-06-21 12:45",
+          "end": "2023-06-21 13:15",
+          "type": "other"
+        },
+        {
+          "name": "Billy Bragg",
+          "short": "billyb(1)",
+          "start": "2023-06-21 13:30",
+          "end": "2023-06-21 14:00"
+        },
+        {
+          "name": "Ceremonial Lighting Of The Tolpuddle Fire With The Wisdom Keepers From Mexico",
+          "short": "ceremo(1)",
+          "start": "2023-06-21 15:00",
+          "end": "2023-06-21 15:50"
+        },
+        {
+          "name": "Notting Hill Carnival Workshops",
+          "short": "nottin4(1)",
+          "start": "2023-06-22 10:00",
+          "end": "2023-06-22 12:00",
+          "type": "other"
+        },
+        {
+          "name": "Tolpuddle Fire Circle Fire Lighting",
+          "short": "tolpud1(1)",
+          "start": "2023-06-22 20:45",
+          "end": "2023-06-22 21:00",
+          "type": "other"
+        },
+        {
+          "name": "Xicome Glastonbury: The Call Of Quetzalcoatl ",
+          "short": "xicome2(1)",
+          "start": "2023-06-22 23:45",
+          "end": "2023-06-23 00:35",
+          "type": "other"
+        },
+        {
+          "name": "Tolpuddle Fire Circle Fire Lighting",
+          "short": "tolpud1(2)",
+          "start": "2023-06-23 20:45",
+          "end": "2023-06-23 21:00",
+          "type": "other"
+        },
+        {
+          "name": "Tolpuddle Fire Circle Fire Lighting",
+          "short": "tolpud1(3)",
+          "start": "2023-06-24 20:45",
+          "end": "2023-06-24 21:00",
+          "type": "other"
+        },
+        {
+          "name": "Xicome Glastonbury: The Call Of Quetzalcoatl Ritual Concert Featuring Alyosha Barreiro Electrónica Pre Hispanica",
+          "short": "xicome3(1)",
+          "start": "2023-06-24 23:45",
+          "end": "2023-06-25 00:35",
+          "type": "other"
+        },
+        {
+          "name": "Tolpuddle Fire Circle Fire Lighting",
+          "short": "tolpud1(4)",
+          "start": "2023-06-25 20:45",
+          "end": "2023-06-25 21:00",
+          "type": "other"
+        }
+      ]
+    },
+    {
+      "name": "Tolpuddle Stage",
+      "events": [
+        {
+          "name": "Caravan Of Lost Souls Sideshow ",
+          "short": "carava(1)",
+          "start": "2023-06-22 20:00",
+          "end": "2023-06-22 20:45",
+          "type": "other"
+        },
+        {
+          "name": "Professor Elemental",
+          "short": "profes1(1)",
+          "start": "2023-06-22 21:00",
+          "end": "2023-06-22 21:45"
+        },
+        {
+          "name": "Maxwell Dj",
+          "short": "maxwel(1)",
+          "start": "2023-06-22 22:00",
+          "end": "2023-06-22 23:30"
+        },
+        {
+          "name": "Caravan Of Lost Souls Sideshow ",
+          "short": "carava(2)",
+          "start": "2023-06-23 23:45",
+          "end": "2023-06-24 00:30",
+          "type": "other"
+        },
+        {
+          "name": "Professor Elemental",
+          "short": "profes1(2)",
+          "start": "2023-06-24 00:45",
+          "end": "2023-06-24 01:30"
+        },
+        {
+          "name": "Professor Elemental",
+          "short": "profes1(4)",
+          "start": "2023-06-25 00:45",
+          "end": "2023-06-25 01:30"
+        },
+        {
+          "name": "Caravan Of Lost Souls Sideshow ",
+          "short": "carava(3)",
+          "start": "2023-06-25 01:45",
+          "end": "2023-06-25 02:30",
+          "type": "other"
         }
       ]
     }
