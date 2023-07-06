@@ -5,7 +5,7 @@ import requests
 def get_artist_id(artist_id):
     url = f'https://api.spotify.com/v1/artists/{artist_id}'
     headers = {
-        'Authorization': 'Bearer BQCwaO0ujEe_WodFTs6sG7C3LzAaf0SwNiuQm16_9i_UH6qj_IWv7O2jWOH2p9zOPfzethZfypS9Zb7H3JXEI_zwPbF0Gss6XbmJBF8fkqoGMUqHYdXduOyEO_KA8JYcIGo6tHm-Hr3q1-r44mtR2_c5ga_gAHIi6ycFG83Z4h4tHCm38s82eRY'
+        'Authorization': 'Bearer <<TOKEN>>'
     }
     response = requests.get(url, headers=headers)
     data = response.json()

@@ -36,7 +36,7 @@ export const getImage = (favourite: Favourite): Image => {
 const Itinearry = ({
   itineraryInDays,
   favouriteArtists,
-  artistsLoading,
+  loadingSpotifyData,
 }: any) => {
   return (
     <Card>
@@ -50,8 +50,8 @@ const Itinearry = ({
           {itineraryInDays.map((dailyItinerary: any) => {
             const date = shiftedDay(dailyItinerary[0]?.start);
             return (
-              <>
-                <li key={`DayHeader-${date}`} className="py-3 sm:py-4">
+              <div key={`DayHeader-${date}`}>
+                <li className="py-3 sm:py-4">
                   <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
                     {date?.toFormat("ccc")}
                   </div>
@@ -84,9 +84,10 @@ const Itinearry = ({
                               {/* (e: any) => ( */}
                               <p className="text-sm text-gray-500 dark:text-gray-400">
                                 {event.location}
-                                {" @ "}
-                                {event.start.toFormat("ccc")}{" "}
-                                {event.start.toFormat("h:mma")}
+                              </p>
+                              <p className="text-sm text-gray-500 dark:text-gray-400">
+                                {event.start.format("ccc")}{" "}
+                                {event.start.format("h:mma")}
                               </p>
                               {/* ) */}
                               {/* )} */}
@@ -109,10 +110,10 @@ const Itinearry = ({
                     </li>
                   );
                 })}
-              </>
+              </div>
             );
           })}
-          {/* {!!user && !topArtists.length && !artistsLoading &&  <div id={"connectAccount"} className={'flex flex-col align-center py-10'}>
+          {/* {!!user && !topArtists.length && !loadingSpotifyData &&  <div id={"connectAccount"} className={'flex flex-col align-center py-10'}>
   
 
   <Button color="dark" onClick={fetchAll}>                    
@@ -122,7 +123,7 @@ const Itinearry = ({
       </Button>
 </div>
 } */}
-          {artistsLoading && (
+          {loadingSpotifyData && (
             <div className="flex justify-center py-10">
               <Spinner aria-label="Extra large spinner example" size="xl" />
             </div>
