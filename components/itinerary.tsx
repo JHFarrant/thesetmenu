@@ -86,8 +86,8 @@ const Itinearry = ({
                                 {event.location}
                               </p>
                               <p className="text-sm text-gray-500 dark:text-gray-400">
-                                {event.start.format("ccc")}{" "}
-                                {event.start.format("h:mma")}
+                                {event.start.toFormat("ccc")}{" "}
+                                {event.start.toFormat("h:mma")}
                               </p>
                               {/* ) */}
                               {/* )} */}
