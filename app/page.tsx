@@ -383,7 +383,7 @@ export default function Home() {
       `Your Personal Itinerary:\n${itineraryInDays
         .map(
           (day) =>
-            `${day[0].start.format("ddd")}\n########\n${day
+            `${day[0].start.toFormat("ccc")}\n########\n${day
               .map((e) => `${e.name} | ${e.location} | ${e.start} - ${e.end}`)
               .join("\n")}`
         )
