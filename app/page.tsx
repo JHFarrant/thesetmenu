@@ -10,16 +10,16 @@ import {
   TrackWithAlbum,
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
-import { Favorite, Event } from "@/types";
+import { Favourite, Event } from "@/types";
 import g2023SpotifyIDsJson from "../public/g2023SpotifyIDs.json";
 import g2023 from "../public/g2023.json";
-import moment from "moment";
+import { DateTime } from "luxon";
 
-import { Button, Card, Spinner } from "flowbite-react";
+import { Button, Card, Spinner, ToggleSwitch } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
 import Footer from "../components/footer";
 import Itinerary from "../components/itinerary";
-
+import FlowItinearry from "../components/flowItinerary";
 import { shiftedDay } from "../components/itinerary";
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
@@ -57,6 +57,8 @@ export default function Home() {
 
   // const [sdk, setSDK] = useState<SpotifyApi>()
   const [user, setUser] = useState<any>();
+
+  const [unClashify, setUnClashify] = useState<boolean>(false);
 
   const [artistsLoading, setArtistsLoading] = useState<boolean>(false);
   const [tracksLoading, setTracksLoading] = useState<boolean>(false);
@@ -296,8 +298,8 @@ export default function Home() {
         events.concat(
           location.events.map((e: any) => ({
             ...e,
-            start: moment(e.start),
-            end: moment(e.end),
+            start: DateTime.fromSQL(e.start),
+            end: DateTime.fromSQL(e.end),
             location: location.name,
           }))
         ),
@@ -317,23 +319,23 @@ export default function Home() {
   //   );
   // };
 
-  // const favoriteArtists = removeDupes(
+  // const favouriteArtists = removeDupes(
   //   Object.values(matchedArtists).concat(Object.values(matchedArtistsWithTracks))
   // );
 
-  const favoriteArtists: { [key: string]: Favorite } = {
+  const favouriteArtists: { [key: string]: Favourite } = {
     ...matchedArtistsWithTracks,
     ...matchedArtists,
     ...matchedFollows,
   };
 
-  // favoriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
+  // favouriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
 
   const eventsByTime = extractEventsByTime(g2023);
   // const eventsByArtist = extractEventsByArtist(eventsByTime);
 
   const itinerary = eventsByTime.filter(
-    (e: Event) => e.name in favoriteArtists
+    (e: Event) => e.name in favouriteArtists
   );
 
   const itineraryInDays = itinerary.reduce(
@@ -342,7 +344,7 @@ export default function Home() {
         (daily.length && daily.length && daily[daily.length - 1]) || [];
       if (
         mostRecentDay.length &&
-        shiftedDay(mostRecentDay[mostRecentDay.length - 1].start).isSame(
+        shiftedDay(mostRecentDay[mostRecentDay.length - 1].start).equals(
           shiftedDay(e.start)
         )
       ) {
@@ -381,7 +383,7 @@ export default function Home() {
       `Your Personal Itinerary:\n${itineraryInDays
         .map(
           (day) =>
-            `${day[0].start.format("ddd")}\n########\n${day
+            `${day[0].start.toFormat("ccc")}\n########\n${day
               .map((e) => `${e.name} | ${e.location} | ${e.start} - ${e.end}`)
               .join("\n")}`
         )
@@ -393,8 +395,8 @@ export default function Home() {
       {
         name: "Flowdan Live",
         short: "flowda(1)",
-        start: moment("2023-06-22T21:00:00.000Z"),
-        end: moment("2023-06-22T21:15:00.000Z"),
+        start: DateTime.fromISO("2023-06-22T21:00:00.000Z"),
+        end: DateTime.fromISO("2023-06-22T21:15:00.000Z"),
         mbId: "58998667-6dba-4436-a94c-b3ca20cd4234",
         url: "http://flowdan(@big_flowdan)|instagram",
         location: "Nowhere",
@@ -404,24 +406,24 @@ export default function Home() {
       {
         name: "Ben Howard",
         short: "benhow(1)",
-        start: moment("2023-06-23T10:30:00.000Z"),
-        end: moment("2023-06-23T11:30:00.000Z"),
+        start: DateTime.fromISO("2023-06-23T10:30:00.000Z"),
+        end: DateTime.fromISO("2023-06-23T11:30:00.000Z"),
         url: "https://www.benhowardmusic.co.uk/",
         location: "Other Stage",
       },
       {
         name: "Jamie Webster",
         short: "jamiew(1)",
-        start: moment("2023-06-23T14:35:00.000Z"),
-        end: moment("2023-06-23T15:35:00.000Z"),
+        start: DateTime.fromISO("2023-06-23T14:35:00.000Z"),
+        end: DateTime.fromISO("2023-06-23T15:35:00.000Z"),
         url: "https://www.jamiewebstermusic.com",
         location: "Avalon Stage",
       },
       {
         name: "Texas",
         short: "texas(1)",
-        start: moment("2023-06-23T15:15:00.000Z"),
-        end: moment("2023-06-23T16:15:00.000Z"),
+        start: DateTime.fromISO("2023-06-23T15:15:00.000Z"),
+        end: DateTime.fromISO("2023-06-23T16:15:00.000Z"),
         url: "https://www.texas.uk.com/",
         location: "Pyramid Stage",
       },
@@ -2534,8 +2536,12 @@ export default function Home() {
     },
   };
 
+  useEffect(() => {
+    unClashify && window.resizeTo(800, window.innerHeight);
+  }, [unClashify]);
   // console.log(JSON.stringify(itineraryInDays, null, 3));
   // console.log(`loadingSpotifyData=${loadingSpotifyData}`);
+
 
   useEffect(() => {
     // console.log(`spotifyKeys=${spotifyKeys}`);
@@ -2571,8 +2577,12 @@ export default function Home() {
     initSpotify();
   }, []);
 
+  const style = false ? { minWidth: "800px" } : {};
   return intialLoadDone ? (
-    <main className="flex min-h-screen w-full flex-col items-center justify-start">
+    <main
+      className="flex min-h-screen w-full flex-col items-center justify-start"
+      style={style}
+    >
       <div className="self-end pr-2 pt-2 h-6">
         {user && (
           <a
@@ -2584,7 +2594,7 @@ export default function Home() {
           </a>
         )}
       </div>
-      <div className={"flex flex-col px-5 py-5 flex-grow"}>
+      <div className={"flex flex-col px-5 py-5 flex-grow w-full"}>
         <div
           id={"header"}
           className="relative flex place-items-center flex-col mb-5"
@@ -2650,12 +2660,34 @@ export default function Home() {
               </h2>
             </div>
           )}
-
           {user && (
+            <>
+              <div className="flex items-center justify-center">
+                <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
+                  {"Your Glasto Set Menu 🔥"}
+                </h5>
+              </div>
+              <div className={"py-5"}>
+                <ToggleSwitch
+                  checked={unClashify}
+                  label="Un-clashify"
+                  onChange={() => setUnClashify(!unClashify)}
+                />
+              </div>
+            </>
+          )}
+          {user && !unClashify && (
             <Itinerary
               itineraryInDays={itineraryInDays}
-              favoriteArtists={favoriteArtists}
+              favouriteArtists={favouriteArtists}
               loadingSpotifyData={loadingSpotifyData}
+            />
+          )}
+          {user && unClashify && (
+            <FlowItinearry
+              itineraryInDays={itineraryInDays}
+              favouriteArtists={favouriteArtists}
+              artistsLoading={loadingSpotifyData}
             />
           )}
           {!user && (
@@ -2667,7 +2699,7 @@ export default function Home() {
               </h2>
               <Itinerary
                 itineraryInDays={dummyItinearryInDays}
-                favoriteArtists={dummyFavouriteArtists}
+                favouriteArtists={dummyFavouriteArtists}
                 loadingSpotifyData={false}
               />
             </div>
