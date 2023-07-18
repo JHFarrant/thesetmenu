@@ -1,6 +1,8 @@
 "use client";
 
-import { Card, Spinner } from "flowbite-react";
+import { Card, Spinner, Badge, ToggleSwitch, Tooltip } from "flowbite-react";
+import { HiThumbUp } from "react-icons/hi";
+
 import {
   Page,
   Artist,
@@ -9,6 +11,7 @@ import {
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 
 import { Favorite } from "@/types";
+import RecommendationsEndpoints from "@spotify/web-api-ts-sdk/dist/mjs/endpoints/RecommendationsEndpoints";
 
 const TIME_SHIFT = 6; // hours
 
@@ -36,14 +39,23 @@ const Itinearry = ({
   itineraryInDays,
   favoriteArtists,
   loadingSpotifyData,
+  recommendationsEnabled,
+  setRecommendationsEnabled,
 }: any) => {
   return (
     <Card>
       <div className="flex items-center justify-center">
         <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
-          {"Your Glasto Set Menu 🔥"}
+          {"Your SGP Set Menu 🔥"}
         </h5>
       </div>
+      { !!setRecommendationsEnabled &&
+      <ToggleSwitch
+        checked={recommendationsEnabled}
+        label="Recommend me artists similar to the ones I listen to"
+        onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
+      />
+      }
       <div className="flow-root">
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {itineraryInDays.map((dailyItinerary: any) => {
@@ -92,7 +104,18 @@ const Itinearry = ({
                               {/* )} */}
                             </div>
                           </div>
-                          <div className="flex w-full justify-end">
+                          <div className="flex w-full justify-end space-x-2">
+                            {favourite.relatedArtistName && (
+                              <div>
+                                <Tooltip
+                                  content={`Recommended because you listen to ${favourite.relatedArtistName}`}
+                                >
+                                  <Badge icon={HiThumbUp} color="info">
+                                    {"Recommended"}
+                                  </Badge>
+                                </Tooltip>
+                              </div>
+                            )}
                             <a href={favourite.artist.external_urls.spotify}>
                               <img
                                 alt={favourite.artist.name}
@@ -132,7 +155,7 @@ const Itinearry = ({
               <div className="flex items-center space-x-4">
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
-                    {"None of your top artists are playing at Glastonbury 😭"}
+                    {"None of your top artists are playing at SGP 😭"}
                   </p>
                 </div>
               </div>
