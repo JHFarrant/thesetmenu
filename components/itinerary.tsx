@@ -49,13 +49,13 @@ const Itinearry = ({
           {"Your SGP Set Menu 🔥"}
         </h5>
       </div>
-      { !!setRecommendationsEnabled &&
-      <ToggleSwitch
-        checked={recommendationsEnabled}
-        label="Recommend me artists similar to the ones I listen to"
-        onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
-      />
-      }
+      {!!setRecommendationsEnabled && (
+        <ToggleSwitch
+          checked={recommendationsEnabled}
+          label="Recommend me artists similar to the ones I listen to"
+          onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
+        />
+      )}
       <div className="flow-root">
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {itineraryInDays.map((dailyItinerary: any) => {
