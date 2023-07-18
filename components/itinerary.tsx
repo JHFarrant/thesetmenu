@@ -50,11 +50,13 @@ const Itinearry = ({
         </h5>
       </div>
       {!!setRecommendationsEnabled && (
-        <ToggleSwitch
-          checked={recommendationsEnabled}
-          label="Recommend me artists similar to the ones I listen to"
-          onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
-        />
+        <div className="min-w-150">
+          <ToggleSwitch
+            checked={recommendationsEnabled}
+            label="Suggest similar artists"
+            onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
+          />
+        </div>
       )}
       <div className="flow-root">
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
