@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, Spinner, Badge, ToggleSwitch, Tooltip } from "flowbite-react";
-import { HiThumbUp } from "react-icons/hi";
+import { HiInformationCircle } from "react-icons/hi";
 
 import {
   Page,
@@ -112,8 +112,8 @@ const Itinearry = ({
                                 <Tooltip
                                   content={`Recommended because you listen to ${favourite.relatedArtistName}`}
                                 >
-                                  <Badge icon={HiThumbUp} color="info">
-                                    {"Recommended"}
+                                  <Badge icon={HiInformationCircle} color="info">
+                                    {"Why?"}
                                   </Badge>
                                 </Tooltip>
                               </div>
