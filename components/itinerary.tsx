@@ -112,7 +112,10 @@ const Itinearry = ({
                                 <Tooltip
                                   content={`Recommended because you listen to ${favourite.relatedArtistName}`}
                                 >
-                                  <Badge icon={HiInformationCircle} color="info">
+                                  <Badge
+                                    icon={HiInformationCircle}
+                                    color="info"
+                                  >
                                     {"Why?"}
                                   </Badge>
                                 </Tooltip>

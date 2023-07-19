@@ -1,4 +1,5 @@
 # thesetmenu.co.uk
+
 > Use your Spotify history to discover your Glasto 23 Set Menu
 
 <img src="https://github.com/JHFarrant/thesetmenu/assets/3439407/bf4cd0a1-8c0c-4e9a-a397-0ba1a2e59567" width="200px">
@@ -12,7 +13,7 @@
 3. The list of Spotify artist ids is compared against a list of artists performing at Glastonbury
 4. The matched artist's performances are listed in chronological order
 
-*Try it out [here](https://thesetmenu.co.uk)*
+_Try it out [here](https://thesetmenu.co.uk)_
 
 > All the above steps are performed in your browser, your spotify history does not leave your browser
 
