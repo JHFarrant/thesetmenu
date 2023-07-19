@@ -11,8 +11,8 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 import { Favorite, Event } from "@/types";
-import g2023SpotifyIDsJson from "../public/g2023SpotifyIDs.json";
-import g2023 from "../public/g2023.json";
+import spotifyIDsJson from "../public/sgpRelatedSpotifyIDs.json";
+import g2023 from "../public/sgp2023.json";
 import moment from "moment";
 
 import { Button, Card, Spinner } from "flowbite-react";
@@ -70,6 +70,9 @@ export default function Home() {
   const [follows, setFollows] = useState<Artist[]>([]);
 
   const [topTracks, setTopTracks] = useState<TrackWithAlbum[]>([]);
+
+  const [recommendationsEnabled, setRecommendationsEnabled] =
+    useState<boolean>(false);
 
   const share = () => {
     if (navigator.share) {
@@ -247,45 +250,75 @@ export default function Home() {
     setFollows([]);
     fetchFollows().catch(console.error);
   };
-  const g2023SpotifyIDs: any = g2023SpotifyIDsJson;
-  const glastoIDs: any = Object.keys(g2023SpotifyIDs);
-  // console.log(JSON.stringify(glastoIDs, null, 3));
+  const spotifyIDs2ActsIncludingRecommendations: any = spotifyIDsJson;
+  const spotifyIDs2ActsWithoutRecommendations: any = Object.entries(
+    spotifyIDsJson
+  ).reduce(
+    (filteredSpotifyIds: any, [id, value]: [string, any]) => ({
+      ...filteredSpotifyIds,
+      ...(value.related_artist_name === null ? { [id]: value } : {}),
+    }),
+    {}
+  );
+
+  // const spotifyIDsIncludingRecommendations: any = Object.keys(spotifyIDs2ActsIncludingRecommendations);
+  const spotifyIDsWithoutRecommendations: any = Object.keys(
+    spotifyIDs2ActsWithoutRecommendations
+  );
+
+  const spotifyIDs2Acts = recommendationsEnabled
+    ? spotifyIDs2ActsIncludingRecommendations
+    : spotifyIDs2ActsWithoutRecommendations;
+  const spotifyIDs = Object.keys(spotifyIDs2Acts);
+
+  // console.log(JSON.stringify(spotifyIDs, null, 3));
   const matchedArtists = topArtists
-    .filter((a) => glastoIDs.includes(a.id))
-    .reduce(
-      (artists, a) => ({
+    .filter((a) => spotifyIDs.includes(a.id))
+    .reduce((artists, a) => {
+      const matchedArtist = spotifyIDs2Acts[a.id];
+      return {
         ...artists,
-        [g2023SpotifyIDs[a.id]]: { artist: a, setName: g2023SpotifyIDs[a.id] },
-      }),
-      {}
-    );
+        [matchedArtist.act_name]: {
+          artist: matchedArtist.related_artist_name
+            ? matchedArtist.act_artist_data
+            : a,
+          setName: matchedArtist.act_name,
+          relatedArtistName: matchedArtist.related_artist_name,
+        },
+      };
+    }, {});
 
   const matchedFollows = follows
-    .filter((a) => glastoIDs.includes(a.id))
-    .reduce(
-      (artists, a) => ({
+    .filter((a) => spotifyIDs.includes(a.id))
+    .reduce((artists, a) => {
+      const matchedArtist = spotifyIDs2Acts[a.id];
+      return {
         ...artists,
-        [g2023SpotifyIDs[a.id]]: { artist: a, setName: g2023SpotifyIDs[a.id] },
-      }),
-      {}
-    );
+        [matchedArtist.act_name]: {
+          artist: a,
+          setName: matchedArtist.act_name,
+          relatedArtistName: matchedArtist.related_artist_name,
+        },
+      };
+    }, {});
 
   const matchedArtistsWithTracks = topTracks.reduce(
     (artists, t) => ({
       ...artists,
       ...t.artists
-        .filter((a) => glastoIDs.includes(a.id))
-        .reduce(
-          (trackArtists, a) => ({
+        .filter((a) => spotifyIDsWithoutRecommendations.includes(a.id))
+        .reduce((trackArtists, a) => {
+          const matchedArtist = spotifyIDs2Acts[a.id];
+          return {
             ...trackArtists,
-            [g2023SpotifyIDs[a.id]]: {
+            [matchedArtist.act_name]: {
               track: t,
               artist: a,
-              setName: g2023SpotifyIDs[a.id],
+              setName: matchedArtist.act_name,
+              relatedArtistName: null,
             },
-          }),
-          {}
-        ),
+          };
+        }, {}),
     }),
     {}
   );
@@ -2605,7 +2638,7 @@ export default function Home() {
                 {"Use your Spotify history to discover your"}
               </h5>
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
-                {"Glasto 23 Set Menu"}
+                {"SGP 23 Set Menu"}
               </h5>
             </div>
           )}
@@ -2656,6 +2689,8 @@ export default function Home() {
               itineraryInDays={itineraryInDays}
               favoriteArtists={favoriteArtists}
               loadingSpotifyData={loadingSpotifyData}
+              recommendationsEnabled={recommendationsEnabled}
+              setRecommendationsEnabled={setRecommendationsEnabled}
             />
           )}
           {!user && (

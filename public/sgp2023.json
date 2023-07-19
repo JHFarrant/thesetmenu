@@ -1,0 +1,2288 @@
+{
+  "copyright": "Licensed under a Creative Commons Attribution-NonCommercial 3.0 License http://creativecommons.org/licenses/by-nc/3.0/. Free for non-commercial use. Contact halvin@clashfinder.com for other uses.",
+  "modified": "2023-07-17 16:54",
+  "name": "Secret Garden Party 2023",
+  "id": "sgp2023",
+  "url": "https://clashfinder.com/s/sgp2023/",
+  "printAdvisory": 2,
+  "timezone": "Europe/London",
+  "tzOffset": 3600,
+  "tzNote": "Start and end times are given in the timezone of the event. Offset by -tzOffset for UTC.",
+  "locations": [
+    {
+      "name": "The Great Stage",
+      "events": [
+        {
+          "name": "The Head Gardener DJ Set",
+          "short": "headga(1)",
+          "start": "2023-07-21 11:30",
+          "end": "2023-07-21 13:45"
+        },
+        {
+          "name": "Swim School",
+          "short": "swimsc(1)",
+          "start": "2023-07-21 14:00",
+          "end": "2023-07-21 14:45"
+        },
+        {
+          "name": "Baby Queen",
+          "short": "babyqu(1)",
+          "start": "2023-07-21 15:15",
+          "end": "2023-07-21 16:00"
+        },
+        {
+          "name": "Lava La Rue",
+          "short": "lavaru(1)",
+          "start": "2023-07-21 16:30",
+          "end": "2023-07-21 17:30"
+        },
+        {
+          "name": "Warmduscher",
+          "short": "warmdu(1)",
+          "start": "2023-07-21 18:00",
+          "end": "2023-07-21 19:00"
+        },
+        {
+          "name": "Peaches",
+          "short": "peache(1)",
+          "start": "2023-07-21 19:30",
+          "end": "2023-07-21 20:30"
+        },
+        {
+          "name": "2MANYDJS",
+          "short": "2manyd(1)",
+          "start": "2023-07-21 21:00",
+          "end": "2023-07-21 22:00"
+        },
+        {
+          "name": "The Libertines",
+          "short": "libert(1)",
+          "start": "2023-07-21 22:30",
+          "end": "2023-07-21 23:30"
+        },
+        {
+          "name": "The Head Gardener DJ Set",
+          "short": "headga(2)",
+          "start": "2023-07-22 11:00",
+          "end": "2023-07-22 12:30"
+        },
+        {
+          "name": "Massaoke",
+          "short": "massao(1)",
+          "start": "2023-07-22 12:45",
+          "end": "2023-07-22 13:45"
+        },
+        {
+          "name": "Hollie Cook",
+          "short": "hollie(1)",
+          "start": "2023-07-22 14:15",
+          "end": "2023-07-22 15:15"
+        },
+        {
+          "name": "Everyone You Know",
+          "short": "everyo(1)",
+          "start": "2023-07-22 15:45",
+          "end": "2023-07-22 16:45"
+        },
+        {
+          "name": "Biig Piig",
+          "short": "biigpi(1)",
+          "start": "2023-07-22 17:15",
+          "end": "2023-07-22 18:15"
+        },
+        {
+          "name": "Fabio & Grooverider and the Outlook Orchestra",
+          "short": "fabiog(1)",
+          "start": "2023-07-22 19:00",
+          "end": "2023-07-22 20:00"
+        },
+        {
+          "name": "Leftfield",
+          "short": "leftfi(1)",
+          "start": "2023-07-22 20:35",
+          "end": "2023-07-22 21:50"
+        },
+        {
+          "name": "The Saturday Spectacle",
+          "short": "saturd(1)",
+          "start": "2023-07-22 22:00",
+          "end": "2023-07-22 22:30"
+        },
+        {
+          "name": "Underworld",
+          "short": "underw(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-22 23:30"
+        },
+        {
+          "name": "The Head Gardener DJ Set",
+          "short": "headga(3)",
+          "start": "2023-07-23 11:00",
+          "end": "2023-07-23 13:00"
+        },
+        {
+          "name": "Brighton Gay Men's Chorus",
+          "short": "bright(1)",
+          "start": "2023-07-23 13:00",
+          "end": "2023-07-23 13:45"
+        },
+        {
+          "name": "The Aces Ft Delroy Williams",
+          "short": "acesft(1)",
+          "start": "2023-07-23 14:15",
+          "end": "2023-07-23 15:00"
+        },
+        {
+          "name": "The Paint Fight",
+          "short": "paintf(1)",
+          "start": "2023-07-23 15:00",
+          "end": "2023-07-23 15:30"
+        },
+        {
+          "name": "David Rodigan",
+          "short": "davidr(1)",
+          "start": "2023-07-23 15:30",
+          "end": "2023-07-23 16:30"
+        },
+        {
+          "name": "Grandmaster Flash",
+          "short": "grandm(1)",
+          "start": "2023-07-23 17:00",
+          "end": "2023-07-23 18:00"
+        },
+        {
+          "name": "Róisín Murphy",
+          "short": "risnmu(1)",
+          "start": "2023-07-23 18:30",
+          "end": "2023-07-23 19:30"
+        },
+        {
+          "name": "De La Soul",
+          "short": "desoul(1)",
+          "start": "2023-07-23 20:00",
+          "end": "2023-07-23 21:00"
+        },
+        {
+          "name": "Fat Freddy's Drop",
+          "short": "fatfre(1)",
+          "start": "2023-07-23 21:30",
+          "end": "2023-07-23 22:30"
+        }
+      ]
+    },
+    {
+      "name": "Where The Wild Things Are",
+      "events": [
+        {
+          "name": "Morganway",
+          "short": "morgan(1)",
+          "start": "2023-07-20 16:30",
+          "end": "2023-07-20 17:15"
+        },
+        {
+          "name": "Lime Garden",
+          "short": "limega(1)",
+          "start": "2023-07-20 17:45",
+          "end": "2023-07-20 18:30"
+        },
+        {
+          "name": "Albertine Sarges",
+          "short": "albert(1)",
+          "start": "2023-07-20 19:00",
+          "end": "2023-07-20 20:00"
+        },
+        {
+          "name": "Girli",
+          "short": "girli(1)",
+          "start": "2023-07-20 20:30",
+          "end": "2023-07-20 21:15"
+        },
+        {
+          "name": "Scalping",
+          "short": "scalpi(1)",
+          "start": "2023-07-20 21:45",
+          "end": "2023-07-20 22:45"
+        },
+        {
+          "name": "Ruby J",
+          "short": "rubyj(1)",
+          "start": "2023-07-21 11:30",
+          "end": "2023-07-21 12:15"
+        },
+        {
+          "name": "Romain Axisa",
+          "short": "romain(1)",
+          "start": "2023-07-21 12:45",
+          "end": "2023-07-21 13:30"
+        },
+        {
+          "name": "Brokenpen",
+          "short": "broken(1)",
+          "start": "2023-07-21 14:00",
+          "end": "2023-07-21 14:45"
+        },
+        {
+          "name": "Dream Wife",
+          "short": "dreamw(1)",
+          "start": "2023-07-21 15:15",
+          "end": "2023-07-21 16:00"
+        },
+        {
+          "name": "7ebra",
+          "short": "7ebra(1)",
+          "start": "2023-07-21 16:30",
+          "end": "2023-07-21 17:15"
+        },
+        {
+          "name": "Murkage Dave",
+          "short": "murkag(1)",
+          "start": "2023-07-21 17:45",
+          "end": "2023-07-21 18:30"
+        },
+        {
+          "name": "Ttrruuces",
+          "short": "ttrruu(1)",
+          "start": "2023-07-21 19:00",
+          "end": "2023-07-21 19:45"
+        },
+        {
+          "name": "VC Pines",
+          "short": "vcpine(1)",
+          "start": "2023-07-21 20:15",
+          "end": "2023-07-21 21:15"
+        },
+        {
+          "name": "Gengahr",
+          "short": "gengah(1)",
+          "start": "2023-07-21 21:45",
+          "end": "2023-07-21 22:45"
+        },
+        {
+          "name": "My Baby",
+          "short": "mybaby(1)",
+          "start": "2023-07-21 23:15",
+          "end": "2023-07-22 00:15"
+        },
+        {
+          "name": "Kneecap",
+          "short": "kneeca(1)",
+          "start": "2023-07-22 00:45",
+          "end": "2023-07-22 01:45"
+        },
+        {
+          "name": "Fiona-Lee",
+          "short": "fional(1)",
+          "start": "2023-07-22 11:00",
+          "end": "2023-07-22 11:45"
+        },
+        {
+          "name": "Terra Kin",
+          "short": "terrak(1)",
+          "start": "2023-07-22 12:15",
+          "end": "2023-07-22 13:00"
+        },
+        {
+          "name": "Cameron Hayes",
+          "short": "camero(1)",
+          "start": "2023-07-22 13:30",
+          "end": "2023-07-22 14:15"
+        },
+        {
+          "name": "Ruth Lyon",
+          "short": "ruthly(1)",
+          "start": "2023-07-22 14:45",
+          "end": "2023-07-22 15:30"
+        },
+        {
+          "name": "Chinchilla",
+          "short": "chinch(1)",
+          "start": "2023-07-22 16:00",
+          "end": "2023-07-22 16:45"
+        },
+        {
+          "name": "Iraina Mancini",
+          "short": "iraina(1)",
+          "start": "2023-07-22 17:15",
+          "end": "2023-07-22 18:00"
+        },
+        {
+          "name": "Jo Hill",
+          "short": "johill(1)",
+          "start": "2023-07-22 18:30",
+          "end": "2023-07-22 19:15"
+        },
+        {
+          "name": "Le Boom",
+          "short": "boom(1)",
+          "start": "2023-07-22 19:45",
+          "end": "2023-07-22 20:30"
+        },
+        {
+          "name": "Michael Aldag",
+          "short": "michae(1)",
+          "start": "2023-07-22 21:00",
+          "end": "2023-07-22 21:45"
+        },
+        {
+          "name": "The Saturday Spectacle",
+          "short": "saturd(2)",
+          "start": "2023-07-22 22:00",
+          "end": "2023-07-22 22:30"
+        },
+        {
+          "name": "Charlotte Plank",
+          "short": "charlo(1)",
+          "start": "2023-07-22 22:45",
+          "end": "2023-07-22 23:30"
+        },
+        {
+          "name": "Desire",
+          "short": "desire(1)",
+          "start": "2023-07-23 00:00",
+          "end": "2023-07-23 01:00"
+        },
+        {
+          "name": "The Big Pink",
+          "short": "bigpin(1)",
+          "start": "2023-07-23 01:30",
+          "end": "2023-07-23 02:30"
+        },
+        {
+          "name": "Ber",
+          "short": "ber(1)",
+          "start": "2023-07-23 12:00",
+          "end": "2023-07-23 12:30"
+        },
+        {
+          "name": "Eaves Wilder",
+          "short": "eavesw(1)",
+          "start": "2023-07-23 12:50",
+          "end": "2023-07-23 13:30"
+        },
+        {
+          "name": "Samantics",
+          "short": "samant(1)",
+          "start": "2023-07-23 14:00",
+          "end": "2023-07-23 14:45"
+        },
+        {
+          "name": "Beans On Toast",
+          "short": "beanso(1)",
+          "start": "2023-07-23 15:15",
+          "end": "2023-07-23 16:00"
+        },
+        {
+          "name": "Kids",
+          "short": "kids(1)",
+          "start": "2023-07-23 16:30",
+          "end": "2023-07-23 17:15"
+        },
+        {
+          "name": "Gemma Rogers",
+          "short": "gemmar(1)",
+          "start": "2023-07-23 17:45",
+          "end": "2023-07-23 18:30"
+        },
+        {
+          "name": "Casey Lowry",
+          "short": "caseyl(1)",
+          "start": "2023-07-23 19:00",
+          "end": "2023-07-23 19:45"
+        },
+        {
+          "name": "Honeyfeet",
+          "short": "honeyf(1)",
+          "start": "2023-07-23 20:15",
+          "end": "2023-07-23 21:15"
+        },
+        {
+          "name": "Oh My God! It's The Church",
+          "short": "ohmygo(1)",
+          "start": "2023-07-23 21:45",
+          "end": "2023-07-23 22:45"
+        }
+      ]
+    },
+    {
+      "name": "He.She.They. Present Circus Maximus",
+      "events": [
+        {
+          "name": "Ryussi",
+          "short": "ryussi(1)",
+          "start": "2023-07-20 14:00",
+          "end": "2023-07-20 16:00"
+        },
+        {
+          "name": "Lili Chan",
+          "short": "lilich(1)",
+          "start": "2023-07-20 16:00",
+          "end": "2023-07-20 18:00"
+        },
+        {
+          "name": "Blueprint",
+          "short": "bluepr(1)",
+          "start": "2023-07-20 18:00",
+          "end": "2023-07-20 20:00"
+        },
+        {
+          "name": "Syreeta",
+          "short": "syreet(1)",
+          "start": "2023-07-20 20:00",
+          "end": "2023-07-20 22:00"
+        },
+        {
+          "name": "Cinthie B2B Anna Wall",
+          "short": "cinthi(1)",
+          "start": "2023-07-20 22:00",
+          "end": "2023-07-21 00:00"
+        },
+        {
+          "name": "Games Run by Village Hall / Spiritual Playground",
+          "short": "gamesr(1)",
+          "start": "2023-07-21 10:00",
+          "end": "2023-07-21 15:00"
+        },
+        {
+          "name": "Emily Nash B2B Deekay",
+          "short": "emilyn(1)",
+          "start": "2023-07-21 15:00",
+          "end": "2023-07-21 16:30"
+        },
+        {
+          "name": "Nathan X",
+          "short": "nathan(1)",
+          "start": "2023-07-21 16:30",
+          "end": "2023-07-21 18:00"
+        },
+        {
+          "name": "Charlie Tee Ft Savvy B",
+          "short": "charli(1)",
+          "start": "2023-07-21 18:00",
+          "end": "2023-07-21 20:00"
+        },
+        {
+          "name": "Jamz Supernova",
+          "short": "jamzsu(1)",
+          "start": "2023-07-21 20:00",
+          "end": "2023-07-21 22:00"
+        },
+        {
+          "name": "Mella Dee",
+          "short": "mellad(1)",
+          "start": "2023-07-21 22:00",
+          "end": "2023-07-22 00:00"
+        },
+        {
+          "name": "Fabio & Grooverider Feat. MC Rage",
+          "short": "fabiog1(1)",
+          "start": "2023-07-22 00:00",
+          "end": "2023-07-22 02:00"
+        },
+        {
+          "name": "Chloe Robinson B2B DJ ADHD (DnB set w/PAV4N (Foreign Beggars) MC",
+          "short": "chloer1(1)",
+          "start": "2023-07-22 02:00",
+          "end": "2023-07-22 04:00"
+        },
+        {
+          "name": "AMA",
+          "short": "ama(1)",
+          "start": "2023-07-22 04:00",
+          "end": "2023-07-22 06:00"
+        },
+        {
+          "name": "Confetti",
+          "short": "confet(1)",
+          "start": "2023-07-22 10:00",
+          "end": "2023-07-22 16:00"
+        },
+        {
+          "name": "Heidi B2B Sandra Spitz",
+          "short": "heidib(1)",
+          "start": "2023-07-22 16:00",
+          "end": "2023-07-22 18:00"
+        },
+        {
+          "name": "Horse Meat Disco",
+          "short": "horsem(1)",
+          "start": "2023-07-22 18:00",
+          "end": "2023-07-22 20:30"
+        },
+        {
+          "name": "Faithless (DJ)",
+          "short": "faithl(1)",
+          "start": "2023-07-22 20:30",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Maze & Masters",
+          "short": "mazema(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-23 00:00"
+        },
+        {
+          "name": "DJ Paulette",
+          "short": "djpaul(1)",
+          "start": "2023-07-23 00:00",
+          "end": "2023-07-23 01:30"
+        },
+        {
+          "name": "CC:Disco!",
+          "short": "ccdisc(1)",
+          "start": "2023-07-23 01:30",
+          "end": "2023-07-23 03:00"
+        },
+        {
+          "name": "Dana Montana",
+          "short": "danamo(1)",
+          "start": "2023-07-23 03:00",
+          "end": "2023-07-23 04:30"
+        },
+        {
+          "name": "Sarah Story",
+          "short": "sarahs(1)",
+          "start": "2023-07-23 04:30",
+          "end": "2023-07-23 06:00"
+        },
+        {
+          "name": "Games Run by Village Hall / Spiritual Playground",
+          "short": "gamesr(2)",
+          "start": "2023-07-23 10:00",
+          "end": "2023-07-23 15:00"
+        },
+        {
+          "name": "Suchi",
+          "short": "suchi(1)",
+          "start": "2023-07-23 15:00",
+          "end": "2023-07-23 16:00"
+        },
+        {
+          "name": "Elkka",
+          "short": "elkka(1)",
+          "start": "2023-07-23 16:00",
+          "end": "2023-07-23 18:00"
+        },
+        {
+          "name": "Tygapaw",
+          "short": "tygapa(1)",
+          "start": "2023-07-23 18:00",
+          "end": "2023-07-23 19:30"
+        },
+        {
+          "name": "I.Jordan",
+          "short": "ijorda(1)",
+          "start": "2023-07-23 19:30",
+          "end": "2023-07-23 21:00"
+        },
+        {
+          "name": "Sherelle",
+          "short": "sherel(1)",
+          "start": "2023-07-23 21:00",
+          "end": "2023-07-23 23:00"
+        }
+      ]
+    },
+    {
+      "name": "Pagoda",
+      "events": [
+        {
+          "name": "Cardinal Sound",
+          "short": "cardin(1)",
+          "start": "2023-07-20 17:00",
+          "end": "2023-07-20 18:00"
+        },
+        {
+          "name": "Kimbros",
+          "short": "kimbro(1)",
+          "start": "2023-07-20 18:00",
+          "end": "2023-07-20 19:30"
+        },
+        {
+          "name": "Hutch",
+          "short": "hutch(1)",
+          "start": "2023-07-20 19:30",
+          "end": "2023-07-20 20:30"
+        },
+        {
+          "name": "Joshua James",
+          "short": "joshua(1)",
+          "start": "2023-07-20 20:30",
+          "end": "2023-07-20 21:30"
+        },
+        {
+          "name": "Secret Guest",
+          "short": "secret1(1)",
+          "start": "2023-07-20 21:30",
+          "end": "2023-07-20 23:00"
+        },
+        {
+          "name": "U-Bend",
+          "short": "ubend(1)",
+          "start": "2023-07-21 11:00",
+          "end": "2023-07-21 12:00"
+        },
+        {
+          "name": "Sendama",
+          "short": "sendam(1)",
+          "start": "2023-07-21 12:00",
+          "end": "2023-07-21 13:00"
+        },
+        {
+          "name": "Sandra Spitz B2B Michelle Manetti",
+          "short": "sandra(1)",
+          "start": "2023-07-21 13:00",
+          "end": "2023-07-21 14:00"
+        },
+        {
+          "name": "Raw Silk",
+          "short": "rawsil(1)",
+          "start": "2023-07-21 14:00",
+          "end": "2023-07-21 15:00"
+        },
+        {
+          "name": "Sophie Lloyd",
+          "short": "sophie(1)",
+          "start": "2023-07-21 15:00",
+          "end": "2023-07-21 16:30"
+        },
+        {
+          "name": "Jansons",
+          "short": "janson(1)",
+          "start": "2023-07-21 16:30",
+          "end": "2023-07-21 18:00"
+        },
+        {
+          "name": "Waze",
+          "short": "waze(1)",
+          "start": "2023-07-21 18:00",
+          "end": "2023-07-21 19:30"
+        },
+        {
+          "name": "Melvo Baptiste",
+          "short": "melvob(1)",
+          "start": "2023-07-21 19:30",
+          "end": "2023-07-21 21:00"
+        },
+        {
+          "name": "Alan Dixon",
+          "short": "alandi(1)",
+          "start": "2023-07-21 21:00",
+          "end": "2023-07-21 22:30"
+        },
+        {
+          "name": "Jasper Tygner",
+          "short": "jasper(1)",
+          "start": "2023-07-21 22:30",
+          "end": "2023-07-21 23:30"
+        },
+        {
+          "name": "Emerald",
+          "short": "emeral(2)",
+          "start": "2023-07-21 23:30",
+          "end": "2023-07-22 00:30"
+        },
+        {
+          "name": "Meg Ward",
+          "short": "megwar(1)",
+          "start": "2023-07-22 00:30",
+          "end": "2023-07-22 01:45"
+        },
+        {
+          "name": "Matrefakt",
+          "short": "matref(1)",
+          "start": "2023-07-22 01:45",
+          "end": "2023-07-22 03:00"
+        },
+        {
+          "name": "Jess Iszatt",
+          "short": "jessis(1)",
+          "start": "2023-07-22 11:00",
+          "end": "2023-07-22 12:00"
+        },
+        {
+          "name": "The Head Gardener",
+          "short": "headga1(1)",
+          "start": "2023-07-22 12:00",
+          "end": "2023-07-22 15:00"
+        },
+        {
+          "name": "Waze B2B Jay Karim",
+          "short": "wazeb2(1)",
+          "start": "2023-07-22 15:00",
+          "end": "2023-07-22 16:15"
+        },
+        {
+          "name": "Ceri",
+          "short": "ceri(1)",
+          "start": "2023-07-22 16:15",
+          "end": "2023-07-22 17:30"
+        },
+        {
+          "name": "Kitty Amor",
+          "short": "kittya(1)",
+          "start": "2023-07-22 17:30",
+          "end": "2023-07-22 19:00"
+        },
+        {
+          "name": "Jay Karim",
+          "short": "jaykar(1)",
+          "start": "2023-07-22 19:00",
+          "end": "2023-07-22 20:30"
+        },
+        {
+          "name": "Layla Benitez",
+          "short": "laylab(1)",
+          "start": "2023-07-22 20:30",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Disfreq",
+          "short": "disfre(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-23 00:00"
+        },
+        {
+          "name": "Make a Dance",
+          "short": "makead(1)",
+          "start": "2023-07-23 00:00",
+          "end": "2023-07-23 01:00"
+        },
+        {
+          "name": "Hannah Laing",
+          "short": "hannah(1)",
+          "start": "2023-07-23 01:00",
+          "end": "2023-07-23 02:00"
+        },
+        {
+          "name": "The Menendez Brothers",
+          "short": "menend(1)",
+          "start": "2023-07-23 02:00",
+          "end": "2023-07-23 03:00"
+        },
+        {
+          "name": "Michael Palmer",
+          "short": "michae1(1)",
+          "start": "2023-07-23 11:00",
+          "end": "2023-07-23 12:00"
+        },
+        {
+          "name": "Abel",
+          "short": "abel(1)",
+          "start": "2023-07-23 12:00",
+          "end": "2023-07-23 13:00"
+        },
+        {
+          "name": "Scarlett O'Malley",
+          "short": "scarle(1)",
+          "start": "2023-07-23 13:00",
+          "end": "2023-07-23 14:00"
+        },
+        {
+          "name": "Maria Hanlon",
+          "short": "mariah(1)",
+          "start": "2023-07-23 14:00",
+          "end": "2023-07-23 15:00"
+        },
+        {
+          "name": "Storm Mollison",
+          "short": "stormm(1)",
+          "start": "2023-07-23 15:00",
+          "end": "2023-07-23 16:30"
+        },
+        {
+          "name": "La La",
+          "short": "noname(1)",
+          "start": "2023-07-23 16:30",
+          "end": "2023-07-23 18:00"
+        },
+        {
+          "name": "Krystal Klear",
+          "short": "krysta(1)",
+          "start": "2023-07-23 18:00",
+          "end": "2023-07-23 19:30"
+        },
+        {
+          "name": "Fleetmac Wood",
+          "short": "fleetm(2)",
+          "start": "2023-07-23 19:30",
+          "end": "2023-07-23 21:00"
+        },
+        {
+          "name": "Daughters of Frank",
+          "short": "daught(1)",
+          "start": "2023-07-23 21:00",
+          "end": "2023-07-23 22:00"
+        },
+        {
+          "name": "James Organ",
+          "short": "jameso(1)",
+          "start": "2023-07-23 22:00",
+          "end": "2023-07-23 23:00"
+        }
+      ]
+    },
+    {
+      "name": "The Drop",
+      "events": [
+        {
+          "name": "A For Alpha",
+          "short": "aforal(1)",
+          "start": "2023-07-20 16:00",
+          "end": "2023-07-20 18:00"
+        },
+        {
+          "name": "Samson",
+          "short": "samson(1)",
+          "start": "2023-07-20 18:00",
+          "end": "2023-07-20 19:30"
+        },
+        {
+          "name": "Demi Riquismo B2B Gallegos",
+          "short": "demiri(1)",
+          "start": "2023-07-20 19:30",
+          "end": "2023-07-20 21:30"
+        },
+        {
+          "name": "Mathew Jonson (Live)",
+          "short": "mathew(1)",
+          "start": "2023-07-20 21:30",
+          "end": "2023-07-21 00:00"
+        },
+        {
+          "name": "No Strings DJ",
+          "short": "nostri(1)",
+          "start": "2023-07-21 13:00",
+          "end": "2023-07-21 15:00"
+        },
+        {
+          "name": "J. Aria",
+          "short": "jaria(1)",
+          "start": "2023-07-21 15:00",
+          "end": "2023-07-21 16:00"
+        },
+        {
+          "name": "Grace Sands",
+          "short": "graces(1)",
+          "start": "2023-07-21 16:00",
+          "end": "2023-07-21 17:30"
+        },
+        {
+          "name": "Shay Malt",
+          "short": "shayma(1)",
+          "start": "2023-07-21 17:30",
+          "end": "2023-07-21 19:00"
+        },
+        {
+          "name": "Muallem",
+          "short": "mualle(1)",
+          "start": "2023-07-21 19:00",
+          "end": "2023-07-21 20:30"
+        },
+        {
+          "name": "Ido Plumes",
+          "short": "idoplu(1)",
+          "start": "2023-07-21 20:30",
+          "end": "2023-07-21 22:00"
+        },
+        {
+          "name": "Emerald",
+          "short": "emeral(1)",
+          "start": "2023-07-21 22:00",
+          "end": "2023-07-21 23:30"
+        },
+        {
+          "name": "Toshiki Ohta",
+          "short": "toshik(1)",
+          "start": "2023-07-21 23:30",
+          "end": "2023-07-22 01:00"
+        },
+        {
+          "name": "Blond:Ish",
+          "short": "blondi(1)",
+          "start": "2023-07-22 01:00",
+          "end": "2023-07-22 03:30"
+        },
+        {
+          "name": "Absolute.",
+          "short": "absolu(1)",
+          "start": "2023-07-22 03:30",
+          "end": "2023-07-22 05:00"
+        },
+        {
+          "name": "Children of Castlemorton",
+          "short": "childr(1)",
+          "start": "2023-07-22 05:00",
+          "end": "2023-07-22 06:00"
+        },
+        {
+          "name": "Huns N Roses",
+          "short": "hunsnr(2)",
+          "start": "2023-07-22 13:00",
+          "end": "2023-07-22 14:30"
+        },
+        {
+          "name": "Denney",
+          "short": "denney(1)",
+          "start": "2023-07-22 14:30",
+          "end": "2023-07-22 16:00"
+        },
+        {
+          "name": "Waze",
+          "short": "waze(2)",
+          "start": "2023-07-22 16:00",
+          "end": "2023-07-22 17:30"
+        },
+        {
+          "name": "Chez Milo",
+          "short": "chezmi(1)",
+          "start": "2023-07-22 17:30",
+          "end": "2023-07-22 19:00"
+        },
+        {
+          "name": "Hutch",
+          "short": "hutch(2)",
+          "start": "2023-07-22 19:00",
+          "end": "2023-07-22 20:30"
+        },
+        {
+          "name": "Samurai Breaks",
+          "short": "samura(1)",
+          "start": "2023-07-22 20:30",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Delta Echo",
+          "short": "deltae(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-22 23:30"
+        },
+        {
+          "name": "The Yard Woman",
+          "short": "yardwo(1)",
+          "start": "2023-07-22 23:30",
+          "end": "2023-07-23 01:00"
+        },
+        {
+          "name": "Demi Riquismo",
+          "short": "demiri1(1)",
+          "start": "2023-07-23 01:00",
+          "end": "2023-07-23 03:00"
+        },
+        {
+          "name": "Lulah Francs B2B Polyamoross",
+          "short": "lulahf(1)",
+          "start": "2023-07-23 03:00",
+          "end": "2023-07-23 04:30"
+        },
+        {
+          "name": "Tibasko",
+          "short": "tibask(1)",
+          "start": "2023-07-23 04:30",
+          "end": "2023-07-23 06:00"
+        },
+        {
+          "name": "Oliver Moon",
+          "short": "oliver(1)",
+          "start": "2023-07-23 12:00",
+          "end": "2023-07-23 13:30"
+        },
+        {
+          "name": "Fleetmac Wood",
+          "short": "fleetm(1)",
+          "start": "2023-07-23 13:30",
+          "end": "2023-07-23 15:00"
+        },
+        {
+          "name": "Maxxi Soundsystem",
+          "short": "maxxis(1)",
+          "start": "2023-07-23 15:00",
+          "end": "2023-07-23 16:30"
+        },
+        {
+          "name": "Ben Gomori",
+          "short": "bengom(1)",
+          "start": "2023-07-23 16:30",
+          "end": "2023-07-23 18:00"
+        },
+        {
+          "name": "Aida",
+          "short": "aida(1)",
+          "start": "2023-07-23 18:00",
+          "end": "2023-07-23 19:30"
+        },
+        {
+          "name": "Gerd Janson",
+          "short": "gerdja(1)",
+          "start": "2023-07-23 19:30",
+          "end": "2023-07-23 22:30"
+        },
+        {
+          "name": "The Drop Allstars",
+          "short": "dropal(1)",
+          "start": "2023-07-23 22:30",
+          "end": "2023-07-24 00:00"
+        }
+      ]
+    },
+    {
+      "name": "Lost Woods",
+      "events": [
+        {
+          "name": "Lily Huu",
+          "short": "lilyhu(1)",
+          "start": "2023-07-20 16:00",
+          "end": "2023-07-20 17:00"
+        },
+        {
+          "name": "Dax Lee",
+          "short": "daxlee(1)",
+          "start": "2023-07-20 17:00",
+          "end": "2023-07-20 18:30"
+        },
+        {
+          "name": "Facta B2B Ido Plumes",
+          "short": "factab(1)",
+          "start": "2023-07-20 18:30",
+          "end": "2023-07-20 20:00"
+        },
+        {
+          "name": "Danielle",
+          "short": "daniel(1)",
+          "start": "2023-07-20 20:00",
+          "end": "2023-07-20 21:30"
+        },
+        {
+          "name": "Hodge B2B Peverlist",
+          "short": "hodgeb(1)",
+          "start": "2023-07-20 21:30",
+          "end": "2023-07-20 23:00"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Hun Grr",
+          "short": "umbili(1)",
+          "start": "2023-07-21 10:00",
+          "end": "2023-07-21 11:30"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Alex Goodvibes",
+          "short": "umbili1(1)",
+          "start": "2023-07-21 11:30",
+          "end": "2023-07-21 13:00"
+        },
+        {
+          "name": "Freedom Engine (Live)",
+          "short": "freedo(1)",
+          "start": "2023-07-21 13:00",
+          "end": "2023-07-21 14:30"
+        },
+        {
+          "name": "Ollie Kirb B2B Hannd",
+          "short": "olliek(1)",
+          "start": "2023-07-21 14:30",
+          "end": "2023-07-21 16:30"
+        },
+        {
+          "name": "Chez Milo B2HB Muallem",
+          "short": "chezmi1(1)",
+          "start": "2023-07-21 16:30",
+          "end": "2023-07-21 18:00"
+        },
+        {
+          "name": "Emerald B2B Hutch",
+          "short": "emeral1(1)",
+          "start": "2023-07-21 18:00",
+          "end": "2023-07-21 19:30"
+        },
+        {
+          "name": "Chloe Robinson B2B DJ ADHD",
+          "short": "chloer2(1)",
+          "start": "2023-07-21 19:30",
+          "end": "2023-07-21 21:00"
+        },
+        {
+          "name": "Yushh",
+          "short": "yushh(1)",
+          "start": "2023-07-21 21:00",
+          "end": "2023-07-21 22:30"
+        },
+        {
+          "name": "Ploy",
+          "short": "ploy(1)",
+          "start": "2023-07-21 22:30",
+          "end": "2023-07-22 00:00"
+        },
+        {
+          "name": "Batu",
+          "short": "batu(1)",
+          "start": "2023-07-22 00:00",
+          "end": "2023-07-22 03:00"
+        },
+        {
+          "name": "Pangaea",
+          "short": "pangae(1)",
+          "start": "2023-07-22 03:00",
+          "end": "2023-07-22 04:30"
+        },
+        {
+          "name": "K Means",
+          "short": "kmeans(1)",
+          "start": "2023-07-22 04:30",
+          "end": "2023-07-22 06:00"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Escalator To Knowhere",
+          "short": "umbili2(1)",
+          "start": "2023-07-22 06:00",
+          "end": "2023-07-22 09:00"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Naval-Gazing",
+          "short": "umbili3(1)",
+          "start": "2023-07-22 09:00",
+          "end": "2023-07-22 10:30"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: DJ Plant",
+          "short": "umbili4(1)",
+          "start": "2023-07-22 10:30",
+          "end": "2023-07-22 11:30"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: DJ Ily",
+          "short": "umbili5(1)",
+          "start": "2023-07-22 11:30",
+          "end": "2023-07-22 12:30"
+        },
+        {
+          "name": "Lectrick Licks",
+          "short": "lectri(1)",
+          "start": "2023-07-22 12:30",
+          "end": "2023-07-22 13:30"
+        },
+        {
+          "name": "Bex",
+          "short": "bex(1)",
+          "start": "2023-07-22 13:30",
+          "end": "2023-07-22 15:00"
+        },
+        {
+          "name": "Max Hagenbach",
+          "short": "maxhag(1)",
+          "start": "2023-07-22 15:00",
+          "end": "2023-07-22 16:30"
+        },
+        {
+          "name": "Willow",
+          "short": "willow(1)",
+          "start": "2023-07-22 16:30",
+          "end": "2023-07-22 18:00"
+        },
+        {
+          "name": "Dr Banana B2B Lucas Wigflex",
+          "short": "drbana(1)",
+          "start": "2023-07-22 18:00",
+          "end": "2023-07-22 20:00"
+        },
+        {
+          "name": "Nikki Nair",
+          "short": "nikkin(1)",
+          "start": "2023-07-22 20:00",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Tony De Vit Memorial Ft Dani Whylie, Ed Real, Corrupt Data, Delta Echo & Thrilolgy",
+          "short": "tonyde(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-23 04:30"
+        },
+        {
+          "name": "Gallegos",
+          "short": "galleg(1)",
+          "start": "2023-07-23 04:30",
+          "end": "2023-07-23 06:00"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Lazy Susan",
+          "short": "umbili6(1)",
+          "start": "2023-07-23 06:00",
+          "end": "2023-07-23 07:00"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Liquid Centre",
+          "short": "umbili7(1)",
+          "start": "2023-07-23 07:00",
+          "end": "2023-07-23 08:00"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Jaz",
+          "short": "umbili8(1)",
+          "start": "2023-07-23 08:00",
+          "end": "2023-07-23 09:00"
+        },
+        {
+          "name": "Umbilical Chords Ambient Takeover: Gummi",
+          "short": "umbili9(1)",
+          "start": "2023-07-23 09:00",
+          "end": "2023-07-23 11:00"
+        },
+        {
+          "name": "Valve State",
+          "short": "valves(1)",
+          "start": "2023-07-23 11:00",
+          "end": "2023-07-23 14:00"
+        },
+        {
+          "name": "Jori Hulkkonen",
+          "short": "jorihu(1)",
+          "start": "2023-07-23 14:00",
+          "end": "2023-07-23 17:00"
+        },
+        {
+          "name": "Holmar x Richard Marshall",
+          "short": "holmar(1)",
+          "start": "2023-07-23 17:00",
+          "end": "2023-07-23 20:00"
+        },
+        {
+          "name": "The Drifter",
+          "short": "drifte(1)",
+          "start": "2023-07-23 20:00",
+          "end": "2023-07-23 22:00"
+        }
+      ]
+    },
+    {
+      "name": "Skulloon",
+      "events": [
+        {
+          "name": "Huns N Roses",
+          "short": "hunsnr(1)",
+          "start": "2023-07-20 16:00",
+          "end": "2023-07-20 18:30"
+        },
+        {
+          "name": "El Boogie",
+          "short": "boogie(1)",
+          "start": "2023-07-20 18:30",
+          "end": "2023-07-20 20:00"
+        },
+        {
+          "name": "Vix Hez",
+          "short": "vixhez(1)",
+          "start": "2023-07-20 20:00",
+          "end": "2023-07-20 21:00"
+        },
+        {
+          "name": "Rea",
+          "short": "rea(1)",
+          "start": "2023-07-20 21:00",
+          "end": "2023-07-20 22:30"
+        },
+        {
+          "name": "A For Alpha",
+          "short": "aforal(2)",
+          "start": "2023-07-20 22:30",
+          "end": "2023-07-21 00:00"
+        },
+        {
+          "name": "Demi Leigh",
+          "short": "demile(1)",
+          "start": "2023-07-21 12:00",
+          "end": "2023-07-21 13:30"
+        },
+        {
+          "name": "Patrice",
+          "short": "patric(1)",
+          "start": "2023-07-21 13:30",
+          "end": "2023-07-21 15:00"
+        },
+        {
+          "name": "Big Kani B2B Joe Milli",
+          "short": "bigkan(1)",
+          "start": "2023-07-21 15:00",
+          "end": "2023-07-21 16:30"
+        },
+        {
+          "name": "Viven Solak",
+          "short": "vivens(1)",
+          "start": "2023-07-21 16:30",
+          "end": "2023-07-21 18:00"
+        },
+        {
+          "name": "Coco Cole",
+          "short": "cococo(1)",
+          "start": "2023-07-21 18:00",
+          "end": "2023-07-21 20:00"
+        },
+        {
+          "name": "Andreya Triana",
+          "short": "andrey(1)",
+          "start": "2023-07-21 20:00",
+          "end": "2023-07-21 21:00"
+        },
+        {
+          "name": "Carly Foxx B2B Tasty Lopez",
+          "short": "carlyf(1)",
+          "start": "2023-07-21 21:00",
+          "end": "2023-07-21 22:30"
+        },
+        {
+          "name": "Fabienne",
+          "short": "fabien(1)",
+          "start": "2023-07-21 22:30",
+          "end": "2023-07-22 00:00"
+        },
+        {
+          "name": "Kyma",
+          "short": "kyma(1)",
+          "start": "2023-07-22 00:00",
+          "end": "2023-07-22 01:30"
+        },
+        {
+          "name": "Claudine Mayari",
+          "short": "claudi(1)",
+          "start": "2023-07-22 01:30",
+          "end": "2023-07-22 03:00"
+        },
+        {
+          "name": "Inda Flo",
+          "short": "indafl(1)",
+          "start": "2023-07-22 12:00",
+          "end": "2023-07-22 13:30"
+        },
+        {
+          "name": "Cando",
+          "short": "cando(1)",
+          "start": "2023-07-22 13:30",
+          "end": "2023-07-22 15:00"
+        },
+        {
+          "name": "Ella Knight & DJ Wheelup",
+          "short": "ellakn(1)",
+          "start": "2023-07-22 15:00",
+          "end": "2023-07-22 16:30"
+        },
+        {
+          "name": "Shy One",
+          "short": "shyone(1)",
+          "start": "2023-07-22 16:30",
+          "end": "2023-07-22 18:30"
+        },
+        {
+          "name": "Arlo",
+          "short": "arlo(1)",
+          "start": "2023-07-22 18:30",
+          "end": "2023-07-22 20:00"
+        },
+        {
+          "name": "Junior Simba",
+          "short": "junior(1)",
+          "start": "2023-07-22 20:00",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Oh My Rosh",
+          "short": "ohmyro(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-23 00:00"
+        },
+        {
+          "name": "Cous",
+          "short": "cous(1)",
+          "start": "2023-07-23 00:00",
+          "end": "2023-07-23 01:30"
+        },
+        {
+          "name": "Nelle B2B JPEG",
+          "short": "nelleb(1)",
+          "start": "2023-07-23 01:30",
+          "end": "2023-07-23 03:00"
+        },
+        {
+          "name": "Raf",
+          "short": "raf(1)",
+          "start": "2023-07-23 12:00",
+          "end": "2023-07-23 13:00"
+        },
+        {
+          "name": "Molly D",
+          "short": "mollyd(1)",
+          "start": "2023-07-23 13:00",
+          "end": "2023-07-23 14:00"
+        },
+        {
+          "name": "Cassine",
+          "short": "cassin(1)",
+          "start": "2023-07-23 14:00",
+          "end": "2023-07-23 15:00"
+        },
+        {
+          "name": "Samson",
+          "short": "samson(2)",
+          "start": "2023-07-23 15:00",
+          "end": "2023-07-23 16:30"
+        },
+        {
+          "name": "Athers",
+          "short": "athers(1)",
+          "start": "2023-07-23 16:30",
+          "end": "2023-07-23 18:00"
+        },
+        {
+          "name": "Kilig",
+          "short": "kilig(1)",
+          "start": "2023-07-23 18:00",
+          "end": "2023-07-23 19:30"
+        },
+        {
+          "name": "Nikki Chong",
+          "short": "nikkic(1)",
+          "start": "2023-07-23 19:30",
+          "end": "2023-07-23 21:00"
+        },
+        {
+          "name": "Storm Mollison",
+          "short": "stormm(2)",
+          "start": "2023-07-23 21:00",
+          "end": "2023-07-23 22:00"
+        },
+        {
+          "name": "Matrefakt",
+          "short": "matref(2)",
+          "start": "2023-07-23 22:00",
+          "end": "2023-07-23 23:00"
+        }
+      ]
+    },
+    {
+      "name": "Khapha (Bus)",
+      "events": [
+        {
+          "name": "Dan Healy",
+          "short": "danhea(1)",
+          "start": "2023-07-20 15:00",
+          "end": "2023-07-20 16:00"
+        },
+        {
+          "name": "Alex Session",
+          "short": "alexse(1)",
+          "start": "2023-07-20 16:00",
+          "end": "2023-07-20 17:00"
+        },
+        {
+          "name": "Gucci Girl",
+          "short": "guccig(1)",
+          "start": "2023-07-20 17:00",
+          "end": "2023-07-20 18:00"
+        },
+        {
+          "name": "Gia George",
+          "short": "giageo(1)",
+          "start": "2023-07-20 18:00",
+          "end": "2023-07-20 19:00"
+        },
+        {
+          "name": "Monaco",
+          "short": "monaco(1)",
+          "start": "2023-07-20 19:00",
+          "end": "2023-07-20 20:00"
+        },
+        {
+          "name": "Joe Milli B2B Big Kani",
+          "short": "joemil(1)",
+          "start": "2023-07-20 20:00",
+          "end": "2023-07-20 21:30"
+        },
+        {
+          "name": "Biianco",
+          "short": "biianc(1)",
+          "start": "2023-07-20 21:30",
+          "end": "2023-07-20 22:30"
+        },
+        {
+          "name": "Carly Wilford",
+          "short": "carlyw(1)",
+          "start": "2023-07-20 22:30",
+          "end": "2023-07-21 00:00"
+        },
+        {
+          "name": "Dylan Harvey",
+          "short": "dylanh(1)",
+          "start": "2023-07-21 14:30",
+          "end": "2023-07-21 16:00"
+        },
+        {
+          "name": "Mr Lewis",
+          "short": "mrlewi(1)",
+          "start": "2023-07-21 16:00",
+          "end": "2023-07-21 17:30"
+        },
+        {
+          "name": "Summer Forest",
+          "short": "summer(1)",
+          "start": "2023-07-21 17:30",
+          "end": "2023-07-21 19:00"
+        },
+        {
+          "name": "Cai",
+          "short": "cai(1)",
+          "start": "2023-07-21 19:00",
+          "end": "2023-07-21 20:30"
+        },
+        {
+          "name": "Roz",
+          "short": "roz(1)",
+          "start": "2023-07-21 20:30",
+          "end": "2023-07-21 22:00"
+        },
+        {
+          "name": "Bambi Rambo",
+          "short": "bambir(1)",
+          "start": "2023-07-21 22:00",
+          "end": "2023-07-21 23:30"
+        },
+        {
+          "name": "Abby Nurock",
+          "short": "abbynu(1)",
+          "start": "2023-07-21 23:30",
+          "end": "2023-07-22 01:00"
+        },
+        {
+          "name": "Mark De Stad",
+          "short": "markde(1)",
+          "start": "2023-07-22 01:00",
+          "end": "2023-07-22 02:30"
+        },
+        {
+          "name": "Ivan",
+          "short": "ivan(1)",
+          "start": "2023-07-22 02:30",
+          "end": "2023-07-22 04:00"
+        },
+        {
+          "name": "Georgie Rogers",
+          "short": "georgi(1)",
+          "start": "2023-07-22 14:30",
+          "end": "2023-07-22 16:00"
+        },
+        {
+          "name": "Sendama",
+          "short": "sendam(2)",
+          "start": "2023-07-22 16:00",
+          "end": "2023-07-22 17:30"
+        },
+        {
+          "name": "Alex Oxley",
+          "short": "alexox(1)",
+          "start": "2023-07-22 17:30",
+          "end": "2023-07-22 19:00"
+        },
+        {
+          "name": "Roxanne Roll",
+          "short": "roxann(1)",
+          "start": "2023-07-22 19:00",
+          "end": "2023-07-22 20:30"
+        },
+        {
+          "name": "Liz Cass",
+          "short": "lizcas(1)",
+          "start": "2023-07-22 20:30",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Beyond The Struttosphere",
+          "short": "beyond(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-23 00:00"
+        },
+        {
+          "name": "Henri Bergmann",
+          "short": "henrib(1)",
+          "start": "2023-07-23 00:00",
+          "end": "2023-07-23 01:30"
+        },
+        {
+          "name": "Vakvys",
+          "short": "vakvys(1)",
+          "start": "2023-07-23 01:30",
+          "end": "2023-07-23 03:00"
+        },
+        {
+          "name": "Sam Strutt",
+          "short": "samstr(1)",
+          "start": "2023-07-23 03:00",
+          "end": "2023-07-23 04:30"
+        },
+        {
+          "name": "Gaika",
+          "short": "gaika(1)",
+          "start": "2023-07-23 12:00",
+          "end": "2023-07-23 14:00"
+        },
+        {
+          "name": "DJ Santero",
+          "short": "djsant(1)",
+          "start": "2023-07-23 14:00",
+          "end": "2023-07-23 15:30"
+        },
+        {
+          "name": "Dan Vinci",
+          "short": "danvin(1)",
+          "start": "2023-07-23 15:30",
+          "end": "2023-07-23 17:00"
+        },
+        {
+          "name": "Jay Carder",
+          "short": "jaycar(1)",
+          "start": "2023-07-23 17:00",
+          "end": "2023-07-23 18:30"
+        },
+        {
+          "name": "Toronto Is Broken",
+          "short": "toront(1)",
+          "start": "2023-07-23 18:30",
+          "end": "2023-07-23 20:00"
+        },
+        {
+          "name": "Eddy Temple-Morris",
+          "short": "eddyte(1)",
+          "start": "2023-07-23 20:00",
+          "end": "2023-07-23 21:30"
+        },
+        {
+          "name": "Gardna",
+          "short": "gardna(1)",
+          "start": "2023-07-23 21:30",
+          "end": "2023-07-23 23:00"
+        }
+      ]
+    },
+    {
+      "name": "Noirganica",
+      "events": [
+        {
+          "name": "DJ Lady G",
+          "short": "djlady(1)",
+          "start": "2023-07-20 15:00",
+          "end": "2023-07-20 17:00"
+        },
+        {
+          "name": "May Rose",
+          "short": "mayros(1)",
+          "start": "2023-07-20 17:00",
+          "end": "2023-07-20 17:45"
+        },
+        {
+          "name": "Sunny Days",
+          "short": "sunnyd(1)",
+          "start": "2023-07-20 18:00",
+          "end": "2023-07-20 18:45"
+        },
+        {
+          "name": "Gracie",
+          "short": "gracie(1)",
+          "start": "2023-07-20 19:00",
+          "end": "2023-07-20 21:00"
+        },
+        {
+          "name": "Gonebrook",
+          "short": "gonebr(1)",
+          "start": "2023-07-20 21:00",
+          "end": "2023-07-20 22:00"
+        },
+        {
+          "name": "Kas",
+          "short": "kas(1)",
+          "start": "2023-07-20 22:00",
+          "end": "2023-07-20 23:00"
+        },
+        {
+          "name": "Azire",
+          "short": "azire(1)",
+          "start": "2023-07-20 23:00",
+          "end": "2023-07-21 00:00"
+        },
+        {
+          "name": "TBC",
+          "short": "tbc(1)",
+          "start": "2023-07-21 12:00",
+          "end": "2023-07-21 13:00"
+        },
+        {
+          "name": "The Kings Council",
+          "short": "kingsc(1)",
+          "start": "2023-07-21 13:00",
+          "end": "2023-07-21 14:00"
+        },
+        {
+          "name": "Mr Marvelous",
+          "short": "mrmarv(1)",
+          "start": "2023-07-21 14:00",
+          "end": "2023-07-21 15:00"
+        },
+        {
+          "name": "Otherwrld",
+          "short": "otherw(1)",
+          "start": "2023-07-21 15:00",
+          "end": "2023-07-21 15:45"
+        },
+        {
+          "name": "Pale Blu",
+          "short": "palebl(1)",
+          "start": "2023-07-21 16:00",
+          "end": "2023-07-21 16:45"
+        },
+        {
+          "name": "Idris Miles",
+          "short": "idrism(1)",
+          "start": "2023-07-21 17:00",
+          "end": "2023-07-21 17:45"
+        },
+        {
+          "name": "Laville",
+          "short": "lavill(1)",
+          "start": "2023-07-21 18:00",
+          "end": "2023-07-21 19:00"
+        },
+        {
+          "name": "Ruby Francis",
+          "short": "rubyfr(1)",
+          "start": "2023-07-21 19:00",
+          "end": "2023-07-21 20:00"
+        },
+        {
+          "name": "Jerome Thomas",
+          "short": "jerome(1)",
+          "start": "2023-07-21 20:00",
+          "end": "2023-07-21 21:00"
+        },
+        {
+          "name": "Ash Walker",
+          "short": "ashwal(1)",
+          "start": "2023-07-21 21:00",
+          "end": "2023-07-21 22:00"
+        },
+        {
+          "name": "Isaiah Dreads",
+          "short": "isaiah(1)",
+          "start": "2023-07-21 22:00",
+          "end": "2023-07-21 23:00"
+        },
+        {
+          "name": "Mr Bushkin - Heartless Crew",
+          "short": "mrbush(1)",
+          "start": "2023-07-21 23:00",
+          "end": "2023-07-22 00:00"
+        },
+        {
+          "name": "The Latecomerz Present Moverswhomix",
+          "short": "lateco(1)",
+          "start": "2023-07-22 00:00",
+          "end": "2023-07-22 02:00"
+        },
+        {
+          "name": "90s Back To Back Bitches: Mr Marvelous X Mireilla",
+          "short": "90sbac(1)",
+          "start": "2023-07-22 02:00",
+          "end": "2023-07-22 04:00"
+        },
+        {
+          "name": "Keanu",
+          "short": "keanu(1)",
+          "start": "2023-07-22 04:00",
+          "end": "2023-07-22 06:00"
+        },
+        {
+          "name": "Teaky Z",
+          "short": "teakyz(1)",
+          "start": "2023-07-22 12:00",
+          "end": "2023-07-22 12:30"
+        },
+        {
+          "name": "Mazz",
+          "short": "mazz(1)",
+          "start": "2023-07-22 12:30",
+          "end": "2023-07-22 13:00"
+        },
+        {
+          "name": "Carmy Love",
+          "short": "carmyl(1)",
+          "start": "2023-07-22 13:00",
+          "end": "2023-07-22 13:45"
+        },
+        {
+          "name": "Jazzi Sirius",
+          "short": "jazzis(1)",
+          "start": "2023-07-22 14:00",
+          "end": "2023-07-22 14:45"
+        },
+        {
+          "name": "Morgan",
+          "short": "morgan1(1)",
+          "start": "2023-07-22 15:00",
+          "end": "2023-07-22 15:45"
+        },
+        {
+          "name": "Lole Vietro",
+          "short": "lolevi(1)",
+          "start": "2023-07-22 16:15",
+          "end": "2023-07-22 17:00"
+        },
+        {
+          "name": "Graziella",
+          "short": "grazie(1)",
+          "start": "2023-07-22 17:15",
+          "end": "2023-07-22 18:00"
+        },
+        {
+          "name": "Taloula",
+          "short": "taloul(1)",
+          "start": "2023-07-22 18:00",
+          "end": "2023-07-22 19:00"
+        },
+        {
+          "name": "Seven",
+          "short": "seven(1)",
+          "start": "2023-07-22 19:00",
+          "end": "2023-07-22 20:00"
+        },
+        {
+          "name": "Pxssy Pwr",
+          "short": "pxssyp(1)",
+          "start": "2023-07-22 20:00",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Alewya",
+          "short": "alewya(1)",
+          "start": "2023-07-22 22:00",
+          "end": "2023-07-22 23:00"
+        },
+        {
+          "name": "Mireilla",
+          "short": "mireil(1)",
+          "start": "2023-07-22 23:00",
+          "end": "2023-07-23 01:00"
+        },
+        {
+          "name": "Malika Green",
+          "short": "malika(1)",
+          "start": "2023-07-23 01:00",
+          "end": "2023-07-23 03:00"
+        },
+        {
+          "name": "Sex & Rage",
+          "short": "sexrag(1)",
+          "start": "2023-07-23 03:00",
+          "end": "2023-07-23 05:00"
+        },
+        {
+          "name": "Cheza Lucina",
+          "short": "chezal(1)",
+          "start": "2023-07-23 05:00",
+          "end": "2023-07-23 06:00"
+        },
+        {
+          "name": "The Baddis Sound",
+          "short": "baddis(1)",
+          "start": "2023-07-23 12:00",
+          "end": "2023-07-23 14:00"
+        },
+        {
+          "name": "Solomon",
+          "short": "solomo(1)",
+          "start": "2023-07-23 14:00",
+          "end": "2023-07-23 16:00"
+        },
+        {
+          "name": "Sophie Faith",
+          "short": "sophie1(1)",
+          "start": "2023-07-23 16:00",
+          "end": "2023-07-23 18:00"
+        },
+        {
+          "name": "Paleblu B2B Chords / DNB",
+          "short": "palebl1(1)",
+          "start": "2023-07-23 18:00",
+          "end": "2023-07-23 20:00"
+        },
+        {
+          "name": "DJ Vadim",
+          "short": "djvadi(1)",
+          "start": "2023-07-23 20:00",
+          "end": "2023-07-23 22:00"
+        },
+        {
+          "name": "Pantherina",
+          "short": "panthe(1)",
+          "start": "2023-07-23 22:00",
+          "end": "2023-07-23 23:00"
+        },
+        {
+          "name": "Fam Jammm - The Closing Jam Session!",
+          "short": "famjam(1)",
+          "start": "2023-07-23 23:00",
+          "end": "2023-07-24 00:00"
+        }
+      ]
+    },
+    {
+      "name": "Avant Garden",
+      "events": [
+        {
+          "name": "DJ Chris Tofu",
+          "short": "djchri(1)",
+          "start": "2023-07-20 18:15",
+          "end": "2023-07-20 18:45"
+        },
+        {
+          "name": "Das Brass",
+          "short": "brass(1)",
+          "start": "2023-07-20 18:45",
+          "end": "2023-07-20 19:45"
+        },
+        {
+          "name": "Madame Electrifie",
+          "short": "madame(1)",
+          "start": "2023-07-20 19:45",
+          "end": "2023-07-20 20:15"
+        },
+        {
+          "name": "Run Buffalo",
+          "short": "runbuf(1)",
+          "start": "2023-07-20 20:15",
+          "end": "2023-07-20 21:15"
+        },
+        {
+          "name": "Vibe Roulette",
+          "short": "vibero(1)",
+          "start": "2023-07-20 21:15",
+          "end": "2023-07-20 22:15"
+        },
+        {
+          "name": "Jo Peacock + Cabaret",
+          "short": "jopeac(1)",
+          "start": "2023-07-20 22:15",
+          "end": "2023-07-20 23:00"
+        },
+        {
+          "name": "The Egg",
+          "short": "egg(1)",
+          "start": "2023-07-20 23:00",
+          "end": "2023-07-21 00:00"
+        },
+        {
+          "name": "Space Jam",
+          "short": "spacej(1)",
+          "start": "2023-07-21 12:00",
+          "end": "2023-07-21 14:00"
+        },
+        {
+          "name": "Popola Takeover: Queer Pxssy Powered Tropical Vibes ft. Bushbby, Cheza, Ivicore, Fred Szilla and Gigi Perras",
+          "short": "popola(1)",
+          "start": "2023-07-21 14:00",
+          "end": "2023-07-21 17:00"
+        },
+        {
+          "name": "Sonny E",
+          "short": "sonnye(1)",
+          "start": "2023-07-21 17:45",
+          "end": "2023-07-21 18:15"
+        },
+        {
+          "name": "Balkan Bash Tofu",
+          "short": "balkan(1)",
+          "start": "2023-07-21 18:15",
+          "end": "2023-07-21 18:45"
+        },
+        {
+          "name": "Shunta!",
+          "short": "shunta(1)",
+          "start": "2023-07-21 18:45",
+          "end": "2023-07-21 19:45"
+        },
+        {
+          "name": "DJ Chris Tofu",
+          "short": "djchri(2)",
+          "start": "2023-07-21 19:45",
+          "end": "2023-07-21 20:15"
+        },
+        {
+          "name": "Erik and the Woldly Savages",
+          "short": "erikan(1)",
+          "start": "2023-07-21 20:15",
+          "end": "2023-07-21 21:15"
+        },
+        {
+          "name": "Dynamite Disco Soundsystem Feat. DJ Q, Fizzy Gillespie, Mr Bon Suis and Pepper",
+          "short": "dynami(1)",
+          "start": "2023-07-21 21:15",
+          "end": "2023-07-21 21:45"
+        },
+        {
+          "name": "Stone Cold Hustle",
+          "short": "stonec(1)",
+          "start": "2023-07-21 21:45",
+          "end": "2023-07-21 22:45"
+        },
+        {
+          "name": "Dynamite Disco Soundsystem Feat. DJ Q, Fizzy Gillespie, Mr Bon Suis and Pepper",
+          "short": "dynami(2)",
+          "start": "2023-07-21 22:45",
+          "end": "2023-07-21 23:15"
+        },
+        {
+          "name": "Rayowa",
+          "short": "rayowa(1)",
+          "start": "2023-07-21 23:15",
+          "end": "2023-07-22 00:15"
+        },
+        {
+          "name": "Jo Peacock Group + Cabaret",
+          "short": "jopeac1(1)",
+          "start": "2023-07-22 00:15",
+          "end": "2023-07-22 01:00"
+        },
+        {
+          "name": "High Fade",
+          "short": "highfa(1)",
+          "start": "2023-07-22 01:00",
+          "end": "2023-07-22 02:00"
+        },
+        {
+          "name": "Dynamite Disco Soundsystem Feat. DJ Q, Fizzy Gillespie, Mr Bon Suis and Pepper",
+          "short": "dynami(3)",
+          "start": "2023-07-22 02:00",
+          "end": "2023-07-22 06:00"
+        },
+        {
+          "name": "Space Jam",
+          "short": "spacej(2)",
+          "start": "2023-07-22 12:00",
+          "end": "2023-07-22 14:00"
+        },
+        {
+          "name": "Balkan vs Cumbia Feat. Cal Jader, Fedzilla, Gypsy Box (Mexico), Carnival Collective",
+          "short": "balkan1(1)",
+          "start": "2023-07-22 14:00",
+          "end": "2023-07-22 17:00"
+        },
+        {
+          "name": "Johnny Radiator",
+          "short": "johnny(1)",
+          "start": "2023-07-22 17:00",
+          "end": "2023-07-22 18:00"
+        },
+        {
+          "name": "Count Skylarkin",
+          "short": "counts(1)",
+          "start": "2023-07-22 18:00",
+          "end": "2023-07-22 19:30"
+        },
+        {
+          "name": "Igenous Fig",
+          "short": "igenou(1)",
+          "start": "2023-07-22 19:30",
+          "end": "2023-07-22 20:30"
+        },
+        {
+          "name": "Madame Electrifie",
+          "short": "madame(2)",
+          "start": "2023-07-22 20:30",
+          "end": "2023-07-22 21:00"
+        },
+        {
+          "name": "East Angles Brass",
+          "short": "eastan(1)",
+          "start": "2023-07-22 21:00",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Huw Joseph",
+          "short": "huwjos(1)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-22 23:15"
+        },
+        {
+          "name": "Madame Electrifie & Friends",
+          "short": "madame1(1)",
+          "start": "2023-07-22 23:15",
+          "end": "2023-07-23 00:15"
+        },
+        {
+          "name": "Jo Peacock Group + Cabaret",
+          "short": "jopeac1(2)",
+          "start": "2023-07-23 00:15",
+          "end": "2023-07-23 01:00"
+        },
+        {
+          "name": "New York Brass Band",
+          "short": "newyor(1)",
+          "start": "2023-07-23 01:00",
+          "end": "2023-07-23 02:00"
+        },
+        {
+          "name": "Swing & Bass Takeover Feat. Fizzy Gillespie, Mister Trick & Mr Fitz",
+          "short": "swingb(1)",
+          "start": "2023-07-23 02:00",
+          "end": "2023-07-23 06:00"
+        },
+        {
+          "name": "Reggae Roast",
+          "short": "reggae(1)",
+          "start": "2023-07-23 12:00",
+          "end": "2023-07-23 16:00"
+        },
+        {
+          "name": "Dirty Spoons",
+          "short": "dirtys(1)",
+          "start": "2023-07-23 16:00",
+          "end": "2023-07-23 17:00"
+        },
+        {
+          "name": "Youths Cosmic Jam Takeover: Youth (Killing Joe), Merry Mcloud (Surriya Recs), Bruce Welsh (Arts Lab), Christian Pattemore (Creation Records), Gnawa London Feat. Simo Langawa, Ned & Maff Scott (The Egg), Dan Harper (Invisible Eyes), Dan Morrel (Trees For Life), The Chant Collective",
+          "short": "youths(1)",
+          "start": "2023-07-23 17:00",
+          "end": "2023-07-23 21:00"
+        },
+        {
+          "name": "World's Tallest DJ",
+          "short": "worlds1(1)",
+          "start": "2023-07-23 21:00",
+          "end": "2023-07-23 21:30"
+        },
+        {
+          "name": "Baghdaddies",
+          "short": "baghda(1)",
+          "start": "2023-07-23 21:30",
+          "end": "2023-07-23 22:30"
+        },
+        {
+          "name": "World's Tallest DJ",
+          "short": "worlds1(2)",
+          "start": "2023-07-23 22:30",
+          "end": "2023-07-23 23:00"
+        },
+        {
+          "name": "Henge",
+          "short": "henge(1)",
+          "start": "2023-07-23 23:00",
+          "end": "2023-07-24 00:00"
+        }
+      ]
+    },
+    {
+      "name": "Mixing Truck",
+      "events": [
+        {
+          "name": "Santero",
+          "short": "santer(1)",
+          "start": "2023-07-20 16:00",
+          "end": "2023-07-20 18:00"
+        },
+        {
+          "name": "Boca45",
+          "short": "boca45(1)",
+          "start": "2023-07-20 18:00",
+          "end": "2023-07-20 20:00"
+        },
+        {
+          "name": "JFB",
+          "short": "jfb(1)",
+          "start": "2023-07-20 20:00",
+          "end": "2023-07-20 22:00"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(2)",
+          "start": "2023-07-20 22:00",
+          "end": "2023-07-21 01:00"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(3)",
+          "start": "2023-07-21 16:00",
+          "end": "2023-07-21 19:00"
+        },
+        {
+          "name": "Danny Rankin",
+          "short": "dannyr(1)",
+          "start": "2023-07-21 19:00",
+          "end": "2023-07-21 21:00"
+        },
+        {
+          "name": "Tiffany Calver",
+          "short": "tiffan(1)",
+          "start": "2023-07-21 21:00",
+          "end": "2023-07-21 22:30"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(4)",
+          "start": "2023-07-21 22:30",
+          "end": "2023-07-22 01:00"
+        },
+        {
+          "name": "Leen",
+          "short": "leen(1)",
+          "start": "2023-07-22 16:00",
+          "end": "2023-07-22 17:00"
+        },
+        {
+          "name": "Lebrosk",
+          "short": "lebros(1)",
+          "start": "2023-07-22 17:00",
+          "end": "2023-07-22 18:00"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(5)",
+          "start": "2023-07-22 18:00",
+          "end": "2023-07-22 20:00"
+        },
+        {
+          "name": "Beardyman",
+          "short": "beardy(1)",
+          "start": "2023-07-22 20:00",
+          "end": "2023-07-22 22:00"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(6)",
+          "start": "2023-07-22 22:30",
+          "end": "2023-07-23 01:00"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(7)",
+          "start": "2023-07-23 16:00",
+          "end": "2023-07-23 17:00"
+        },
+        {
+          "name": "Woody Cook",
+          "short": "woodyc(1)",
+          "start": "2023-07-23 17:00",
+          "end": "2023-07-23 19:00"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(8)",
+          "start": "2023-07-23 19:00",
+          "end": "2023-07-23 20:00"
+        },
+        {
+          "name": "Jaguar Skills",
+          "short": "jaguar(1)",
+          "start": "2023-07-23 20:00",
+          "end": "2023-07-23 22:00"
+        },
+        {
+          "name": "Santero",
+          "short": "santer(9)",
+          "start": "2023-07-23 22:00",
+          "end": "2023-07-24 01:00"
+        }
+      ]
+    }
+  ]
+}
