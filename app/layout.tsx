@@ -43,7 +43,7 @@ export default function RootLayout({
       />
       <meta
         property="og:description"
-        content="Use your Spotify history to discover your Glasto 34 Set Menu"
+        content="Use your Spotify history to discover your Glasto 24 Set Menu"
       />
       <meta
         property="og:image"
