@@ -2633,6 +2633,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center flex-grow justify-start">
           {!user && (
+            <>
             <div>
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
                 {"Use your Spotify history to discover your"}
@@ -2640,13 +2641,13 @@ export default function Home() {
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
                 {"Glasto Set Menu"}
               </h5>
-              
             </div>
-            <div className={'pt-10'}>
+            <div className="pt-10">
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-green-800 dark:text-white">
                 {"Glasto 24 Schedule coming soon..."}
               </h5>
             </div>
+            </>
           )}
 
           {/* <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
