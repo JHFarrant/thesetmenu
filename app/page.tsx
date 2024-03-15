@@ -11,8 +11,8 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 import { Favorite, Event } from "@/types";
-import spotifyIDsJson from "../public/sgpRelatedSpotifyIDs.json";
-import g2023 from "../public/sgp2023.json";
+import spotifyIDsJson from "../public/g2023SpotifyIDs.json";
+import g2023 from "../public/g2023.json";
 import moment from "moment";
 
 import { Button, Card, Spinner } from "flowbite-react";
