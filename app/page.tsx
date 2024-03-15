@@ -2638,7 +2638,13 @@ export default function Home() {
                 {"Use your Spotify history to discover your"}
               </h5>
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
-                {"Glasto 24 Set Menu"}
+                {"Glasto Set Menu"}
+              </h5>
+              
+            </div>
+            <div className={'pt-10'}>
+              <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-green-800 dark:text-white">
+                {"Glasto 24 Schedule coming soon..."}
               </h5>
             </div>
           )}
