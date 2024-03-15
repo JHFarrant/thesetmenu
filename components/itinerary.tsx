@@ -46,7 +46,7 @@ const Itinearry = ({
     <Card>
       <div className="flex items-center justify-center">
         <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
-          {"Your SGP Set Menu 🔥"}
+          {"Your Glasto Set Menu 🔥"}
         </h5>
       </div>
       {!!setRecommendationsEnabled && (
@@ -160,7 +160,7 @@ const Itinearry = ({
               <div className="flex items-center space-x-4">
                 <div className="min-w-0 flex-1">
                   <p className="truncate text-sm font-medium text-gray-900 dark:text-white">
-                    {"None of your top artists are playing at SGP 😭"}
+                    {"None of your top artists are playing at Glasto 😭"}
                   </p>
                 </div>
               </div>
