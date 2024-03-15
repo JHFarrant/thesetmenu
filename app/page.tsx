@@ -2638,7 +2638,7 @@ export default function Home() {
                 {"Use your Spotify history to discover your"}
               </h5>
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
-                {"SGP 23 Set Menu"}
+                {"Glasto 24 Set Menu"}
               </h5>
             </div>
           )}
@@ -2654,7 +2654,7 @@ export default function Home() {
                         </div>
                             <img src='/glasto.png' width="200" height="50"/>
                             <div className={`text-sm font-semibold `}>
-                              Glastonbury 2023
+                              Glastonbury 2024
                           </div>
                     </div>
                     <h2 className={`m-0 text-xs text-center opacity-50`}>
