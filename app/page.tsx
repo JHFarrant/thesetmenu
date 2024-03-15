@@ -11,8 +11,8 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 import { Favorite, Event } from "@/types";
-import spotifyIDsJson from "../public/sgpRelatedSpotifyIDs.json";
-import g2023 from "../public/sgp2023.json";
+import spotifyIDsJson from "../public/g2023SpotifyIDs.json";
+import g2023 from "../public/g2023.json";
 import moment from "moment";
 
 import { Button, Card, Spinner } from "flowbite-react";
@@ -2633,14 +2633,21 @@ export default function Home() {
 
         <div className="flex flex-col items-center flex-grow justify-start">
           {!user && (
+            <>
             <div>
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
                 {"Use your Spotify history to discover your"}
               </h5>
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
-                {"SGP 23 Set Menu"}
+                {"Glasto Set Menu"}
               </h5>
             </div>
+            <div className="pt-10">
+              <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-green-800 dark:text-white">
+                {"Glasto 24 Schedule coming soon..."}
+              </h5>
+            </div>
+            </>
           )}
 
           {/* <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
@@ -2654,7 +2661,7 @@ export default function Home() {
                         </div>
                             <img src='/glasto.png' width="200" height="50"/>
                             <div className={`text-sm font-semibold `}>
-                              Glastonbury 2023
+                              Glastonbury 2024
                           </div>
                     </div>
                     <h2 className={`m-0 text-xs text-center opacity-50`}>
