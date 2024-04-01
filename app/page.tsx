@@ -18,7 +18,7 @@ import { Button, Card, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
 import Footer from "../components/footer";
 import Itinerary from "../components/itinerary";
-import DummyItinearryInDays from "./consts"
+import {DummyItinearryInDays, DummyFavouriteArtists} from "./consts"
 import { shiftedDay } from "../components/itinerary";
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
@@ -566,8 +566,8 @@ export default function Home() {
                 Example Set Menu
               </h2>
               <Itinerary
-                itineraryInDays={dummyItinearryInDays}
-                favoriteArtists={dummyFavouriteArtists}
+                itineraryInDays={DummyItinearryInDays}
+                favoriteArtists={DummyFavouriteArtists}
                 loadingSpotifyData={false}
               />
             </div>

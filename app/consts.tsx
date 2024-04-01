@@ -1,3 +1,5 @@
+  import moment from "moment";
+
   export const DummyItinearryInDays = [
     [
       {
@@ -37,7 +39,7 @@
       },
     ],
   ];
-  const dummyFavouriteArtists = {
+export const DummyFavouriteArtists = {
     "Caroline Polachek": {
       artist: {
         external_urls: {
