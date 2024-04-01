@@ -12,9 +12,8 @@ import {
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 import { Favorite, Event } from "@/types";
 import spotifyIDsJson from "../public/glasto2024mockSpotifyIDs.json";
-import g2024 from "../public/glasto2024mock.json";
+import rawEvents from "../public/glasto2024mock.json";
 import moment from "moment";
-
 import { Button, Card, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
 import Footer from "../components/footer";
@@ -362,7 +361,7 @@ export default function Home() {
 
   // favoriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
 
-  const eventsByTime = extractEventsByTime(g2023);
+  const eventsByTime = extractEventsByTime(rawEvents);
   // const eventsByArtist = extractEventsByArtist(eventsByTime);
 
   const itinerary = eventsByTime.filter(
@@ -2644,7 +2643,7 @@ export default function Home() {
             </div>
             <div className="pt-10">
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-green-800 dark:text-white">
-                {"Glasto 24 Schedule coming soon..."}
+                {"Glasto 24 confirmed schedule coming soon..."}
               </h5>
             </div>
             </>
