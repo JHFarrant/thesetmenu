@@ -11,8 +11,8 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 import { Favorite, Event } from "@/types";
-import spotifyIDsJson from "../public/glasto2024mockSpotifyIDs.json";
-import rawEvents from "../public/glasto2024mock.json";
+import spotifyIDsJson from "../public/g2024SpotifyIDs.json";
+import rawEvents from "../public/g2024.json";
 import moment from "moment";
 import { Button, Card, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
@@ -20,6 +20,13 @@ import Footer from "../components/footer";
 import Itinerary from "../components/itinerary";
 import {DummyItinearryInDays, DummyFavouriteArtists} from "./consts"
 import { shiftedDay } from "../components/itinerary";
+
+import testTopArtists from '../testData/jack/topArtists.json'
+import testTopTracks from '../testData/jack/topTracks.json'
+import testFollows from '../testData/jack/follows.json'
+
+const testMode = false
+
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
 
@@ -77,8 +84,8 @@ export default function Home() {
     if (navigator.share) {
       navigator
         .share({
-          title: "The Set Menu",
-          url: "https://thesetmenu.co.uk/",
+          title: "My Glasto Set Menu",
+          url: "https://myglastosetmenu.co.uk/",
         })
         .then(() => {
           console.log("Share success");
@@ -87,7 +94,7 @@ export default function Home() {
     } else {
       console.log("Native sharing unavailable");
       window.open(
-        "whatsapp://send?text=The Set Menu - https://thesetmenu.co.uk/"
+        "whatsapp://send?text=My Glasto Set Menu - https://myglastosetmenu.co.uk/"
       );
     }
   };
@@ -237,17 +244,25 @@ export default function Home() {
       }
       setTracksLoading(false);
     };
-    setArtistsLoading(true);
-    setTopArtists([]);
-    fetchArtists().catch(console.error);
 
-    setTracksLoading(true);
-    setTopTracks([]);
-    fetchTracks().catch(console.error);
+    if(testMode){
+      setTopArtists(testTopArtists)
+      setTopTracks(testTopTracks)
+      setFollows(testFollows)
 
-    setFollowsLoading(true);
-    setFollows([]);
-    fetchFollows().catch(console.error);
+    }else{
+      setArtistsLoading(true);
+      setTopArtists([]);
+      fetchArtists().catch(console.error);
+
+      setTracksLoading(true);
+      setTopTracks([]);
+      fetchTracks().catch(console.error);
+
+      setFollowsLoading(true);
+      setFollows([]);
+      fetchFollows().catch(console.error);
+    }
   };
   const spotifyIDs2ActsIncludingRecommendations: any = spotifyIDsJson;
   const spotifyIDs2ActsWithoutRecommendations: any = Object.entries(
@@ -359,12 +374,7 @@ export default function Home() {
     ...matchedFollows,
   };
 
-  // favoriteArtists.sort((a, b) => b.artist.popularity - a.artist.popularity);
-
   const eventsByTime = extractEventsByTime(rawEvents);
-  // const eventsByArtist = extractEventsByArtist(eventsByTime);
-  console.log(`eventsByTime=${eventsByTime}`)
-  console.log(`favoriteArtists=${favoriteArtists}`)
   const itinerary = eventsByTime.filter(
     (e: Event) => e.name in favoriteArtists
   );
@@ -388,8 +398,6 @@ export default function Home() {
     []
   );
 
-  console.log(loadingSpotifyData)
-  console.log(itineraryInDays.length)
   if (!loadingSpotifyData && itineraryInDays.length) {
     console.log(
       `Your Matched Top Artists:\n${removeDupes(Object.values(matchedArtists))
@@ -459,7 +467,14 @@ export default function Home() {
         setInitialLoadDone(true);
       }
     };
-    initSpotify();
+    if(testMode){
+      setUser(true);
+      setInitialLoadDone(true);
+      fetchAll();
+    }else{
+      initSpotify();
+    }
+    
   }, []);
 
   return intialLoadDone ? (
@@ -481,10 +496,10 @@ export default function Home() {
           className="relative flex place-items-center flex-col mb-5"
         >
           <img alt="disc logo" src="/disc.png" width="25" />
-          <h1 className={`text-3xl font-semibold text-center`}>The Set Menu</h1>
+          <h1 className={`text-3xl font-semibold text-center`}>My Glasto Set Menu</h1>
           <div>
             <p className={`text-xs text-center opacity-50`}>
-              {"You can't remember every artists name"}
+              {"Auto discover acts using your spotify listenting history"}
             </p>
           </div>
         </div>
@@ -500,11 +515,13 @@ export default function Home() {
                 {"Glasto Set Menu"}
               </h5>
             </div>
+            {/*
             <div className="pt-10">
               <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-green-800 dark:text-white">
                 {"Glasto 24 confirmed schedule coming soon..."}
               </h5>
             </div>
+            */}
             </>
           )}
 
