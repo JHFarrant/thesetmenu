@@ -14,6 +14,7 @@ export type Favorite = {
 };
 
 export type Event = {
+  id: string;
   start: moment.Moment;
   end: moment.Moment;
   name: string;
