@@ -17,7 +17,7 @@ const ArtistSelect = ({
     <div id="artistSelect">
       <Button
         size="xs"
-        color={selectionState == "selected" ? "success" : "dark"}
+        color={selectionState == "selected" ? "success" : "blue"}
         onClick={() => toggleSelected()}
       >
         <p className={`text-center`}>

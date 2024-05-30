@@ -8,6 +8,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     flowbite.content(),
   ],
+  darkMode: "media",
   theme: {
     extend: {
       backgroundImage: {
@@ -16,9 +17,14 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        "wa-header": "#d1d7db",
         "wa-background": "#e5ddd4",
-        "wa-message": "#d9fdd3",
+        "wa-background-dark": "#0b1419",
+        "wa-message-bg": "#d9fdd3",
+        "wa-message-bg-dark": "#005c4b",
+        "wa-link": "#027eb5",
+        "wa-link-dark": "#53bdeb",
+        "wa-message-primary": "#111b21",
+        "wa-message-primary-dark": "#e9edef",
       },
     },
   },

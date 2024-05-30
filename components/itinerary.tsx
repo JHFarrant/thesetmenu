@@ -124,10 +124,13 @@ const Itinearry = ({
             {itineraryInDays.map((dailyItinerary: any) => {
               const date = shiftedDay(dailyItinerary[0]?.start);
               return (
-                <div key={`DayHeader-${date}`}>
-                  <li className="py-3 sm:py-4">
-                    <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
-                      {date?.format("dddd")}
+                <div
+                  key={`DayHeader-${date}`}
+                  className="py-3 sm:py-4 first:pt-0 first:sm:pt-0"
+                >
+                  <li className="">
+                    <div className="items-center text-left text-2xl font-semibold text-gray-900 dark:text-white">
+                      {date?.format("dddd")} {emojis[date?.format("dddd")]}
                     </div>
                   </li>
                   {dailyItinerary.map((event: any) => {
@@ -149,6 +152,10 @@ const Itinearry = ({
                             {/* <div className='flex' > */}
                             <div className="flex flex-col">
                               <div>
+                                <p className="text-sm text-gray-500 dark:text-gray-400">
+                                  {event.start.format("ddd")}{" "}
+                                  {event.start.format("h:mma")}
+                                </p>
                                 <p className="text-sm font-medium text-left   text-gray-900 dark:text-white">
                                   {favourite.setName}
                                 </p>
@@ -159,10 +166,7 @@ const Itinearry = ({
                                 <p className="text-sm text-gray-500 dark:text-gray-400">
                                   {event.location}
                                 </p>
-                                <p className="text-sm text-gray-500 dark:text-gray-400">
-                                  {event.start.format("ddd")}{" "}
-                                  {event.start.format("h:mma")}
-                                </p>
+
                                 {/* ) */}
                                 {/* )} */}
                               </div>
@@ -176,10 +180,19 @@ const Itinearry = ({
                                   }
                                 >
                                   <img
+                                    className="block dark:hidden"
                                     alt={favourite.artist.name}
                                     // className="rounded-full"
                                     // height="32"
                                     src="spotifylogosmallblack.png"
+                                    width="25"
+                                  />
+                                  <img
+                                    className="hidden dark:block"
+                                    alt={favourite.artist.name}
+                                    // className="rounded-full"
+                                    // height="32"
+                                    src="spotifylogosmallgreen.png"
                                     width="25"
                                   />
                                 </a>
@@ -251,16 +264,17 @@ const Itinearry = ({
           }}
           position="bottom"
           backdrop={false}
-          className="bg-wa-background p-2"
+          className="bg-wa-background dark:bg-wa-background-dark p-2"
           edge={true}
         >
           <Drawer.Items>
             <div className="mb-2 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400">
-              <h3>Share with Whatsapp</h3>
+              <HiOutlineChatAlt2 className="mr-2" />
+              <h3> Share with Whatsapp</h3>
             </div>
             <div className="flex space-x-2">
-              <div className="bg-wa-background pv-2 max-h-40 overflow-y-auto">
-                <div className="bg-wa-message p-2 rounded">
+              <div className="bg-wa-background dark:bg-wa-background-dark pv-2 max-h-40 overflow-y-auto">
+                <div className="bg-wa-message-bg dark:wa-message-bg-dark p-2 rounded">
                   <WhatsappText
                     itineraryInDays={itineraryInDays}
                     selectedEvents={selectedEvents}
@@ -270,7 +284,7 @@ const Itinearry = ({
               <div className="flex items-end">
                 <Button
                   pill
-                  color="gray"
+                  color="light"
                   onClick={() => {
                     window.open(
                       generateWhatsappTextLink(itineraryInDays, selectedEvents)
