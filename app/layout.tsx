@@ -4,6 +4,8 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import * as Sentry from "@sentry/react";
 import ReactGA from "react-ga4";
+import { Flowbite } from "flowbite-react";
+
 ReactGA.initialize("G-P3NCLKN91M");
 
 Sentry.init({
@@ -53,7 +55,9 @@ export default function RootLayout({
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
       <link rel="manifest" href="/site.webmanifest">*/}
-      <body className={inter.className}>{children}</body>
+      <Flowbite>
+        <body className={inter.className}>{children}</body>
+      </Flowbite>
     </html>
   );
 }
