@@ -4,7 +4,13 @@ import { HiCheck, HiOutlinePlusSm } from "react-icons/hi";
 
 import { Button, Badge } from "flowbite-react";
 
-const ArtistSelect = ({ selectionState, toggleSelected }) => {
+const ArtistSelect = ({
+  selectionState,
+  toggleSelected,
+}: {
+  selectionState: any;
+  toggleSelected: any;
+}) => {
   const [selected, setSelected] = useState(false);
 
   return (

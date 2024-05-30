@@ -2,7 +2,9 @@ import { memo } from "react";
 
 import Typing from "react-typing-animation";
 
-const getEventString = (event) => {
+import { Event } from "@/types";
+
+const getEventString = (event: Event) => {
   return (
     <div className="border-l-4 border-gray-600 pl-2 mt-1">
       <span className="font-mono">{event.start.format("h:mma")}</span>{" "}
@@ -13,7 +15,7 @@ const getEventString = (event) => {
   );
 };
 
-const emojis = {
+const emojis: any = {
   Wednesday: "🍄",
   Thursday: "🦄",
   Friday: "🎸",
@@ -29,7 +31,13 @@ export const shiftedDay = (dateTime: moment.Moment) => {
   return out;
 };
 
-const WhatsappText = ({ itineraryInDays, selectedEvents }) => {
+const WhatsappText = ({
+  itineraryInDays,
+  selectedEvents,
+}: {
+  itineraryInDays: any;
+  selectedEvents: any;
+}) => {
   return (
     <>
       <p key={"MyGlastoSetMenuTitle"}>
@@ -39,7 +47,8 @@ const WhatsappText = ({ itineraryInDays, selectedEvents }) => {
       {itineraryInDays.map((dailyItinerary: any) => {
         const date = shiftedDay(dailyItinerary[0]?.start);
         const fiteredDailyItinerary = dailyItinerary.filter(
-          (e) => selectedEvents[e.id] && selectedEvents[e.id] == "selected"
+          (e: Event) =>
+            selectedEvents[e.id] && selectedEvents[e.id] == "selected"
         );
         if (fiteredDailyItinerary.length) {
           return (

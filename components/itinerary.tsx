@@ -8,9 +8,8 @@ import {
   Tooltip,
   Button,
   Drawer,
-  Header,
-  Items,
   Blockquote,
+  CustomFlowbiteTheme,
 } from "flowbite-react";
 import {
   HiInformationCircle,
@@ -26,7 +25,7 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 
-import { Favorite } from "@/types";
+import { Favorite, Event } from "@/types";
 import RecommendationsEndpoints from "@spotify/web-api-ts-sdk/dist/mjs/endpoints/RecommendationsEndpoints";
 import ArtistSelect from "../components/artistSelect";
 import WhatsappText from "../components/whatsappText";
@@ -64,6 +63,10 @@ export const customThemeToggleSwitch: CustomFlowbiteTheme["toggleSwitch"] = {
   },
 };
 
+interface SelectedEvents {
+  [key: string]: string;
+}
+
 const Itinearry = ({
   itineraryInDays,
   favoriteArtists,
@@ -72,12 +75,12 @@ const Itinearry = ({
   setRecommendationsEnabled,
   demoMode,
 }: any) => {
-  const [selectedEvents, setSelectedEvents] = useState({});
+  const [selectedEvents, setSelectedEvents] = useState<SelectedEvents>({});
   const [showShareDrawer, setShowShareDrawer] = useState(false);
   const [drawerOpenedAtLeastOnce, setDrawerOpenedAtLeastOnce] = useState(false);
 
-  const toggleSelectedState = (id) => {
-    const currentState = selectedEvents[id];
+  const toggleSelectedState = (id: string) => {
+    const currentState: string = selectedEvents[id];
     const nextState =
       (currentState ?? "unselected") == "unselected"
         ? "selected"
@@ -250,7 +253,6 @@ const Itinearry = ({
           backdrop={false}
           className="bg-wa-background p-2"
           edge={true}
-          theme={{ edge: "bottom-16" }}
         >
           <Drawer.Items>
             <div className="mb-2 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400">
@@ -288,12 +290,15 @@ const Itinearry = ({
 
 export default Itinearry;
 
-const generateWhatsappTextLink = (itineraryInDays, selectedEvents) => {
+const generateWhatsappTextLink = (
+  itineraryInDays: any,
+  selectedEvents: any
+) => {
   let whatsappTextLink = "📀 MyGlastoSetMenu.co.uk\n";
   itineraryInDays.forEach((dailyItinerary: any) => {
     const date = shiftedDay(dailyItinerary[0]?.start);
     const fiteredDailyItinerary = dailyItinerary.filter(
-      (e) => selectedEvents[e.id] && selectedEvents[e.id] == "selected"
+      (e: Event) => selectedEvents[e.id] && selectedEvents[e.id] == "selected"
     );
     if (fiteredDailyItinerary.length) {
       const shortDate = date?.format("dddd");
@@ -309,7 +314,7 @@ const generateWhatsappTextLink = (itineraryInDays, selectedEvents) => {
   return "https://wa.me/?text=" + encodeURIComponent(whatsappTextLink);
 };
 
-const emojis = {
+const emojis: any = {
   Wednesday: "🍄",
   Thursday: "🦄",
   Friday: "🎸",

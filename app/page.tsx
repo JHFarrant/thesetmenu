@@ -247,9 +247,9 @@ export default function Home() {
     };
 
     if (testMode) {
-      setTopArtists(testTopArtists);
-      setTopTracks(testTopTracks);
-      setFollows(testFollows);
+      setTopArtists(testTopArtists as Artist[]);
+      setTopTracks(testTopTracks as TrackWithAlbum[]);
+      setFollows(testFollows as Artist[]);
     } else {
       setArtistsLoading(true);
       setTopArtists([]);
