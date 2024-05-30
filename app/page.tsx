@@ -18,6 +18,7 @@ import { Button, Card, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
 import Footer from "../components/footer";
 import Itinerary from "../components/itinerary";
+import Header from "../components/header"
 import {DummyItinearryInDays, DummyFavouriteArtists} from "./consts"
 import { shiftedDay } from "../components/itinerary";
 
@@ -276,9 +277,7 @@ export default function Home() {
   );
 
   // const spotifyIDsIncludingRecommendations: any = Object.keys(spotifyIDs2ActsIncludingRecommendations);
-  const spotifyIDsWithoutRecommendations: any = Object.keys(
-    spotifyIDs2ActsWithoutRecommendations
-  );
+
 
   const spotifyIDs2Acts = recommendationsEnabled
     ? spotifyIDs2ActsIncludingRecommendations
@@ -316,6 +315,9 @@ export default function Home() {
       };
     }, {});
 
+  const spotifyIDsWithoutRecommendations: any = Object.keys(
+    spotifyIDs2ActsWithoutRecommendations
+  );
   const matchedArtistsWithTracks = topTracks.reduce(
     (artists, t) => ({
       ...artists,
@@ -433,8 +435,8 @@ export default function Home() {
   }
 
 
-  console.log(JSON.stringify(itineraryInDays, null, 3));
-  console.log(`loadingSpotifyData=${loadingSpotifyData}`);
+  // console.log(JSON.stringify(itineraryInDays, null, 3));
+  // console.log(JSON.stringify(favoriteArtists, null, 3))
 
   useEffect(() => {
     // console.log(`spotifyKeys=${spotifyKeys}`);
@@ -490,40 +492,10 @@ export default function Home() {
           </a>
         )}
       </div>
-      <div className={"flex flex-col px-5 py-5 flex-grow"}>
-        <div
-          id={"header"}
-          className="relative flex place-items-center flex-col mb-5"
-        >
-          <img alt="disc logo" src="/disc.png" width="25" />
-          <h1 className={`text-3xl font-semibold text-center`}>My Glasto Set Menu</h1>
-          <div>
-            <p className={`text-xs text-center opacity-50`}>
-              {"Auto discover acts using your spotify listenting history"}
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-center flex-grow justify-start">
-          {!user && (
-            <>
-            <div>
-              <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
-                {"Use your Spotify history to discover your"}
-              </h5>
-              <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">
-                {"Glasto Set Menu"}
-              </h5>
-            </div>
-            {/*
-            <div className="pt-10">
-              <h5 className="text-l lg:text-5xl drop-shadow-2xl font-bold text-center tracking-tight text-green-800 dark:text-white">
-                {"Glasto 24 confirmed schedule coming soon..."}
-              </h5>
-            </div>
-            */}
-            </>
-          )}
+      <div className={"flex flex-col px-3 py-3 flex-grow"}>
+        <Header/>
+        <div className="flex flex-col flex-grow justify-start">
+          
 
           {/* <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
                     <h2 className={`text-m font-semibold opacity-50 text-left`}>
@@ -545,11 +517,11 @@ export default function Home() {
                   </div> */}
 
           {!user && (
-            <div id={"connectAccount"} className={"justify-self-center pt-10"}>
+            <div id={"connectAccount"} className={"flex flex-col justify-self-center pt-10"}>
               <h2
                 className={`text-m font-semibold opacity-50 text-center pb-3`}
               >
-                Connect your account using
+                Sign in with your spotify account to get started
               </h2>
 
               <Button color="dark" onClick={performSpotifyAuth}>
@@ -561,7 +533,7 @@ export default function Home() {
                 />
               </Button>
               <h2 className={`text-xs text-center opacity-50 pt-1`}>
-                No data leaves your device
+                No data leaves your web browser
               </h2>
             </div>
           )}
@@ -586,12 +558,13 @@ export default function Home() {
                 itineraryInDays={DummyItinearryInDays}
                 favoriteArtists={DummyFavouriteArtists}
                 loadingSpotifyData={false}
+                demoMode={true}
               />
             </div>
           )}
         </div>
         <div className="flex items-center space-x-2 pt-5 justify-center">
-          {user && (
+{/*          {user && (
             <>
               <h2 className={`text-m font-semibold opacity-50 text-center`}>
                 If you liked this then
@@ -603,7 +576,7 @@ export default function Home() {
                 it with your mates
               </h2>
             </>
-          )}
+          )}*/}
         </div>
       </div>
       <Footer />

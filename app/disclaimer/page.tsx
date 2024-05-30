@@ -2,7 +2,7 @@
 
 import { Button, Card, Spinner } from "flowbite-react";
 import Footer from "../../components/footer";
-
+import Header from "../../components/header"
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
 
@@ -11,26 +11,13 @@ export default function Disclaimer() {
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
       <div className="self-end pr-2 pt-2 h-6"></div>
       <div className={"flex flex-col px-5 py-5 flex-grow"}>
-        <div
-          id={"header"}
-          className="relative flex place-items-center flex-col mb-5"
-        >
-          <img alt="disc logo" src="/disc.png" width="25" />
-          <h1 className={`text-3xl font-semibold text-center`}>The Set Menu</h1>
-          <div>
-            <p className={`text-xs text-center opacity-50`}>
-              {"You can't remember every artists name"}
-            </p>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-center flex-grow justify-center">
+        <Header/>
+        <div className="flex flex-col flex-grow justify-center">
           <Card href="#">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Disclaimer</p>
             </h5>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              <p>
                 This website is not an official website of Spotify. It is an
                 independent platform created for informational and entertainment
                 purposes only. We are not affiliated, endorsed, or sponsored by
@@ -51,7 +38,6 @@ export default function Disclaimer() {
                 arising out of, or in connection with, the use of this website.
                 By using this website, you acknowledge and agree to the terms
                 stated in this disclaimer.
-              </p>
             </p>
           </Card>
         </div>
