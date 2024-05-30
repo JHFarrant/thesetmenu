@@ -7,10 +7,12 @@ import { Event } from "@/types";
 const getEventString = (event: Event) => {
   return (
     <div className="border-l-4 border-gray-600 pl-2 mt-1">
-      <span className="font-mono">{event.start.format("h:mma")}</span>{" "}
-      {event.name}
-      {" @ "}
-      <i>{event.location}</i>
+      <p className="text-wa-message-primary dark:text-wa-message-primary-dark">
+        <span className="font-mono">{event.start.format("h:mma")}</span>{" "}
+        {event.name}
+        {" @ "}
+        <i>{event.location}</i>
+      </p>
     </div>
   );
 };
@@ -42,7 +44,9 @@ const WhatsappText = ({
     <>
       <p key={"MyGlastoSetMenuTitle"}>
         📀{" "}
-        <span className="text-blue-500 underline">MyGlastoSetMenu.co.uk</span>
+        <span className="text-wa-link dark:text-wa-link-dark underline">
+          MyGlastoSetMenu.co.uk
+        </span>
       </p>
       {itineraryInDays.map((dailyItinerary: any) => {
         const date = shiftedDay(dailyItinerary[0]?.start);
