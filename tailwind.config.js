@@ -16,13 +16,11 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        'wa-header': "#d1d7db",
-        'wa-background': '#e5ddd4',
-        'wa-message': '#d9fdd3',
-      }
+        "wa-header": "#d1d7db",
+        "wa-background": "#e5ddd4",
+        "wa-message": "#d9fdd3",
+      },
     },
   },
-  plugins: [
-    flowbite.plugin(),
-    ],
+  plugins: [flowbite.plugin()],
 };

@@ -18,15 +18,15 @@ import { Button, Card, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
 import Footer from "../components/footer";
 import Itinerary from "../components/itinerary";
-import Header from "../components/header"
-import {DummyItinearryInDays, DummyFavouriteArtists} from "./consts"
+import Header from "../components/header";
+import { DummyItinearryInDays, DummyFavouriteArtists } from "./consts";
 import { shiftedDay } from "../components/itinerary";
 
-import testTopArtists from '../testData/jack/topArtists.json'
-import testTopTracks from '../testData/jack/topTracks.json'
-import testFollows from '../testData/jack/follows.json'
+import testTopArtists from "../testData/jack/topArtists.json";
+import testTopTracks from "../testData/jack/topTracks.json";
+import testFollows from "../testData/jack/follows.json";
 
-const testMode = false
+const testMode = false;
 
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
@@ -246,12 +246,11 @@ export default function Home() {
       setTracksLoading(false);
     };
 
-    if(testMode){
-      setTopArtists(testTopArtists)
-      setTopTracks(testTopTracks)
-      setFollows(testFollows)
-
-    }else{
+    if (testMode) {
+      setTopArtists(testTopArtists);
+      setTopTracks(testTopTracks);
+      setFollows(testFollows);
+    } else {
       setArtistsLoading(true);
       setTopArtists([]);
       fetchArtists().catch(console.error);
@@ -277,7 +276,6 @@ export default function Home() {
   );
 
   // const spotifyIDsIncludingRecommendations: any = Object.keys(spotifyIDs2ActsIncludingRecommendations);
-
 
   const spotifyIDs2Acts = recommendationsEnabled
     ? spotifyIDs2ActsIncludingRecommendations
@@ -434,7 +432,6 @@ export default function Home() {
     );
   }
 
-
   // console.log(JSON.stringify(itineraryInDays, null, 3));
   // console.log(JSON.stringify(favoriteArtists, null, 3))
 
@@ -469,14 +466,13 @@ export default function Home() {
         setInitialLoadDone(true);
       }
     };
-    if(testMode){
+    if (testMode) {
       setUser(true);
       setInitialLoadDone(true);
       fetchAll();
-    }else{
+    } else {
       initSpotify();
     }
-    
   }, []);
 
   return intialLoadDone ? (
@@ -493,10 +489,8 @@ export default function Home() {
         )}
       </div>
       <div className={"flex flex-col px-3 py-3 flex-grow"}>
-        <Header/>
+        <Header />
         <div className="flex flex-col flex-grow justify-start">
-          
-
           {/* <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
                     <h2 className={`text-m font-semibold opacity-50 text-left`}>
                               Choose your festival
@@ -517,7 +511,10 @@ export default function Home() {
                   </div> */}
 
           {!user && (
-            <div id={"connectAccount"} className={"flex flex-col justify-self-center pt-10"}>
+            <div
+              id={"connectAccount"}
+              className={"flex flex-col justify-self-center pt-10"}
+            >
               <h2
                 className={`text-m font-semibold opacity-50 text-center pb-3`}
               >
@@ -564,7 +561,7 @@ export default function Home() {
           )}
         </div>
         <div className="flex items-center space-x-2 pt-5 justify-center">
-{/*          {user && (
+          {/*          {user && (
             <>
               <h2 className={`text-m font-semibold opacity-50 text-center`}>
                 If you liked this then
