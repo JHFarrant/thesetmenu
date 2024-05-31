@@ -274,7 +274,7 @@ const Itinearry = ({
             </div>
             <div className="flex space-x-2">
               <div className="bg-wa-background dark:bg-wa-background-dark pv-2 max-h-40 overflow-y-auto">
-                <div className="bg-wa-message-bg dark:wa-message-bg-dark p-2 rounded">
+                <div className="bg-wa-message-bg dark:bg-wa-message-bg-dark p-2 rounded">
                   <WhatsappText
                     itineraryInDays={itineraryInDays}
                     selectedEvents={selectedEvents}
