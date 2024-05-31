@@ -265,7 +265,7 @@ const Itinearry = ({
           position="bottom"
           backdrop={false}
           className="bg-wa-background dark:bg-wa-background-dark p-2"
-          edge={true}
+          edge={false}
         >
           <Drawer.Items>
             <div className="mb-2 inline-flex items-center text-base font-semibold text-gray-500 dark:text-gray-400">
@@ -282,17 +282,22 @@ const Itinearry = ({
                 </div>
               </div>
               <div className="flex items-end">
-                <Button
-                  pill
-                  color="light"
-                  onClick={() => {
-                    window.open(
-                      generateWhatsappTextLink(itineraryInDays, selectedEvents)
-                    );
-                  }}
-                >
-                  <HiOutlinePaperAirplane className="rotate-90 h-6 w-6" />
-                </Button>
+                {showShareDrawer && (
+                  <Button
+                    pill
+                    color="light"
+                    onClick={() => {
+                      window.open(
+                        generateWhatsappTextLink(
+                          itineraryInDays,
+                          selectedEvents
+                        )
+                      );
+                    }}
+                  >
+                    <HiOutlinePaperAirplane className="rotate-90 h-6 w-6" />
+                  </Button>
+                )}
               </div>
             </div>
           </Drawer.Items>
