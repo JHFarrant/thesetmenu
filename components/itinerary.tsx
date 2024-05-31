@@ -102,13 +102,12 @@ const Itinearry = ({
 
   return (
     <>
+
       <Card className={showShareDrawer ? "mb-20" : ""}>
-        {/*      <div className="flex items-center justify-center">
-        <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
-          {"Your Glasto Set Menu 🔥"}
-        </h5>
-      </div>*/}
-        {/*      {!!setRecommendationsEnabled && (
+        <p className={`text-xs text-center opacity-50`}>
+          {"Select events to add to your set menu"}
+      </p>
+              {!!setRecommendationsEnabled && (
         <div className="min-w-150">
           <ToggleSwitch
             color={"success"}
@@ -118,7 +117,7 @@ const Itinearry = ({
             onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
           />
         </div>
-      )}*/}
+      )}
         <div className="flow-root">
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {itineraryInDays.map((dailyItinerary: any) => {
