@@ -102,22 +102,23 @@ const Itinearry = ({
 
   return (
     <>
-
       <Card className={showShareDrawer ? "mb-20" : ""}>
         <p className={`text-xs text-center opacity-50`}>
           {"Select events to add to your set menu"}
-      </p>
-              {!!setRecommendationsEnabled && (
-        <div className="min-w-150">
-          <ToggleSwitch
-            color={"success"}
-            theme={customThemeToggleSwitch}
-            checked={recommendationsEnabled}
-            label="Suggest similar artists"
-            onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
-          />
-        </div>
-      )}
+        </p>
+        {!!setRecommendationsEnabled && (
+          <div className="min-w-150">
+            <ToggleSwitch
+              color={"success"}
+              theme={customThemeToggleSwitch}
+              checked={recommendationsEnabled}
+              label="Suggest similar artists"
+              onChange={() =>
+                setRecommendationsEnabled(!recommendationsEnabled)
+              }
+            />
+          </div>
+        )}
         <div className="flow-root">
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {itineraryInDays.map((dailyItinerary: any) => {
