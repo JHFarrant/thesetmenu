@@ -53,6 +53,17 @@ const getImage = (favourite: Favorite): Image => {
   return albumImage || { url: "disc.png", width: 512, height: 512 };
 };
 
+const groupByLocation = (events) => {
+  return events.reduce((acc, event) => {
+    const location = event.location;
+    if (!acc[location]) {
+      acc[location] = [];
+    }
+    acc[location].push(event);
+    return acc;
+  }, {});
+};
+
 export const customThemeToggleSwitch: CustomFlowbiteTheme["toggleSwitch"] = {
   toggle: {
     base: "after:rounded-full rounded-full border group-focus:ring-4 group-focus:ring-cyan-500/25",
@@ -123,106 +134,121 @@ const Itinearry = ({
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {itineraryInDays.map((dailyItinerary: any) => {
               const date = shiftedDay(dailyItinerary[0]?.start);
+              const eventsByLocation = groupByLocation(dailyItinerary);
               return (
                 <div
                   key={`DayHeader-${date}`}
                   className="py-3 sm:py-4 first:pt-0 first:sm:pt-0"
                 >
-                  <li className="">
+                  <li className="pb-4">
                     <div className="items-center text-left text-2xl font-semibold text-gray-900 dark:text-white">
                       {date?.format("dddd")} {emojis[date?.format("dddd")]}
                     </div>
                   </li>
-                  {dailyItinerary.map((event: any) => {
-                    const favourite = favoriteArtists[event.name];
+                  {Object.entries(eventsByLocation).map(([location, events]) => {
                     return (
-                      <li key={event.id} className="py-3 sm:py-4">
-                        <div id="artistListItem" className="flex space-x-2 p-1">
-                          <div id="artistImage" className="shrink-0">
-                            <img
-                              alt={favourite.artist.name}
-                              src={getImage(favourite).url}
-                              width="100"
-                            />
-                          </div>
-                          <div
-                            id="artistInfo"
-                            className="flex flex-col space-y-2 items-left w-full justify-between"
-                          >
-                            {/* <div className='flex' > */}
-                            <div className="flex flex-col">
-                              <div>
-                                <p className="text-sm text-gray-500 dark:text-gray-400">
-                                  {event.start.format("ddd")}{" "}
-                                  {event.start.format("h:mma")}
-                                </p>
-                                <p className="text-sm font-medium text-left   text-gray-900 dark:text-white">
-                                  {favourite.setName}
-                                </p>
-                              </div>
-                              <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
-                                {/* {eventsByArtist[favourite.setName]?.events.map( */}
-                                {/* (e: any) => ( */}
-                                <p className="text-sm text-gray-500 dark:text-gray-400">
-                                  {event.location}
-                                </p>
-
-                                {/* ) */}
-                                {/* )} */}
-                              </div>
-                            </div>
-                            <div className="flex w-full justify-between items-center space-x-2">
-                              <div id="spotifyIconArtistLink">
-                                <a
-                                  href={
-                                    !demoMode &&
-                                    favourite.artist.external_urls.spotify
-                                  }
-                                >
-                                  <img
-                                    className="block dark:hidden"
-                                    alt={favourite.artist.name}
-                                    // className="rounded-full"
-                                    // height="32"
-                                    src="spotifylogosmallblack.png"
-                                    width="25"
-                                  />
-                                  <img
-                                    className="hidden dark:block"
-                                    alt={favourite.artist.name}
-                                    // className="rounded-full"
-                                    // height="32"
-                                    src="spotifylogosmallgreen.png"
-                                    width="25"
-                                  />
-                                </a>
-                              </div>
-                              {!demoMode && (
-                                <ArtistSelect
-                                  selectionState={selectedEvents[event.id]}
-                                  toggleSelected={() =>
-                                    toggleSelectedState(event.id)
-                                  }
-                                />
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                        <div className="flex w-full justify-start items-end space-x-2">
-                          {favourite.relatedArtistName && (
-                            <div id="whyRecommendationBadge">
-                              <Tooltip
-                                content={`Recommended because you listen to ${favourite.relatedArtistName}`}
-                              >
-                                <Badge icon={HiInformationCircle} color="info">
-                                  {"Recommended for you, why?"}
-                                </Badge>
-                              </Tooltip>
-                            </div>
-                          )}
+                      <div className="">
+                      <li className="flex flex-wrap space-x-2">
+                        <div className="text-left text-m font-semibold text-gray-900 dark:text-white">
+                          {location}
                         </div>
                       </li>
-                    );
+                      <div className="flex flex-wrap space-x-2">
+                      {events.map((event: any) => {
+                        const favourite = favoriteArtists[event.name];
+                        return (
+                          <li key={event.id} className="py-3 sm:py-4">
+                          <div id="artistListItem" className="flex space-x-2 p-1">
+                            <div id="artistImage" className="shrink-0">
+                              <img
+                                alt={favourite.artist.name}
+                                src={getImage(favourite).url}
+                                width="100"
+                              />
+                            </div>
+                            <div
+                              id="artistInfo"
+                              className="flex flex-col space-y-2 items-start justify-between w-full"
+                            >
+                              {/* <div className='flex' > */}
+                              <div className="flex flex-col">
+                                <div>
+                                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                                    {event.start.format("ddd")}{" "}
+                                    {event.start.format("h:mma")}
+                                  </p>
+                                  <p className="text-sm font-medium text-left   text-gray-900 dark:text-white">
+                                    {favourite.setName}
+                                  </p>
+                                </div>
+                                <div className="items-center text-left  text-base font-semibold text-gray-900 dark:text-white">
+                                  {/* {eventsByArtist[favourite.setName]?.events.map( */}
+                                  {/* (e: any) => ( */}
+                                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                                    {event.location}
+                                  </p>
+
+                                  {/* ) */}
+                                  {/* )} */}
+                                </div>
+                              </div>
+                              <div className="flex w-full items-center space-x-2">
+                                <div id="spotifyIconArtistLink">
+                                  <a
+                                    href={
+                                      !demoMode &&
+                                      favourite.artist.external_urls.spotify
+                                    }
+                                    target="_blank"
+                                  >
+                                    <img
+                                      className="block dark:hidden"
+                                      alt={favourite.artist.name}
+                                      // className="rounded-full"
+                                      // height="32"
+                                      src="spotifylogosmallblack.png"
+                                      width="25"
+                                    />
+                                    <img
+                                      className="hidden dark:block"
+                                      alt={favourite.artist.name}
+                                      // className="rounded-full"
+                                      // height="32"
+                                      src="spotifylogosmallgreen.png"
+                                      width="25"
+                                    />
+                                  </a>
+                                </div>
+                                {!demoMode && (
+                                  <ArtistSelect
+                                    selectionState={selectedEvents[event.id]}
+                                    toggleSelected={() =>
+                                      toggleSelectedState(event.id)
+                                    }
+                                  />
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                          <div className="flex w-full justify-start items-end space-x-2">
+                            {favourite.relatedArtistName && (
+                              <div id="whyRecommendationBadge">
+                                <Tooltip
+                                  content={`Recommended because you listen to ${favourite.relatedArtistName}`}
+                                >
+                                  <Badge icon={HiInformationCircle} color="info">
+                                    {"Recommended for you, why?"}
+                                  </Badge>
+                                </Tooltip>
+                              </div>
+                            )}
+                          </div>
+                          </li>
+                        )
+                      })}
+                      </div>
+                      </div>
+                      );
                   })}
                 </div>
               );

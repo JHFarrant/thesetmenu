@@ -488,28 +488,9 @@ export default function Home() {
           </a>
         )}
       </div>
-      <div className={"flex flex-col px-3 py-3 flex-grow"}>
+      <div className={"flex flex-col px-3 py-3 flex-grow container"}>
         <Header />
         <div className="flex flex-col flex-grow justify-start">
-          {/* <div id={"chooseFestival"} className={'justify-self-center pt-10'}>
-                    <h2 className={`text-m font-semibold opacity-50 text-left`}>
-                              Choose your festival
-                          </h2>
-                    <div
-                      className="mb-2 flex flex-col group rounded-lg border border-transparent px-5 py-4 text-center bg-neutral-800 bg-opacity-50 hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-                              >
-                        <div className={`text-m font-semibold opacity-80`}>
-                        </div>
-                            <img src='/glasto.png' width="200" height="50"/>
-                            <div className={`text-sm font-semibold `}>
-                              Glastonbury 2024
-                          </div>
-                    </div>
-                    <h2 className={`m-0 text-xs text-center opacity-50`}>
-                        More festivals coming soon...           
-                    </h2>
-                  </div> */}
-
           {!user && (
             <div
               id={"connectAccount"}
@@ -561,19 +542,19 @@ export default function Home() {
           )}
         </div>
         <div className="flex items-center space-x-2 pt-5 justify-center">
-          {/*          {user && (
-            <>
-              <h2 className={`text-m font-semibold opacity-50 text-center`}>
-                If you liked this then
-              </h2>
-              <Button color="dark" onClick={share}>
-                <h1 className={`text-m font-semibold text-center`}>Share</h1>
-              </Button>
-              <h2 className={`text-m font-semibold opacity-50 text-center`}>
-                it with your mates
-              </h2>
-            </>
-          )}*/}
+          {/* {user && (
+        <>
+          <h2 className={`text-m font-semibold opacity-50 text-center`}>
+            If you liked this then
+          </h2>
+          <Button color="dark" onClick={share}>
+            <h1 className={`text-m font-semibold text-center`}>Share</h1>
+          </Button>
+          <h2 className={`text-m font-semibold opacity-50 text-center`}>
+            it with your mates
+          </h2>
+        </>
+      )}*/}
         </div>
       </div>
       <Footer />

@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --logo-fill-color: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +14,7 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 90, 90, 90;
     --background-end-rgb: 45, 45, 45;
+    --logo-fill-color: white;
   }
 }
 
@@ -26,6 +28,16 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.logo svg path {
+  fill: var(--logo-fill-color);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .wave-box {
   --mask: radial-gradient(
         31.5px at 50% calc(100% - 44.4px),
@@ -37,4 +49,26 @@ body {
       100% 0%/96px calc(91% - 24px) repeat-x;
   -webkit-mask: var(--mask);
   mask: var(--mask);
+  width: 100%;
+}
+
+#artistListItem {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(55 65 81);
+  min-width: 300px;
+}
+
+@media (max-width: 640px) {
+  .wave-box {
+    width: 96px; /* Adjust as necessary to make it "thin" on mobile */
+  }
+  .container {
+    width: 100%;
+    padding: 1em;
+  }
+  #artistListItem {
+    border-style: hidden;
+    width: 100%;
+  }
 }

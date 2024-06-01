@@ -1,6 +1,6 @@
 # thesetmenu.co.uk
 
-> Use your Spotify history to discover your Glasto 23 Set Menu
+> Use your Spotify history to discover your Glasto 24 Set Menu
 
 <img src="https://github.com/JHFarrant/thesetmenu/assets/3439407/bf4cd0a1-8c0c-4e9a-a397-0ba1a2e59567" width="200px">
 <img src="https://github.com/JHFarrant/thesetmenu/assets/3439407/0086325f-69b4-42f1-a43e-01dbfdfd6d10" width="200px">
@@ -15,13 +15,13 @@
 
 _Try it out [here](https://thesetmenu.co.uk)_
 
-> All the above steps are performed in your browser, your spotify history does not leave your browser
+> All the above steps are performed in your browser, your Spotify history does not leave your browser
 
 ## Getting Started
 
 > This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+First, run `yarn install` - then start the development server:
 
 ```bash
 npm run dev
