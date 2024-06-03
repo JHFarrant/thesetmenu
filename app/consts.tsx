@@ -1,6 +1,7 @@
 import moment from "moment";
+import { Event, Favorite } from "@/types";
 
-export const DummyItinearryInDays = [
+export const DummyItinearryInDays: any[] = [
   [
     {
       name: "Barry Can't Swim",
@@ -108,7 +109,7 @@ export const DummyItinearryInDays = [
     },
   ],
 ];
-export const DummyFavouriteArtists = {
+export const DummyFavouriteArtists: { [p: string]: Favorite } = {
   "Barry Can't Swim": {
     artist: {
       external_urls: {

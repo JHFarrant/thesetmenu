@@ -1,26 +1,19 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { SpotifyApi } from "@spotify/web-api-ts-sdk";
-import { FollowedArtists } from "@spotify/web-api-ts-sdk/dist/mjs/types";
-
-import {
-  Page,
-  Artist,
-  TrackWithAlbum,
-  Image,
-} from "@spotify/web-api-ts-sdk/dist/mjs/types";
-import { Favorite, Event } from "@/types";
+import { Artist, FollowedArtists, Page, TrackWithAlbum } from "@spotify/web-api-ts-sdk/dist/mjs/types";
+import { Event, Favorite } from "@/types";
 import spotifyIDsJson from "../public/g2024SpotifyIDs.json";
 import rawEvents from "../public/g2024.json";
 import moment from "moment";
-import { Button, Card, Spinner } from "flowbite-react";
+import { Button, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
-import Footer from "../components/footer";
-import Itinerary from "../components/itinerary";
-import Header from "../components/header";
-import { DummyItinearryInDays, DummyFavouriteArtists } from "./consts";
-import { shiftedDay } from "../components/itinerary";
+import Footer from "../components/PageFooter";
+import Itinerary from "../components/Itinerary";
+import PageHeader from "../components/PageHeader";
+import { DummyFavouriteArtists, DummyItinearryInDays } from "./consts";
+import { shiftedDay } from "@/utils/dateUtils";
 
 import testTopArtists from "../testData/jack/topArtists.json";
 import testTopTracks from "../testData/jack/topTracks.json";
@@ -57,7 +50,7 @@ export default function Home() {
     () =>
       SpotifyApi.withUserAuthorization(SpotifyClientID, ThisURL, [
         "user-top-read",
-        "user-follow-read",
+        "user-follow-read"
       ]),
     []
   );
@@ -86,7 +79,7 @@ export default function Home() {
       navigator
         .share({
           title: "My Glasto Set Menu",
-          url: "https://myglastosetmenu.co.uk/",
+          url: "https://myglastosetmenu.co.uk/"
         })
         .then(() => {
           console.log("Share success");
@@ -145,7 +138,7 @@ export default function Home() {
           mediumTerm1,
           mediumTerm2,
           longTerm1,
-          longTerm2,
+          longTerm2
         ]);
         const newTopArtists = artistsPage.reduce(
           (artists, a) => artists.concat(a.items),
@@ -223,7 +216,7 @@ export default function Home() {
           mediumTerm1,
           mediumTerm2,
           longTerm1,
-          longTerm2,
+          longTerm2
         ]);
         const newTopTracks = tracksPage.reduce(
           (tracks, a) => tracks.concat(a.items),
@@ -270,7 +263,7 @@ export default function Home() {
   ).reduce(
     (filteredSpotifyIds: any, [id, value]: [string, any]) => ({
       ...filteredSpotifyIds,
-      ...(value.related_artist_name === null ? { [id]: value } : {}),
+      ...(value.related_artist_name === null ? { [id]: value } : {})
     }),
     {}
   );
@@ -294,8 +287,8 @@ export default function Home() {
             ? matchedArtist.act_artist_data
             : a,
           setName: matchedArtist.act_name,
-          relatedArtistName: matchedArtist.related_artist_name,
-        },
+          relatedArtistName: matchedArtist.related_artist_name
+        }
       };
     }, {});
 
@@ -308,8 +301,8 @@ export default function Home() {
         [matchedArtist.act_name]: {
           artist: a,
           setName: matchedArtist.act_name,
-          relatedArtistName: matchedArtist.related_artist_name,
-        },
+          relatedArtistName: matchedArtist.related_artist_name
+        }
       };
     }, {});
 
@@ -329,10 +322,10 @@ export default function Home() {
               track: t,
               artist: a,
               setName: matchedArtist.act_name,
-              relatedArtistName: null,
-            },
+              relatedArtistName: null
+            }
           };
-        }, {}),
+        }, {})
     }),
     {}
   );
@@ -345,7 +338,7 @@ export default function Home() {
             ...e,
             start: moment(e.start),
             end: moment(e.end),
-            location: location.name,
+            location: location.name
           }))
         ),
       []
@@ -371,7 +364,7 @@ export default function Home() {
   const favoriteArtists: { [key: string]: Favorite } = {
     ...matchedArtistsWithTracks,
     ...matchedArtists,
-    ...matchedFollows,
+    ...matchedFollows
   };
 
   const eventsByTime = extractEventsByTime(rawEvents);
@@ -453,7 +446,7 @@ export default function Home() {
             fetchAll();
           })
           .catch((error) => {
-            console.error("Initialising..., Failed to get spotify user");
+            console.error("Initialising..., Failed to get spotify user", error);
             setUser(undefined);
             setInitialLoadDone(true);
             console.error(error);
@@ -489,7 +482,7 @@ export default function Home() {
         )}
       </div>
       <div className={"flex flex-col px-3 py-3 flex-grow container"}>
-        <Header />
+        <PageHeader />
         <div className="flex flex-col flex-grow justify-start">
           {!user && (
             <div
@@ -499,7 +492,7 @@ export default function Home() {
               <h2
                 className={`text-m font-semibold opacity-50 text-center pb-3`}
               >
-                Sign in with your spotify account to get started
+                Sign in with your Spotify account to get started
               </h2>
 
               <Button color="dark" onClick={performSpotifyAuth}>
@@ -523,6 +516,7 @@ export default function Home() {
               loadingSpotifyData={loadingSpotifyData}
               recommendationsEnabled={recommendationsEnabled}
               setRecommendationsEnabled={setRecommendationsEnabled}
+              demoMode={false}
             />
           )}
           {!user && (
@@ -536,6 +530,8 @@ export default function Home() {
                 itineraryInDays={DummyItinearryInDays}
                 favoriteArtists={DummyFavouriteArtists}
                 loadingSpotifyData={false}
+                recommendationsEnabled={false}
+                setRecommendationsEnabled={setRecommendationsEnabled}
                 demoMode={true}
               />
             </div>

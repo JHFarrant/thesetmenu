@@ -21,14 +21,16 @@ _Try it out [here](https://thesetmenu.co.uk)_
 
 > This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run `yarn install` - then start the development server:
+To get started, use the correct version of node and install the dependencies:
 
-```bash
-npm run dev
-# or
+```shell
+nvm use
+yarn install
+```
+
+To run the development server:
+```shell
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

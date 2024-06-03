@@ -1,8 +1,8 @@
-import { memo } from "react";
-
 import Typing from "react-typing-animation";
 
-import { Event } from "@/types";
+import { Event, SelectedEvents } from "@/types";
+import { formatDayTitle } from "@/utils/stringUtils";
+import { shiftedDay } from "@/utils/dateUtils";
 
 const getEventString = (event: Event) => {
   return (
@@ -17,28 +17,12 @@ const getEventString = (event: Event) => {
   );
 };
 
-const emojis: any = {
-  Wednesday: "🍄",
-  Thursday: "🦄",
-  Friday: "🎸",
-  Saturday: "🎤",
-  Sunday: "🎷",
-};
-
-const TIME_SHIFT = 6; // hours
-
-export const shiftedDay = (dateTime: moment.Moment) => {
-  let out = dateTime.clone();
-  out.subtract(TIME_SHIFT, "hours").startOf("day");
-  return out;
-};
-
 const WhatsappText = ({
-  itineraryInDays,
-  selectedEvents,
-}: {
-  itineraryInDays: any;
-  selectedEvents: any;
+                        itineraryInDays,
+                        selectedEvents
+                      }: {
+  itineraryInDays: Event[][];
+  selectedEvents: SelectedEvents;
 }) => {
   return (
     <>
@@ -51,16 +35,12 @@ const WhatsappText = ({
       {itineraryInDays.map((dailyItinerary: any) => {
         const date = shiftedDay(dailyItinerary[0]?.start);
         const fiteredDailyItinerary = dailyItinerary.filter(
-          (e: Event) =>
-            selectedEvents[e.id] && selectedEvents[e.id] == "selected"
+          (e: Event) => selectedEvents[e.id] && selectedEvents[e.id]
         );
         if (fiteredDailyItinerary.length) {
           return (
             <div key={date?.format("dddd")}>
-              <p>
-                {emojis[date?.format("dddd")]} <b>{date?.format("dddd")}</b>{" "}
-                {emojis[date?.format("dddd")]}
-              </p>
+              <p>{formatDayTitle(date, true, true)}</p>
               {fiteredDailyItinerary.map((event: any) => {
                 return (
                   <div key={event.id}>

@@ -1,6 +1,6 @@
-const Header = () => (
+const PageHeader = () => (
   <div id={"header"} className="relative flex place-items-center flex-col mb-5">
-    <div class="logo">
+    <div className="logo">
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -49,10 +49,10 @@ const Header = () => (
     <h1 className={`text-3xl font-semibold text-center`}>My Glasto Set Menu</h1>
     <div>
       <p className={`text-xs text-center opacity-50`}>
-        {"Auto discover acts using your Spotify history"}
+        Auto-discover acts using your Spotify history
       </p>
     </div>
   </div>
 );
 
-export default Header;
+export default PageHeader;
