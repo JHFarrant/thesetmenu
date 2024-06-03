@@ -1,8 +1,8 @@
 "use client";
 
 import { Button, Card, Spinner } from "flowbite-react";
-import Footer from "../../components/footer";
-import Header from "../../components/header";
+import Footer from "../../components/PageFooter";
+import PageHeader from "../../components/PageHeader";
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
 
@@ -11,7 +11,7 @@ export default function Disclaimer() {
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
       <div className="self-end pr-2 pt-2 h-6"></div>
       <div className={"flex flex-col px-5 py-5 flex-grow"}>
-        <Header />
+        <PageHeader />
         <div className="flex flex-col flex-grow justify-center">
           <Card href="#">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
