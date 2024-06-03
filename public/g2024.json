@@ -1,6 +1,6 @@
 {
   "copyright": "Licensed under a Creative Commons Attribution-NonCommercial 3.0 License https://creativecommons.org/licenses/by-nc/3.0/. Free for non-commercial use. Contact halvin@clashfinder.com for other uses.",
-  "modified": "2024-05-28 13:06",
+  "modified": "2024-06-01 10:59",
   "name": "Glastonbury Festival 2024",
   "id": "g2024",
   "url": "https://clashfinder.com/s/g2024/",
@@ -322,7 +322,8 @@
           "short": "jungle(1)",
           "start": "2024-06-28 22:15",
           "end": "2024-06-28 23:45",
-          "id": "4337d44cf815bc5d38b3cc44ae1c55362f6a9f9fb69ad0f42a4455dc118988f6"
+          "mbId": "6bbb3983-ce8a-4971-96e0-7cae73268fc4",
+          "id": "193b7285de5ed516c74c44b006bc64567ddfaa2872f6893a2a0ebdc5e833b51d"
         },
         {
           "name": "47SOUL",
@@ -950,8 +951,8 @@
           "short": "ghetts(1)",
           "start": "2024-06-30 19:45",
           "end": "2024-06-30 20:45",
-          "mbId": "f3e2a7d9-c6bb-4848-95e5-04c0a1e2f511",
-          "id": "2263d0047cc5e36072c97854c90aa79381872251f475782b914ab8d821dbff4c"
+          "mbId": "62ffd9ee-13a1-49ed-8721-d07fd0b2f07d",
+          "id": "12fd04fe7d5b1973bdae5f3d6614367d9eba6b98600b2e8d8a6ff2e2c82999e6"
         },
         {
           "name": "London Grammar",
@@ -1847,11 +1848,11 @@
           "id": "6a6e1bf1b7584ecfdc361a5e29215ea67534a41c8763b110bb278ab9b22401d4"
         },
         {
-          "name": "Leon Vyneshall",
-          "short": "leonvy(1)",
+          "name": "Leon Vynehall",
+          "short": "leonvy1(1)",
           "start": "2024-06-28 18:20",
           "end": "2024-06-28 19:05",
-          "id": "5792d7b7cbd92b23336359d0c9f94e41cf9b8323021edd2d06f662ebd44b2bba"
+          "id": "92a9d3931857c37c969e2f9dfcfdd9f4b2550a86dfb28601ec7e2e33a7a3201a"
         },
         {
           "name": "Friction",
