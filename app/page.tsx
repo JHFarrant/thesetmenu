@@ -276,8 +276,6 @@ export default function Home() {
     {}
   );
 
-  // const spotifyIDsIncludingRecommendations: any = Object.keys(spotifyIDs2ActsIncludingRecommendations);
-
   const spotifyIDsIncludingRecommendations = Object.keys(
     spotifyIDs2ActsIncludingRecommendations
   );
@@ -289,7 +287,7 @@ export default function Home() {
   const matchedArtists = topArtists
     .filter((a) => spotifyIDsWithoutRecommendations.includes(a.id))
     .reduce((artists, a) => {
-      const matchedArtist = spotifyIDs2Acts[a.id];
+      const matchedArtist = spotifyIDs2ActsWithoutRecommendations[a.id];
       return {
         ...artists,
         [matchedArtist.act_name]: {
@@ -305,7 +303,7 @@ export default function Home() {
   const matchedFollows = follows
     .filter((a) => spotifyIDsWithoutRecommendations.includes(a.id))
     .reduce((artists, a) => {
-      const matchedArtist = spotifyIDs2Acts[a.id];
+      const matchedArtist = spotifyIDs2ActsWithoutRecommendations[a.id];
       return {
         ...artists,
         [matchedArtist.act_name]: {
@@ -322,7 +320,7 @@ export default function Home() {
       ...t.artists
         .filter((a) => spotifyIDsWithoutRecommendations.includes(a.id))
         .reduce((trackArtists, a) => {
-          const matchedArtist = spotifyIDs2Acts[a.id];
+          const matchedArtist = spotifyIDs2ActsWithoutRecommendations[a.id];
           return {
             ...trackArtists,
             [matchedArtist.act_name]: {
@@ -341,7 +339,7 @@ export default function Home() {
     ? topArtists
         .filter((a) => spotifyIDsIncludingRecommendations.includes(a.id))
         .reduce((artists, a) => {
-          const matchedArtist = spotifyIDs2Acts[a.id];
+          const matchedArtist = spotifyIDs2ActsIncludingRecommendations[a.id];
           return {
             ...artists,
             [matchedArtist.act_name]: {
@@ -359,7 +357,7 @@ export default function Home() {
     ? follows
         .filter((a) => spotifyIDsIncludingRecommendations.includes(a.id))
         .reduce((artists, a) => {
-          const matchedArtist = spotifyIDs2Acts[a.id];
+          const matchedArtist = spotifyIDs2ActsIncludingRecommendations[a.id];
           return {
             ...artists,
             [matchedArtist.act_name]: {
