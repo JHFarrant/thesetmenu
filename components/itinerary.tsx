@@ -106,13 +106,16 @@ const Itinearry = ({
         <p className={`text-xs text-center opacity-50`}>
           {"Select events to add to your set menu"}
         </p>
+        <p className={`text-xs text-red-500 text-bold text-center`}>
+          {"Times are not yet confirmed ⚠️"}
+        </p>
         {!!setRecommendationsEnabled && (
           <div className="min-w-150">
             <ToggleSwitch
               color={"success"}
               theme={customThemeToggleSwitch}
               checked={recommendationsEnabled}
-              label="Suggest similar artists"
+              label="Suggest similar artists using AI 😉"
               onChange={() =>
                 setRecommendationsEnabled(!recommendationsEnabled)
               }

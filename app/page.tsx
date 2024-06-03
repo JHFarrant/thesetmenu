@@ -11,7 +11,7 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 import { Favorite, Event } from "@/types";
-import spotifyIDsJson from "../public/g2024SpotifyIDs.json";
+import spotifyIDs2Acts from "../public/g2024SpotifyIDs.json";
 import rawEvents from "../public/g2024.json";
 import moment from "moment";
 import { Button, Card, Spinner } from "flowbite-react";
@@ -26,7 +26,8 @@ import testTopArtists from "../testData/jack/topArtists.json";
 import testTopTracks from "../testData/jack/topTracks.json";
 import testFollows from "../testData/jack/follows.json";
 
-const testMode = false;
+const USE_TEST_SPOTIFY_DATA =
+  process.env.NEXT_PUBLIC_USE_TEST_SPOTIFY_DATA == "true";
 
 const spotifyTokenStorageID =
   "spotify-sdk:AuthorizationCodeWithPKCEStrategy:token";
@@ -246,7 +247,7 @@ export default function Home() {
       setTracksLoading(false);
     };
 
-    if (testMode) {
+    if (USE_TEST_SPOTIFY_DATA) {
       setTopArtists(testTopArtists as Artist[]);
       setTopTracks(testTopTracks as TrackWithAlbum[]);
       setFollows(testFollows as Artist[]);
@@ -264,9 +265,9 @@ export default function Home() {
       fetchFollows().catch(console.error);
     }
   };
-  const spotifyIDs2ActsIncludingRecommendations: any = spotifyIDsJson;
+  const spotifyIDs2ActsIncludingRecommendations: any = spotifyIDs2Acts;
   const spotifyIDs2ActsWithoutRecommendations: any = Object.entries(
-    spotifyIDsJson
+    spotifyIDs2Acts
   ).reduce(
     (filteredSpotifyIds: any, [id, value]: [string, any]) => ({
       ...filteredSpotifyIds,
@@ -277,14 +278,16 @@ export default function Home() {
 
   // const spotifyIDsIncludingRecommendations: any = Object.keys(spotifyIDs2ActsIncludingRecommendations);
 
-  const spotifyIDs2Acts = recommendationsEnabled
-    ? spotifyIDs2ActsIncludingRecommendations
-    : spotifyIDs2ActsWithoutRecommendations;
-  const spotifyIDs = Object.keys(spotifyIDs2Acts);
+  const spotifyIDsIncludingRecommendations = Object.keys(
+    spotifyIDs2ActsIncludingRecommendations
+  );
+  const spotifyIDsWithoutRecommendations: any = Object.keys(
+    spotifyIDs2ActsWithoutRecommendations
+  );
 
   // console.log(JSON.stringify(spotifyIDs, null, 3));
   const matchedArtists = topArtists
-    .filter((a) => spotifyIDs.includes(a.id))
+    .filter((a) => spotifyIDsWithoutRecommendations.includes(a.id))
     .reduce((artists, a) => {
       const matchedArtist = spotifyIDs2Acts[a.id];
       return {
@@ -300,7 +303,7 @@ export default function Home() {
     }, {});
 
   const matchedFollows = follows
-    .filter((a) => spotifyIDs.includes(a.id))
+    .filter((a) => spotifyIDsWithoutRecommendations.includes(a.id))
     .reduce((artists, a) => {
       const matchedArtist = spotifyIDs2Acts[a.id];
       return {
@@ -313,9 +316,6 @@ export default function Home() {
       };
     }, {});
 
-  const spotifyIDsWithoutRecommendations: any = Object.keys(
-    spotifyIDs2ActsWithoutRecommendations
-  );
   const matchedArtistsWithTracks = topTracks.reduce(
     (artists, t) => ({
       ...artists,
@@ -336,6 +336,40 @@ export default function Home() {
     }),
     {}
   );
+
+  const matchedRecommendedArtists = recommendationsEnabled
+    ? topArtists
+        .filter((a) => spotifyIDsIncludingRecommendations.includes(a.id))
+        .reduce((artists, a) => {
+          const matchedArtist = spotifyIDs2Acts[a.id];
+          return {
+            ...artists,
+            [matchedArtist.act_name]: {
+              artist: matchedArtist.related_artist_name
+                ? matchedArtist.act_artist_data
+                : a,
+              setName: matchedArtist.act_name,
+              relatedArtistName: matchedArtist.related_artist_name,
+            },
+          };
+        }, {})
+    : {};
+
+  const matchedRecommendedFollows = recommendationsEnabled
+    ? follows
+        .filter((a) => spotifyIDsIncludingRecommendations.includes(a.id))
+        .reduce((artists, a) => {
+          const matchedArtist = spotifyIDs2Acts[a.id];
+          return {
+            ...artists,
+            [matchedArtist.act_name]: {
+              artist: a,
+              setName: matchedArtist.act_name,
+              relatedArtistName: matchedArtist.related_artist_name,
+            },
+          };
+        }, {})
+    : {};
 
   const extractEventsByTime = (json: any): Event[] => {
     const events = json.locations.reduce(
@@ -369,6 +403,8 @@ export default function Home() {
   // );
 
   const favoriteArtists: { [key: string]: Favorite } = {
+    ...matchedRecommendedArtists,
+    ...matchedRecommendedFollows,
     ...matchedArtistsWithTracks,
     ...matchedArtists,
     ...matchedFollows,
@@ -466,7 +502,7 @@ export default function Home() {
         setInitialLoadDone(true);
       }
     };
-    if (testMode) {
+    if (USE_TEST_SPOTIFY_DATA) {
       setUser(true);
       setInitialLoadDone(true);
       fetchAll();
