@@ -291,9 +291,7 @@ export default function Home() {
       return {
         ...artists,
         [matchedArtist.act_name]: {
-          artist: matchedArtist.related_artist_name
-            ? matchedArtist.act_artist_data
-            : a,
+          artist: matchedArtist.act_artist_data,
           setName: matchedArtist.act_name,
           relatedArtistName: matchedArtist.related_artist_name,
         },
@@ -307,7 +305,7 @@ export default function Home() {
       return {
         ...artists,
         [matchedArtist.act_name]: {
-          artist: a,
+          artist: matchedArtist.act_artist_data,
           setName: matchedArtist.act_name,
           relatedArtistName: matchedArtist.related_artist_name,
         },
@@ -325,7 +323,7 @@ export default function Home() {
             ...trackArtists,
             [matchedArtist.act_name]: {
               track: t,
-              artist: a,
+              artist: matchedArtist.act_artist_data,
               setName: matchedArtist.act_name,
               relatedArtistName: null,
             },
@@ -343,9 +341,7 @@ export default function Home() {
           return {
             ...artists,
             [matchedArtist.act_name]: {
-              artist: matchedArtist.related_artist_name
-                ? matchedArtist.act_artist_data
-                : a,
+              artist: matchedArtist.act_artist_data,
               setName: matchedArtist.act_name,
               relatedArtistName: matchedArtist.related_artist_name,
             },
@@ -361,7 +357,7 @@ export default function Home() {
           return {
             ...artists,
             [matchedArtist.act_name]: {
-              artist: a,
+              artist: matchedArtist.act_artist_data,
               setName: matchedArtist.act_name,
               relatedArtistName: matchedArtist.related_artist_name,
             },

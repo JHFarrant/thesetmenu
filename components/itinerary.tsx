@@ -106,16 +106,13 @@ const Itinearry = ({
         <p className={`text-xs text-center opacity-50`}>
           {"Select events to add to your set menu"}
         </p>
-        <p className={`text-xs text-red-500 text-bold text-center`}>
-          {"Times are not yet confirmed ⚠️"}
-        </p>
         {!!setRecommendationsEnabled && (
           <div className="min-w-150">
             <ToggleSwitch
               color={"success"}
               theme={customThemeToggleSwitch}
               checked={recommendationsEnabled}
-              label="Suggest similar artists using AI 😉"
+              label="Suggest similar artists using AI ✨"
               onChange={() =>
                 setRecommendationsEnabled(!recommendationsEnabled)
               }
@@ -240,6 +237,11 @@ const Itinearry = ({
       </Button>
 </div>
 } */}
+            {!!itineraryInDays.length && <p
+              className={`pt-5 text-xs text-red-500 text-bold text-center opacity-90`}
+            >
+              {"Times are not yet confirmed ⚠️"}
+            </p>}
             {loadingSpotifyData && (
               <div className="flex justify-center py-10">
                 <Spinner aria-label="Extra large spinner example" size="xl" />
