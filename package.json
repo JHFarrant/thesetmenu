@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "update": "curl -s https://clashfinder.com/data/event/g2024.json > public/g2024.json"
   },
   "dependencies": {
     "@sentry/react": "^7.55.2",
