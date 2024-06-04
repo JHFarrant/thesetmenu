@@ -237,11 +237,11 @@ const Itinearry = ({
       </Button>
 </div>
 } */}
-            {!!itineraryInDays.length && <p
+            {/*            {!!itineraryInDays.length && <p
               className={`pt-5 text-xs text-red-500 text-bold text-center opacity-90`}
             >
               {"Times are not yet confirmed ⚠️"}
-            </p>}
+            </p>}*/}
             {loadingSpotifyData && (
               <div className="flex justify-center py-10">
                 <Spinner aria-label="Extra large spinner example" size="xl" />
