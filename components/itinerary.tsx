@@ -103,22 +103,22 @@ const Itinearry = ({
   return (
     <>
       <Card className={showShareDrawer ? "mb-20" : ""}>
-        {/*      <div className="flex items-center justify-center">
-        <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">
-          {"Your Glasto Set Menu 🔥"}
-        </h5>
-      </div>*/}
-        {/*      {!!setRecommendationsEnabled && (
-        <div className="min-w-150">
-          <ToggleSwitch
-            color={"success"}
-            theme={customThemeToggleSwitch}
-            checked={recommendationsEnabled}
-            label="Suggest similar artists"
-            onChange={() => setRecommendationsEnabled(!recommendationsEnabled)}
-          />
-        </div>
-      )}*/}
+        <p className={`text-xs text-center opacity-50`}>
+          {"Select events to add to your set menu"}
+        </p>
+        {!!setRecommendationsEnabled && (
+          <div className="min-w-150">
+            <ToggleSwitch
+              color={"success"}
+              theme={customThemeToggleSwitch}
+              checked={recommendationsEnabled}
+              label="Suggest similar artists using AI ✨"
+              onChange={() =>
+                setRecommendationsEnabled(!recommendationsEnabled)
+              }
+            />
+          </div>
+        )}
         <div className="flow-root">
           <ul className="divide-y divide-gray-200 dark:divide-gray-700">
             {itineraryInDays.map((dailyItinerary: any) => {
@@ -237,6 +237,11 @@ const Itinearry = ({
       </Button>
 </div>
 } */}
+            {!!itineraryInDays.length && <p
+              className={`pt-5 text-xs text-red-500 text-bold text-center opacity-90`}
+            >
+              {"Times are not yet confirmed ⚠️"}
+            </p>}
             {loadingSpotifyData && (
               <div className="flex justify-center py-10">
                 <Spinner aria-label="Extra large spinner example" size="xl" />
