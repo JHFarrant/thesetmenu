@@ -1072,19 +1072,19 @@
           "start": "2024-06-30 14:00"
         },
         {
-          "end": "2024-06-30 15:50",
-          "id": "1517b843ee1dd6c38eb00612ac379f4b26ccd82bc547251dea8a4831918fcf2d",
+          "end": "2024-06-30 15:40",
+          "id": "1155b3b22f014c8ffe1aad4d44b074bc723900033d8c1f59676cf91a7ea9e547",
           "name": "Michele Stodart",
           "short": "michel(1)",
           "start": "2024-06-30 15:00"
         },
         {
-          "end": "2024-06-30 17:00",
-          "id": "2c2922d9d57fd5cdc277a0df58f8effeaf0cba78a7bb70c9b9f3e0efd8e3e540",
+          "end": "2024-06-30 16:45",
+          "id": "5d6bfb6321b36262476b89c2eaa639e484d91ea7c270763bd2d427a3e4828c7f",
           "mbId": "315d8368-f294-4911-967e-a96a7c2172af",
           "name": "Bernard Butler",
           "short": "bernar(1)",
-          "start": "2024-06-30 16:10"
+          "start": "2024-06-30 15:55"
         },
         {
           "end": "2024-06-30 18:00",
@@ -10698,9 +10698,9 @@
         },
         {
           "end": "2024-06-27 19:00",
-          "id": "429969204b08a25b41baeaf696b67bd5cd75235ae2430180f4721397e6a1a64f",
-          "name": "Robin Ince - Arguing About Ghosts with Physicists and Other Monket Cage Conflicts",
-          "short": "robini1(1)",
+          "id": "18a27e77bf1a6c2534b9af2aaaa8479b4fc953b56a7464263fa6ce434b2fd146",
+          "name": "Robin Ince - Arguing About Ghosts with Physicists and Other Monkey Cage Conflicts",
+          "short": "robini3(1)",
           "start": "2024-06-27 18:00"
         },
         {
@@ -24808,7 +24808,7 @@
       "name": "Pilton Palais Cinema"
     }
   ],
-  "modified": "2024-06-05 03:48",
+  "modified": "2024-06-05 17:08",
   "name": "Glastonbury Festival 2024",
   "printAdvisory": 5,
   "timezone": "Europe/London",
