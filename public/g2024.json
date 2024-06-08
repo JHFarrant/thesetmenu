@@ -51,7 +51,8 @@
         },
         {
           "end": "2024-06-28 23:45",
-          "id": "83d8e668f273fa721355707bc41d6b0a4cd2821232981e9265d8594f960fd50c",
+          "id": "84c5a2f5acbd3b50b57d9edd69792291dfd14849722f6dc963fb34920e9c06bc",
+          "mbId": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
           "name": "Dua Lipa",
           "short": "dualip(1)",
           "start": "2024-06-28 22:00"
@@ -1429,7 +1430,8 @@
         },
         {
           "end": "2024-06-29 20:30",
-          "id": "80e52fa4d2e7bb1c2df157d87ec8740e88e1618d75551871f01e81a12e716275",
+          "id": "c4d63b46d958374fee05849e5712a2aa48405c37e920d24b7318db504c6895be",
+          "mbId": "b60fd6f1-a47a-4021-b8df-83f8e8893e91",
           "name": "English Teacher",
           "short": "englis(1)",
           "start": "2024-06-29 19:50"
@@ -1757,7 +1759,8 @@
         },
         {
           "end": "2024-06-29 15:00",
-          "id": "b99ff4e071035aca160a7e9340b7e7fad457b5d8dcf7faa80a314419a0fd7557",
+          "id": "e202680a3b3a216c732d96fa4c2722a14006f2d8277978e29484e5868f36eacf",
+          "mbId": "9db893e7-51c8-42e7-9bc3-85f95491a326",
           "name": "A for Alpha",
           "short": "aforal(1)",
           "start": "2024-06-29 13:30"
@@ -4074,7 +4077,8 @@
       "events": [
         {
           "end": "2024-06-26 19:00",
-          "id": "87c0a908a866649e02470beec2f47cfd67b5d79141564b28b9529c3c0fbc946a",
+          "id": "59fad80c7a3b17a389f390ce89dfe51f4eafd0917136daa1d869091ed60ceefb",
+          "mbId": "na",
           "name": "Opening Ceremony",
           "short": "openin(1)",
           "start": "2024-06-26 18:00"
