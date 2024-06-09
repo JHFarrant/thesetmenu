@@ -51,7 +51,8 @@
         },
         {
           "end": "2024-06-28 23:45",
-          "id": "83d8e668f273fa721355707bc41d6b0a4cd2821232981e9265d8594f960fd50c",
+          "id": "84c5a2f5acbd3b50b57d9edd69792291dfd14849722f6dc963fb34920e9c06bc",
+          "mbId": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
           "name": "Dua Lipa",
           "short": "dualip(1)",
           "start": "2024-06-28 22:00"
@@ -622,9 +623,9 @@
         },
         {
           "end": "2024-06-29 19:00",
-          "id": "d16523b3822a38f33da8197d7ac94c80d1cebc00f910bb37d293aef8db7a379c",
+          "id": "255bfcb7a90519d57da0622a440f4e46e3cf39b7ee5b90b77ddffe829f1a19d4",
           "name": "TBA",
-          "short": "tba(18)",
+          "short": "tba(17)",
           "start": "2024-06-29 18:00"
         },
         {
@@ -1429,7 +1430,8 @@
         },
         {
           "end": "2024-06-29 20:30",
-          "id": "80e52fa4d2e7bb1c2df157d87ec8740e88e1618d75551871f01e81a12e716275",
+          "id": "c4d63b46d958374fee05849e5712a2aa48405c37e920d24b7318db504c6895be",
+          "mbId": "b60fd6f1-a47a-4021-b8df-83f8e8893e91",
           "name": "English Teacher",
           "short": "englis(1)",
           "start": "2024-06-29 19:50"
@@ -1757,7 +1759,8 @@
         },
         {
           "end": "2024-06-29 15:00",
-          "id": "b99ff4e071035aca160a7e9340b7e7fad457b5d8dcf7faa80a314419a0fd7557",
+          "id": "e202680a3b3a216c732d96fa4c2722a14006f2d8277978e29484e5868f36eacf",
+          "mbId": "9db893e7-51c8-42e7-9bc3-85f95491a326",
           "name": "A for Alpha",
           "short": "aforal(1)",
           "start": "2024-06-29 13:30"
@@ -3501,9 +3504,9 @@
         },
         {
           "end": "2024-06-30 22:00",
-          "id": "b37bd3fc9dc22616c78929a74d446f4fdcf9455b024f5aca1e4238796cc57047",
-          "name": "TBA",
-          "short": "tba(26)",
+          "id": "2e189451af1b8300ac7919f18e983fa3879cf3b933fe16c1a3169ed291123319",
+          "name": "TBA (Shivum Sharma)",
+          "short": "tbashi(1)",
           "start": "2024-06-30 21:00"
         },
         {
@@ -3603,6 +3606,13 @@
           "start": "2024-06-27 22:15"
         },
         {
+          "end": "2024-06-28 00:30",
+          "id": "48481c2418b3aa50e12b565ce687a378c62cad852991d06e116c84b5b07807af",
+          "name": "TBA (Gok Wan)",
+          "short": "tbagok(1)",
+          "start": "2024-06-27 23:15"
+        },
+        {
           "end": "2024-06-28 00:45",
           "id": "47be68d1e29d7e1262d0ab54bd8ab427e3b4d89312b20c0bb946fe830eb3d647",
           "name": "Daisy Doris May",
@@ -3659,6 +3669,13 @@
           "start": "2024-06-28 21:00"
         },
         {
+          "end": "2024-06-28 23:30",
+          "id": "62e4cb39781ae7011f0d66a77d2e45279fef6683bdb4e6934665db38b49cbcab",
+          "name": "TBA (Nabihah Iqbal)",
+          "short": "tbanab(1)",
+          "start": "2024-06-28 22:30"
+        },
+        {
           "end": "2024-06-29 00:30",
           "id": "f75f19bfc05767750a7db5e8b9dfd58ebebed5df7b7e442b04c634d9c730ba15",
           "name": "Kate Hutchinson",
@@ -3671,6 +3688,20 @@
           "name": "Porij",
           "short": "porij(1)",
           "start": "2024-06-29 00:30"
+        },
+        {
+          "end": "2024-06-29 02:30",
+          "id": "c7c5a7603e275f22d55eda56247878a1b95fb95f61e7b0be4ad6c459a4da933a",
+          "name": "TBA (Eliza Rose)",
+          "short": "tbaeli(1)",
+          "start": "2024-06-29 01:30"
+        },
+        {
+          "end": "2024-06-29 03:30",
+          "id": "0e17f2d87d1829a2aaecf37da027e02cf1c65ab8e61de9c916482196f136f224",
+          "name": "TBA (Lynks)",
+          "short": "tbalyn(1)",
+          "start": "2024-06-29 02:30"
         },
         {
           "end": "2024-06-29 04:30",
@@ -3748,6 +3779,13 @@
           "name": "Aisha Mirza x the Cocoa Butter Club",
           "short": "aisham(1)",
           "start": "2024-06-30 00:00"
+        },
+        {
+          "end": "2024-06-30 01:30",
+          "id": "01971de8677aae402ee10627de4745ad5f7310ac0bb9ab8c1571176e3a7fa22b",
+          "name": "TBA (Gossip/Beth Ditto)",
+          "short": "tbagos(1)",
+          "start": "2024-06-30 01:00"
         },
         {
           "end": "2024-06-30 02:30",
@@ -4074,7 +4112,8 @@
       "events": [
         {
           "end": "2024-06-26 19:00",
-          "id": "87c0a908a866649e02470beec2f47cfd67b5d79141564b28b9529c3c0fbc946a",
+          "id": "59fad80c7a3b17a389f390ce89dfe51f4eafd0917136daa1d869091ed60ceefb",
+          "mbId": "na",
           "name": "Opening Ceremony",
           "short": "openin(1)",
           "start": "2024-06-26 18:00"
@@ -11415,9 +11454,9 @@
         },
         {
           "end": "2024-06-29 19:00",
-          "id": "255bfcb7a90519d57da0622a440f4e46e3cf39b7ee5b90b77ddffe829f1a19d4",
+          "id": "d16523b3822a38f33da8197d7ac94c80d1cebc00f910bb37d293aef8db7a379c",
           "name": "TBA",
-          "short": "tba(17)",
+          "short": "tba(18)",
           "start": "2024-06-29 18:00"
         },
         {
@@ -21427,17 +21466,17 @@
           "start": "2024-06-27 12:50"
         },
         {
-          "end": "2024-06-27 13:30",
-          "id": "20ea333d16df8c5ea30114f4240c22d6918beb59515add5ac066eef07b3d3991",
-          "name": "Jersey Girls",
-          "short": "jersey(2)",
-          "start": "2024-06-27 13:00"
-        },
-        {
           "end": "2024-06-27 13:45",
           "id": "470847e21a9709008130b04377e1e4cdcf5b8f0864869cb7d6f1559b686ed650",
           "name": "Steve Faulkner",
           "short": "stevef(1)",
+          "start": "2024-06-27 13:00"
+        },
+        {
+          "end": "2024-06-27 13:30",
+          "id": "20ea333d16df8c5ea30114f4240c22d6918beb59515add5ac066eef07b3d3991",
+          "name": "Jersey Girls",
+          "short": "jersey(2)",
           "start": "2024-06-27 13:00"
         },
         {
@@ -21525,17 +21564,17 @@
           "start": "2024-06-27 14:30"
         },
         {
-          "end": "2024-06-27 15:25",
-          "id": "021fe9f3598309e31751cec541147856d8da6b2ff9fd34b5620046269844678f",
-          "name": "The Bigheads",
-          "short": "bighea(3)",
-          "start": "2024-06-27 14:45"
-        },
-        {
           "end": "2024-06-27 15:30",
           "id": "53e14a8d34153b137fe985a9b5be1c5130a024da35579da8bd265406a49c500a",
           "name": "Natural Diversions",
           "short": "natura1(2)",
+          "start": "2024-06-27 14:45"
+        },
+        {
+          "end": "2024-06-27 15:25",
+          "id": "021fe9f3598309e31751cec541147856d8da6b2ff9fd34b5620046269844678f",
+          "name": "The Bigheads",
+          "short": "bighea(3)",
           "start": "2024-06-27 14:45"
         },
         {
@@ -21603,9 +21642,9 @@
         },
         {
           "end": "2024-06-27 16:15",
-          "id": "03c0b2bd6e8f5860c2d61b0f756ed129ea56cea1c16ffdb532b231c673ffb6f7",
-          "name": "Fortuni and Fae",
-          "short": "fortun1(1)",
+          "id": "3981255f7e4be517ae074db54592af914ad5c956a267fe5e563af75648c7003c",
+          "name": "Ministry of Happy",
+          "short": "minist(4)",
           "start": "2024-06-27 15:30"
         },
         {
@@ -21617,9 +21656,9 @@
         },
         {
           "end": "2024-06-27 16:15",
-          "id": "3981255f7e4be517ae074db54592af914ad5c956a267fe5e563af75648c7003c",
-          "name": "Ministry of Happy",
-          "short": "minist(4)",
+          "id": "03c0b2bd6e8f5860c2d61b0f756ed129ea56cea1c16ffdb532b231c673ffb6f7",
+          "name": "Fortuni and Fae",
+          "short": "fortun1(1)",
           "start": "2024-06-27 15:30"
         },
         {
@@ -21707,6 +21746,13 @@
           "start": "2024-06-27 16:50"
         },
         {
+          "end": "2024-06-27 17:30",
+          "id": "4669a6e54677809dd3c2bfe49bc4cab632d8180710958c8f07a90b84bb7fa196",
+          "name": "Celestials",
+          "short": "celest(4)",
+          "start": "2024-06-27 17:00"
+        },
+        {
           "end": "2024-06-27 17:45",
           "id": "1db5207fac86fac2cc4e7a3073385f85f56cad9b718c0e347444d1226a6ff9e9",
           "name": "Fortuni and Fae",
@@ -21718,13 +21764,6 @@
           "id": "70040db56ae5f5450d201999dbae84cc53e7b41847ea656a2b2d536bfa511dca",
           "name": "Gliding Butterflies",
           "short": "glidin(2)",
-          "start": "2024-06-27 17:00"
-        },
-        {
-          "end": "2024-06-27 17:30",
-          "id": "4669a6e54677809dd3c2bfe49bc4cab632d8180710958c8f07a90b84bb7fa196",
-          "name": "Celestials",
-          "short": "celest(4)",
           "start": "2024-06-27 17:00"
         },
         {
@@ -21812,6 +21851,13 @@
           "start": "2024-06-27 21:45"
         },
         {
+          "end": "2024-06-28 00:00",
+          "id": "b7e4525d949dc6af03a61b52289289a82920cd1ec01c388ce95bb1506479a6fc",
+          "name": "Glowbros",
+          "short": "glowbr(3)",
+          "start": "2024-06-27 22:00"
+        },
+        {
           "end": "2024-06-27 22:45",
           "id": "cc2c9c97f11b1fa3e87fc086b3571c9ba304441da3e7e994a0971b7de306cea4",
           "name": "Corvus Angelicus",
@@ -21823,13 +21869,6 @@
           "id": "b4ce5117172aaa1b5212a2ef067fd0a49f53b929cf32a3f8ec10371ce1ac8a04",
           "name": "High Flyers",
           "short": "highfl(1)",
-          "start": "2024-06-27 22:00"
-        },
-        {
-          "end": "2024-06-28 00:00",
-          "id": "b7e4525d949dc6af03a61b52289289a82920cd1ec01c388ce95bb1506479a6fc",
-          "name": "Glowbros",
-          "short": "glowbr(3)",
           "start": "2024-06-27 22:00"
         },
         {
@@ -21918,16 +21957,16 @@
         },
         {
           "end": "2024-06-28 11:20",
-          "id": "db131d5ecd89bd57617864e5bae753d67b317bdcce0c33638cfcd91dbf6925d8",
-          "name": "Clamour of Bells",
-          "short": "clamou(1)",
+          "id": "dc18b383f0df9fced9f1ab16c3ed987cc23e78a7733db004beb420a8ce59e20b",
+          "name": "The Newspaper Men",
+          "short": "newspa(1)",
           "start": "2024-06-28 10:35"
         },
         {
           "end": "2024-06-28 11:20",
-          "id": "dc18b383f0df9fced9f1ab16c3ed987cc23e78a7733db004beb420a8ce59e20b",
-          "name": "The Newspaper Men",
-          "short": "newspa(1)",
+          "id": "db131d5ecd89bd57617864e5bae753d67b317bdcce0c33638cfcd91dbf6925d8",
+          "name": "Clamour of Bells",
+          "short": "clamou(1)",
           "start": "2024-06-28 10:35"
         },
         {
@@ -22302,10 +22341,10 @@
           "start": "2024-06-28 14:40"
         },
         {
-          "end": "2024-06-28 15:25",
-          "id": "6c7f3fa63f55021b8b367ce04665c77e958de59189af91ef76ac2fc15b04841a",
-          "name": "The Bigheads",
-          "short": "bighea(6)",
+          "end": "2024-06-28 15:30",
+          "id": "487a9fa1f2e134f5e7a288ea359e52806df7ec6389103c706fa38636a4f0b3d4",
+          "name": "Natural Diversions",
+          "short": "natura1(4)",
           "start": "2024-06-28 14:45"
         },
         {
@@ -22316,10 +22355,10 @@
           "start": "2024-06-28 14:45"
         },
         {
-          "end": "2024-06-28 15:30",
-          "id": "487a9fa1f2e134f5e7a288ea359e52806df7ec6389103c706fa38636a4f0b3d4",
-          "name": "Natural Diversions",
-          "short": "natura1(4)",
+          "end": "2024-06-28 15:25",
+          "id": "6c7f3fa63f55021b8b367ce04665c77e958de59189af91ef76ac2fc15b04841a",
+          "name": "The Bigheads",
+          "short": "bighea(6)",
           "start": "2024-06-28 14:45"
         },
         {
@@ -22394,16 +22433,16 @@
         },
         {
           "end": "2024-06-28 16:15",
-          "id": "7bcc57dda0ab8883d19646505b1dfdc373d29d7d11330bc6fa2ec2b06e9bf941",
-          "name": "Fortuni and Fae",
-          "short": "fortun1(3)",
+          "id": "abc0e869c3f4e6cda6a87c657c5f75e46b56c78e186d4f4ccd584d8fc42fe71f",
+          "name": "Ministry of Happy",
+          "short": "minist(6)",
           "start": "2024-06-28 15:30"
         },
         {
           "end": "2024-06-28 16:15",
-          "id": "abc0e869c3f4e6cda6a87c657c5f75e46b56c78e186d4f4ccd584d8fc42fe71f",
-          "name": "Ministry of Happy",
-          "short": "minist(6)",
+          "id": "7bcc57dda0ab8883d19646505b1dfdc373d29d7d11330bc6fa2ec2b06e9bf941",
+          "name": "Fortuni and Fae",
+          "short": "fortun1(3)",
           "start": "2024-06-28 15:30"
         },
         {
@@ -22498,17 +22537,17 @@
           "start": "2024-06-28 16:00"
         },
         {
-          "end": "2024-06-28 16:35",
-          "id": "38c2b38da2e6b195a2e27bd0dcc8e0918e4632711a4af2a6f3e18a526c090ef5",
-          "name": "Roo'd",
-          "short": "rood(2)",
-          "start": "2024-06-28 16:05"
-        },
-        {
           "end": "2024-06-28 17:05",
           "id": "9489be80f2bf598cb612057618cf89f1d5cd59db0ed385d88a22621d0fbd6d77",
           "name": "The Explorers",
           "short": "explor(3)",
+          "start": "2024-06-28 16:05"
+        },
+        {
+          "end": "2024-06-28 16:35",
+          "id": "38c2b38da2e6b195a2e27bd0dcc8e0918e4632711a4af2a6f3e18a526c090ef5",
+          "name": "Roo'd",
+          "short": "rood(2)",
           "start": "2024-06-28 16:05"
         },
         {
@@ -22590,9 +22629,9 @@
         },
         {
           "end": "2024-06-28 17:45",
-          "id": "56f67726c0a21480c798e6fe268aae51b84662fe5ba33413a4ff83f9a894ed44",
-          "name": "Fortuni and Fae",
-          "short": "fortun1(4)",
+          "id": "8053fde8f69e35ca0181d6c54a7b4a68c28452db3cc538afaf8a97a35c948669",
+          "name": "Swyron & Desaata",
+          "short": "swyron(2)",
           "start": "2024-06-28 17:00"
         },
         {
@@ -22604,9 +22643,9 @@
         },
         {
           "end": "2024-06-28 17:45",
-          "id": "8053fde8f69e35ca0181d6c54a7b4a68c28452db3cc538afaf8a97a35c948669",
-          "name": "Swyron & Desaata",
-          "short": "swyron(2)",
+          "id": "56f67726c0a21480c798e6fe268aae51b84662fe5ba33413a4ff83f9a894ed44",
+          "name": "Fortuni and Fae",
+          "short": "fortun1(4)",
           "start": "2024-06-28 17:00"
         },
         {
@@ -22701,10 +22740,17 @@
           "start": "2024-06-28 22:30"
         },
         {
+          "end": "2024-06-29 01:00",
+          "id": "d7f141b05957cb67d7bdbff9110f84b363ea38fe5df544908639e586db4cbc53",
+          "name": "Disco Turtle",
+          "short": "discot1(2)",
+          "start": "2024-06-28 23:30"
+        },
+        {
           "end": "2024-06-29 00:15",
-          "id": "4677870167ba620a9adec6d2efa4a09d6dc3890358b4c74469f26b664293aff6",
-          "name": "Corvus Angelicus",
-          "short": "corvus(4)",
+          "id": "9d9287eb6f4ece84042ad4a342cd735932e170f2d4106ad6b874bdac51936145",
+          "name": "The Runaway Christmas Tree Fairy",
+          "short": "runawa1(2)",
           "start": "2024-06-28 23:30"
         },
         {
@@ -22716,16 +22762,9 @@
         },
         {
           "end": "2024-06-29 00:15",
-          "id": "9d9287eb6f4ece84042ad4a342cd735932e170f2d4106ad6b874bdac51936145",
-          "name": "The Runaway Christmas Tree Fairy",
-          "short": "runawa1(2)",
-          "start": "2024-06-28 23:30"
-        },
-        {
-          "end": "2024-06-29 01:00",
-          "id": "d7f141b05957cb67d7bdbff9110f84b363ea38fe5df544908639e586db4cbc53",
-          "name": "Disco Turtle",
-          "short": "discot1(2)",
+          "id": "4677870167ba620a9adec6d2efa4a09d6dc3890358b4c74469f26b664293aff6",
+          "name": "Corvus Angelicus",
+          "short": "corvus(4)",
           "start": "2024-06-28 23:30"
         },
         {
@@ -23387,10 +23426,10 @@
           "start": "2024-06-29 16:40"
         },
         {
-          "end": "2024-06-29 17:25",
-          "id": "c0bbb26eadca1b3e9992bade294e0cc79cfc5acbd1b49c62e51bf471decd3eac",
-          "name": "Bigheads",
-          "short": "bighea(10)",
+          "end": "2024-06-29 17:30",
+          "id": "89c8cfc2e290477f71db96303fe5f43a5a6a89b8f13f9bc405dce7a5b5f41000",
+          "name": "Blip",
+          "short": "blip(6)",
           "start": "2024-06-29 16:45"
         },
         {
@@ -23401,10 +23440,10 @@
           "start": "2024-06-29 16:45"
         },
         {
-          "end": "2024-06-29 17:30",
-          "id": "89c8cfc2e290477f71db96303fe5f43a5a6a89b8f13f9bc405dce7a5b5f41000",
-          "name": "Blip",
-          "short": "blip(6)",
+          "end": "2024-06-29 17:25",
+          "id": "c0bbb26eadca1b3e9992bade294e0cc79cfc5acbd1b49c62e51bf471decd3eac",
+          "name": "Bigheads",
+          "short": "bighea(10)",
           "start": "2024-06-29 16:45"
         },
         {
@@ -23976,9 +24015,9 @@
         },
         {
           "end": "2024-06-30 15:55",
-          "id": "3f40ee918fd0d66028aead2115fb06b4ec06c99de4c2c97a51de969cd8b80f73",
-          "name": "Dapper Chaps",
-          "short": "dapper(6)",
+          "id": "50a575788254feabd8d89674fd6f5591c6515fc2f6c94bb4108fc0de674c8543",
+          "name": "Jack Thomson",
+          "short": "jackth(5)",
           "start": "2024-06-30 15:10"
         },
         {
@@ -23990,9 +24029,9 @@
         },
         {
           "end": "2024-06-30 15:55",
-          "id": "50a575788254feabd8d89674fd6f5591c6515fc2f6c94bb4108fc0de674c8543",
-          "name": "Jack Thomson",
-          "short": "jackth(5)",
+          "id": "3f40ee918fd0d66028aead2115fb06b4ec06c99de4c2c97a51de969cd8b80f73",
+          "name": "Dapper Chaps",
+          "short": "dapper(6)",
           "start": "2024-06-30 15:10"
         },
         {
@@ -24179,16 +24218,16 @@
         },
         {
           "end": "2024-06-30 18:00",
-          "id": "a5d8722618fef2ef8753429ea2861cbd75b1804dacd79c4fa14049fd843a1c29",
-          "name": "Liver Cottage",
-          "short": "liverc(6)",
+          "id": "11ba3a225cd0352f0d469e8e0372169bb29f8264cf3b78417c8dc8ef77df18d2",
+          "name": "The Fairy Godmother and the Tooth Fairy",
+          "short": "fairyg(5)",
           "start": "2024-06-30 17:15"
         },
         {
           "end": "2024-06-30 18:00",
-          "id": "11ba3a225cd0352f0d469e8e0372169bb29f8264cf3b78417c8dc8ef77df18d2",
-          "name": "The Fairy Godmother and the Tooth Fairy",
-          "short": "fairyg(5)",
+          "id": "a5d8722618fef2ef8753429ea2861cbd75b1804dacd79c4fa14049fd843a1c29",
+          "name": "Liver Cottage",
+          "short": "liverc(6)",
           "start": "2024-06-30 17:15"
         },
         {
@@ -24808,7 +24847,7 @@
       "name": "Pilton Palais Cinema"
     }
   ],
-  "modified": "2024-06-05 17:08",
+  "modified": "2024-06-08 12:35",
   "name": "Glastonbury Festival 2024",
   "printAdvisory": 5,
   "timezone": "Europe/London",
