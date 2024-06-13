@@ -51,7 +51,8 @@
         },
         {
           "end": "2024-06-28 23:45",
-          "id": "83d8e668f273fa721355707bc41d6b0a4cd2821232981e9265d8594f960fd50c",
+          "id": "84c5a2f5acbd3b50b57d9edd69792291dfd14849722f6dc963fb34920e9c06bc",
+          "mbId": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
           "name": "Dua Lipa",
           "short": "dualip(1)",
           "start": "2024-06-28 22:00"
@@ -1429,7 +1430,8 @@
         },
         {
           "end": "2024-06-29 20:30",
-          "id": "80e52fa4d2e7bb1c2df157d87ec8740e88e1618d75551871f01e81a12e716275",
+          "id": "c4d63b46d958374fee05849e5712a2aa48405c37e920d24b7318db504c6895be",
+          "mbId": "b60fd6f1-a47a-4021-b8df-83f8e8893e91",
           "name": "English Teacher",
           "short": "englis(1)",
           "start": "2024-06-29 19:50"
@@ -1757,7 +1759,8 @@
         },
         {
           "end": "2024-06-29 15:00",
-          "id": "b99ff4e071035aca160a7e9340b7e7fad457b5d8dcf7faa80a314419a0fd7557",
+          "id": "e202680a3b3a216c732d96fa4c2722a14006f2d8277978e29484e5868f36eacf",
+          "mbId": "9db893e7-51c8-42e7-9bc3-85f95491a326",
           "name": "A for Alpha",
           "short": "aforal(1)",
           "start": "2024-06-29 13:30"
@@ -3501,9 +3504,9 @@
         },
         {
           "end": "2024-06-30 22:00",
-          "id": "b37bd3fc9dc22616c78929a74d446f4fdcf9455b024f5aca1e4238796cc57047",
-          "name": "TBA",
-          "short": "tba(26)",
+          "id": "2e189451af1b8300ac7919f18e983fa3879cf3b933fe16c1a3169ed291123319",
+          "name": "TBA (Shivum Sharma)",
+          "short": "tbashi(1)",
           "start": "2024-06-30 21:00"
         },
         {
@@ -3603,6 +3606,13 @@
           "start": "2024-06-27 22:15"
         },
         {
+          "end": "2024-06-28 00:30",
+          "id": "48481c2418b3aa50e12b565ce687a378c62cad852991d06e116c84b5b07807af",
+          "name": "TBA (Gok Wan)",
+          "short": "tbagok(1)",
+          "start": "2024-06-27 23:15"
+        },
+        {
           "end": "2024-06-28 00:45",
           "id": "47be68d1e29d7e1262d0ab54bd8ab427e3b4d89312b20c0bb946fe830eb3d647",
           "name": "Daisy Doris May",
@@ -3659,6 +3669,13 @@
           "start": "2024-06-28 21:00"
         },
         {
+          "end": "2024-06-28 23:30",
+          "id": "62e4cb39781ae7011f0d66a77d2e45279fef6683bdb4e6934665db38b49cbcab",
+          "name": "TBA (Nabihah Iqbal)",
+          "short": "tbanab(1)",
+          "start": "2024-06-28 22:30"
+        },
+        {
           "end": "2024-06-29 00:30",
           "id": "f75f19bfc05767750a7db5e8b9dfd58ebebed5df7b7e442b04c634d9c730ba15",
           "name": "Kate Hutchinson",
@@ -3671,6 +3688,20 @@
           "name": "Porij",
           "short": "porij(1)",
           "start": "2024-06-29 00:30"
+        },
+        {
+          "end": "2024-06-29 02:30",
+          "id": "c7c5a7603e275f22d55eda56247878a1b95fb95f61e7b0be4ad6c459a4da933a",
+          "name": "TBA (Eliza Rose)",
+          "short": "tbaeli(1)",
+          "start": "2024-06-29 01:30"
+        },
+        {
+          "end": "2024-06-29 03:30",
+          "id": "0e17f2d87d1829a2aaecf37da027e02cf1c65ab8e61de9c916482196f136f224",
+          "name": "TBA (Lynks)",
+          "short": "tbalyn(1)",
+          "start": "2024-06-29 02:30"
         },
         {
           "end": "2024-06-29 04:30",
@@ -3748,6 +3779,13 @@
           "name": "Aisha Mirza x the Cocoa Butter Club",
           "short": "aisham(1)",
           "start": "2024-06-30 00:00"
+        },
+        {
+          "end": "2024-06-30 01:30",
+          "id": "01971de8677aae402ee10627de4745ad5f7310ac0bb9ab8c1571176e3a7fa22b",
+          "name": "TBA (Gossip/Beth Ditto)",
+          "short": "tbagos(1)",
+          "start": "2024-06-30 01:00"
         },
         {
           "end": "2024-06-30 02:30",
@@ -3984,6 +4022,13 @@
           "start": "2024-06-28 12:00"
         },
         {
+          "end": "2024-06-28 15:00",
+          "id": "0f7f080d5754a41767849713fdf433d02df0a46585d6a96ae15233916e2d9735",
+          "name": "FMI Clatters",
+          "short": "fmicla(1)",
+          "start": "2024-06-28 14:30"
+        },
+        {
           "end": "2024-06-28 21:00",
           "id": "76d7cff7b1f57f58c9c2a424d19fa91dc3f4eed22b26d749a6c7411ba0fae29a",
           "name": "Ushti Baba",
@@ -4074,7 +4119,8 @@
       "events": [
         {
           "end": "2024-06-26 19:00",
-          "id": "87c0a908a866649e02470beec2f47cfd67b5d79141564b28b9529c3c0fbc946a",
+          "id": "59fad80c7a3b17a389f390ce89dfe51f4eafd0917136daa1d869091ed60ceefb",
+          "mbId": "na",
           "name": "Opening Ceremony",
           "short": "openin(1)",
           "start": "2024-06-26 18:00"
@@ -5138,7 +5184,8 @@
         },
         {
           "end": "2024-06-30 01:30",
-          "id": "e81f896ed4d17dd9bfd467a647575abd413f55678cc1651ce074c4d0fa203daa",
+          "id": "9748293f2a85ae6e4089afcbace19ba722cb0ae74b0ede08983d8b5703494d6e",
+          "mbId": "2cc09b7c-eb14-4d73-81ed-17595917b2df",
           "name": "Gene On Earth",
           "short": "geneon(2)",
           "start": "2024-06-30 00:00"
@@ -5283,7 +5330,8 @@
         },
         {
           "end": "2024-06-29 02:45",
-          "id": "05f54e150b182617b644f4f8d3055a3ba1980cac69b982d6dcaa7b4f4dacc70c",
+          "id": "aa8fc504efb7443cea8701d283a6d1b25d46a0156d661d80f5851da426f5c81c",
+          "mbId": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
           "name": "Bicep Pres Chroma (Av DJ Set)",
           "short": "bicepp(1)",
           "start": "2024-06-29 01:15"
@@ -6764,6 +6812,13 @@
           "start": "2024-06-29 04:30"
         },
         {
+          "end": "2024-06-30 01:00",
+          "id": "698534384990c20602451abfa64314fc29a238bae550b2b0cff0292b97141388",
+          "name": "Kurupt FM DJ Set",
+          "short": "kurupt1(1)",
+          "start": "2024-06-30 00:15"
+        },
+        {
           "end": "2024-06-30 04:30",
           "id": "854a09956c7557b37b1f7da0e019addca38e9017b3e6d808a8013d0f9832d2d7",
           "name": "Booty Bass",
@@ -6889,7 +6944,8 @@
         },
         {
           "end": "2024-06-27 18:00",
-          "id": "d2e0010d0d618e6fcd8006fd9ce53c6a95da63f93808488db7dcf1b721c056df",
+          "id": "58e2b442a4d531b5f0e9de999a97eab3b73f14d761e76b7246f335a5bacc85a0",
+          "mbId": "e23e881d-76c2-4a2e-a035-2c5ecccd2bb4",
           "name": "Hak Baker - Acoustic Set",
           "short": "hakbak2(1)",
           "start": "2024-06-27 17:30"
@@ -10120,6 +10176,13 @@
           "start": "2024-06-27 22:00"
         },
         {
+          "end": "2024-06-28 00:30",
+          "id": "101cfc6970fe7da7e3775ccb74c6f4bebb98f84d876817eecec27ede8cda41d8",
+          "name": "Rumba De Bodas",
+          "short": "rumbad(1)",
+          "start": "2024-06-27 23:30"
+        },
+        {
           "end": "2024-06-28 12:30",
           "id": "ba0a969ad8be970123a3c5d4377a6a37ec04763223e6453321948aa34f590cb4",
           "name": "Coffee with Gok Wan",
@@ -10301,7 +10364,8 @@
         },
         {
           "end": "2024-06-26 14:45",
-          "id": "39645845d7331d5a20376463071496186f73f015a6de9014ff3be7bf536f46be",
+          "id": "2f62c36c3b34aab447179c34d9faaba8e59cf58f2cf982bb809402ef1f78dc22",
+          "mbId": "48146b0c-e10c-4c2e-9664-2351ee4e88bf",
           "name": "Gateway Girl",
           "short": "gatewa(1)",
           "start": "2024-06-26 14:15"
@@ -10434,7 +10498,8 @@
         },
         {
           "end": "2024-06-28 14:30",
-          "id": "0f50f7df6e0d69317913f46fdb726c8e83577cb544fac89ac1e3c00e84f4651b",
+          "id": "1a3daf00741e90b3f52e14ef33dfc26e0f9a345fc2ab54ce892006485d776703",
+          "mbId": "48146b0c-e10c-4c2e-9664-2351ee4e88bf",
           "name": "Gateway Girl",
           "short": "gatewa(2)",
           "start": "2024-06-28 14:00"
@@ -13808,7 +13873,8 @@
         },
         {
           "end": "2024-06-28 11:30",
-          "id": "7666a08023656a0fcdab0c4fcb05515b7401cf098dc4a7febabe2f88def2091f",
+          "id": "4cded48da712d65b7b38dc6d55d784485f9df9373364790d35a711adf6ef285d",
+          "mbId": "9c757ca6-7739-4962-9294-b5a41c653c51",
           "name": "Emma-Jean Thackray",
           "short": "emmaje(1)",
           "start": "2024-06-28 10:00"
@@ -13872,7 +13938,8 @@
         },
         {
           "end": "2024-06-29 01:00",
-          "id": "94134f4a4475e42c6b4918699c342272dccba3944c135c2d294e6f47fcdbb33d",
+          "id": "d67786011d890d8c9e6db0851a7a29686e685b6ff7819254698081783f3d88d6",
+          "mbId": "2f8d2007-7666-45af-89d4-dec4921dce04",
           "name": "Sofia Kourtesis (DJ)",
           "short": "sofiak1(1)",
           "start": "2024-06-28 23:30"
@@ -14549,9 +14616,9 @@
         },
         {
           "end": "2024-06-28 23:30",
-          "id": "bd3d6a4be2e86a9d0d20c468efb2d78a906750cc2c026c4f996592bdb5319b8c",
+          "id": "cd33c9b3a8c1222c3a65b4975a588b5e4df73d149427db4ed55c0fb2793d9a8f",
           "name": "Rumba De Bodas",
-          "short": "rumbad(1)",
+          "short": "rumbad(2)",
           "start": "2024-06-28 22:30"
         },
         {
@@ -21707,6 +21774,13 @@
           "start": "2024-06-27 16:50"
         },
         {
+          "end": "2024-06-27 17:30",
+          "id": "4669a6e54677809dd3c2bfe49bc4cab632d8180710958c8f07a90b84bb7fa196",
+          "name": "Celestials",
+          "short": "celest(4)",
+          "start": "2024-06-27 17:00"
+        },
+        {
           "end": "2024-06-27 17:45",
           "id": "1db5207fac86fac2cc4e7a3073385f85f56cad9b718c0e347444d1226a6ff9e9",
           "name": "Fortuni and Fae",
@@ -21718,13 +21792,6 @@
           "id": "70040db56ae5f5450d201999dbae84cc53e7b41847ea656a2b2d536bfa511dca",
           "name": "Gliding Butterflies",
           "short": "glidin(2)",
-          "start": "2024-06-27 17:00"
-        },
-        {
-          "end": "2024-06-27 17:30",
-          "id": "4669a6e54677809dd3c2bfe49bc4cab632d8180710958c8f07a90b84bb7fa196",
-          "name": "Celestials",
-          "short": "celest(4)",
           "start": "2024-06-27 17:00"
         },
         {
@@ -21812,6 +21879,13 @@
           "start": "2024-06-27 21:45"
         },
         {
+          "end": "2024-06-28 00:00",
+          "id": "b7e4525d949dc6af03a61b52289289a82920cd1ec01c388ce95bb1506479a6fc",
+          "name": "Glowbros",
+          "short": "glowbr(3)",
+          "start": "2024-06-27 22:00"
+        },
+        {
           "end": "2024-06-27 22:45",
           "id": "cc2c9c97f11b1fa3e87fc086b3571c9ba304441da3e7e994a0971b7de306cea4",
           "name": "Corvus Angelicus",
@@ -21823,13 +21897,6 @@
           "id": "b4ce5117172aaa1b5212a2ef067fd0a49f53b929cf32a3f8ec10371ce1ac8a04",
           "name": "High Flyers",
           "short": "highfl(1)",
-          "start": "2024-06-27 22:00"
-        },
-        {
-          "end": "2024-06-28 00:00",
-          "id": "b7e4525d949dc6af03a61b52289289a82920cd1ec01c388ce95bb1506479a6fc",
-          "name": "Glowbros",
-          "short": "glowbr(3)",
           "start": "2024-06-27 22:00"
         },
         {
@@ -24808,7 +24875,7 @@
       "name": "Pilton Palais Cinema"
     }
   ],
-  "modified": "2024-06-05 17:08",
+  "modified": "2024-06-11 12:39",
   "name": "Glastonbury Festival 2024",
   "printAdvisory": 5,
   "timezone": "Europe/London",
