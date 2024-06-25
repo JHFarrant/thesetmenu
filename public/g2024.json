@@ -705,9 +705,9 @@
         },
         {
           "end": "2024-06-29 19:00",
-          "id": "545e0b9989883005ccffd404258aa12d46ebdde31727aa0ab7f573a8a8860ba1",
+          "id": "255bfcb7a90519d57da0622a440f4e46e3cf39b7ee5b90b77ddffe829f1a19d4",
           "name": "TBA",
-          "short": "tba(16)",
+          "short": "tba(17)",
           "start": "2024-06-29 18:00"
         },
         {
@@ -1026,7 +1026,8 @@
         },
         {
           "end": "2024-06-30 22:30",
-          "id": "029132714d428cef2963db23a8423d0f1f3921a3493333a4f247d60b2738658c",
+          "id": "d7d0fca4ce9548d8724e09a9c99dabd5e1c9eb2caa43423d5c673aa481ac97d4",
+          "mbId": "a63b9208-6867-43fe-ad1d-f8801ad79915",
           "name": "London Grammar",
           "short": "london(1)",
           "start": "2024-06-30 21:15",
@@ -1395,9 +1396,9 @@
         },
         {
           "end": "2024-06-29 19:40",
-          "id": "3e47898d4e96c607c235f8d315f3cd60dea9976af00d5e98784949fbd5ebb8b1",
+          "id": "ec0bd9e8c7c0b8e65a20fb5e002dd2f919421dc54829e1a3d30d5d5d3ee2025c",
           "mbId": "52f612c7-9388-47aa-a3de-494d673671ac",
-          "name": "Bc Camplight",
+          "name": "BC Camplight",
           "short": "bccamp(1)",
           "start": "2024-06-29 18:40",
           "url": "https://twitter.com/bccamplight"
@@ -1410,6 +1411,14 @@
           "short": "shazna(1)",
           "start": "2024-06-29 20:10",
           "url": "https://shaznaylewis.tmstor.es"
+        },
+        {
+          "end": "2024-06-29 22:40",
+          "id": "7aa24b1f2289f409a046351c4bc07e882749e2a2d2f96d81ef40ca205e549273",
+          "name": "Newton Faulkner",
+          "short": "newton(1)",
+          "start": "2024-06-29 21:40",
+          "url": "https://newtonfaulkner.com/"
         },
         {
           "end": "2024-06-30 00:20",
@@ -1800,9 +1809,9 @@
         },
         {
           "end": "2024-06-30 23:30",
-          "id": "542b9e8dc97c763cae7cbbd9d010cdfd24a47bc2e5f303aae1a4c3161e7a720a",
-          "name": "Mandidextrous B2B Ivy",
-          "short": "mandid1(1)",
+          "id": "90854b1d1bb1cc54342176d28ff087e8f6ca5586534a31ad1bf3ed105c63a66d",
+          "name": "Mandidextrous B2B [Ivy]",
+          "short": "mandid(1)",
           "start": "2024-06-30 22:30",
           "url": "https://www.instagram.com/mandidextrous_23"
         },
@@ -1979,10 +1988,11 @@
         },
         {
           "end": "2024-06-29 19:30",
-          "id": "954318146dd79153beafa05d067406c9e3d038fe2d9efd0187c35f824189c85a",
+          "id": "1d246b531ae6ec5d6eaa4863f94c0911465e035c58aba8aa62099be74fc86f1a",
           "name": "Eats Everything B2B Groove Armada",
           "short": "eatsev2(1)",
-          "start": "2024-06-29 18:00"
+          "start": "2024-06-29 18:00",
+          "url": "https://www.instagram.com/pokestagraph"
         },
         {
           "end": "2024-06-29 21:00",
@@ -2007,9 +2017,9 @@
         },
         {
           "end": "2024-06-30 01:30",
-          "id": "04b71b9ec43e4908dd179ec25a4cc73181e439c731e0a0af0f4ebfa58593160a",
+          "id": "18c762ee4a4ef27b41bdab085bfb1975c4e03a8eacc218f7e5438465b64c11c7",
           "name": "TBA",
-          "short": "tba(19)",
+          "short": "tba(18)",
           "start": "2024-06-30 00:00"
         },
         {
@@ -2035,9 +2045,9 @@
         },
         {
           "end": "2024-06-30 16:00",
-          "id": "5e6a87671b71dd3b96c3e84693616eb527a7d0fa4628f5f6e6bb181fb02d3c0d",
+          "id": "86a82ae571d170b1288c0ec45724651c1a67f88d4521ee6d0cd50b6ef2ca9c06",
           "name": "Shy Fx",
-          "short": "shyfx(1)",
+          "short": "shyfx(2)",
           "start": "2024-06-30 15:00"
         },
         {
@@ -2145,10 +2155,11 @@
         },
         {
           "end": "2024-06-28 13:00",
-          "id": "d51d31a0a4693c3314b7e8cc15392dbb1b9aac0d87ca4b5decf31f1427daabe4",
+          "id": "d2632c127c974bb5b9ac113a416c9875fd00997d1e81fd98570a2997756f619e",
           "name": "Olivia Nelson",
           "short": "olivia1(2)",
-          "start": "2024-06-28 12:00"
+          "start": "2024-06-28 12:00",
+          "url": "https://www.instagram.com/oliviajnelson/"
         },
         {
           "end": "2024-06-28 14:30",
@@ -2194,8 +2205,8 @@
         },
         {
           "end": "2024-06-28 23:30",
-          "id": "8b77043d8138b58158e94e6cefaeb0fd41cc05640a09d36b75c4fecde72671be",
-          "name": "Sg Lewis + Tove Lo: Club Heat",
+          "id": "3713e23eb2b8a1db900017c84dec2aa3afbaca03ccf75a4ff2580c302e9d1918",
+          "name": "SG Lewis + Tove Lo: Club Heat",
           "short": "sglewi(1)",
           "start": "2024-06-28 21:30"
         },
@@ -2215,10 +2226,11 @@
         },
         {
           "end": "2024-06-29 12:45",
-          "id": "ab6698a926bbc4bcef54785d81d18efc3382c8a9de24adb2d4c07e0db584ac97",
+          "id": "7eadea79f6a98fe5da2bab9e48ce3b6bbf3c0a6e13ce609f31d907052d6db83a",
           "name": "Caleb Kunle",
           "short": "calebk(3)",
-          "start": "2024-06-29 12:00"
+          "start": "2024-06-29 12:00",
+          "url": "https://www.instagram.com/caleb_kunle/?hl=en"
         },
         {
           "end": "2024-06-29 14:00",
@@ -2322,10 +2334,11 @@
         },
         {
           "end": "2024-06-30 16:30",
-          "id": "d05a6a127010caf45d862b66e9c588731435966222770c389c232c4b3fdc5f28",
+          "id": "7a6ac0c94c573acb3149bcfe2f7b5371e1c699590d3e7fb6189856d70fb0a389",
           "name": "Porij",
           "short": "porij(2)",
-          "start": "2024-06-30 15:30"
+          "start": "2024-06-30 15:30",
+          "url": "https://www.instagram.com/porij_"
         },
         {
           "end": "2024-06-30 17:45",
@@ -2383,10 +2396,11 @@
       "events": [
         {
           "end": "2024-06-27 19:30",
-          "id": "74e445886cc17835d2009eec3cb85727e48bf277fe874a5152da76606789651a",
+          "id": "929a93476b21590cc43dddcfc2b87200cac816b4f709198851b573f3b518419c",
           "name": "Dar Disku B2B Nabihah Iqbal",
           "short": "dardis1(1)",
-          "start": "2024-06-27 18:00"
+          "start": "2024-06-27 18:00",
+          "url": "https://www.instagram.com/dardisku_records/?hl=en-gb"
         },
         {
           "end": "2024-06-27 21:00",
@@ -2411,10 +2425,11 @@
         },
         {
           "end": "2024-06-28 01:45",
-          "id": "8b3070551fd0690415788db8a979bb6ddfa1aa9e0db4d3c257fbe0d198a3bec0",
+          "id": "687369786830e64071d0f4ae5a553e7630be3aa55a2be87ea340a9c9062cf3be",
           "name": "Dresden [Ivan Smagghe & Manfredas]",
           "short": "dresde1(1)",
-          "start": "2024-06-28 00:15"
+          "start": "2024-06-28 00:15",
+          "url": "https://www.instagram.com/dresden_dance/"
         },
         {
           "end": "2024-06-28 03:00",
@@ -2432,17 +2447,19 @@
         },
         {
           "end": "2024-06-28 14:30",
-          "id": "1b4c236f3836d6904b2de0b2bf166bc04c62cb5e02004686a9ed2f10c2ff6102",
+          "id": "ca8ddc38cc2f1c1b87f5359dec418b0cba7fd9b86509e9edc679805f66859249",
           "name": "Cc:disco [10 Years of Rhythm Section]",
           "short": "ccdisc1(1)",
-          "start": "2024-06-28 13:00"
+          "start": "2024-06-28 13:00",
+          "url": "https://www.instagram.com/ccdisco/?hl=en"
         },
         {
           "end": "2024-06-28 16:00",
-          "id": "cd198dcaf7696dd2b3bab326a38f721a8d89ae585074ee7b8e5639a4ba930595",
+          "id": "ba8e048ab447a63a4330d576a3a5a22222a4d10803b5369387bb78a901e35a28",
           "name": "Sally C [10 Years of Rhythm Section]",
           "short": "sallyc1(1)",
-          "start": "2024-06-28 14:30"
+          "start": "2024-06-28 14:30",
+          "url": "https://www.instagram.com/sallycberlin"
         },
         {
           "end": "2024-06-28 18:00",
@@ -2502,10 +2519,11 @@
         },
         {
           "end": "2024-06-29 18:00",
-          "id": "4bef4863e23640380ccf98516dd5d0dcd84a3af21116252bc569ef4806638a7c",
+          "id": "b34e39d8243381aafbf7bfbc1d68a8e719a24432644e62b05b4d4c894bf9c87c",
           "name": "Job Jobse [Bodymovements Takeover]",
           "short": "jobjob1(1)",
-          "start": "2024-06-29 16:00"
+          "start": "2024-06-29 16:00",
+          "url": "https://www.instagram.com/jobjobse"
         },
         {
           "end": "2024-06-29 20:00",
@@ -2516,10 +2534,11 @@
         },
         {
           "end": "2024-06-29 22:00",
-          "id": "f0c23bdb6a5cd1499be175fb3645450dfa933ccc871ae691498e75fbd6d0a729",
+          "id": "63b4ca6f69267bb6d91eb93c1d4b512a7027787e263c1160e6150c665e9ec9b6",
           "name": "Amaliah B2B Danielle",
           "short": "amalia1(1)",
-          "start": "2024-06-29 20:00"
+          "start": "2024-06-29 20:00",
+          "url": "https://www.instagram.com/amaliahppeche/?hl=en"
         },
         {
           "end": "2024-06-29 23:30",
@@ -2605,10 +2624,11 @@
       "events": [
         {
           "end": "2024-06-27 19:30",
-          "id": "81e368e3e2111aae33fe90271ead63246360626b006d18923b46b100dec20d94",
+          "id": "f67469129310a7c75b987e9c62409593634e0375c4fe3a48a86dc2d1e7729e59",
           "name": "Scarlett O\u2019malley [Foundation FM Takeover]",
           "short": "scarle(1)",
-          "start": "2024-06-27 18:00"
+          "start": "2024-06-27 18:00",
+          "url": "https://www.instagram.com/scarlett_omalley/?hl=en"
         },
         {
           "end": "2024-06-27 21:00",
@@ -2668,17 +2688,19 @@
         },
         {
           "end": "2024-06-28 22:00",
-          "id": "101ee6f8032bc9c8e57dfc3bd73e691ccf3dd5b56207d78aaa7b5ceb6ec868e7",
+          "id": "56c7c8b952d945a048808bfa5f6a149c3fa4d5e4cb325e073faa777dd50a823b",
           "name": "Jamz Supernova [\u00c9 Soul Cultura Takeover]",
           "short": "jamzsu1(1)",
-          "start": "2024-06-28 20:00"
+          "start": "2024-06-28 20:00",
+          "url": "https://www.instagram.com/jamzsupernova"
         },
         {
           "end": "2024-06-29 00:00",
-          "id": "43b3773b3342c811488149815838667795a2f5be5208b6c481974423eb319e00",
+          "id": "f6129afa5a714cb1b40376e4ed2c4a3470be046efb1f9967fd14d32340b24fcc",
           "name": "Luke Una [\u00c9 Soul Cultura Takeover]",
           "short": "lukeas(1)",
-          "start": "2024-06-28 22:00"
+          "start": "2024-06-28 22:00",
+          "url": "https://www.instagram.com/lukeunabomber/"
         },
         {
           "end": "2024-06-29 01:00",
@@ -2891,8 +2913,8 @@
         },
         {
           "end": "2024-06-27 18:50",
-          "id": "cb7360419221f2699390cb7d983a77d910440bc428c4be4f701270d3b0765bd3",
-          "name": "Rellz & Yb Micz",
+          "id": "8cfc3f2004841c9435572ea718ba62d39feb9f0418469715ac304eee6d2e0769",
+          "name": "Rellz & YB Micz",
           "short": "rellzy(1)",
           "start": "2024-06-27 18:30"
         },
@@ -3093,27 +3115,26 @@
         },
         {
           "end": "2024-06-27 22:30",
-          "id": "f786d745d118f64041cd2e8c7add2d4a2b085c696ce099e236f7647bc1148b6c",
-          "mbId": "35723b60-732e-4bd8-957f-320b416e7b7f",
-          "name": "Groove Armada (DJ Set)",
-          "short": "groove2(1)",
-          "start": "2024-06-27 21:00",
-          "url": "https://groovearmada.com"
-        },
-        {
-          "end": "2024-06-28 00:00",
-          "id": "cae77f16a4f6ae618b3bdf47bb7ddcedfa048109c6cb20ab51fcc98c758df4c7",
+          "id": "8a805bf25dd873ae43e6c259d3160d29958c90f6877a214067993c289baa7d02",
           "name": "Eats Everything",
           "short": "eatsev1(1)",
-          "start": "2024-06-27 22:30",
+          "start": "2024-06-27 21:00",
           "url": "https://www.eatseverything.com"
         },
         {
+          "end": "2024-06-27 23:30",
+          "id": "d82e1113018b1e970bdf4487dc77a45471256d4c7f5c12fabc9e7b494e1a9815",
+          "name": "Shy Fx",
+          "short": "shyfx(1)",
+          "start": "2024-06-27 22:30",
+          "url": "https://groovearmada.com"
+        },
+        {
           "end": "2024-06-28 01:30",
-          "id": "d7e62d05a5477e40d4c4ee35c65d3864d4ddd50181df63e22d7c6fddeb3b3d3a",
+          "id": "61397d270042d6c2f18008b1ef59723c12242d927f1d485500082f6e41a1c21d",
           "name": "DJ Boring",
           "short": "djbori(1)",
-          "start": "2024-06-28 00:00",
+          "start": "2024-06-27 23:30",
           "url": "https://www.instagram.com/dj.boring"
         },
         {
@@ -3384,6 +3405,77 @@
     {
       "events": [
         {
+          "end": "2024-06-26 16:00",
+          "id": "c34761cf36407d152926299fd97a3e901637a419ef7ac697873a9b48d81889ce",
+          "name": "Uncle Dugs (DJ Set)",
+          "short": "uncled1(1)",
+          "start": "2024-06-26 15:00",
+          "url": "https://www.instagram.com/uncledugs/?hl=en-gb"
+        },
+        {
+          "end": "2024-06-26 18:00",
+          "id": "5c14f702d0c4a18cb915693d33cf7ddc918dd4d2da9e065cfec7d1509c4309a5",
+          "name": "Mossman (DJ Set)",
+          "short": "mossma(1)",
+          "start": "2024-06-26 16:00",
+          "url": "https://on.soundcloud.com/dnrnn"
+        },
+        {
+          "end": "2024-06-26 21:00",
+          "id": "85b33a8dc54d0ab2756c39da7cd24c3f2955f238b50113eafb3090d33b931012",
+          "name": "Twisted Time Machine",
+          "short": "twiste2(1)",
+          "start": "2024-06-26 18:00",
+          "url": "http://instagram.com/twistedtimemachine"
+        },
+        {
+          "end": "2024-06-26 22:00",
+          "id": "fb334b27babaf8421cdba90ad9c28d08829b2a8566e12bcf5831d27ab765b1fb",
+          "name": "The Soulstice Collective: Millie Watts (DJ Set)",
+          "short": "soulst(1)",
+          "start": "2024-06-26 21:00",
+          "url": "https://www.instagram.com/millie_watts/?hl=en-gb"
+        },
+        {
+          "end": "2024-06-26 23:00",
+          "id": "6596ea9ced89166e956b4d55213e05434fd422349ccb76b7fe18884e2a91cb6c",
+          "name": "The Soulstice Collective: Samuel Hunter (DJ Set)",
+          "short": "soulst1(1)",
+          "start": "2024-06-26 22:00",
+          "url": "https://www.instagram.com/samuelc.hunter/?hl=en"
+        },
+        {
+          "end": "2024-06-27 00:00",
+          "id": "fc0604d027ddd6d0a3bff1a0a39126b42ef965dc8e25e60e7e233f74a975198a",
+          "name": "The Soulstice Collective: Jamie Joy (DJ Set)",
+          "short": "soulst2(1)",
+          "start": "2024-06-26 23:00",
+          "url": "https://www.instagram.com/jammerjoy_/"
+        },
+        {
+          "end": "2024-06-27 01:00",
+          "id": "078abba85ddb8433a289c7678376680dffd96d7ca78db4071253ddd8cfce65e3",
+          "name": "The Soulstice Collective: Mr Moonshine (DJ Set)",
+          "short": "soulst3(1)",
+          "start": "2024-06-27 00:00",
+          "url": "https://www.instagram.com/moonshine__records/"
+        },
+        {
+          "end": "2024-06-27 02:00",
+          "id": "f81b9c395c9af483a7c71e4ed8436343e3e61f862e86c85de49fe186ed440b61",
+          "name": "The Soulstice Collective: Minna (DJ Set)",
+          "short": "soulst4(1)",
+          "start": "2024-06-27 01:00",
+          "url": "https://www.instagram.com/minnahoneyy/?hl=en"
+        },
+        {
+          "end": "2024-06-27 03:00",
+          "id": "418948a6d0803a2d5b9689057e61c171248fdeac012f1fb4dc5e31fec74b32ae",
+          "name": "The Soulstice Collective: TBA (DJ Set)",
+          "short": "soulst5(1)",
+          "start": "2024-06-27 02:00"
+        },
+        {
           "end": "2024-06-27 13:45",
           "id": "639edcf6f6cada6978beca33b38d904efab01eb2622a15ba423176894fc74704",
           "name": "Taliesin",
@@ -3408,9 +3500,9 @@
         },
         {
           "end": "2024-06-27 16:45",
-          "id": "64baa78f96bfe209e25d50d0f1e32550cd58f7def6f745a2a773fc26ba417fea",
+          "id": "13df8c773d80e50f591af2fc10b2bad23287435db1b9fed96d90320d293283f4",
           "name": "Mossman (DJ Set)",
-          "short": "mossma(1)",
+          "short": "mossma(2)",
           "start": "2024-06-27 15:30",
           "url": "https://soundcloud.com/ky-namssom"
         },
@@ -3572,6 +3664,14 @@
           "url": "https://www.stornowayband.com/"
         },
         {
+          "end": "2024-06-28 21:45",
+          "id": "e82f38640f3ac7f6a1d7710c428ff86ec1cf23c4f04fb9a4540865e6c630ca8e",
+          "name": "Krafty Kuts (DJ Set)",
+          "short": "krafty1(1)",
+          "start": "2024-06-28 20:45",
+          "url": "https://kraftykuts.com/"
+        },
+        {
           "end": "2024-06-28 23:00",
           "id": "a12c7f739592fe9dd7d19248305acb1b60b401c8f3d7486b05f9939afb0b2d25",
           "name": "Pumarosa",
@@ -3580,12 +3680,50 @@
           "url": "https://www.pumarosamusic.com/"
         },
         {
-          "end": "2024-06-29 06:00",
-          "id": "af50ff335b04d0d85931634269cf33f2c1c75848e933a9742dc2b231b6d8cea4",
-          "name": "Transgressive Takeover (Line Up TBA)",
-          "short": "transg(1)",
+          "end": "2024-06-29 00:30",
+          "id": "a26614f3331ce3cf0bebfeb57b7c92c03a8843edfd06e10add511e8275d57c82",
+          "name": "Transgressive Takeover: Future Bounce B2B DJs",
+          "short": "transg1(1)",
           "start": "2024-06-28 23:00",
           "url": "https://www.instagram.com/transgressivehq/?hl=en"
+        },
+        {
+          "end": "2024-06-29 01:30",
+          "id": "18e039de94ec3b5b6c21556cf6aee43d664f9e373ead258c1e627ae691717323",
+          "name": "Transgressive Takeover: TBA",
+          "short": "transg2(1)",
+          "start": "2024-06-29 00:30"
+        },
+        {
+          "end": "2024-06-29 02:30",
+          "id": "84aa82ae2d8b07c0dcf459a21143c9419be17fb03736216333ab520c28a70fce",
+          "name": "Transgressive Takeover: TBA",
+          "short": "transg2(2)",
+          "start": "2024-06-29 01:30"
+        },
+        {
+          "end": "2024-06-29 03:00",
+          "id": "d990dc3b5c67b1be2b8f4c58caf071716b312ea9830b9703d650db38a0b2c7a6",
+          "name": "Transgressive Takeover: Moonchild Sanelly",
+          "short": "transg3(1)",
+          "start": "2024-06-29 02:30",
+          "url": "https://www.instagram.com/moonchildsanelly/reels/?hl=en-gb"
+        },
+        {
+          "end": "2024-06-29 03:30",
+          "id": "539b2dd57f5f2e837918c15884551f3613efcd5afe2fe5f499c35a74277d839c",
+          "name": "Transgressive Takeover: Miso Extra (DJ Set)",
+          "short": "transg4(1)",
+          "start": "2024-06-29 03:00",
+          "url": "https://www.instagram.com/misoextra/?hl=en"
+        },
+        {
+          "end": "2024-06-29 06:00",
+          "id": "dd36aa2d3a963bf3590d3e7973b03ceae23938d7bcf150b006e7b94391d4591c",
+          "name": "Transgressive Sound System DJs",
+          "short": "transg5(1)",
+          "start": "2024-06-29 03:30",
+          "url": "https://transgressiverecords.com/"
         },
         {
           "end": "2024-06-29 13:30",
@@ -3889,11 +4027,11 @@
         },
         {
           "end": "2024-06-27 17:00",
-          "id": "5ef8853ebd22c98bd4ed5453212878f5a0686399f6680a6de3dcd7d6cfe7e07b",
-          "name": "Talk: Yazzie Min, Revolutionary Love (Talk)",
-          "short": "talkya(1)",
+          "id": "c8b439581ff4c75b96696d81097402167d972b145f3b039b9d46dc48e2a068f6",
+          "name": "Workshop: Holly Roxanne & Santanna Oush, Drop It Like It's Hot: Music, Writing & Sharing",
+          "short": "worksh4(1)",
           "start": "2024-06-27 16:00",
-          "url": "https://www.instagram.com/heymothership"
+          "url": "https://www.instagram.com/hollyroxannesounds"
         },
         {
           "end": "2024-06-27 18:00",
@@ -3945,11 +4083,11 @@
         },
         {
           "end": "2024-06-27 23:15",
-          "id": "fb3fdf40f829bf46228bde153cce71246b874fdf48ea6ed3fa7f08cec5ec5740",
+          "id": "bbeb12a3d0b1333508e45f450852670cb7ec68f5ac9ea884f370af742f097ccb",
           "name": "Wonderment Presents: Elevate",
           "short": "wonder1(1)",
           "start": "2024-06-27 22:15",
-          "url": "https://www.instagram.com/the_wonderment"
+          "url": "https://www.instagram.com/wonderment_events"
         },
         {
           "end": "2024-06-28 00:30",
@@ -3984,11 +4122,11 @@
         },
         {
           "end": "2024-06-28 14:30",
-          "id": "9f1232f4cda76f9445901dd63d2831cb27a3d61d1704a4d3bf9e411dd8381cc3",
+          "id": "3b006124d11c13529826cf2ed193bf93593db69fac4ca68f551870bcdd91c951",
           "name": "Talk: Chris Fitchew, Joy Alchemy",
           "short": "talkch(1)",
           "start": "2024-06-28 13:30",
-          "url": "https://www.instagram.com/the_wonderment"
+          "url": "https://www.instagram.com/chris_fitchew"
         },
         {
           "end": "2024-06-28 15:45",
@@ -4024,11 +4162,11 @@
         },
         {
           "end": "2024-06-28 22:30",
-          "id": "4564057e24fae39a160d5dfb953b6e6b5ddae3151e930d5d71d4954e4aa3a32c",
+          "id": "2eb9a4cdce9422f33ce06da548455b01c42062252a0059afc1c1e13128cdf147",
           "name": "Wonderment Presents: Elevate",
           "short": "wonder1(2)",
           "start": "2024-06-28 21:00",
-          "url": "https://www.instagram.com/the_wonderment"
+          "url": "https://www.instagram.com/wonderment_events"
         },
         {
           "end": "2024-06-28 23:30",
@@ -4062,10 +4200,11 @@
         },
         {
           "end": "2024-06-29 03:30",
-          "id": "0e17f2d87d1829a2aaecf37da027e02cf1c65ab8e61de9c916482196f136f224",
-          "name": "TBA (Lynks)",
-          "short": "tbalyn(1)",
-          "start": "2024-06-29 02:30"
+          "id": "5063e695ffec8779ef4b24934bf10f3a11a1828a321c93b9f336550a8dab7b42",
+          "name": "Lynks (DJ Set)",
+          "short": "lynksd(1)",
+          "start": "2024-06-29 02:30",
+          "url": "https://www.instagram.com/lynkslynkslynks"
         },
         {
           "end": "2024-06-29 04:30",
@@ -4148,34 +4287,34 @@
           "url": "https://www.instagram.com/twistedtimemachine"
         },
         {
-          "end": "2024-06-30 00:00",
-          "id": "40e2fc81667315806c4303c6f209c3bf39db2566126c120c8da4514d3586ad7a",
-          "name": "TBA",
-          "short": "tba(18)",
-          "start": "2024-06-29 23:15"
-        },
-        {
-          "end": "2024-06-30 01:00",
-          "id": "e8bd6cdb3686d451e50f8b9a412fc6d5407b23e016db35670efb990a2a2a0b9f",
+          "end": "2024-06-30 00:45",
+          "id": "d174e71ed0ae9ac28b2c578ce15bf6c4160a726aa1d1a94e03689b9a857fc10a",
           "name": "Aisha Mirza (DJ Set) & the Cocoa Butter Club",
           "short": "aisham1(1)",
-          "start": "2024-06-30 00:00",
+          "start": "2024-06-29 23:15",
           "url": "https://www.instagram.com/uglyinahotway"
         },
         {
-          "end": "2024-06-30 01:30",
-          "id": "01971de8677aae402ee10627de4745ad5f7310ac0bb9ab8c1571176e3a7fa22b",
-          "name": "TBA (Gossip/Beth Ditto)",
-          "short": "tbagos(1)",
-          "start": "2024-06-30 01:00"
+          "end": "2024-06-30 01:00",
+          "id": "7d8a34ab41d3d46d81ddf6f925845289bf1971fae214e851a88a05dd358b8dce",
+          "name": "TBA",
+          "short": "tba(19)",
+          "start": "2024-06-30 00:45"
+        },
+        {
+          "end": "2024-06-30 02:00",
+          "id": "c703564121c66c27dc4bf2757d26c5c5f8e226cb025a0c4d778080e1573a350c",
+          "name": "Pxssy Palace (DJ Set) & the Cocoa Butter Club",
+          "short": "pxssyp10(1)",
+          "start": "2024-06-30 01:00",
+          "url": "https://www.instagram.com/pxssypalace"
         },
         {
           "end": "2024-06-30 02:30",
-          "id": "5822b7f633d78603825a57cb37c8c25d45cec7149808fe623f415b1f5118d8b0",
-          "name": "Pussy Palace (DJ Set) & the Cocoa Butter Club",
-          "short": "pussyp(1)",
-          "start": "2024-06-30 01:30",
-          "url": "https://www.instagram.com/pxssypalace"
+          "id": "87916c60f8562c0914a37aff249adbb713a4da2b8108e7e6ecd72d6d4c940089",
+          "name": "TBA",
+          "short": "tba(21)",
+          "start": "2024-06-30 02:00"
         },
         {
           "end": "2024-06-30 03:30",
@@ -4203,9 +4342,9 @@
         },
         {
           "end": "2024-06-30 13:30",
-          "id": "e8cf14d2e74ae84d736d5a6b0ec061edc360b208b882b2e10104335a53a60b38",
-          "name": "Sunday Service with Everyone's Choir By Xoph",
-          "short": "sunday5(1)",
+          "id": "102373146bff66cdc96707a47235cd939e4b56f4177af3c157d30ba919e07e8f",
+          "name": "Sunday Service with Samantha Moyo and Everyone's Choir By Xoph",
+          "short": "sunday6(1)",
           "start": "2024-06-30 12:30",
           "url": "https://www.instagram.com/mysticmoyo"
         },
@@ -4227,27 +4366,27 @@
         },
         {
           "end": "2024-06-30 17:00",
-          "id": "f3e3ac152b211c94aee2eca32ad3ec146ddaffb1d7887a1057dcf6dc0a46038b",
-          "name": "Workshop: Holly Roxanne, Open Your Voice",
-          "short": "worksh2(1)",
+          "id": "0688151bd56ded4d2060ab55bec7ee8af23365d3b30fd8bd974cdd058e2bed37",
+          "name": "Workshop: Holly Roxanne, Free Your Voice",
+          "short": "worksh5(1)",
           "start": "2024-06-30 16:00",
           "url": "https://www.instagram.com/hollyroxannesounds"
         },
         {
           "end": "2024-06-30 18:00",
-          "id": "c31215f5f013a612a275078f21db5a06756fa7a14ba85c471e79f54eae49a9ae",
-          "name": "Workshop: Daisy Doris May, Developing Your Drag King",
-          "short": "worksh3(1)",
+          "id": "9658153b359921abd2b7c6399885bfdb90ca1bc0599a6836b5a95a521d9f81c6",
+          "name": "Talk: Steve Porters (Daisy Doris May), How To Mate",
+          "short": "talkst(1)",
           "start": "2024-06-30 17:15",
           "url": "https://www.instagram.com/daisydorismay"
         },
         {
           "end": "2024-06-30 23:45",
-          "id": "0c250d7c94ad61aa3c12af58ef19f3a2cb9b2eace40c01129e3911d26ed7749c",
+          "id": "9a0b4712054c50ba620a0f23ad9af37b18848f981f7b7a6c2ebb48e3d0b27301",
           "name": "Wonderment Presents: Elevate",
           "short": "wonder1(3)",
           "start": "2024-06-30 21:00",
-          "url": "https://www.instagram.com/the_wonderment"
+          "url": "https://www.instagram.com/wonderment_events"
         },
         {
           "end": "2024-07-01 00:45",
@@ -4267,9 +4406,9 @@
         },
         {
           "end": "2024-07-01 02:00",
-          "id": "1328b4ebc59c2ed6455e7912857781cf9b7a9f4b9d845d49b9b9f1407a3ce8f9",
+          "id": "a5e7a5fc9220a86e8471fa460354692aa0e9d217c621b6789b79e85f4206a2e8",
           "name": "TBA",
-          "short": "tba(27)",
+          "short": "tba(28)",
           "start": "2024-07-01 01:00"
         },
         {
@@ -4670,9 +4809,9 @@
         },
         {
           "end": "2024-06-28 15:00",
-          "id": "9f180389e5348db5edd4441bf127c9258372564fa7f4216a7412a91677aacd26",
+          "id": "9e48f98ed786e5ee6b410568bd372b054126fcfd39a421741fb6a331896b30ac",
           "mbId": "f22d0dc4-ce31-41ba-8560-e165d9799444",
-          "name": "Fmi Clatters",
+          "name": "FMI Clatters",
           "short": "fmicla(1)",
           "start": "2024-06-28 14:15",
           "url": "https://www.youtube.com/channel/ucabk3nuw8wvhxampe8seeaq"
@@ -5626,8 +5765,8 @@
         },
         {
           "end": "2024-06-29 22:30",
-          "id": "6feef214b0237620338633608858ff9637bb5b55d8da127722ff980199ea9472",
-          "name": "Ltj Bukem with MC Lowqui",
+          "id": "3290c7657d6b93d5950770586d2ea63ad8cf6ad512f84b0c8a48b6f3ab05cfe8",
+          "name": "LTJ Bukem with MC Lowqui",
           "short": "ltjbuk1(1)",
           "start": "2024-06-29 21:15"
         },
@@ -5779,7 +5918,8 @@
         },
         {
           "end": "2024-06-27 19:15",
-          "id": "fd5189d0d8170a4d0ea8d8b4e88c8910da60f230bb2977a2a9e7708241f61cd3",
+          "id": "bc5dd0179e5f851e8b4aa267ac0b4837e01d44a93dc0ec7f1772f40cd4ed154a",
+          "mbId": "1771a3c0-db77-47fb-84d1-274923682f10",
           "name": "Fish56octagon",
           "short": "fish56(1)",
           "start": "2024-06-27 18:30"
@@ -6050,17 +6190,19 @@
         },
         {
           "end": "2024-07-01 01:00",
-          "id": "318423bf4dbcdd5f1241ed834d290d6df375cfdabc2061030309e8e02f4931b1",
+          "id": "b558a31e2dde7b329806e4e8bb96a3e28f5d636621fcfbf851e137fcf532f7e2",
           "name": "Leon Vynehall",
           "short": "leonvy1(2)",
-          "start": "2024-06-30 23:30"
+          "start": "2024-06-30 23:30",
+          "url": "https://www.instagram.com/vynehall/?hl=en"
         },
         {
           "end": "2024-07-01 02:30",
-          "id": "a5979baba8d9b04733e9bde4106fbcbfe575dd3d8a1a875be18aa68a34bc21b6",
+          "id": "925a97d6fa6d196105310a5decc295b9d8d3353133f0c6e117028eec1fbc2339",
           "name": "DJ Tennis B2B Demi Riqu\u00edsimo",
           "short": "djtenn1(1)",
-          "start": "2024-07-01 01:00"
+          "start": "2024-07-01 01:00",
+          "url": "https://www.instagram.com/djtennis/?hl=en"
         }
       ],
       "name": "Glade Dome"
@@ -6563,6 +6705,15 @@
           "url": "https://www.djspen.com/"
         },
         {
+          "end": "2024-06-30 02:30",
+          "id": "cafbeb6b20a1303c14f7a2e4970e365a4d93b107e91cf00b307c65ea86c2637d",
+          "mbId": "9fab430a-f1af-4a69-bf68-6857a7a50a68",
+          "name": "Confidence Man",
+          "short": "confid(2)",
+          "start": "2024-06-30 02:25",
+          "url": "https://www.confidenceman.com.au/"
+        },
+        {
           "end": "2024-06-30 04:25",
           "id": "3894e39ba554b0a0e88bfd3a3660a2ac14729dbc2abed3134eda408db8088f74",
           "name": "Gide\u00f6n",
@@ -6873,70 +7024,70 @@
         },
         {
           "end": "2024-06-28 03:00",
-          "id": "14e3f1220038ab0a90dc83f6f1e980a2aec7d7fed19fe2b8902e8d7c07e3a4a0",
+          "id": "d26a45410daafbfdbbcc22bb5c5cd9a7f7ec71b62315e4bc8db31d6e0f31a53f",
           "name": "[Ivy]",
-          "short": "ivy(1)",
+          "short": "ivy(2)",
           "start": "2024-06-28 02:00"
         },
         {
           "end": "2024-06-28 23:00",
-          "id": "449c86537496977f62a95a48064ac97fb0ecbc2e6cf848336b40bf0fc0c610a1",
-          "name": "Rinse 30th Anniversary - Arthi",
-          "short": "rinse3(1)",
+          "id": "97ee442ba0337f5f14d1f195775869c476aa1e46c2da2dc53485c91dae7efc6a",
+          "name": "Arthi - Rinse 30th Anniversary",
+          "short": "arthir(1)",
           "start": "2024-06-28 22:00",
           "url": "https://www.instagram.com/arthi.nachiappan/"
         },
         {
           "end": "2024-06-29 00:00",
-          "id": "8e8103088a318ca52cd2cf262f7ca65c494ce968ea1261cf4671f1c2ee75e21f",
-          "name": "Rinse 30th Anniversary - Bakey B2B Izco",
-          "short": "rinse31(1)",
+          "id": "a18792197699468d6e47ca9acaaa14bd88952486110bbd9c8d5d887f928e6238",
+          "name": "Bakey B2B Izco - Rinse 30th Anniversary",
+          "short": "bakeyb(1)",
           "start": "2024-06-28 23:00"
         },
         {
           "end": "2024-06-29 01:00",
-          "id": "a7e25d2e8e59b061c42ef0706f57100f7709c99c68daec159714a5cda2e073e9",
-          "name": "Rinse 30th Anniversary - Girls Don't Sync",
-          "short": "rinse32(1)",
+          "id": "7b4cfda923537a8a212d51719233f031ca257e7fc2a6473ecc4dc6c2c29a735f",
+          "name": "Girls Don't Sync - Rinse 30th Anniversary",
+          "short": "girlsd1(1)",
           "start": "2024-06-29 00:00",
           "url": "https://www.instagram.com/girlsdontsync/"
         },
         {
           "end": "2024-06-29 01:30",
-          "id": "6b0dd01f97ef91a3cc08baa312e1a9e7d1c8bb7576139a5f7124b7a228495abd",
-          "name": "Rinse 30th Anniversary - Katy B Live",
-          "short": "rinse33(1)",
+          "id": "c9ed19eeef120fc50bdc772159485fbcf71e99af644cdb5413aa2f0f0f2442b7",
+          "name": "Katy B Live - Rinse 30th Anniversary",
+          "short": "katybl(1)",
           "start": "2024-06-29 01:00",
           "url": "https://www.instagram.com/katyb/"
         },
         {
           "end": "2024-06-29 02:30",
-          "id": "6eb20cbb65c1b1faa052751e024103c27c89b0dfa2d690220d3be09bebe7c271",
-          "name": "Rinse 30th Anniversary - Jyoty",
-          "short": "rinse34(1)",
+          "id": "d81479df4dc594ea659631a3f0a48f089eea9a08e071b045b48448595e0c0c09",
+          "name": "Jyoty - Rinse 30th Anniversary",
+          "short": "jyotyr(1)",
           "start": "2024-06-29 01:30",
           "url": "https://www.instagram.com/jyoty/"
         },
         {
           "end": "2024-06-29 04:00",
-          "id": "523e26db5ef2351b8aecd4bf60444c49d0676afe17cec7a3078b5bb252f62cb8",
-          "name": "Rinse 30th Anniversary - DJ Ez B2B Sammy Virji",
-          "short": "rinse35(1)",
+          "id": "1363a0a05161e82d478b34d14f2b2135cb1676f013e8838707999bfb9ece10c6",
+          "name": "DJ Ez B2B Sammy Virji - Rinse 30th Anniversary",
+          "short": "djezb2(1)",
           "start": "2024-06-29 02:30"
         },
         {
           "end": "2024-06-29 05:00",
-          "id": "b0a1382271dad71654d74152f0b703fdd71380b0af8179b42f58c3620c34009a",
-          "name": "Rinse 30th Anniversary - Interplanetary Criminal",
-          "short": "rinse36(1)",
+          "id": "96a4b19256692564e958a42ac77346be264d1010cd37ccbdf8cc789e86f171ac",
+          "name": "Interplanetary Criminal - Rinse 30th Anniversary",
+          "short": "interp1(1)",
           "start": "2024-06-29 04:00",
           "url": "https://www.instagram.com/interplanetary_criminal93/reel/cyvmk_mm69x/"
         },
         {
           "end": "2024-06-29 06:00",
-          "id": "4d5d584026a79ae7673c18a932d764f3910e41cd779528142c1c3f8321d38832",
-          "name": "Rinse 30th Anniversary - Hamdi",
-          "short": "rinse37(1)",
+          "id": "0031ce0f7aa29f0a064c46c57d4f8b0eaf9e29215b9f2ca4f189d7e86f24fed9",
+          "name": "Hamdi - Rinse 30th Anniversary",
+          "short": "hamdir(1)",
           "start": "2024-06-29 05:00",
           "url": "https://www.instagram.com/hamdimusic/reel/cmpoa6gpzwn/"
         },
@@ -7254,19 +7405,19 @@
         },
         {
           "end": "2024-06-30 04:00",
-          "id": "b25bf9a558017879f5a94d2301cef0bda92ddc0477a025e6932d01f36a5c41b2",
-          "name": "Chimpo",
-          "short": "chimpo(2)",
+          "id": "444bcfa22acf606051245cb1c15fae1ae83ffffa567023ddbc3d70f43c504526",
+          "name": "Saint Ludo",
+          "short": "saintl(1)",
           "start": "2024-06-30 03:00",
-          "url": "https://www.instagram.com/chimpomcr/"
+          "url": "https://www.instagram.com/saintludo/"
         },
         {
           "end": "2024-06-30 05:00",
-          "id": "e3269223744523290805714c40bf073bb0a8664df5ec99852a4408ffd9108d6b",
-          "name": "Saint Ludo",
-          "short": "saintl(1)",
+          "id": "ab01c5176a87fd4913cc9f1308439a0517d76b0437efe9135c7a168fbbdf0ccf",
+          "name": "Chimpo",
+          "short": "chimpo(2)",
           "start": "2024-06-30 04:00",
-          "url": "https://www.instagram.com/saintludo/"
+          "url": "https://www.instagram.com/chimpomcr/"
         },
         {
           "end": "2024-06-30 06:00",
@@ -7376,11 +7527,10 @@
         },
         {
           "end": "2024-06-28 03:00",
-          "id": "8778cd2fac733bf073b9cde0cd7a5edc9be7ac8e2a05cf5fabd887cabbad61e8",
-          "name": "Miss Mash",
-          "short": "missma(1)",
-          "start": "2024-06-28 02:00",
-          "url": "https://www.instagram.com/missmash___/"
+          "id": "d703fd93fdba8ccef063ad2d5620ad854ae30c9882d429d645e296cfde5d3709",
+          "name": "Kiko Bun - Latin DJ Set",
+          "short": "kikobu(1)",
+          "start": "2024-06-28 02:00"
         },
         {
           "end": "2024-06-28 23:00",
@@ -7906,16 +8056,16 @@
         },
         {
           "end": "2024-06-27 20:15",
-          "id": "b627c10699685903f75ab16c10b26f0709ada8859e813986c20147c3d9bd405e",
-          "name": "Ewan McVicar",
+          "id": "88d7beb0b4fe722e9d61f24cd4ff3031215865c6d783ea52c1bd3f2f99112899",
+          "name": "Ewan Mcvicar",
           "short": "ewanmc(1)",
           "start": "2024-06-27 19:45"
         },
         {
           "end": "2024-06-27 22:00",
-          "id": "b71acc7c13e8ff7f36c7c83e23792713b52b784abafa3aefb51f0b776f36a8e8",
-          "name": "Mega Rave B2B2B",
-          "short": "megara(1)",
+          "id": "f6e5c7fe38e90c4d5ddec27140b15805357f07d97a42b7444e9f30495b15c2c3",
+          "name": "Mega Rave B2b2b2b",
+          "short": "megara1(1)",
           "start": "2024-06-27 20:15"
         },
         {
@@ -8111,9 +8261,9 @@
         },
         {
           "end": "2024-06-30 03:00",
-          "id": "8ae08b89aa24936d362eed86060718fb019fad4ca868696d8f38c59749873a29",
-          "name": "Oneman B2B Chloe Robinson (Barely Legal Set)",
-          "short": "oneman1(1)",
+          "id": "928c78eb141dd8a25749a293269203fa997f3ae15605dd499c52a94ea4a8b09c",
+          "name": "Oneman B2B Chloe Robinson",
+          "short": "oneman2(1)",
           "start": "2024-06-30 02:00",
           "url": "https://www.instagram.com/chloerobinsondj/?hl=en"
         },
@@ -8158,9 +8308,9 @@
         },
         {
           "end": "2024-06-30 20:00",
-          "id": "457705efbd2bd54f7e9e44820013abedf482691bbe1ae08961b71c504cb7a40b",
-          "name": "Rio B2B Randall",
-          "short": "riob2b(1)",
+          "id": "60cac6e51c4bd2b91a314bef2fe9b21e2cb6f317ae841035bccb05bdab737535",
+          "name": "Rio Tashan B2B Randall",
+          "short": "riotas(1)",
           "start": "2024-06-30 19:00",
           "url": "https://www.instagram.com/riotashan/"
         },
@@ -8174,9 +8324,9 @@
         },
         {
           "end": "2024-07-01 00:00",
-          "id": "477a2943568d0f8a505a1d497aedf9f706418db02a1e871ac1d6a820ec312d48",
-          "name": "Uncommon Records and Dope Ammo Records",
-          "short": "uncomm2(1)",
+          "id": "6e7a5b1f1e06e52a51056192245a98d8bb655df5dafc17f2962e25a5bf3588bd",
+          "name": "Uncommon Records and Dope Ammo Records Presents Slipmatt, Ellis Dee, Jim Bitch & Dope Ammo",
+          "short": "uncomm3(1)",
           "start": "2024-06-30 21:00",
           "url": "https://www.instagram.com/uncommonrecordsuk/"
         },
@@ -8826,10 +8976,11 @@
         },
         {
           "end": "2024-06-29 02:40",
-          "id": "05a17b0be0fdc5fd48a77ece3d214a0ce52cef9a872be18e9891c8842d40f006",
+          "id": "764265ae277656cafaa584274d957be4e4baaf8eff0e4dc32fe28b05f7ebf734",
           "name": "Pxssy Palace Presents: Thai Chi Rose",
           "short": "pxssyp6(1)",
-          "start": "2024-06-29 02:30"
+          "start": "2024-06-29 02:30",
+          "url": "https://www.instagram.com/pxssypalace/?hl=en"
         },
         {
           "end": "2024-06-29 03:40",
@@ -8996,7 +9147,8 @@
         },
         {
           "end": "2024-06-27 22:00",
-          "id": "d3f624f23e5e18e8eab51be0ee9131a516c3330fa011e462fc99e86587226f7c",
+          "id": "6b13268a88c2a5be3d432274272885ea713c8e7de3eb9619508ee9007b46bdd7",
+          "mbId": "9c757ca6-7739-4962-9294-b5a41c653c51",
           "name": "Emma-Jean Thackray (DJ Set)",
           "short": "emmaje2(1)",
           "start": "2024-06-27 21:00",
@@ -9035,10 +9187,10 @@
           "url": "https://www.instagram.com/brighterdaysfamily/"
         },
         {
-          "end": "2024-06-28 17:00",
-          "id": "237d539d03c8a1a7329a833da623a84102d26655c8afa596707b71cc2a3ff0d1",
-          "name": "Back To Mine Takeover w/ Fat Tony, Sarah Story, Mas Que Nada Bros + Gucci Girl",
-          "short": "backto(1)",
+          "end": "2024-06-28 18:00",
+          "id": "3199e468b5f1ceb4361f52499fb8be01fd96bdbe7d2f6febfadecd455ae1e96e",
+          "name": "Back To Mine Takeover w/ Fat Tony, Sarah Story, Mas Que Nada Bros, Black Hawks of Panama + Gucci Girl",
+          "short": "backto1(1)",
           "start": "2024-06-28 13:00",
           "url": "https://www.instagram.com/backtomineofficial/"
         },
@@ -9187,19 +9339,19 @@
           "url": "https://www.instagram.com/surusinghe/"
         },
         {
-          "end": "2024-07-01 03:00",
-          "id": "6d899a0930b14dcbfd5f45b6c091f735292ea841f32038b859ffb9cddd70de5d",
-          "name": "Village Underground Takeover",
-          "short": "villag3(1)",
+          "end": "2024-07-01 03:30",
+          "id": "d017d1d62a1dd46e6a7447aada64c9f29c93c96d30d0bade3b2bfaa6d1b06341",
+          "name": "Village Underground Takeover: Nikki Nair B2B TBA",
+          "short": "villag8(1)",
           "start": "2024-07-01 02:00",
           "url": "https://villageunderground.co.uk/"
         },
         {
           "end": "2024-07-01 05:00",
-          "id": "5ad1b707b4c94df6f693be38c1809013f52bb3b922316c3be690825a2ec9c35d",
+          "id": "8c7fa504308b3b4dc0b7a3be07ab96ad63bd1e8ecc0ea43f50b32b273f7b5016",
           "name": "Village Underground Takeover: Eastern Margins w/ Minna-No-Kimochi, Lumi & Jex Wang",
           "short": "villag4(1)",
-          "start": "2024-07-01 04:00",
+          "start": "2024-07-01 03:30",
           "url": "https://www.instagram.com/easternmargins/"
         }
       ],
@@ -9849,9 +10001,9 @@
         },
         {
           "end": "2024-06-28 00:00",
-          "id": "7574f30c8b184528633b92bffb540e939affcc3cd6a6ae03508a4f80e54307ae",
-          "name": "Ivy",
-          "short": "ivy1(1)",
+          "id": "49e63fa396912784ed5a402371ea8ab686f6d72afe558b0d56b0ee8e5578b27c",
+          "name": "[Ivy]",
+          "short": "ivy(1)",
           "start": "2024-06-27 23:00",
           "url": "https://www.instagram.com/ivywubs?igsh=mxjmzmq2n2izdzrlcw=="
         },
@@ -10641,6 +10793,13 @@
           "url": "https://www.instagram.com/alexandrahaddow/"
         },
         {
+          "end": "2024-06-26 21:20",
+          "id": "8d1e787844158686e6dc6d42b2e83d043f7e6ed656150dc84bd16057154de8b4",
+          "name": "Noughtie Nineties Singalong",
+          "short": "nought(1)",
+          "start": "2024-06-26 20:20"
+        },
+        {
           "end": "2024-06-26 23:30",
           "id": "69fa3405e9c87348cf97442bf78c293d00dcaa52dc838838c20bbd156b0f4ee5",
           "name": "Wonderment Presents Chris Fitchew & Friends",
@@ -10725,8 +10884,8 @@
           "url": "https://www.instagram.com/moonchildsanelly"
         },
         {
-          "end": "2024-06-27 21:25",
-          "id": "7df12e5764a54802db9b7ae8ddd0983eb1ca4890b50e4fae21e0e7b3508cec14",
+          "end": "2024-06-27 21:20",
+          "id": "75249e5aafdf312bda4a13a5e23e73cfbd39ef5fa98723c6914296bc1459171d",
           "name": "Sue Veneers",
           "short": "sueven(1)",
           "start": "2024-06-27 20:05",
@@ -11247,8 +11406,8 @@
         },
         {
           "end": "2024-06-27 17:35",
-          "id": "6da53e0a33fa3a14c040e10a40d6cdbeb15666b8655eb39bb271ed01f05cbd0b",
-          "name": "Portraits",
+          "id": "8330d53294e282666e46e2d395b433753c517231495ba4d27a061bfeddd4cf80",
+          "name": "The Portraits",
           "short": "portra(1)",
           "start": "2024-06-27 16:50",
           "url": "https://www.theportraitsmusic.com/"
@@ -11326,10 +11485,11 @@
         },
         {
           "end": "2024-06-28 14:00",
-          "id": "03bad25d54c46c7a30e191eba6120f0964b6a05dfd6e0dca87e6bdfff194893f",
-          "name": "Sounds of Space",
-          "short": "sounds1(3)",
-          "start": "2024-06-28 13:15"
+          "id": "e3b7b3d8d23b61ccb5a5bc8cca2bfae7ae38d362d75706e4f28e90c9c2a0ba3f",
+          "name": "Sherika Sherard",
+          "short": "sherik(1)",
+          "start": "2024-06-28 13:15",
+          "url": "https://www.sherikasherard.com"
         },
         {
           "end": "2024-06-28 15:30",
@@ -11442,11 +11602,11 @@
         },
         {
           "end": "2024-06-29 17:00",
-          "id": "2cfde4fe2742ace7f6cc0fca9c925214c04adda6770c1d5a016060f1c9b2321a",
-          "name": "David Ford Band",
-          "short": "davidf(1)",
+          "id": "7015ca55efe35f99703828acecc7fc8a92eed280ff127a1cff0f2ed28e15dc52",
+          "name": "Romeo Stodart (Magic Numbers)",
+          "short": "romeos(1)",
           "start": "2024-06-29 16:15",
-          "url": "https://davidfordmusic.com/"
+          "url": "https://echelontalent.agency/roster/romeo-stodart/"
         },
         {
           "end": "2024-06-29 18:00",
@@ -11529,6 +11689,14 @@
           "url": "https://www.youtube.com/@aminadabu"
         },
         {
+          "end": "2024-06-30 14:00",
+          "id": "0b3b9739a12142a3d1c0e6f242438867c6d85ea602b45f5a73290bfb5be6cbdc",
+          "name": "Earth Percent Presents Sing Wild Seeds",
+          "short": "earthp(1)",
+          "start": "2024-06-30 13:00",
+          "url": "https://www.earthpercent.org/"
+        },
+        {
           "end": "2024-06-30 15:00",
           "id": "e00f7f9178f409a8d486a9e098a1c2ff2a787744079c2b698276b5d7fea413c2",
           "name": "Jenny Colquitt",
@@ -11567,6 +11735,14 @@
           "short": "bethan1(1)",
           "start": "2024-06-30 18:15",
           "url": "https://www.bethanlloyd.net/bio"
+        },
+        {
+          "end": "2024-06-30 20:30",
+          "id": "7439b1773fb2ed30044dadab70fb9f96cb1b6b6e95a2efb854dcdd0537653a3f",
+          "name": "Gabriel Templar",
+          "short": "gabrie2(1)",
+          "start": "2024-06-30 19:30",
+          "url": "https://www.gabrieltemplar.com/"
         },
         {
           "end": "2024-06-30 22:00",
@@ -11614,8 +11790,8 @@
           "url": "https://www.milliewatson.com/"
         },
         {
-          "end": "2024-06-27 19:15",
-          "id": "842cfb0d93826c7b08f517cf3e8c5d051c72b24ed09535d586efb3d63314d577",
+          "end": "2024-06-27 14:15",
+          "id": "7b9ab4c992f63cd4b0e67474b8b8544b894ff4b2fac37ac16aa907af56217bb9",
           "name": "The Little Unsaid",
           "short": "little2(1)",
           "start": "2024-06-27 13:15",
@@ -11735,11 +11911,11 @@
         },
         {
           "end": "2024-06-28 19:15",
-          "id": "a6c00d74ac82ef74f85bd9f42ea5e546c926a64dd6b3b4d2970573369bbc3999",
-          "name": "The Kahunas",
-          "short": "kahuna(1)",
+          "id": "4e2d960607292320abd63263723f1ee55556054098616fd2d9fdd0f4f36c6cbe",
+          "name": "Alex Wonderland",
+          "short": "alexwo(1)",
           "start": "2024-06-28 18:15",
-          "url": "https://thekahunas.net/"
+          "url": "https://www.alexandthewonderland.com/"
         },
         {
           "end": "2024-06-28 20:30",
@@ -11750,11 +11926,11 @@
         },
         {
           "end": "2024-06-28 22:00",
-          "id": "71baa213a7f771b05db2913fe07d873ead6062c3038a9a4458b3c899f2571f75",
-          "name": "Alex Wonderland",
-          "short": "alexwo(1)",
+          "id": "9bcba0276f48af48d2730b81197b000095d6d374d31e7e21be97752543afae09",
+          "name": "The Scribes",
+          "short": "scribe(2)",
           "start": "2024-06-28 21:00",
-          "url": "https://www.alexandthewonderland.com/"
+          "url": "https://www.quillequipped.com/"
         },
         {
           "end": "2024-06-28 23:30",
@@ -12079,9 +12255,9 @@
         },
         {
           "end": "2024-06-27 21:00",
-          "id": "11f7a613e145dc1d566bd92a394917daa36b9c6966e0e602cd853a074b944f9d",
-          "name": "Dartmouth Films: My Extinction + Q&A Dir Josh Appignanesi, Prod Chris Hird, Sophie Cowan, Clare Farrell, Pavel Ivanov",
-          "short": "dartmo(1)",
+          "id": "e9afa637c7ca78e586452bcf2f972309936c5289c816f9acfea3d1ef0b127896",
+          "name": "Dartmouth Films: My Extinction + Q&A Josh Appignanesi, Christo Hird, Sophie Cowen, Clare Farrell, Hosted By Pavel Ivanov",
+          "short": "dartmo1(1)",
           "start": "2024-06-27 20:00"
         },
         {
@@ -12240,9 +12416,9 @@
         },
         {
           "end": "2024-06-30 15:00",
-          "id": "443206ac58861f48ae11bb53c5539e967141aa141b5aeee2a90e01a7e0274624",
-          "name": "Up Shit Creek \u2013 Making Water Plc\u2019s Pay - Carla Denyer",
-          "short": "upshit(1)",
+          "id": "b75b931f3052da90aed8002b1d01e3d7d3e5b5b92bd98656e71f7d0140c1425b",
+          "name": "Up Shit Creek \u2013 Making Water Plc\u2019s Pay - Zac Polanski",
+          "short": "upshit1(1)",
           "start": "2024-06-30 14:00"
         },
         {
@@ -12395,9 +12571,9 @@
         },
         {
           "end": "2024-06-30 12:45",
-          "id": "622f54bc55847e67ff1c20318ca4a6eff9f132b83022ee8f9d3adddc95fb3520",
-          "name": "Sustainability in Music Talks",
-          "short": "sustai1(1)",
+          "id": "f63f3082f8d346f2334d6411d7508a9cb3251cabd570359d5eb8a646d270c344",
+          "name": "Outrage + Optimism: Music, Climate & Creativity (Co-Costed By O+o Alumni Matthew Phillips with Nabihah Iqbal)",
+          "short": "outrag(1)",
           "start": "2024-06-30 11:30"
         },
         {
@@ -12475,8 +12651,8 @@
           "start": "2024-06-26 12:45"
         },
         {
-          "end": "2024-06-26 16:00",
-          "id": "16486ebffc0d0b9e32aa9d1e1a8cf1b14595236c617fc29b5b563bef6fd90647",
+          "end": "2024-06-26 14:00",
+          "id": "9e1c6bc2db7c15238c63bbd822462846cf2599c4ee62262112148be88639eeb1",
           "name": "Izzie Derry",
           "short": "izzied(1)",
           "start": "2024-06-26 13:30"
@@ -12838,11 +13014,10 @@
         },
         {
           "end": "2024-06-27 11:00",
-          "id": "ee0240d7fa1b2b254897eb1d22336211917c76503a1c8037badeede7573cdfc9",
+          "id": "1707fcf72ce4c754c397c105e2a14f5bc1a59a550831e73c628849da9fc29afa",
           "name": "Sounds of Science DJ Set",
           "short": "sounds2(1)",
-          "start": "2024-06-27 10:30",
-          "url": "https://soundsofspaceproject.bandcamp.com"
+          "start": "2024-06-27 10:30"
         },
         {
           "end": "2024-06-27 11:45",
@@ -12924,10 +13099,11 @@
         },
         {
           "end": "2024-06-28 11:00",
-          "id": "9b504c586019639cab0e2bd90afbe32eaa2b11a58e42ddb8ed236b6440e0805b",
+          "id": "87d8453c8ac91699526e7d4ca5529e2daabdec5c97ca8a7b9e9b132302e5b9e9",
           "name": "Sounds of Science DJ Set",
           "short": "sounds2(2)",
-          "start": "2024-06-28 10:30"
+          "start": "2024-06-28 10:30",
+          "url": "https://soundsofspaceproject.bandcamp.com"
         },
         {
           "end": "2024-06-28 11:45",
@@ -12992,9 +13168,9 @@
         },
         {
           "end": "2024-06-28 23:55",
-          "id": "95c3ed92445e5890a7bc975115c7490377f647d5d4b942c1044da004b64dff40",
+          "id": "8dff1fe8ca38f4160cfd66bfb6fc8f6ddd2c769b996a33711a93c056fd208fc2",
           "name": "Sounds of Space",
-          "short": "sounds1(4)",
+          "short": "sounds1(3)",
           "start": "2024-06-28 23:00",
           "url": "https://soundsofspaceproject.bandcamp.com"
         },
@@ -13040,11 +13216,11 @@
         },
         {
           "end": "2024-06-29 15:45",
-          "id": "d6836d6cd85d8231dfa7f1572f413f8971845821bc9757d0f6b9c9cc16c1055e",
-          "name": "Robin Ince & Special Guest",
-          "short": "robini2(1)",
+          "id": "cdd053058da9a85758e6a97ece13ce9fca35728e97f4f53ad0d0c3a8a3e491a7",
+          "name": "Gilan",
+          "short": "gilan(2)",
           "start": "2024-06-29 15:00",
-          "url": "https://robinince.com"
+          "url": "https://gilan.bandcamp.com/album/goddess-unwilling"
         },
         {
           "end": "2024-06-29 16:45",
@@ -13056,11 +13232,11 @@
         },
         {
           "end": "2024-06-29 17:45",
-          "id": "1354df61c94fc8fcc56daadd98a1d499fc719c350a680e20aee1251e94349226",
-          "name": "Gilan",
-          "short": "gilan(2)",
+          "id": "a64ac5672c2128a40b2c18db02fc8499a9104b2f872867cc9867bb281aef4604",
+          "name": "Robin Ince & Special Guest",
+          "short": "robini2(1)",
           "start": "2024-06-29 17:00",
-          "url": "https://gilan.bandcamp.com/album/goddess-unwilling"
+          "url": "https://robinince.com"
         },
         {
           "end": "2024-06-29 19:00",
@@ -13133,9 +13309,9 @@
         },
         {
           "end": "2024-06-30 16:45",
-          "id": "a5f54791a470792978ce30554ed9ec1a3a92aafb475ae9aab056431ff94e6f22",
+          "id": "97d68b23dc6bca8e28b6711f14b5bdfe80ff104f6f963d52028f9d5ba64cde0f",
           "name": "Sounds of Space",
-          "short": "sounds1(5)",
+          "short": "sounds1(4)",
           "start": "2024-06-30 16:00",
           "url": "https://soundsofspaceproject.bandcamp.com"
         }
@@ -13711,9 +13887,9 @@
         },
         {
           "end": "2024-06-29 19:00",
-          "id": "255bfcb7a90519d57da0622a440f4e46e3cf39b7ee5b90b77ddffe829f1a19d4",
+          "id": "545e0b9989883005ccffd404258aa12d46ebdde31727aa0ab7f573a8a8860ba1",
           "name": "TBA",
-          "short": "tba(17)",
+          "short": "tba(16)",
           "start": "2024-06-29 18:00"
         },
         {
@@ -13749,9 +13925,9 @@
         },
         {
           "end": "2024-06-30 12:30",
-          "id": "25a31e2437684be7932bfcd8fd02df4cca8b4fdff175d43289ddae6b644ef00e",
+          "id": "4e84bc73a4e9da509ca18ec27f23a82f5b09846f6ae13663239b2e98b0983453",
           "name": "TBA",
-          "short": "tba(21)",
+          "short": "tba(22)",
           "start": "2024-06-30 11:30"
         },
         {
@@ -13771,9 +13947,9 @@
         },
         {
           "end": "2024-06-30 17:30",
-          "id": "4f3bd0adea6cab1729a8115e8df23de55167a37cc6f1d4a559985aefa5bdcbe0",
+          "id": "685eb5886d8d8680642d5ed394f4e8e9c99adfe232305a32e9aaf72e55a5ba19",
           "name": "TBA",
-          "short": "tba(23)",
+          "short": "tba(24)",
           "start": "2024-06-30 16:30"
         },
         {
@@ -14073,16 +14249,16 @@
         },
         {
           "end": "2024-06-30 20:00",
-          "id": "f7b7359d61b5bb37408377cacf5b34aa218dfb560656dfe81706ad6808574f7c",
-          "name": "TBA",
-          "short": "tba(26)",
+          "id": "61f46ac738392f55bc4532a5f79606680b4b8202344b588ad284eb23cde1eff9",
+          "name": "Jordan Mackampa",
+          "short": "jordan1(1)",
           "start": "2024-06-30 19:30"
         },
         {
           "end": "2024-06-30 21:00",
-          "id": "e4d814b817df87818236db3a0882112826986e03d8c671612a1eb5deb319eb8d",
-          "name": "Jordan Mackampa",
-          "short": "jordan1(1)",
+          "id": "f999d7fdee110064b800c063b604d3fe3d2e9a9d8d21b51282efcde268c30e74",
+          "name": "TBA",
+          "short": "tba(27)",
           "start": "2024-06-30 20:30"
         }
       ],
@@ -15225,9 +15401,9 @@
       "events": [
         {
           "end": "2024-06-26 23:00",
-          "id": "032420dad835814d422e088132ae5fe6e9f4de6eb32653807e45fa2b08732f09",
+          "id": "0fe96237193820454fa417c193c66d0c5c134d55c709d01dcd2e124c5254d1c2",
           "name": "Open",
-          "short": "open(3)",
+          "short": "open(2)",
           "start": "2024-06-26 20:00"
         },
         {
@@ -15239,10 +15415,11 @@
         },
         {
           "end": "2024-06-28 00:00",
-          "id": "db3a668452c209378dfc9ead9cbfc62114ce411a2a57292a6d57c16e67d2554c",
+          "id": "a38b88885f4c36674626eb0de66e72b89c5b8befbf0c99ae6da7290de414347e",
           "name": "Ethan Forks",
           "short": "ethanf(1)",
-          "start": "2024-06-27 22:30"
+          "start": "2024-06-27 22:30",
+          "url": "https://www.instagram.com/joeplaysrecords/?hl=en"
         },
         {
           "end": "2024-06-28 01:30",
@@ -15253,10 +15430,11 @@
         },
         {
           "end": "2024-06-28 03:00",
-          "id": "d00e6e13345ae07f955ea8d6035733d8615573dd648ca4060e4faf3273913877",
+          "id": "8f753757439590d98efbfffdb575694b12bee64601a3bcbc245638ec5b7f6dd7",
           "name": "Noble & Heath",
           "short": "nobleh(1)",
-          "start": "2024-06-28 01:30"
+          "start": "2024-06-28 01:30",
+          "url": "https://www.instagram.com/nobleandheath/"
         },
         {
           "end": "2024-06-28 22:30",
@@ -15274,31 +15452,35 @@
         },
         {
           "end": "2024-06-29 01:30",
-          "id": "83e5b2ceceb7ece87b9d33697b7855994a268f3df23cfa5cbdba20c309393015",
+          "id": "1669a6364b8a40b3ae6e983b909146e238f3fe9564d592a074cdb8ad5e0f47e4",
           "name": "Noel Watson",
           "short": "noelwa(1)",
-          "start": "2024-06-29 00:00"
+          "start": "2024-06-29 00:00",
+          "url": "https://x.com/djnoelwatson?lang=en"
         },
         {
           "end": "2024-06-29 03:00",
-          "id": "3c35232b9c7a1b783e6c55f0b1668a8a902e7672e28a8f462fac9a79028f85d0",
+          "id": "36a27f8c97057cf79569a07820f604e426d93a1e23bb0164b2934f6e18d61bc0",
           "name": "Noble & Heath",
           "short": "nobleh(2)",
-          "start": "2024-06-29 01:30"
+          "start": "2024-06-29 01:30",
+          "url": "https://www.instagram.com/nobleandheath/"
         },
         {
           "end": "2024-06-29 04:30",
-          "id": "c842ff7e47d53dc0daa1f26801361e2bc4f3be6b9f697137b037d822143da0f3",
+          "id": "60628438cf701f604f33f5393d3b87495d96d842a2e4d465c93d4e4d2aad821f",
           "name": "Roxanne Roll",
           "short": "roxann(1)",
-          "start": "2024-06-29 03:00"
+          "start": "2024-06-29 03:00",
+          "url": "https://www.instagram.com/roxanne_roll/"
         },
         {
           "end": "2024-06-29 06:00",
-          "id": "ad0b8f207791476dafb7d995db12811800270e405bed2e5dd6c8b81fa3825fc3",
+          "id": "03ea768da5c90f0b68aabba79bbe227c7c98c6f7db9ab1ecdd3c782f8e8e9c25",
           "name": "Nicky,nicky",
           "short": "nickyn(1)",
-          "start": "2024-06-29 04:30"
+          "start": "2024-06-29 04:30",
+          "url": "https://www.djnickynicky.com/"
         },
         {
           "end": "2024-06-29 22:30",
@@ -15309,38 +15491,43 @@
         },
         {
           "end": "2024-06-30 00:00",
-          "id": "898372a893bc41e1fb3cae92284a0734c7f4ebb126f4490b19e9593441e4c1bb",
+          "id": "b46c41762e892990bd98948236c22966e51ee45b75866f07a8ee03648592d75e",
           "name": "Perri Kaye",
           "short": "perrik(1)",
-          "start": "2024-06-29 22:30"
+          "start": "2024-06-29 22:30",
+          "url": "https://www.instagram.com/perri_kaye/"
         },
         {
           "end": "2024-06-30 01:30",
-          "id": "485eb3fc3b636fb56dc148d706f6eff0cd0e111c2250b080f8c7a0aff7c1a39c",
+          "id": "092e0c785b591ef5c0581e75b12f1edde364e00e667f80085c3a14a65574c376",
           "name": "Noel Watson",
           "short": "noelwa(2)",
-          "start": "2024-06-30 00:00"
+          "start": "2024-06-30 00:00",
+          "url": "https://x.com/djnoelwatson?lang=en"
         },
         {
           "end": "2024-06-30 03:00",
-          "id": "58b8b39f936965b881b60b17d93cbf8d825f1554443f763f98070b05a1e595ef",
+          "id": "d090d381efa2f1a7373b2b03fedf4b3ce2c31ea31a82db4efc1aa73a67118f18",
           "name": "Andy P",
           "short": "andyp(1)",
-          "start": "2024-06-30 01:30"
+          "start": "2024-06-30 01:30",
+          "url": "https://www.mixcloud.com/andypyett/"
         },
         {
           "end": "2024-06-30 04:30",
-          "id": "4dd1ccb72dfc4c8220cbe00b402cae3e2d9afdf8baab1329030ef09931729a8e",
+          "id": "b210aa31fcddb7f150d0b16d6ee80b24052324e50c9cd8a836356b554a4b80b3",
           "name": "Nicky,nicky",
           "short": "nickyn(2)",
-          "start": "2024-06-30 03:00"
+          "start": "2024-06-30 03:00",
+          "url": "https://www.djnickynicky.com/"
         },
         {
           "end": "2024-06-30 06:00",
-          "id": "88d6307effa846b9ac719fafccfb55a97e28087e5e2192126d1965b8eefef783",
+          "id": "57e77165d70f127ad2603f41d88dcfb823ebafcc2329ebb804c9deab9fee10ca",
           "name": "Louie,louie",
           "short": "louiel(1)",
-          "start": "2024-06-30 04:30"
+          "start": "2024-06-30 04:30",
+          "url": "https://www.mixcloud.com/kevin-winser/"
         },
         {
           "end": "2024-06-30 23:00",
@@ -15351,10 +15538,11 @@
         },
         {
           "end": "2024-07-01 00:30",
-          "id": "670922f7757e51ba3f9f1fcc11d6ef0d73455d3482ae014762c836d92c6a8dbe",
+          "id": "75ae31df6119f4e2a1dd2c3bb8b2c5625adfd4c6cef5e18bbdf69d466774ef34",
           "name": "Perri Kaye",
           "short": "perrik(2)",
-          "start": "2024-06-30 23:00"
+          "start": "2024-06-30 23:00",
+          "url": "https://www.instagram.com/perri_kaye/"
         },
         {
           "end": "2024-07-01 02:00",
@@ -15365,10 +15553,11 @@
         },
         {
           "end": "2024-07-01 05:00",
-          "id": "53fdd259a21c6945997c2b5eb0bf5d7171e62e3a9f0b460abcb8065f784499a4",
+          "id": "7b097c9ab5ccb5bb0b2a1db683122c4f2febad32c6ebd64c4ecdd664c80e80bc",
           "name": "Whitts/ Andy P/ Chris Holt",
           "short": "whitts(1)",
-          "start": "2024-07-01 02:00"
+          "start": "2024-07-01 02:00",
+          "url": "https://www.mixcloud.com/andypyett/"
         }
       ],
       "name": "Deluxe Diner"
@@ -15377,52 +15566,58 @@
       "events": [
         {
           "end": "2024-06-27 00:00",
-          "id": "3994b99d4da5818949afd2256177ea9df7374534a075d7923bcc76492fc095b5",
+          "id": "d02e02a4f4eff3d5a455c259b719f4ac4e1566838a9302dfba02e1fcfc49cf9d",
           "name": "Open",
-          "short": "open(2)",
+          "short": "open(3)",
           "start": "2024-06-26 20:00"
         },
         {
           "end": "2024-06-28 03:00",
-          "id": "5de5c6e174da58804014c38d9b596cf9a8c89792f9f1e82c33d2f137bb792bf4",
+          "id": "15a8ca8f20dc39613467e298e955ea094c67a93bfb17169ab2f8f8f7d17518c6",
           "name": "DJ Ruby Flashman",
           "short": "djruby(1)",
-          "start": "2024-06-27 20:00"
+          "start": "2024-06-27 20:00",
+          "url": "https://www.instagram.com/djrubyflashman/"
         },
         {
           "end": "2024-06-27 21:00",
-          "id": "39ede720e81dfe778ca3cd2f25ebb075cfde9f514167b51b92f969ef873eae5a",
+          "id": "ad2f39e0bfbdffb102ed018ea2b0933e191708b73c3e1c296e5d741d4cca1ed4",
           "name": "Sister Suzie",
           "short": "sister(1)",
-          "start": "2024-06-27 20:00"
+          "start": "2024-06-27 20:00",
+          "url": "https://sistersuzie.co.uk/home"
         },
         {
           "end": "2024-06-27 22:00",
-          "id": "bec19207edfecbba860c3a06d5c0e810b8cad5e4cf563af4e668cb35d614341a",
+          "id": "b57743f926eb3f61ad738d1764b76b2263e02d832a45fd4d865fd963beb3a30b",
           "name": "Marching Skaletons",
           "short": "marchi(1)",
-          "start": "2024-06-27 21:00"
+          "start": "2024-06-27 21:00",
+          "url": "https://www.marchingskaletons.co.uk/"
         },
         {
           "end": "2024-06-27 23:00",
-          "id": "4efdb0297c344fa20233b9049d466f0292516e06ce443f023b103bfa0f5f6e69",
+          "id": "558350e3293f5e3c4894ec80c5b0da36a7ced98bb24f1204385a74c88a53badf",
           "name": "Pronghorn",
           "short": "prongh(1)",
-          "start": "2024-06-27 22:00"
+          "start": "2024-06-27 22:00",
+          "url": "https://pronghorn.co.uk/"
         },
         {
           "end": "2024-06-28 00:00",
-          "id": "639f08df90ce20cc09220904c0a2208e6cdd804793cff147bf461d53bc52f5ee",
+          "id": "4aba847fc32ffcfe7d8bf8c5734500a21fa3d083ea4161b59b66c5916e3d308f",
           "name": "Guns of Navarone",
           "short": "gunsof(1)",
-          "start": "2024-06-27 23:00"
+          "start": "2024-06-27 23:00",
+          "url": "https://www.gunsofnavarone.co.uk/"
         },
         {
           "end": "2024-06-28 01:00",
-          "id": "a37e86f0728e25645909af6484c90907826736c071e0ca34355bc15eb80a7e75",
+          "id": "7ed705cc271b2abf777d21914b42486879f9bb4936b2e8ab7236bb5522a6cfc5",
           "name": "Los Dedos",
           "short": "dedos(1)",
-          "start": "2024-06-28 00:00"
+          "start": "2024-06-28 00:00",
+          "url": "https://www.losdedoband.com/"
         },
         {
           "end": "2024-06-28 02:00",
@@ -15433,158 +15628,179 @@
         },
         {
           "end": "2024-06-28 03:00",
-          "id": "1f417954bb303614730ad1259fd9bddd88f801d1851196c6deab5ebb061f6621",
+          "id": "2a1d51743c55118e0c7f7d3faf61a7c89b1908fe1c944181b9341b38b89f6078",
           "name": "The Trojans",
           "short": "trojan(1)",
-          "start": "2024-06-28 02:00"
+          "start": "2024-06-28 02:00",
+          "url": "https://www.gazrockin.com/thetrojans"
         },
         {
           "end": "2024-06-29 06:00",
-          "id": "31442053d0320c76a71f6e655a4e6300478c1c7d592e674a591e0aa797b95c3c",
+          "id": "973e0b07b9c3f8936c7505156d5e545389b2811694f2aec2d3b5d599410196f1",
           "name": "DJ Baby Soul",
           "short": "djbaby(1)",
-          "start": "2024-06-28 22:00"
+          "start": "2024-06-28 22:00",
+          "url": "http://djbabysoul.com/"
         },
         {
           "end": "2024-06-29 00:00",
-          "id": "d306496940b44e6da87fecfa3fd0eb3b76926052f5bedbd8841082b4d1ecbe5e",
+          "id": "5a398e7e60c0d372ce82cb2a22eaf6b5832e284d2a7cabb930d51b3d3640d444",
           "name": "Sister Suzie",
           "short": "sister(2)",
-          "start": "2024-06-28 23:00"
+          "start": "2024-06-28 23:00",
+          "url": "https://sistersuzie.co.uk/home"
         },
         {
           "end": "2024-06-29 01:00",
-          "id": "09edc1a67dd80f2ad6940f3eef6ea9d4eaaf9fb4bb37c6a2d51184cd8b1ca9ad",
+          "id": "aeb6500026f1ad5bb81cce96e171fde4a62830b5c88dd69efbfebaa0c02f555e",
           "name": "Red Hot Riot",
           "short": "redhot1(1)",
-          "start": "2024-06-29 00:00"
+          "start": "2024-06-29 00:00",
+          "url": "https://www.redhotriot.co.uk/"
         },
         {
           "end": "2024-06-29 02:00",
-          "id": "bc1edbfc3c31baaf0a90dfb6c622c2b9f34b92b108f2825df2a232c449974c65",
+          "id": "78adef7b62e80a77351085125f4c9680c0eaaf2b71105a452d3758fc17b66479",
           "name": "Frank Harvey Trio",
           "short": "frankh(3)",
-          "start": "2024-06-29 01:00"
+          "start": "2024-06-29 01:00",
+          "url": "https://www.instagram.com/frank_harvey_music/?hl=en"
         },
         {
           "end": "2024-06-29 03:45",
-          "id": "a54c4e3cb585a0de493ebe6c19b09daa71bc72940a08edd517fb31400a474317",
+          "id": "54e742cc5dcf119a8054a5243f573fc45449fc01c2ca27bcb708ec8965d550d9",
           "name": "The Trojans",
           "short": "trojan(2)",
-          "start": "2024-06-29 02:00"
+          "start": "2024-06-29 02:00",
+          "url": "https://www.gazrockin.com/thetrojans"
         },
         {
           "end": "2024-06-29 05:00",
-          "id": "0bc91598a98b61e76c78ae2926ab1d20df8c87ad24018b6059a0b270cccb36ce",
+          "id": "9344a4dd3a5f09d35bf0fe18993a5ababe360e71ed7d09a49c707846fe0697d3",
           "name": "Old Time Sailors",
           "short": "oldtim(6)",
-          "start": "2024-06-29 03:45"
+          "start": "2024-06-29 03:45",
+          "url": "https://www.oldtimesailors.com/"
         },
         {
           "end": "2024-06-29 06:00",
-          "id": "f25f1a42cdac4ca63492be33d2bc3eb8fbd9389d6674b266b296e4ac6ba1fce0",
+          "id": "2a2b36826f1628e2eb2c57e17bf6ec9ac44358a36c0192ba99e0cd2f3f60ff44",
           "name": "Downsetters",
           "short": "downse(1)",
-          "start": "2024-06-29 05:00"
+          "start": "2024-06-29 05:00",
+          "url": "https://www.downsetters.co.uk/"
         },
         {
           "end": "2024-06-30 06:00",
-          "id": "fabe8b1310bca015a8c9068a79a82135fd51ed0eeb829ae1b59fc18248d7ebbd",
+          "id": "4419428bbd8ee139e68ef372329c9c3c4a7d3d659df047c6aee08592057fec48",
           "name": "DJ Mr Mass",
           "short": "djmrma(1)",
-          "start": "2024-06-29 22:00"
+          "start": "2024-06-29 22:00",
+          "url": "https://www.instagram.com/big7_mrmass/"
         },
         {
           "end": "2024-06-30 00:00",
-          "id": "567925d7fe22ac57d22330bc177ae54fff68c8a8086b273fead84f7862a9b043",
+          "id": "87a7d5a43f843cfb7ff92d85f1a8662ae67eb3fc7ed7b4a34f2b4c6b2a113c27",
           "name": "Sister Suzie",
           "short": "sister(3)",
-          "start": "2024-06-29 23:00"
+          "start": "2024-06-29 23:00",
+          "url": "https://sistersuzie.co.uk/home"
         },
         {
           "end": "2024-06-30 01:00",
-          "id": "97e30bc93503293dce83654fd1daa64e30a9a240f1749b571b58f31b7159fa61",
+          "id": "173093ff1bc234ce0b34c739426afeb5afe40a3ebda18d5ec26d709aab2541e6",
           "name": "Frank Harvey Trio",
           "short": "frankh(4)",
-          "start": "2024-06-30 00:00"
+          "start": "2024-06-30 00:00",
+          "url": "https://www.instagram.com/frank_harvey_music/?hl=en"
         },
         {
           "end": "2024-06-30 02:00",
-          "id": "1d68366af5bbf65877fcced5ebc199e24b84f076fa4a1fbcf99663a3e9b8dad8",
+          "id": "6d69fe5e5687d0214e9fc341f198db9448b3a13ea04bb6a18e7af29271d5216f",
           "name": "The Marching Skaletons",
           "short": "marchi(3)",
           "start": "2024-06-30 01:00",
-          "url": "https://www.marchingskaletons.co.uk"
+          "url": "https://www.marchingskaletons.co.uk/"
         },
         {
           "end": "2024-06-30 03:00",
-          "id": "5680274e4fdf795b318f3f34caa6180aa67f66aeebd22adb8f2e155c2c7e2b31",
+          "id": "b4e349db8db98477dd3bc410de7f96ea69c5beb91979a00f1c7247d3e778e964",
           "name": "The Trojans",
           "short": "trojan(3)",
-          "start": "2024-06-30 02:00"
+          "start": "2024-06-30 02:00",
+          "url": "https://www.gazrockin.com/thetrojans"
         },
         {
           "end": "2024-06-30 05:00",
-          "id": "d849092ce41505338423caddb493bf6b064d8fe61c9f2c9fd153715830bc3685",
+          "id": "b45ec5e7d0fd86000619a0cb5ca2329848efde856fdf3bed1e32ffb47e40931e",
           "name": "The Downsetters",
           "short": "downse(2)",
-          "start": "2024-06-30 03:45"
+          "start": "2024-06-30 03:45",
+          "url": "https://www.downsetters.co.uk/"
         },
         {
           "end": "2024-06-30 06:00",
-          "id": "70f754f257ea11cfc176caf7ae9e00e153196bba8091e8e201bded1862475694",
+          "id": "ce70e2e1cdf5b67a86b2805ee31f29413fd403b54a62485f64ff7caab11bb4e0",
           "name": "Us",
           "short": "us(3)",
-          "start": "2024-06-30 05:00"
+          "start": "2024-06-30 05:00",
+          "url": "https://www.instagram.com/usbandofficial/?hl=en"
         },
         {
           "end": "2024-07-01 05:00",
-          "id": "4717aaabade9290cc0fedfc4e9d5f3a0ed3ff268b20da86885ee539ede48cf66",
+          "id": "d94d60e8cb5e1ea3b15b799ac2fe8e346bc79887e62422de9bde728dd31d4701",
           "name": "DJ Gaz",
           "short": "djgaz(1)",
-          "start": "2024-06-30 22:00"
+          "start": "2024-06-30 22:00",
+          "url": "https://www.gazrockin.com/thetrojans"
         },
         {
           "end": "2024-07-01 00:00",
-          "id": "e733d429746fb4f95e3fff22bfdafdd40c5545a1907b23a9be585575e3e58b7c",
+          "id": "face30c951c9061ceb1350f3c24c697bf67341fcf077075f2fe95705fb44e683",
           "name": "Red Hot Riot",
           "short": "redhot1(4)",
-          "start": "2024-06-30 23:00"
+          "start": "2024-06-30 23:00",
+          "url": "https://www.redhotriot.co.uk/"
         },
         {
           "end": "2024-07-01 01:00",
-          "id": "9a561298bd8730033864762715c0d0b6342cfafd2666cd402b11b11a7861b911",
+          "id": "d6891c4c0ea5a2bdc197155d589f89dbb1bf9e072893cce0cd345713895842a2",
           "name": "Frank Harvey Trio",
           "short": "frankh(5)",
-          "start": "2024-07-01 00:00"
+          "start": "2024-07-01 00:00",
+          "url": "https://www.instagram.com/frank_harvey_music/?hl=en"
         },
         {
           "end": "2024-07-01 02:00",
-          "id": "e78b52e4c5b25a6baa18897ea1b5abfc76a32faa7580237c108ae1f425e9f9d4",
+          "id": "c78afee94c552ee8a6ff34af739d8e83135256c115133f0dbda311fbca1ddf39",
           "name": "Us",
           "short": "us(4)",
-          "start": "2024-07-01 01:00"
+          "start": "2024-07-01 01:00",
+          "url": "https://www.instagram.com/usbandofficial/?hl=en"
         },
         {
           "end": "2024-07-01 03:00",
-          "id": "10f183583158e468ebebcb15cd603b4cbba2e6bd150ff043374486d66d15bf1c",
+          "id": "035de0eacf7f4acee783b568ce9b0f156134e8c469a3b42d0a7742a1c17ee304",
           "name": "The Downsetters",
           "short": "downse(3)",
-          "start": "2024-07-01 02:00"
+          "start": "2024-07-01 02:00",
+          "url": "https://www.downsetters.co.uk/"
         },
         {
           "end": "2024-07-01 04:00",
-          "id": "fe006660b751c9d4a0062c93b0a6caee40500aec033a3dbca96a9ffb4942c4ad",
+          "id": "39dd0cfca29ee653794ef20c51011217d0db54ae541509b18da00471dbfffec7",
           "name": "Old Time Sailors",
           "short": "oldtim(13)",
-          "start": "2024-07-01 03:00"
+          "start": "2024-07-01 03:00",
+          "url": "https://www.oldtimesailors.com/"
         },
         {
           "end": "2024-07-01 05:00",
-          "id": "8ff421474f47e4714abf61ba39a789ef01f77a82178b1ab6d6dd0b3ac84bfcc3",
+          "id": "39b54dffc7a7186288ddb91a87b16ad1859ec681796bda01ee44def2c8124f12",
           "name": "New York Brass Band",
           "short": "newyor(9)",
-          "start": "2024-07-01 04:00"
+          "start": "2024-07-01 04:00",
+          "url": "https://www.newyorkbrassband.co.uk/"
         }
       ],
       "name": "The Rocket Lounge"
@@ -17722,12 +17938,19 @@
           "start": "2024-06-26 17:00"
         },
         {
-          "end": "2024-06-27 19:00",
-          "id": "b0a883dc3fb5eb5dec5b1004cc2f9dfa7b7d9000e3ed6dc7c0436fd0f2671b4a",
+          "end": "2024-06-27 17:45",
+          "id": "b3fd298d9ab587959a67f701f3ce7d2a16276699a8d9106e6cbe67f9bbbfb310",
           "name": "West Holts Music Quiz",
           "short": "westho1(1)",
-          "start": "2024-06-27 17:00",
+          "start": "2024-06-27 16:15",
           "url": "https://www.instagram.com/overeasydjs/"
+        },
+        {
+          "end": "2024-06-27 18:45",
+          "id": "1bc4808e2216008a094f7b1d2e72e9cdb9aee8e90febcd1e3be8ce3fd9809af5",
+          "name": "J Sphynx",
+          "short": "jsphyn(1)",
+          "start": "2024-06-27 17:45"
         },
         {
           "end": "2024-06-27 19:55",
@@ -17778,6 +18001,13 @@
           "url": "https://www.instagram.com/mrrussryan/https://www.instagram.com/djmofingaz/"
         },
         {
+          "end": "2024-06-28 17:15",
+          "id": "0211e1190681fd59ab4c69946a114834a695da7b09a5b73418efc598e9b4c8b8",
+          "name": "Driessler",
+          "short": "driess(1)",
+          "start": "2024-06-28 16:45"
+        },
+        {
           "end": "2024-06-28 18:45",
           "id": "2e959c9420f3153719d22c3ea8db2045a2db93e26fbda28b86912bead66815cf",
           "name": "Stone Jets",
@@ -17810,14 +18040,6 @@
           "url": "https://www.instagram.com/benjonesmusik/"
         },
         {
-          "end": "2024-06-29 01:10",
-          "id": "8adef3969006c161bf3ef6b7b9df5f6529870f3721fe2cedc9a82695fa2581af",
-          "name": "Rebecca Vasmant",
-          "short": "rebecc(1)",
-          "start": "2024-06-29 00:45",
-          "url": "https://www.instagram.com/rebeccavasmant/"
-        },
-        {
           "end": "2024-06-29 02:10",
           "id": "ce078e008430aa3abcbdf40f2750c5dafff7b6c57c49dc230114cbcd8b95566d",
           "name": "The Filthy Six",
@@ -17826,28 +18048,33 @@
           "url": "https://www.instagram.com/thefilthysix/"
         },
         {
+          "end": "2024-06-29 03:00",
+          "id": "8ae3e5d4757258de92f7ba70a43064561173cdcf90d954e44018ece44850796d",
+          "name": "Andy Zoutr",
+          "short": "andyzo(1)",
+          "start": "2024-06-29 02:10"
+        },
+        {
           "end": "2024-06-29 17:30",
-          "id": "c5f2c00f33335829b9cc402a1d3cadf41e233535b9b83159d15fb4c71cb406c3",
-          "name": "Dan Ottewell",
-          "short": "danott(2)",
-          "start": "2024-06-29 17:00",
-          "url": "https://www.instagram.com/dan_ottewell_music/"
+          "id": "9bccd0959f6ac42149f22e0cb8378f4ece851665b1de7638d749183d215b19ae",
+          "name": "Anolah",
+          "short": "anolah2(1)",
+          "start": "2024-06-29 17:00"
         },
         {
           "end": "2024-06-29 19:00",
-          "id": "c101febbac61e5ad5491885796df7f013d09ae40f615d97409776f295c63aa7d",
-          "name": "Georgie Boyd",
-          "short": "georgi(1)",
-          "start": "2024-06-29 18:30",
-          "url": "https://www.instagram.com/georgieboydd/"
+          "id": "97b868b834e6205558d08283e95c5d6b9921c70624828179d04d4f1d1db54e0f",
+          "name": "Chimer",
+          "short": "chimer(3)",
+          "start": "2024-06-29 18:30"
         },
         {
           "end": "2024-06-29 20:30",
-          "id": "5b83661c53579a0a330d19798f42b19c23e7feaf132aac99510692c6f3320ab3",
-          "name": "Noah and the Loners",
-          "short": "noahan(1)",
+          "id": "e7701c4002354a74581467b48bd2cf6419e1199d36692be98ef755d896dd6e86",
+          "name": "Dan Ottewell",
+          "short": "danott(2)",
           "start": "2024-06-29 20:00",
-          "url": "https://www.instagram.com/noahandtheloners/"
+          "url": "https://www.instagram.com/dan_ottewell_music/"
         },
         {
           "end": "2024-06-29 22:15",
@@ -17890,6 +18117,21 @@
           "url": "https://www.instagram.com/steamybumplings/"
         },
         {
+          "end": "2024-06-30 15:30",
+          "id": "87823fef4c6b358c1924a482cdb0c2324d75b7fc5873f4481ff7124739e1d4d7",
+          "name": "Food Doula Sonic Nourishment",
+          "short": "fooddo(1)",
+          "start": "2024-06-30 15:00",
+          "url": "https://www.thefooddoula.co.uk/"
+        },
+        {
+          "end": "2024-06-30 17:00",
+          "id": "d372854a9121df812c1b0b2f690651ad2b69eabdc012320f04b54139fc4e4009",
+          "name": "Olive vs Momo",
+          "short": "olivev(1)",
+          "start": "2024-06-30 16:30"
+        },
+        {
           "end": "2024-06-30 18:30",
           "id": "477b87219c8c011a2be7fac2663cea44cd4804f77a753b7738cc9897a429c315",
           "name": "Ruby Cross",
@@ -17915,9 +18157,9 @@
         },
         {
           "end": "2024-07-01 00:45",
-          "id": "d41d95d45b7565dc027176990bc4165f5a0e4407a6f820cfc8cb7c7e23ea60bd",
-          "name": "J Spynx",
-          "short": "jspynx(1)",
+          "id": "7697aa78b5e40e84ae0d0c1afc2a78701745b28201c2ec6d5d54091c3df8827f",
+          "name": "J Sphynx",
+          "short": "jsphyn(2)",
           "start": "2024-06-30 23:15",
           "url": "https://www.instagram.com/j_sphynx_/"
         },
@@ -17966,12 +18208,91 @@
           "url": "https://www.instagram.com/overeasydjs/"
         },
         {
+          "end": "2024-06-28 16:00",
+          "id": "558fefe903585965dadf7267d5ec7cf39d872f8721e7e244c536e17e1a96184f",
+          "name": "Tom Eno",
+          "short": "tomeno(1)",
+          "start": "2024-06-28 14:00",
+          "url": "https://www.instagram.com/viva_msimang___/"
+        },
+        {
+          "end": "2024-06-28 17:00",
+          "id": "9ab3c965a489e95a3f520737e9c602fc61d367cf458894bde2091a4382281302",
+          "name": "Club Cowgirl Presents: Kt",
+          "short": "clubco(1)",
+          "start": "2024-06-28 16:00",
+          "url": "https://www.instagram.com/o_kt_o?igsh=mtjvdjhlbnromdvleg%3d%3d"
+        },
+        {
+          "end": "2024-06-28 18:00",
+          "id": "6d009de35a18190daffaf7f40d82a9ea70fa21c0fa17086cedce5d53d5ffa9fc",
+          "name": "Club Cowgirl Presents: Scarlett O'Malley",
+          "short": "clubco1(1)",
+          "start": "2024-06-28 17:00",
+          "url": "https://www.instagram.com/scarlett_omalley?igsh=mwr3ywflymlwyxpnmq%3d%3d&utm_source=qr"
+        },
+        {
+          "end": "2024-06-28 19:00",
+          "id": "b8eb7b35ace160d638b036e80f012946e2ee3a7bb17cf32010faf57a9009ae8b",
+          "name": "Club Cowgirl Presents: Samson",
+          "short": "clubco2(1)",
+          "start": "2024-06-28 18:00",
+          "url": "https://www.instagram.com/samsonssound?igsh=mw02ajdindvpn2joyq%3d%3d"
+        },
+        {
+          "end": "2024-06-28 20:00",
+          "id": "6b85ed7741b39bc3b2e99dce9f4330a1e9e2704005354242fe4e8f2fbc70a05d",
+          "name": "Club Cowgirl Presents: B Love",
+          "short": "clubco3(1)",
+          "start": "2024-06-28 19:00",
+          "url": "https://www.instagram.com/buddylovemusic?igsh=oxducwu5mtz5zm13"
+        },
+        {
+          "end": "2024-06-28 21:00",
+          "id": "6a1220cb561ff9a034cd2bffc0bfdc4787812a828dab19c9836ab24d23d19829",
+          "name": "Club Cowgirl Presents: Jive Talk",
+          "short": "clubco4(1)",
+          "start": "2024-06-28 20:00",
+          "url": "https://www.instagram.com/jive.talk?igsh=mwo4bhnsdxe2enywaw%3d%3d"
+        },
+        {
+          "end": "2024-06-28 22:00",
+          "id": "68e41a5d21831340f8d38d9bd922e4b6d7ccd5b2d785a777b1322ca6ddbf6bcc",
+          "name": "Club Cowgirl Presents: a for Alpha B2B Ell Murphy",
+          "short": "clubco5(1)",
+          "start": "2024-06-28 21:00",
+          "url": "https://www.instagram.com/aforalphaaa?igsh=zjbjcjzrazl0bnz2"
+        },
+        {
+          "end": "2024-06-28 23:00",
+          "id": "d1d7c3b98364f494c7818ce2d2b94083295f49907c7a6e88ead8326b187b1df0",
+          "name": "Club Cowgirl Presents: Serenda",
+          "short": "clubco6(1)",
+          "start": "2024-06-28 22:00",
+          "url": "https://www.instagram.com/serendaserendaserenda?igsh=mtdvnm5jythjcjf1zq=="
+        },
+        {
           "end": "2024-06-29 03:00",
           "id": "1c3469f7c62a4dd24950428f3be2133cbe05a2a64e6f28c60b6a153f19215eb2",
           "name": "Russ Ryan & Mo Fingaz",
           "short": "russry(2)",
           "start": "2024-06-28 23:00",
           "url": "https://www.instagram.com/mrrussryan/https://www.instagram.com/djmofingaz/"
+        },
+        {
+          "end": "2024-06-29 14:00",
+          "id": "c95aff55bee97d0fa25c2ff97767689789f19e11a3444e32e243d50558de38e9",
+          "name": "Overeasy Brunch Club",
+          "short": "overea2(1)",
+          "start": "2024-06-29 12:00",
+          "url": "https://www.instagram.com/overeasydjs/"
+        },
+        {
+          "end": "2024-06-29 16:00",
+          "id": "54ea4b85f79a68ba0707a8fc705d189dcf9b9c39b0abf3d74c8588f59bf1746e",
+          "name": "Tom Eno",
+          "short": "tomeno(2)",
+          "start": "2024-06-29 14:00"
         },
         {
           "end": "2024-06-29 19:00",
@@ -18012,6 +18333,28 @@
           "short": "jonnyh1(1)",
           "start": "2024-06-30 01:00",
           "url": "https://www.instagram.com/hairyredman"
+        },
+        {
+          "end": "2024-06-30 14:00",
+          "id": "54a8b3bd45453a9316c01b37475518ed4d3036b40e519a04a14c7e55693130e3",
+          "name": "Tom Eno",
+          "short": "tomeno(3)",
+          "start": "2024-06-30 12:00"
+        },
+        {
+          "end": "2024-06-30 16:00",
+          "id": "6a18a2047f5b8fae864f83795f2612304f8e2777ae28b1117c79f5aeb4628c0d",
+          "name": "Flying Mojito Brothers",
+          "short": "flying3(1)",
+          "start": "2024-06-30 14:00"
+        },
+        {
+          "end": "2024-06-30 17:00",
+          "id": "628c901b2cf9bc4f8f6e9fca2145ad7449176489adf013696a93322fb750c8ac",
+          "name": "Edwin Wills",
+          "short": "edwinw(1)",
+          "start": "2024-06-30 15:00",
+          "url": "https://www.instagram.com/rebeccavasmant/"
         },
         {
           "end": "2024-06-30 20:00",
@@ -20679,9 +21022,9 @@
         },
         {
           "end": "2024-06-30 18:44",
-          "id": "a56e6ffeec3a3d226f270af2fbf6a4164c234d0c3fc1644a8b62b6ee7f9be38f",
+          "id": "acef84f16df75fe80fa3f0c226b4b8fac3e9622ae6d034fdbe73fc1a442ad308",
           "name": "TBA",
-          "short": "tba(24)",
+          "short": "tba(25)",
           "start": "2024-06-30 18:14"
         },
         {
@@ -20694,9 +21037,9 @@
         },
         {
           "end": "2024-06-30 19:32",
-          "id": "56365a0a439c7115fb77731d87f175e217191c84186f14d2d6af68ecc79bcc24",
+          "id": "8cdc257af136536e6957f9a3f0a9aaa9968becb8ee5062ebdee0a838b3d57986",
           "name": "TBA",
-          "short": "tba(25)",
+          "short": "tba(26)",
           "start": "2024-06-30 19:02"
         },
         {
@@ -20902,10 +21245,11 @@
       "events": [
         {
           "end": "2024-06-26 13:45",
-          "id": "cdc6cfa3af807681051767dddec8711fec3f6162fbf3e8bee52b3af7ddbaf000",
+          "id": "359646695e577d7d77b533dceb5280ea9831f4e851e46437e0149d918eae692c",
           "name": "Georgia D'Arcy Roden",
           "short": "georgi2(1)",
-          "start": "2024-06-26 13:00"
+          "start": "2024-06-26 13:00",
+          "url": "https://www.instagram.com/georgieboydd/"
         },
         {
           "end": "2024-06-26 14:45",
@@ -21308,17 +21652,17 @@
         },
         {
           "end": "2024-06-28 21:45",
-          "id": "8947793160a2c2059fcbef704efd8eb1418a183d6ecb9fb78e50d843ad3e1a79",
-          "name": "Grant Sharkey",
-          "short": "grants1(1)",
+          "id": "38783841f2912cad6aaeda09cf025fe391742dfbdb5867e843266e747668f199",
+          "name": "Grant Sharkey ",
+          "short": "grants2(1)",
           "start": "2024-06-28 21:00"
         },
         {
           "end": "2024-06-28 23:25",
-          "id": "a97b52f8083c17f70c6fb6ec8967725e530e6d3c6384baf49deb1048517e2810",
+          "id": "609fc9a91811a7a7bbf5ad3d5158259e2485fb0366c708be58fb22baf8cffbbc",
           "name": "Close",
           "short": "close(6)",
-          "start": "2024-06-28 21:50"
+          "start": "2024-06-28 22:15"
         },
         {
           "end": "2024-06-29 00:15",
@@ -21425,9 +21769,9 @@
         },
         {
           "end": "2024-06-29 21:45",
-          "id": "ee0076df48852af5747c1667e88a7463e203f8c6cd0c6ba6fc96c814b49969f2",
-          "name": "Grant Sharkey",
-          "short": "grants1(2)",
+          "id": "4f0c9b0a729efb82233274ce4c677485f81387f8dae55bbbdc6826ac3984f12f",
+          "name": "Grant Sharkey ",
+          "short": "grants2(2)",
           "start": "2024-06-29 21:00"
         },
         {
@@ -22773,6 +23117,14 @@
           "url": "https://thecrazygolfcompany.com/"
         },
         {
+          "end": "2024-06-29 18:00",
+          "id": "3ce83be75216ccd481b1ff5b5963421580a52951d48417f3a7366694b6ec6520",
+          "name": "The Magpie's Fortune",
+          "short": "magpie(3)",
+          "start": "2024-06-29 12:00",
+          "url": "https://www.facebook.com/themagicnumbers"
+        },
+        {
           "end": "2024-06-29 16:00",
           "id": "5e508e0bb7bb11747e4383dd092adfaafafd3eda39b2fdb8335f81b3c5664554",
           "name": "Amazing Camera Obscura",
@@ -22787,14 +23139,6 @@
           "short": "solcin(3)",
           "start": "2024-06-29 12:00",
           "url": "http://www.thesolcinema.org/"
-        },
-        {
-          "end": "2024-06-29 18:00",
-          "id": "3ce83be75216ccd481b1ff5b5963421580a52951d48417f3a7366694b6ec6520",
-          "name": "The Magpie's Fortune",
-          "short": "magpie(3)",
-          "start": "2024-06-29 12:00",
-          "url": "https://www.facebook.com/themagicnumbers"
         },
         {
           "end": "2024-06-29 12:45",
@@ -23270,9 +23614,9 @@
         },
         {
           "end": "2024-06-30 12:35",
-          "id": "d69adf8a88bc1ca6f48815220a6fd678581cead564887fd24308161373348493",
+          "id": "e781de645cc126b3601df7024b02599da983e426774101ed3ef4a069c333a794",
           "name": "TBA",
-          "short": "tba(22)",
+          "short": "tba(23)",
           "start": "2024-06-30 12:00"
         },
         {
@@ -23593,11 +23937,11 @@
         },
         {
           "end": "2024-06-29 19:00",
-          "id": "f60b95f0f1bc3d8121ec907f94e788581376309ea253194157c5d2e1927d808a",
+          "id": "5112d4cca6fdfb6aac66b93ad78b52700eda3d36137571e5c61a2f2d833388c3",
           "name": "Comp\u00e8re: Sally-Anne Hayward",
           "short": "compre8(2)",
           "start": "2024-06-29 15:30",
-          "url": "https://www.alistairbarrie.com"
+          "url": "https://danevans.info"
         },
         {
           "end": "2024-06-29 15:50",
@@ -25191,9 +25535,9 @@
         },
         {
           "end": "2024-06-30 14:38",
-          "id": "232985e45fd1d9c5a34738b99d67e6446d23e8301289a03fbd6bfa623de59a6a",
-          "name": "Joe Sellman-Leava 'It's rich people's yacht money, Stupid!'",
-          "short": "joesel1(1)",
+          "id": "3c2787ca00d500e670e13d7bf5f9231ac83cbfafc15ebc29277a6e8d5b4fee8b",
+          "name": "Joe Sellman-Leava 'It's the Economy, Stupid!'",
+          "short": "joesel(1)",
           "start": "2024-06-30 13:38",
           "url": "https://www.worklighttheatre.co.uk/"
         },
@@ -25663,10 +26007,11 @@
         },
         {
           "end": "2024-06-29 22:00",
-          "id": "31e62761a14e3220c5039bfc6b8c7db9d6a2541de4bf925a79feab812cb98d0b",
+          "id": "463a4db5469b67bc5111c64d66ff38d997f52c2aa831c49149f913526785ca06",
           "name": "Rimski\u2019s Radio Hour",
           "short": "rimski1(1)",
-          "start": "2024-06-29 21:00"
+          "start": "2024-06-29 21:00",
+          "url": "https://www.rimskipiano.org/"
         },
         {
           "end": "2024-06-30 00:00",
@@ -26385,6 +26730,13 @@
           "url": "https://www.dadoshow.com/photo-video/"
         },
         {
+          "end": "2024-06-27 17:45",
+          "id": "70040db56ae5f5450d201999dbae84cc53e7b41847ea656a2b2d536bfa511dca",
+          "name": "Gliding Butterflies",
+          "short": "glidin(2)",
+          "start": "2024-06-27 17:00"
+        },
+        {
           "end": "2024-06-27 17:30",
           "id": "4669a6e54677809dd3c2bfe49bc4cab632d8180710958c8f07a90b84bb7fa196",
           "name": "Celestials",
@@ -26398,13 +26750,6 @@
           "short": "fortun1(2)",
           "start": "2024-06-27 17:00",
           "url": "https://www.instagram.com/alexina._.miles/"
-        },
-        {
-          "end": "2024-06-27 17:45",
-          "id": "70040db56ae5f5450d201999dbae84cc53e7b41847ea656a2b2d536bfa511dca",
-          "name": "Gliding Butterflies",
-          "short": "glidin(2)",
-          "start": "2024-06-27 17:00"
         },
         {
           "end": "2024-06-27 17:55",
@@ -26503,6 +26848,14 @@
           "url": "https://www.theshowglobe.co.uk"
         },
         {
+          "end": "2024-06-27 22:45",
+          "id": "459c6fca23ea861ad7b64dd77c02e87dea8b0a598f48c216f4f029bd2e823c68",
+          "name": "High Flyers",
+          "short": "highfl(1)",
+          "start": "2024-06-27 22:00",
+          "url": "https://www.foolsparadise.co.uk/"
+        },
+        {
           "end": "2024-06-28 00:00",
           "id": "9dd27495a0820fb1e0cf235e4bee126d1de39331cda4d41eecdce18378286f17",
           "name": "Glowbros",
@@ -26517,14 +26870,6 @@
           "short": "corvus(1)",
           "start": "2024-06-27 22:00",
           "url": "https://www.instagram.com/foolsparadiseagents/"
-        },
-        {
-          "end": "2024-06-27 22:45",
-          "id": "459c6fca23ea861ad7b64dd77c02e87dea8b0a598f48c216f4f029bd2e823c68",
-          "name": "High Flyers",
-          "short": "highfl(1)",
-          "start": "2024-06-27 22:00",
-          "url": "https://www.foolsparadise.co.uk/"
         },
         {
           "end": "2024-06-28 00:00",
@@ -29272,17 +29617,17 @@
       "events": [
         {
           "end": "2024-06-29 00:10",
-          "id": "fcc731b8621305a9e7f8613f3c9634909ea22f6aadcc99fe38b249a4fb21c207",
+          "id": "dd3085d445e7a301f19346395d50094fbf266b9dcad9085599151475cb97d6af",
           "name": "Compere - Bunny Morethan",
-          "short": "comper7(1)",
+          "short": "comper7(2)",
           "start": "2024-06-29 00:00",
           "url": "https://scarylittlegirls.co.uk/"
         },
         {
           "end": "2024-06-29 03:00",
-          "id": "5bb4b90e9425259c3926e962d9f290d0371bf0a3f575853bdd10851fbc93b793",
+          "id": "130085be59c7657f1cfce499ef01acdad3a4f8c2f759530b8fc912988ef957c3",
           "name": "Compere - Bunny Morethan",
-          "short": "comper7(2)",
+          "short": "comper7(1)",
           "start": "2024-06-29 00:00"
         },
         {
@@ -29894,17 +30239,17 @@
         },
         {
           "end": "2024-06-29 12:45",
-          "id": "37e3274314c81fac8fe73fc35690c77d0d2a622f02d63dea7b7fb937add31c87",
+          "id": "ebfe53a00eee8e69fbbb9b014d471db2e5630d24ecd337fda206151f133075c2",
           "name": "Circus Eruption",
-          "short": "circus4(6)",
+          "short": "circus4(5)",
           "start": "2024-06-29 11:00",
           "url": "https://www.circuseruption.co.uk/"
         },
         {
           "end": "2024-06-29 12:45",
-          "id": "ebfe53a00eee8e69fbbb9b014d471db2e5630d24ecd337fda206151f133075c2",
+          "id": "37e3274314c81fac8fe73fc35690c77d0d2a622f02d63dea7b7fb937add31c87",
           "name": "Circus Eruption",
-          "short": "circus4(5)",
+          "short": "circus4(6)",
           "start": "2024-06-29 11:00",
           "url": "https://www.circuseruption.co.uk/"
         },
@@ -30046,186 +30391,6 @@
         }
       ],
       "name": "Circus Field"
-    },
-    {
-      "events": [
-        {
-          "end": "2024-06-27 17:00",
-          "id": "96e7a9f209f25ee4759cc3e72691a9d51e81b927627d6c8f6adc15bf125b4b87",
-          "name": "The Back Room DJs",
-          "short": "backro(1)",
-          "start": "2024-06-27 14:00"
-        },
-        {
-          "end": "2024-06-27 19:00",
-          "id": "fa348882fdb2b634870f349882516351440d27ea0daf27fb38da32208c3bec11",
-          "name": "FlyHi",
-          "short": "flyhi(1)",
-          "start": "2024-06-27 17:00"
-        },
-        {
-          "end": "2024-06-27 21:00",
-          "id": "aeaccbb0b88066fd202bfa16471d22d5b21c9162bb7a40311d42660f800934c5",
-          "name": "Will Streetwise",
-          "short": "willst(1)",
-          "start": "2024-06-27 19:00"
-        },
-        {
-          "end": "2024-06-27 23:00",
-          "id": "e52fa063265bcfd3dfe414d0d1859aff2be5a91597d42eb8c1618b3a4d3079cc",
-          "name": "George Oscar",
-          "short": "george1(1)",
-          "start": "2024-06-27 21:00"
-        },
-        {
-          "end": "2024-06-28 01:00",
-          "id": "afcda29ec1aa2abaf324d0bd2b52f4c24ce0918054cd8f228c0073b7147c1752",
-          "name": "Charlie Stoic",
-          "short": "charli11(1)",
-          "start": "2024-06-27 23:00"
-        },
-        {
-          "end": "2024-06-28 03:00",
-          "id": "bf95402aa6e3eb1d283f7e11a15fd272e88781e4211a62e3a80b611c685c685f",
-          "name": "The Back Room DJs",
-          "short": "backro(2)",
-          "start": "2024-06-28 01:00"
-        },
-        {
-          "end": "2024-06-28 16:00",
-          "id": "5bf9b8b1b5c560c71b67756b0b3f778a36dc7d8f4b1def89a3f178b86e2ff48a",
-          "name": "Simon Lloyd",
-          "short": "simonl(1)",
-          "start": "2024-06-28 14:00"
-        },
-        {
-          "end": "2024-06-28 17:30",
-          "id": "20c2debc74eefdde2605a98bd0a1438bb1651755a13d0838e1cbabb203d7aabd",
-          "name": "Sleeping Lion",
-          "short": "sleepi(1)",
-          "start": "2024-06-28 16:00"
-        },
-        {
-          "end": "2024-06-28 19:30",
-          "id": "a65c783cd7962c6e8afa364158f8d73fdeb9aa4de9adcf685a8fbf5eefd3b620",
-          "name": "Frankie G",
-          "short": "franki1(1)",
-          "start": "2024-06-28 17:30"
-        },
-        {
-          "end": "2024-06-28 21:00",
-          "id": "5c46432ef86340f9f24e1b45d7a7fbb3130803061445b001e3a6b86f4f0f4331",
-          "name": "Si\u00e2nageddon",
-          "short": "sinage(1)",
-          "start": "2024-06-28 19:30"
-        },
-        {
-          "end": "2024-06-28 23:00",
-          "id": "5c89a38e06777b3bf94cc683e5612a4ef3f524b7f61d4549ac02e6ea89519985",
-          "name": "Ross Wilson",
-          "short": "rosswi1(1)",
-          "start": "2024-06-28 21:00"
-        },
-        {
-          "end": "2024-06-29 03:00",
-          "id": "2222f196f77c84af98afdea3d78bc18abe4a68b0fe49b58434a74de04a20c4c7",
-          "name": "Beautiful People Takeover w/ Thrilogy & Emski",
-          "short": "beauti(1)",
-          "start": "2024-06-28 23:00"
-        },
-        {
-          "end": "2024-06-29 15:30",
-          "id": "26e4def3ce35e1a3070eac263db661da39c7590079592cd1898e531962a49b60",
-          "name": "The Back Room DJs",
-          "short": "backro(3)",
-          "start": "2024-06-29 14:00"
-        },
-        {
-          "end": "2024-06-29 17:00",
-          "id": "916ddb14b24286d44d1d3d10d12f92620e983f3d5f1e8055496052fe071976cd",
-          "name": "Flying Mojito Bros",
-          "short": "flying2(1)",
-          "start": "2024-06-29 15:30"
-        },
-        {
-          "end": "2024-06-29 19:00",
-          "id": "985211e54dd00631ce9427bb2cd238e3a2e55b418dcf021c43182a6004ad6270",
-          "name": "Darren Stewart",
-          "short": "darren(1)",
-          "start": "2024-06-29 17:00"
-        },
-        {
-          "end": "2024-06-29 21:00",
-          "id": "c673f0283c7b0f44991883e46b14ca6393ed8e49dc5350f18fb8141fe5dba5c1",
-          "name": "Dance Off DJs",
-          "short": "danceo(1)",
-          "start": "2024-06-29 19:00"
-        },
-        {
-          "end": "2024-06-29 23:00",
-          "id": "f99ec8347d0d083d98f3ce3a319e5c7d0a3dcab375491284d508fdb41d878a82",
-          "name": "Sunni D",
-          "short": "sunnid(1)",
-          "start": "2024-06-29 21:00"
-        },
-        {
-          "end": "2024-06-30 01:00",
-          "id": "e688d9582ae31c0808771be0a7a3e7a5cb2035203ef63f1987bd4d76e7e4c6c4",
-          "name": "MINIRIGS Takeover",
-          "short": "miniri1(1)",
-          "start": "2024-06-29 23:00"
-        },
-        {
-          "end": "2024-06-30 03:00",
-          "id": "e5f0ccff01b2857443b7e64d88e7cb2ee7250267b44f0c48454761ce5357953a",
-          "name": "Simon Lloyd",
-          "short": "simonl(2)",
-          "start": "2024-06-30 01:00"
-        },
-        {
-          "end": "2024-06-30 16:00",
-          "id": "b2b79a3622e1d97ec8b7b2481f82343710f4d55e47a1b2225336cb766d8b8281",
-          "name": "Luke Stereo",
-          "short": "lukest(1)",
-          "start": "2024-06-30 14:00"
-        },
-        {
-          "end": "2024-06-30 18:00",
-          "id": "616b04d2e4822c7d90c3d4bc4f0c692fd3e79cace30bd69597a6cf86e25a834b",
-          "name": "Whitts",
-          "short": "whitts1(1)",
-          "start": "2024-06-30 16:00"
-        },
-        {
-          "end": "2024-06-30 20:00",
-          "id": "c4ab4b80d7ebc984899b0fbfb238a03936bd58dd14c93191f7239e079756e706",
-          "name": "Greg Belson & Paul Vine present Rhythm Soul & Funk",
-          "short": "gregbe2(1)",
-          "start": "2024-06-30 18:00"
-        },
-        {
-          "end": "2024-06-30 22:00",
-          "id": "631a2b870c6ded8f1fe254c24e736cf0f95e0256ec073f45dbfe05935ec42b94",
-          "name": "Count Skylarkin",
-          "short": "counts1(1)",
-          "start": "2024-06-30 20:00"
-        },
-        {
-          "end": "2024-07-01 00:00",
-          "id": "886518ae2559d194c1d43c8a62aa15f2fd36d3634091e66942ebb755c3c2cf9c",
-          "name": "Burno",
-          "short": "burno(1)",
-          "start": "2024-06-30 22:00"
-        },
-        {
-          "end": "2024-07-01 02:00",
-          "id": "f5a4e1366d5c11bb71076c81cba9e27e0c44ab46fb39dfc10d72a5e96afdedf7",
-          "name": "Luke Stereo ",
-          "short": "lukest1(1)",
-          "start": "2024-07-01 00:00"
-        }
-      ],
-      "name": "Ridge & Furrow"
     },
     {
       "events": [
@@ -30641,18 +30806,18 @@
         },
         {
           "end": "2024-06-27 16:30",
-          "id": "76952e760926033de3ffd254b8c624d2bb6c916833e76a29d8920b3b8ab9d5d4",
-          "name": "The Acolyte",
-          "short": "acolyt1(1)",
+          "id": "a388f62dabac858f03a747fb7e397a23abca95289294ca0860279bfb84632b12",
+          "name": "The Acolyte  12A",
+          "short": "acolyt2(1)",
           "start": "2024-06-27 14:45",
           "type": "film",
           "url": "https://www.imdb.com/title/tt12262202/"
         },
         {
           "end": "2024-06-27 18:15",
-          "id": "93e7ef4f851d99a6857814e71ef424abf41defb97addb6d5c8e988b5d133cd4b",
-          "name": "Pnyc: Portishead - Roseland New York 25th  Anniversary +  Intro with Adrian Utley",
-          "short": "pnycpo1(1)",
+          "id": "a2e737db8bf6306eb33065504a7b23feb42ec2e23bd830ecfb9c597797bcb68a",
+          "name": "Pnyc: Portishead - Roseland New York 25th  Anniversary +  Intro with Adrian Utley PG",
+          "short": "pnycpo2(1)",
           "start": "2024-06-27 16:45",
           "type": "film",
           "url": "https://www.imdb.com/title/tt0133157/"
@@ -30668,9 +30833,9 @@
         },
         {
           "end": "2024-06-27 22:50",
-          "id": "e956e76298c7e2faaec2601daad4b1bc25f3ae8973c5ef0ef48ca34bc9a8d5ba",
-          "name": "Problemista + Intro with Tilda Swinton",
-          "short": "proble2(1)",
+          "id": "d7cf880ba35858c6805e61744809c0314c9c0523fdb2cc02034ec8ad692f368b",
+          "name": "Problemista + Intro with Tilda Swinton 12A",
+          "short": "proble3(1)",
           "start": "2024-06-27 21:00",
           "type": "film",
           "url": "https://www.imdb.com/title/tt15078804/"
@@ -30740,9 +30905,9 @@
         },
         {
           "end": "2024-06-29 12:25",
-          "id": "3895cf732f041ee5ac3283aec6df5b3646ebadce4f4a88d4d8a60d81910ba56f",
-          "name": "Despicable Me 4",
-          "short": "despic1(1)",
+          "id": "cc5fb8fe845f3f6dd452178662b4dbd8e4706bcb41d780aaaa87112bd245fa59",
+          "name": "Despicable Me 4 U",
+          "short": "despic2(1)",
           "start": "2024-06-29 11:00",
           "type": "film",
           "url": "https://www.imdb.com/title/tt7510222/"
@@ -30766,9 +30931,9 @@
         },
         {
           "end": "2024-06-29 17:15",
-          "id": "a2a6cf162bacdfac617bb26e5c73963a6c738dcf9297d283b3aa1d0c1569d9dd",
-          "name": "Kneecap  + Q&A  with Band & Director",
-          "short": "kneeca2(1)",
+          "id": "440f2d74720ad019b610d82eb90966b11d65a7799664819c0cb0c38380d4e7e9",
+          "name": "Kneecap  + Q&A  with Band & Director 18",
+          "short": "kneeca3(1)",
           "start": "2024-06-29 15:00",
           "type": "film",
           "url": "https://www.imdb.com/title/tt27367464/"
@@ -30784,9 +30949,9 @@
         },
         {
           "end": "2024-06-29 21:55",
-          "id": "dd94e0cef246fdd05af51f782923faab067d457e23b6a7ae001a3c6c735700c1",
-          "name": "Eno + Q&A with Director Gary Hustwit",
-          "short": "enoand1(1)",
+          "id": "71e3916f03d453c2e74d0e8d8060495e7daa03a01021a05fbec39a4fd78a49bc",
+          "name": "Eno + Q&A with Director Gary Hustwit  12A",
+          "short": "enoand2(1)",
           "start": "2024-06-29 19:45",
           "type": "film",
           "url": "https://www.imdb.com/title/tt19854690/"
@@ -30847,11 +31012,191 @@
         }
       ],
       "name": "Pilton Palais Cinema"
+    },
+    {
+      "events": [
+        {
+          "end": "2024-06-27 17:00",
+          "id": "96e7a9f209f25ee4759cc3e72691a9d51e81b927627d6c8f6adc15bf125b4b87",
+          "name": "The Back Room DJs",
+          "short": "backro(1)",
+          "start": "2024-06-27 14:00"
+        },
+        {
+          "end": "2024-06-27 19:00",
+          "id": "fa348882fdb2b634870f349882516351440d27ea0daf27fb38da32208c3bec11",
+          "name": "FlyHi",
+          "short": "flyhi(1)",
+          "start": "2024-06-27 17:00"
+        },
+        {
+          "end": "2024-06-27 21:00",
+          "id": "aeaccbb0b88066fd202bfa16471d22d5b21c9162bb7a40311d42660f800934c5",
+          "name": "Will Streetwise",
+          "short": "willst(1)",
+          "start": "2024-06-27 19:00"
+        },
+        {
+          "end": "2024-06-27 23:00",
+          "id": "e52fa063265bcfd3dfe414d0d1859aff2be5a91597d42eb8c1618b3a4d3079cc",
+          "name": "George Oscar",
+          "short": "george1(1)",
+          "start": "2024-06-27 21:00"
+        },
+        {
+          "end": "2024-06-28 01:00",
+          "id": "afcda29ec1aa2abaf324d0bd2b52f4c24ce0918054cd8f228c0073b7147c1752",
+          "name": "Charlie Stoic",
+          "short": "charli11(1)",
+          "start": "2024-06-27 23:00"
+        },
+        {
+          "end": "2024-06-28 03:00",
+          "id": "bf95402aa6e3eb1d283f7e11a15fd272e88781e4211a62e3a80b611c685c685f",
+          "name": "The Back Room DJs",
+          "short": "backro(2)",
+          "start": "2024-06-28 01:00"
+        },
+        {
+          "end": "2024-06-28 16:00",
+          "id": "5bf9b8b1b5c560c71b67756b0b3f778a36dc7d8f4b1def89a3f178b86e2ff48a",
+          "name": "Simon Lloyd",
+          "short": "simonl(1)",
+          "start": "2024-06-28 14:00"
+        },
+        {
+          "end": "2024-06-28 17:30",
+          "id": "20c2debc74eefdde2605a98bd0a1438bb1651755a13d0838e1cbabb203d7aabd",
+          "name": "Sleeping Lion",
+          "short": "sleepi(1)",
+          "start": "2024-06-28 16:00"
+        },
+        {
+          "end": "2024-06-28 19:30",
+          "id": "a65c783cd7962c6e8afa364158f8d73fdeb9aa4de9adcf685a8fbf5eefd3b620",
+          "name": "Frankie G",
+          "short": "franki1(1)",
+          "start": "2024-06-28 17:30"
+        },
+        {
+          "end": "2024-06-28 21:00",
+          "id": "5c46432ef86340f9f24e1b45d7a7fbb3130803061445b001e3a6b86f4f0f4331",
+          "name": "Si\u00e2nageddon",
+          "short": "sinage(1)",
+          "start": "2024-06-28 19:30"
+        },
+        {
+          "end": "2024-06-28 23:00",
+          "id": "5c89a38e06777b3bf94cc683e5612a4ef3f524b7f61d4549ac02e6ea89519985",
+          "name": "Ross Wilson",
+          "short": "rosswi1(1)",
+          "start": "2024-06-28 21:00"
+        },
+        {
+          "end": "2024-06-29 03:00",
+          "id": "2222f196f77c84af98afdea3d78bc18abe4a68b0fe49b58434a74de04a20c4c7",
+          "name": "Beautiful People Takeover w/ Thrilogy & Emski",
+          "short": "beauti(1)",
+          "start": "2024-06-28 23:00"
+        },
+        {
+          "end": "2024-06-29 15:30",
+          "id": "26e4def3ce35e1a3070eac263db661da39c7590079592cd1898e531962a49b60",
+          "name": "The Back Room DJs",
+          "short": "backro(3)",
+          "start": "2024-06-29 14:00"
+        },
+        {
+          "end": "2024-06-29 17:00",
+          "id": "916ddb14b24286d44d1d3d10d12f92620e983f3d5f1e8055496052fe071976cd",
+          "name": "Flying Mojito Bros",
+          "short": "flying2(1)",
+          "start": "2024-06-29 15:30"
+        },
+        {
+          "end": "2024-06-29 19:00",
+          "id": "985211e54dd00631ce9427bb2cd238e3a2e55b418dcf021c43182a6004ad6270",
+          "name": "Darren Stewart",
+          "short": "darren(1)",
+          "start": "2024-06-29 17:00"
+        },
+        {
+          "end": "2024-06-29 21:00",
+          "id": "c673f0283c7b0f44991883e46b14ca6393ed8e49dc5350f18fb8141fe5dba5c1",
+          "name": "Dance Off DJs",
+          "short": "danceo(1)",
+          "start": "2024-06-29 19:00"
+        },
+        {
+          "end": "2024-06-29 23:00",
+          "id": "f99ec8347d0d083d98f3ce3a319e5c7d0a3dcab375491284d508fdb41d878a82",
+          "name": "Sunni D",
+          "short": "sunnid(1)",
+          "start": "2024-06-29 21:00"
+        },
+        {
+          "end": "2024-06-30 01:00",
+          "id": "e688d9582ae31c0808771be0a7a3e7a5cb2035203ef63f1987bd4d76e7e4c6c4",
+          "name": "MINIRIGS Takeover",
+          "short": "miniri1(1)",
+          "start": "2024-06-29 23:00"
+        },
+        {
+          "end": "2024-06-30 03:00",
+          "id": "e5f0ccff01b2857443b7e64d88e7cb2ee7250267b44f0c48454761ce5357953a",
+          "name": "Simon Lloyd",
+          "short": "simonl(2)",
+          "start": "2024-06-30 01:00"
+        },
+        {
+          "end": "2024-06-30 16:00",
+          "id": "b2b79a3622e1d97ec8b7b2481f82343710f4d55e47a1b2225336cb766d8b8281",
+          "name": "Luke Stereo",
+          "short": "lukest(1)",
+          "start": "2024-06-30 14:00"
+        },
+        {
+          "end": "2024-06-30 18:00",
+          "id": "616b04d2e4822c7d90c3d4bc4f0c692fd3e79cace30bd69597a6cf86e25a834b",
+          "name": "Whitts",
+          "short": "whitts1(1)",
+          "start": "2024-06-30 16:00"
+        },
+        {
+          "end": "2024-06-30 20:00",
+          "id": "c4ab4b80d7ebc984899b0fbfb238a03936bd58dd14c93191f7239e079756e706",
+          "name": "Greg Belson & Paul Vine present Rhythm Soul & Funk",
+          "short": "gregbe2(1)",
+          "start": "2024-06-30 18:00"
+        },
+        {
+          "end": "2024-06-30 22:00",
+          "id": "631a2b870c6ded8f1fe254c24e736cf0f95e0256ec073f45dbfe05935ec42b94",
+          "name": "Count Skylarkin",
+          "short": "counts1(1)",
+          "start": "2024-06-30 20:00"
+        },
+        {
+          "end": "2024-07-01 00:00",
+          "id": "886518ae2559d194c1d43c8a62aa15f2fd36d3634091e66942ebb755c3c2cf9c",
+          "name": "Burno",
+          "short": "burno(1)",
+          "start": "2024-06-30 22:00"
+        },
+        {
+          "end": "2024-07-01 02:00",
+          "id": "f5a4e1366d5c11bb71076c81cba9e27e0c44ab46fb39dfc10d72a5e96afdedf7",
+          "name": "Luke Stereo ",
+          "short": "lukest1(1)",
+          "start": "2024-07-01 00:00"
+        }
+      ],
+      "name": "Ridge & Furrow"
     }
   ],
-  "modified": "2024-06-21 07:39",
+  "modified": "2024-06-24 15:41",
   "name": "Glastonbury Festival 2024",
-  "printAdvisory": 3,
+  "printAdvisory": 1,
   "timezone": "Europe/London",
   "tzNote": "Start and end times are given in the timezone of the event. Offset by -tzOffset for UTC.",
   "tzOffset": 3600,
