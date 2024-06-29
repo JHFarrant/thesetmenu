@@ -864,7 +864,8 @@
         },
         {
           "end": "2024-06-28 19:00",
-          "id": "90fd2dad7b70a7eb0a2a56e425602b77b4d64faac3fa99ac2eff48cce3bbbf62",
+          "id": "fa07495606bd225357833c9461c378e4935b5af90e71ef78606942474b80905c",
+          "mbId": "ccce2053-7007-4c36-b1e7-f8fcf5023a12",
           "name": "Dexys",
           "short": "dexys(1)",
           "start": "2024-06-28 18:00",
@@ -1026,8 +1027,8 @@
         },
         {
           "end": "2024-06-30 22:30",
-          "id": "d7d0fca4ce9548d8724e09a9c99dabd5e1c9eb2caa43423d5c673aa481ac97d4",
-          "mbId": "a63b9208-6867-43fe-ad1d-f8801ad79915",
+          "id": "3abbf84102f4e02adc6923082e23111ce81b2f8109d083fd2b5a2bf90794383d",
+          "mbId": "4dbe08c1-b40a-43b3-ab89-210000bd8ab2",
           "name": "London Grammar",
           "short": "london(1)",
           "start": "2024-06-30 21:15",
@@ -2877,6 +2878,13 @@
           "name": "Duckworthsound & Dread [Duckplates Label Takeover]",
           "short": "duckwo(1)",
           "start": "2024-07-01 00:00"
+        },
+        {
+          "end": "2024-07-01 02:30",
+          "id": "b5bbddf1b3e0747b531ddd78d67ffee04b93988de9a4910bcfa2399ed0976458",
+          "name": "Zero (Dubstep Set)",
+          "short": "zerodu(1)",
+          "start": "2024-07-01 01:15"
         }
       ],
       "name": "Firmly Rooted"
@@ -2998,6 +3006,13 @@
           "start": "2024-06-28 15:45"
         },
         {
+          "end": "2024-06-28 18:00",
+          "id": "14dd3ba84b68f918590dca196945c79c684e6956fb72d115f35e6e9f7cb94950",
+          "name": "The Movement Forward: a Political Takeover: Asif Kapadia (Director), Jemma Forte (Broadcast Journalist, Writer & Presenter), Josh Russell, Marina Purkis (Political Commentator), TBA, Hosted By Danny Price (Dfp)",
+          "short": "moveme2(1)",
+          "start": "2024-06-28 17:00"
+        },
+        {
           "end": "2024-06-29 13:00",
           "id": "0487e74627f1d1287668dee45fe300d5b753bfcc5c94b49f14b3c2fcfbb5e283",
           "name": "Big Team Cic: 'Youth Exploitation - Road To Reform': Faron Paul (Ceo & Co-Founder - Faz Amnesty), Leigh Mckenna (Community Engagement - Ace Bristol), Ngozi Fulani (Ceo & Co-Founder - Sistah Space), Stuart Lawrence (Author, Activist, Teacher), Hosted By Kelechi Okafor (Author)",
@@ -3052,13 +3067,6 @@
           "name": "Black British Book Festival: \u2018Remembering Benjamin Zephaniah\u2019 - David Springer (Benjamin's Brother), Sophia Thakur (Poet), Moqapi Selassie (Poet), Hosted By Casey Bailey (Writer, Performer, Educator)",
           "short": "blackb1(1)",
           "start": "2024-06-30 14:30"
-        },
-        {
-          "end": "2024-06-30 18:00",
-          "id": "5159295f03387af528ff0cedfafc98086f6749d973c8782fa1174235e6d19d02",
-          "name": "The Movement Forward: a Political Takeover: Asif Kapadia (Director), Jemma Forte (Broadcast Journalist, Writer & Presenter), Josh Russell, Marina Purkis (Political Commentator), TBA, Hosted By Danny Price (Dfp)",
-          "short": "moveme2(1)",
-          "start": "2024-06-30 17:00"
         }
       ],
       "name": "The Information"
@@ -4406,9 +4414,9 @@
         },
         {
           "end": "2024-07-01 02:00",
-          "id": "a5e7a5fc9220a86e8471fa460354692aa0e9d217c621b6789b79e85f4206a2e8",
+          "id": "62e7518d5d8213be4e0608db05a8149b5bb363d6fdd7abfb10dead0f7861d203",
           "name": "TBA",
-          "short": "tba(28)",
+          "short": "tba(29)",
           "start": "2024-07-01 01:00"
         },
         {
@@ -5234,11 +5242,11 @@
         },
         {
           "end": "2024-06-30 11:50",
-          "id": "67dd22deb39b99fa12593995e64b069fd3694e24a9bdab280108078a691c6cad",
-          "name": "Om and Bass Yoga with Dina Cohen",
-          "short": "omandb(4)",
+          "id": "891abad50c2bfd408a3c343b54ad79b1d816b935e0df69fa8f373db9280a93af",
+          "name": "Yin and Restorative Yoga",
+          "short": "yinand2(1)",
           "start": "2024-06-30 11:00",
-          "url": "https://dynamicflowyoga.com/"
+          "url": "https://sashayoga.uk/"
         },
         {
           "end": "2024-06-30 12:45",
@@ -5510,18 +5518,10 @@
         },
         {
           "end": "2024-06-30 15:30",
-          "id": "2575a5b62da03507f4c84154567229ca21e3c9677dee5db04710d363ee513f25",
-          "name": "Yin and Restorative Yoga with Sasha Gabbe",
-          "short": "yinand1(1)",
-          "start": "2024-06-30 14:30",
-          "url": "https://sashayoga.uk/"
-        },
-        {
-          "end": "2024-06-30 16:45",
-          "id": "c3be9ca6f8face18da0ce25b5cd01f0cec8a58aada56dc6f99ea36de6117d932",
+          "id": "19eb1a210f83cf5f7cb85e34939a3394ccebeacc1d5a241d305f39d82ad42991",
           "name": "Gong Bath with Yogic Sound",
           "short": "gongba(7)",
-          "start": "2024-06-30 15:45",
+          "start": "2024-06-30 14:30",
           "url": "https://yogicsound.com/"
         }
       ],
@@ -6133,46 +6133,46 @@
           "url": "https://linktr.ee/chaosinthecbd"
         },
         {
-          "end": "2024-06-30 13:20",
-          "id": "49406333c525f67e76791ebd8a2f74a7eee47e035a5d174f83d4d6c7a9e01a4d",
+          "end": "2024-06-30 13:30",
+          "id": "8a424116fa7100c2c3e5d74de4cc7c6dc40499c0a4d4750e7e89512040b42305",
           "name": "Harri Pepper",
           "short": "harrip(1)",
           "start": "2024-06-30 12:00"
         },
         {
-          "end": "2024-06-30 14:40",
-          "id": "232cfc26f1c155ab8b1537c9ca37932d8f0a250d363edc84a513ea4647ac78e3",
+          "end": "2024-06-30 15:00",
+          "id": "9e813c5db9db9e2f52b1374a846e783635a3d6fa7e14ccef030382f1d6e961c7",
           "name": "Lucy Cook",
           "short": "lucyco(1)",
-          "start": "2024-06-30 13:20"
+          "start": "2024-06-30 13:30"
         },
         {
-          "end": "2024-06-30 16:00",
-          "id": "6007f92455937d40cf94e1964d1c56827160fa8ecb4e6dbcba29ff6df12df4ba",
+          "end": "2024-06-30 16:30",
+          "id": "ec10b8e7e803fa1eb160e338c68f140181ce726cb1f18bb3603db800537e54f3",
           "name": "T.Jacques",
           "short": "tjacqu1(1)",
-          "start": "2024-06-30 14:40"
+          "start": "2024-06-30 15:00"
         },
         {
-          "end": "2024-06-30 17:30",
-          "id": "168d1529ad9275bac3ef55e75f32ac40daefe2cbe6d088135bfff560fa9645eb",
+          "end": "2024-06-30 18:00",
+          "id": "f4329090ed9c7eef62abf8f441a7c0a5ca1642872a2be7411db2205a045a20da",
           "name": "Harry Mccanna",
           "short": "harrym(1)",
-          "start": "2024-06-30 16:00"
+          "start": "2024-06-30 16:30"
         },
         {
-          "end": "2024-06-30 19:00",
-          "id": "86ee0fe186cb9067da894a099a702ed4c5de8c6ad06169aa4effd64bfd9175b5",
+          "end": "2024-06-30 19:30",
+          "id": "674c8acf6e4506c6032cb9dcfec72635e9ffaa9f872454d5709bf13834d3458a",
           "name": "Casey Spillman B2B Julian Anthony",
           "short": "caseys(1)",
-          "start": "2024-06-30 17:30"
+          "start": "2024-06-30 18:00"
         },
         {
           "end": "2024-06-30 20:30",
-          "id": "ffcb8a5d5a4fa35b75112c95143852e58fad8eb90a2a8e032c67650c3b84eb71",
+          "id": "f6d52a8defe7d14ffad86bde2b64fca04dc7a1a84f86ac404a0746986c2b1214",
           "name": "Syreeta",
           "short": "syreet(2)",
-          "start": "2024-06-30 19:00"
+          "start": "2024-06-30 19:30"
         },
         {
           "end": "2024-06-30 22:00",
@@ -8110,51 +8110,51 @@
         },
         {
           "end": "2024-06-28 15:00",
-          "id": "4867b1d14a4cbb7a57a0080ce725c46648fa01cdf15d73ca679b757f0ce9db6a",
-          "name": "(Joy) Anonymous Takeover",
-          "short": "joyano8(1)",
+          "id": "80532a5a6bc2d219c34bdfd2367deeb62d767ac1eed78b1c473c050fdd0120ea",
+          "name": "(Joy) Anonymous Takeover - Anish Kumar",
+          "short": "joyano9(1)",
           "start": "2024-06-28 14:00"
         },
         {
           "end": "2024-06-28 16:00",
-          "id": "fadf6c066020f7bab292d01a2dfd36e6a5193dddf24835c07bda4f9c86327900",
-          "name": "(Joy) Anonymous Takeover",
-          "short": "joyano8(2)",
+          "id": "a3ec9375910c7dbf0f7f0ae220647bd9c9c3678e063b18386ef5eb3914094119",
+          "name": "(Joy) Anonymous Takeover - Joy (Anonymous) B2B TBA",
+          "short": "joyano10(1)",
           "start": "2024-06-28 15:00"
         },
         {
           "end": "2024-06-28 17:00",
-          "id": "b2666e3ea5ddde94618457e84ad46d02883eb46e12d9861b343a498bdd66ae62",
-          "name": "(Joy) Anonymous Takeover",
-          "short": "joyano8(3)",
+          "id": "4ef1c271ae951cfa5eac8b5a26db2afb354e082fb57f055ab3a6ed6ccfacbf1b",
+          "name": "(Joy) Anonymous Takeover - Joy (Anonymous) B2B Messie",
+          "short": "joyano11(1)",
           "start": "2024-06-28 16:00"
         },
         {
           "end": "2024-06-28 18:00",
-          "id": "918fa41cbc4576587b33796b3dd442798ac02ecce5193607a68c7a7eb09472c9",
-          "name": "(Joy) Anonymous Takeover",
-          "short": "joyano8(4)",
+          "id": "e0766bf8e453274dd23b3f49af54c75ea91a09fcdd63358bf6f0cafae90e9d71",
+          "name": "(Joy) Anonymous Takeover - Arthi B2B Katy B2B Oneman",
+          "short": "joyano12(1)",
           "start": "2024-06-28 17:00"
         },
         {
           "end": "2024-06-28 19:00",
-          "id": "297624b3f11da1bad3faf3a5f499079343962ce570b1d4d23c790e54888fd8c9",
-          "name": "(Joy) Anonymous Takeover",
-          "short": "joyano8(5)",
+          "id": "a29a88305e4d53de8ef1d0287c96538da885c04b02eecfe4bedd96af2ec5d990",
+          "name": "(Joy) Anonymous Takeover - Redlight B2B Champion B2B Jpy (Anonymous)",
+          "short": "joyano13(1)",
           "start": "2024-06-28 18:00"
         },
         {
           "end": "2024-06-28 20:00",
-          "id": "1f605152ac76a7c6e62e18681617ead2bdb707b62023351518f9b8c0a027e0e0",
-          "name": "(Joy) Anonymous Takeover",
-          "short": "joyano8(6)",
+          "id": "cfa92e0c2c4addd6d95a2cb442c315f09e9ce7c3d921aeec713de4a6052b4be3",
+          "name": "(Joy) Anonymous Takeover - Joy Loves UK Garage B4b",
+          "short": "joyano14(1)",
           "start": "2024-06-28 19:00"
         },
         {
           "end": "2024-06-28 21:00",
-          "id": "8da30a3d300ba0d5d4689b394cafbaac103177ce23b62a6884829176f9aa8358",
+          "id": "bb61633c7a690b50cb6d34aad5209842643e0719423d06d34aae5804f73cc810",
           "name": "(Joy) Anonymous Takeover",
-          "short": "joyano8(7)",
+          "short": "joyano8(1)",
           "start": "2024-06-28 20:00"
         },
         {
@@ -8261,9 +8261,9 @@
         },
         {
           "end": "2024-06-30 03:00",
-          "id": "928c78eb141dd8a25749a293269203fa997f3ae15605dd499c52a94ea4a8b09c",
-          "name": "Oneman B2B Chloe Robinson",
-          "short": "oneman2(1)",
+          "id": "59a8ec2a3fccc78b49f044838d932f5a13442732a115b6b4c1e6196c481c174b",
+          "name": "Oneman B2B Chlo\u00e9 Robinson",
+          "short": "oneman3(1)",
           "start": "2024-06-30 02:00",
           "url": "https://www.instagram.com/chloerobinsondj/?hl=en"
         },
@@ -11911,11 +11911,10 @@
         },
         {
           "end": "2024-06-28 19:15",
-          "id": "4e2d960607292320abd63263723f1ee55556054098616fd2d9fdd0f4f36c6cbe",
-          "name": "Alex Wonderland",
-          "short": "alexwo(1)",
-          "start": "2024-06-28 18:15",
-          "url": "https://www.alexandthewonderland.com/"
+          "id": "b6b9e67a22ee8ef89dcfc0fb93be0ea71327b30862706a590490b5aa3e47c3e8",
+          "name": "De Ja",
+          "short": "deja1(1)",
+          "start": "2024-06-28 18:15"
         },
         {
           "end": "2024-06-28 20:30",
@@ -13014,10 +13013,11 @@
         },
         {
           "end": "2024-06-27 11:00",
-          "id": "1707fcf72ce4c754c397c105e2a14f5bc1a59a550831e73c628849da9fc29afa",
+          "id": "ee0240d7fa1b2b254897eb1d22336211917c76503a1c8037badeede7573cdfc9",
           "name": "Sounds of Science DJ Set",
           "short": "sounds2(1)",
-          "start": "2024-06-27 10:30"
+          "start": "2024-06-27 10:30",
+          "url": "https://soundsofspaceproject.bandcamp.com"
         },
         {
           "end": "2024-06-27 11:45",
@@ -13947,9 +13947,9 @@
         },
         {
           "end": "2024-06-30 17:30",
-          "id": "685eb5886d8d8680642d5ed394f4e8e9c99adfe232305a32e9aaf72e55a5ba19",
+          "id": "608e30e52bb90e00fb6aa405edd8f963bcf40c67403cc7114e965d90374acf61",
           "name": "TBA",
-          "short": "tba(24)",
+          "short": "tba(25)",
           "start": "2024-06-30 16:30"
         },
         {
@@ -14256,9 +14256,9 @@
         },
         {
           "end": "2024-06-30 21:00",
-          "id": "f999d7fdee110064b800c063b604d3fe3d2e9a9d8d21b51282efcde268c30e74",
+          "id": "6551ef90a1c4922d67d0f1eb4f1d06f19d7cdfc53a29fbe344333c57065408a2",
           "name": "TBA",
-          "short": "tba(27)",
+          "short": "tba(28)",
           "start": "2024-06-30 20:30"
         }
       ],
@@ -14684,9 +14684,9 @@
         },
         {
           "end": "2024-06-30 19:00",
-          "id": "2086242540d9bb931b48f5801dce8cc7ce1a3871dc4a7b4e67ea4813278bce78",
-          "name": "Mas Que Nada Takeover: Kiimi (Live)",
-          "short": "masque(1)",
+          "id": "e3a8093eb22cf382481513c5040f2f6ec62a2202c442b9d5e25af33951c221ac",
+          "name": "Mas Que Nada Takeover: Kiimi (DJ Set)",
+          "short": "masque8(1)",
           "start": "2024-06-30 18:00",
           "url": "https://www.instagram.com/kiimiworld/"
         },
@@ -15796,9 +15796,9 @@
         },
         {
           "end": "2024-07-01 05:00",
-          "id": "39b54dffc7a7186288ddb91a87b16ad1859ec681796bda01ee44def2c8124f12",
+          "id": "812bdc7e99a3c46e8319ac4a0a232cf2e72f2d3bec3de912a3325079a1e10246",
           "name": "New York Brass Band",
-          "short": "newyor(9)",
+          "short": "newyor(10)",
           "start": "2024-07-01 04:00",
           "url": "https://www.newyorkbrassband.co.uk/"
         }
@@ -16185,9 +16185,9 @@
         },
         {
           "end": "2024-06-26 22:30",
-          "id": "1407181b301f97a915ce2e9fa15de539f7afce73a299c107d978316aca32c401",
-          "name": "Merlin Sheldrake Q&A with Emily Eavis",
-          "short": "merlin1(1)",
+          "id": "a2567d1f325b490a52890944e7e6c20cdf0f97a30091e678a323634ee3a59260",
+          "name": "Merlin Sheldrake with Emily Eavis",
+          "short": "merlin3(1)",
           "start": "2024-06-26 21:30",
           "url": "https://www.merlinsheldrake.com"
         },
@@ -16292,9 +16292,9 @@
         },
         {
           "end": "2024-06-27 20:55",
-          "id": "7f4e5321dd67847f8d593709932ae82fa6966295c4d0e3e54341a63378183c7e",
-          "name": "Klein",
-          "short": "klein(1)",
+          "id": "da44c8cf41d2a4b57f8759b29898cb16dd1981caa4361b0d1bd70b7eef91b184",
+          "name": "Niko",
+          "short": "niko(1)",
           "start": "2024-06-27 19:40"
         },
         {
@@ -16915,19 +16915,19 @@
           "url": "https://rompasreggaeshack.com/"
         },
         {
-          "end": "2024-06-28 15:40",
-          "id": "723d587a176508c2da8c496f594d572e8f06b028f371e244a1435d61bd0d2b20",
+          "end": "2024-06-28 15:30",
+          "id": "aefcf8323df26af9d791f808e36388a70ba12ddf27f8426de6930beef266e01a",
           "name": "Paleblu",
           "short": "palebl(1)",
           "start": "2024-06-28 15:00",
           "url": "https://www.paleblu.co.uk/home"
         },
         {
-          "end": "2024-06-28 16:40",
-          "id": "566b80e0f7133a9418034854d066a697c3d6c0275afcda9cefa8b2b4d6f40051",
+          "end": "2024-06-28 16:15",
+          "id": "8c34d0bbfb7d4e64ffaf8ceed4391bc707da8a5b1bef8eba54ba87b0832fc326",
           "name": "The Page of Cups",
           "short": "pageof(1)",
-          "start": "2024-06-28 16:00",
+          "start": "2024-06-28 15:40",
           "url": "https://www.instagram.com/thepageofcupsband/"
         },
         {
@@ -17034,19 +17034,19 @@
         },
         {
           "end": "2024-06-29 18:40",
-          "id": "21df130d15baf37d029b2d4505ec3c133a32f1e3becd479c5d6106ed53d6db03",
-          "name": "Zoe Devlin Love",
-          "short": "zoedev(1)",
+          "id": "7193468ca16fc6d3332c2f611dd5d3845c4ac4a250855b91f675afabf42bdb93",
+          "name": "Jeanie Crystal",
+          "short": "jeanie1(1)",
           "start": "2024-06-29 18:00",
-          "url": "https://www.instagram.com/zoedevlinlove/"
+          "url": "https://www.instagram.com/jeanie_crystal/?hl=en-gb"
         },
         {
           "end": "2024-06-29 19:40",
-          "id": "3201713266f999bda08c836d2116eb6054edc997bb26306f184740cf03d70364",
+          "id": "149f5b8a69c7a277c72249fc47e15c52b1a9b73be9944f403a4f625095faf1ea",
           "name": "Just Like Honey",
           "short": "justli(1)",
           "start": "2024-06-29 19:00",
-          "url": "https://www.instagram.com/justlikehoneyband/"
+          "url": "https://hotvox.co.uk/artist/just-like-honey/"
         },
         {
           "end": "2024-06-29 20:40",
@@ -17678,36 +17678,44 @@
           "url": "https://www.instagram.com/roguewave.bbx/?hl=en"
         },
         {
-          "end": "2024-06-29 18:00",
-          "id": "45bbc850ed311f9f544d5709ccb938a2d6404d855ac29ed3904bf21bee7e1adc",
-          "name": "Loopdeeloop Sos Takeover",
-          "short": "loopde(1)",
-          "start": "2024-06-29 17:30",
-          "url": "https://www.instagram.com/saveoursceneuk/?hl=en"
-        },
-        {
-          "end": "2024-06-29 19:00",
-          "id": "8cc727c094f07794acc348b0ac039fd820320c24245283003aa13403e5935ab3",
+          "end": "2024-06-29 18:15",
+          "id": "302ebccbe73270a97ed60d19c1f3939556b33410990e61c210a3130d39fabd44",
           "name": "Dan Shake Sos Takeover",
           "short": "dansha1(1)",
-          "start": "2024-06-29 18:00",
+          "start": "2024-06-29 17:30",
           "url": "https://www.instagram.com/danshake_/?hl=en"
         },
         {
-          "end": "2024-06-29 20:00",
-          "id": "612701ce36bdffe72e189f87b778130ab6c37fa1f88475613b7ea39c7b1fe3bb",
+          "end": "2024-06-29 18:30",
+          "id": "db1d21a1e2e466e2b0af8a113a69abadb0151f7a04fa9b4aeeb33886f92ec232",
+          "name": "Loopdeeloop Sos Takeover",
+          "short": "loopde(1)",
+          "start": "2024-06-29 18:15",
+          "url": "https://www.instagram.com/saveoursceneuk/?hl=en"
+        },
+        {
+          "end": "2024-06-29 19:15",
+          "id": "01f0af7db85e3e82475f58c0f7996a6419f1a7b617d5a49a024b8bd943104604",
           "name": "Sim0ne Sos Takeover",
           "short": "sim0ne(1)",
-          "start": "2024-06-29 19:00",
+          "start": "2024-06-29 18:30",
           "url": "https://www.instagram.com/sim0ne/?hl=en"
         },
         {
-          "end": "2024-06-29 21:00",
-          "id": "e3143b0a836dbddeb600134b41ecb989f54ba58d79a15afc9872a7bc937c6e7b",
+          "end": "2024-06-29 20:15",
+          "id": "1c75f18c404fc6e49809bf2103349ff716f94762354bb4d518af60ec2737537b",
           "name": "DJ Boring Sos Takeover",
           "short": "djbori1(1)",
-          "start": "2024-06-29 20:00",
+          "start": "2024-06-29 19:15",
           "url": "https://www.instagram.com/dj.boring/?hl=en"
+        },
+        {
+          "end": "2024-06-29 21:00",
+          "id": "a657a7ee019b029ae8963efd033a8d7d20540d694068b14410436bac185ffad3",
+          "name": "Shosh B2B Zero Sos Takeover",
+          "short": "shoshb(1)",
+          "start": "2024-06-29 20:15",
+          "url": "https://www.instagram.com/shosh_ukg/?hl=en"
         },
         {
           "end": "2024-06-30 18:00",
@@ -18289,10 +18297,11 @@
         },
         {
           "end": "2024-06-29 16:00",
-          "id": "54ea4b85f79a68ba0707a8fc705d189dcf9b9c39b0abf3d74c8588f59bf1746e",
+          "id": "1d091c07bd8c24c126bbfb4c2c9b78c863253919387368967e5c514f523961d6",
           "name": "Tom Eno",
           "short": "tomeno(2)",
-          "start": "2024-06-29 14:00"
+          "start": "2024-06-29 14:00",
+          "url": "https://www.instagram.com/viva_msimang___/"
         },
         {
           "end": "2024-06-29 19:00",
@@ -18590,11 +18599,11 @@
         },
         {
           "end": "2024-06-27 21:10",
-          "id": "1ca00e1f8a68db7b3801c428f3f64592cf269b72172d6bdfd6ca7c116801c742",
+          "id": "8538f00eeecea1a224940954047c3cb04b228db4fe2d77c23c9a8f0d77bdc6dc",
           "name": "Luke Gomm & the Works",
           "short": "lukego(1)",
           "start": "2024-06-27 20:10",
-          "url": "https://open.spotify.com/artist/5n1dsrqdgo9dqav2bzueub?si=fmure_kbt4yesssnqne-ea"
+          "url": "https://www.instagram.com/lukegomm"
         },
         {
           "end": "2024-06-27 22:10",
@@ -18613,12 +18622,20 @@
           "url": "https://www.landofthegiants.live/"
         },
         {
-          "end": "2024-06-28 01:30",
-          "id": "d7f336bee53d468ced8dd0c2a612fab71c14e5068e892b4561671b71c2464799",
+          "end": "2024-06-28 00:45",
+          "id": "355679e0161ace5a1c84f262d4af58abb2ac71e874c5a17525bd8977bef59117",
           "name": "Dragiators",
           "short": "dragia(1)",
-          "start": "2024-06-27 23:50",
+          "start": "2024-06-27 23:45",
           "url": "https://www.instagram.com/dragiators"
+        },
+        {
+          "end": "2024-06-28 02:00",
+          "id": "76df169db4ce63f472d30c45347834d53e8e2e85db2473ae047ff3a59129b02b",
+          "name": "Old Time Sailors",
+          "short": "oldtim(3)",
+          "start": "2024-06-28 01:00",
+          "url": "https://www.oldtimesailors.com/"
         },
         {
           "end": "2024-06-28 12:40",
@@ -18638,11 +18655,11 @@
         },
         {
           "end": "2024-06-28 13:40",
-          "id": "50e8ab40aa1ee4767f92d05f9d2c83f4b71429e9eb6b998dc3d6614c9ab500e2",
+          "id": "9d2b76e3da4531cdb33ceac9d0073e905cfa6c5965a132da42b8005e4348526f",
           "name": "Kid 12",
           "short": "kid12(1)",
           "start": "2024-06-28 13:00",
-          "url": "https://www.instagram.com/itskid12"
+          "url": "https://www.instagram.com/itskid12/"
         },
         {
           "end": "2024-06-28 14:00",
@@ -18694,11 +18711,11 @@
         },
         {
           "end": "2024-06-28 18:30",
-          "id": "056a224a89f31cdeef253859ed690a84e2bc25fe75b0a82b8689085ed87cc39a",
+          "id": "42abdb5c1cd1a1a8cc995211cdc6993ab0dd1b59eedf45db2454e97e00cc0b1f",
           "name": "Caxxianne",
           "short": "caxxia(2)",
           "start": "2024-06-28 17:50",
-          "url": "https://linktr.ee/vidadeladiva"
+          "url": "https://www.instagram.com/caxxianne"
         },
         {
           "end": "2024-06-28 19:40",
@@ -18710,19 +18727,19 @@
         },
         {
           "end": "2024-06-29 00:40",
-          "id": "e8340bf3a64e14d739a19b81ee534edc2e352704185e5bbf05c6e1907c241ea6",
-          "name": "Luke Gomm & the Works, Bread and Roses",
-          "short": "lukego1(1)",
+          "id": "7e9e290b72f8ee7918ba41239d84cae06b2919a8b1f1079cce7b58d29fe67e7d",
+          "name": "Luke Gomm & the Works",
+          "short": "lukego(2)",
           "start": "2024-06-28 23:45",
-          "url": "https://open.spotify.com/artist/5n1dsrqdgo9dqav2bzueub?si=fmure_kbt4yesssnqne-ea"
+          "url": "https://www.instagram.com/lukegomm"
         },
         {
           "end": "2024-06-29 02:00",
-          "id": "a4d904728ca19066eeb803d61a595c24ce970199b67cdbab1ea45c19fdf98912",
-          "name": "Old Time Sailors",
-          "short": "oldtim(5)",
+          "id": "f59c7476b00781d798eb539c11141cae058bedc5fd37c87b67c43e8c9d9121db",
+          "name": "Evelyn's House of Showgirls and Monsters",
+          "short": "evelyn(1)",
           "start": "2024-06-29 01:00",
-          "url": "https://www.oldtimesailors.com/"
+          "url": "https://www.instagram.com/evelyn.carnate.loves"
         },
         {
           "end": "2024-06-29 12:40",
@@ -18765,11 +18782,11 @@
         },
         {
           "end": "2024-06-29 17:40",
-          "id": "cca9cc5dc8372546de49e91ccb8475f4c901ef49b897ac01514009e28c8aa858",
+          "id": "bb3d4bdf8885fd5d0753b1a488822dd3c06335eac7f6ddc29bd1f8796049a73b",
           "name": "Burlesque Class - Come Bump & Grind with Soho School of Burlesque!",
           "short": "burles(1)",
           "start": "2024-06-29 17:00",
-          "url": "https://www.sohoschoolofburlesque.co.uk"
+          "url": "https://sohoschoolofburlesque.co.uk/"
         },
         {
           "end": "2024-06-29 18:40",
@@ -18821,11 +18838,11 @@
         },
         {
           "end": "2024-06-30 15:30",
-          "id": "e44f7b4165103ed781eb315e406557dcd5e23cd0925d8af1fdd3d7bf8492d963",
-          "name": "Luke Gomm & Friends - Hang Out",
-          "short": "lukego2(1)",
+          "id": "3733f9ddf4fe5b2b18f64a4a9595717847deffddcb6297c4ce6137b5cbcbb304",
+          "name": "Luke Gomm & Friends Hang Out",
+          "short": "lukego3(1)",
           "start": "2024-06-30 14:30",
-          "url": "https://open.spotify.com/artist/5n1dsrqdgo9dqav2bzueub?si=fmure_kbt4yesssnqne-ea"
+          "url": "https://www.instagram.com/lukegomm"
         },
         {
           "end": "2024-06-30 18:30",
@@ -19113,10 +19130,11 @@
         },
         {
           "end": "2024-06-28 14:00",
-          "id": "4c9b9c682be46ef9a85f78572fd830c199090aa64153f9325d0fe28cbbe51816",
+          "id": "b3d4aea3f23635db1173048ba3d874b0c3bfca223670761666b6f894a2430dd0",
           "name": "Amy Alsop",
           "short": "amyals(1)",
-          "start": "2024-06-28 12:00"
+          "start": "2024-06-28 12:00",
+          "url": "https://www.instagram.com/amyzing.alsop"
         },
         {
           "end": "2024-06-28 16:00",
@@ -19128,11 +19146,11 @@
         },
         {
           "end": "2024-06-28 18:00",
-          "id": "be0b1cf623f7f05318790b34acb2513591e7e9bc95014801c9b531baf6ae8d49",
-          "name": "Rompa's Reggae Shack: Uncle Dugs/Daddy Nature/Sj Dansey (Blendid Takeover)",
-          "short": "rompas2(1)",
+          "id": "6e88a3b2343d935e0e5c54ffc3164d0a27ce1736c7eeda9fd294e7e41a160dfa",
+          "name": "Rompa's Reggae Shack: Uncle Dugs/Daddy Nature/DJ Dansey (Blendid Takeover)",
+          "short": "rompas3(1)",
           "start": "2024-06-28 16:00",
-          "url": "https://www.instagram.com/rompasreggaeshack"
+          "url": "https://www.instagram.com/rompasreggaeshack/"
         },
         {
           "end": "2024-06-28 20:00",
@@ -19272,11 +19290,11 @@
         },
         {
           "end": "2024-06-29 23:30",
-          "id": "cdfdcf27e8fff6f5fefc361053e5aff524e5ad0dd8a29489e85fae820c36480d",
-          "name": "Rogue Wave (Blendid Takeover)",
-          "short": "roguew1(1)",
+          "id": "9feaf971820895c99b7098786949f73afec20ad9f1db0bfbaab839ba3496dd74",
+          "name": "River, Bass Ventura & Beatfox (Blendid Takeover)",
+          "short": "riverb(1)",
           "start": "2024-06-29 23:00",
-          "url": "https://www.instagram.com/roguewave.bbx"
+          "url": "https://www.instagram.com/river_bbx/"
         },
         {
           "end": "2024-06-30 01:30",
@@ -19349,12 +19367,28 @@
           "url": "https://www.facebook.com/share/vyttdekgnkapjqrj/"
         },
         {
-          "end": "2024-06-30 19:00",
-          "id": "831be6ae1e4fa5b89bd09c7868b1038465645003c39867348253c12629d2f505",
+          "end": "2024-06-30 17:45",
+          "id": "b3ab23ac609a4939d68d276f5eda1d7d9d45609cb0b9cc6a53df8b36ebce706c",
           "name": "DJ Iona",
           "short": "djiona(1)",
           "start": "2024-06-30 17:00",
           "url": "https://www.instagram.com/iona.t"
+        },
+        {
+          "end": "2024-06-30 18:00",
+          "id": "b67494a72878bcf8906abafc21deca8cfc771ec5c5bb76b18aa8aa246d7bb61a",
+          "name": "Bass Ventura & Beatfox (Blendid Takeover)",
+          "short": "bassve(1)",
+          "start": "2024-06-30 17:45",
+          "url": "https://www.instagram.com/bassventura/"
+        },
+        {
+          "end": "2024-06-30 19:00",
+          "id": "0ca1ce19e2338b87257b44209f6c6d6b9bc4122933e6ca40f8f2a9dde79e8560",
+          "name": "Andrew Harrison",
+          "short": "andrew3(1)",
+          "start": "2024-06-30 18:00",
+          "url": "https://www.podmasters.co.uk/"
         },
         {
           "end": "2024-06-30 20:00",
@@ -19888,9 +19922,9 @@
         },
         {
           "end": "2024-06-29 11:10",
-          "id": "b0bb9a5a63118470e271744adf5f70c9e3f4a3b47d8ded9bba4cc47d6d830236",
-          "name": "Tented Talk",
-          "short": "tented(2)",
+          "id": "a306d2c3b8c674311faaef9ab0bd9524b4ffb7b72a91fe1527bfbe8984ff0489",
+          "name": "Tented Talk - Chris Barltrop On Circus",
+          "short": "tented4(1)",
           "start": "2024-06-29 10:30"
         },
         {
@@ -20224,9 +20258,9 @@
         },
         {
           "end": "2024-06-30 12:00",
-          "id": "e2448255e737bf2ef7005711cb89c7c2d85cdffcaf0e8dab35efd82f98afe726",
-          "name": "Tented Talk - Angel De Castro",
-          "short": "tented3(1)",
+          "id": "a2d64eb0acb3431c3dfaab883f0074865e98d7245d7401d332e9facb1a61e993",
+          "name": "Tented Talk - Angela De Castro",
+          "short": "tented5(1)",
           "start": "2024-06-30 11:15"
         },
         {
@@ -20376,9 +20410,9 @@
       "events": [
         {
           "end": "2024-06-28 11:30",
-          "id": "9053b31823d6d143be477af9757578772b39c8b4ce27d15d31e2ad005c825540",
+          "id": "ea51144d78bc6939ad02f0797bb7bc0026b90af23ba59c5e5d7692a5450371bc",
           "name": "The Crate Stack Challenge",
-          "short": "crates(1)",
+          "short": "crates(2)",
           "start": "2024-06-28 10:30"
         },
         {
@@ -20627,9 +20661,9 @@
         },
         {
           "end": "2024-06-29 11:30",
-          "id": "2981e854e844ad2c05b0fcbc78935d3aea0e13811fd6398ae1dc898d20deeee5",
+          "id": "c65f7075ead44412a69dec21e9bd730a3f481fb34caf8eef10b8f1e2cbd94ec6",
           "name": "The Crate Stack Challenge",
-          "short": "crates(2)",
+          "short": "crates(3)",
           "start": "2024-06-29 10:30"
         },
         {
@@ -20800,9 +20834,9 @@
         },
         {
           "end": "2024-06-29 20:33",
-          "id": "9718c47502d1e156153a044916e4f137fdbd5b551168d1df3f46755a991e40c2",
+          "id": "85a36ad9ee8c5bee20be26e5742ea8b23b5c121474f0d1508ffbdbf36dea290a",
           "name": "New York Brass Band",
-          "short": "newyor(6)",
+          "short": "newyor(7)",
           "start": "2024-06-29 19:48",
           "url": "https://www.newyorkbrassband.co.uk/"
         },
@@ -20879,9 +20913,9 @@
         },
         {
           "end": "2024-06-30 11:30",
-          "id": "529edb2d43a732642692a148b902bb6a27b5957cd812a151edd69d76780457f1",
+          "id": "a1b8ebf71a1338a9b466f19e7b6082826a2f677c9783948f927a516c78db8693",
           "name": "The Crate Stack Challenge",
-          "short": "crates(3)",
+          "short": "crates(4)",
           "start": "2024-06-30 10:30"
         },
         {
@@ -21022,9 +21056,9 @@
         },
         {
           "end": "2024-06-30 18:44",
-          "id": "acef84f16df75fe80fa3f0c226b4b8fac3e9622ae6d034fdbe73fc1a442ad308",
+          "id": "83877f227ad123b3edfef2994d146258b62accf84e694ef831c73c9bb41b116e",
           "name": "TBA",
-          "short": "tba(25)",
+          "short": "tba(26)",
           "start": "2024-06-30 18:14"
         },
         {
@@ -21037,9 +21071,9 @@
         },
         {
           "end": "2024-06-30 19:32",
-          "id": "8cdc257af136536e6957f9a3f0a9aaa9968becb8ee5062ebdee0a838b3d57986",
+          "id": "2b462eb463d75dd679fd73f40596779aafb29360826dd306b20017e8af710010",
           "name": "TBA",
-          "short": "tba(26)",
+          "short": "tba(27)",
           "start": "2024-06-30 19:02"
         },
         {
@@ -21052,9 +21086,9 @@
         },
         {
           "end": "2024-06-30 20:34",
-          "id": "7d6b0f7e74f720eb80ea766753be667ffe50b141145c0a0a9ff446ff6cf6582b",
+          "id": "ab4ae43dd7aa6c8e4a97da5f53c32a94f93183275579887ee7b4272ef73074f6",
           "name": "New York Brass Band",
-          "short": "newyor(8)",
+          "short": "newyor(9)",
           "start": "2024-06-30 19:49",
           "url": "https://www.newyorkbrassband.co.uk/"
         },
@@ -21167,18 +21201,18 @@
           "url": "https://www.fuse.org.uk"
         },
         {
-          "end": "2024-06-28 19:30",
-          "id": "205c7a4cdfdf2733436f7c7e3b9eb7c690efd49f00925a0ff20968eec7829acf",
+          "end": "2024-06-28 18:00",
+          "id": "eeabd678e471ec0ad4877814d113ffc0507bf4fa2bb211953801e3de051c90a2",
           "name": "The Birthday Party",
           "short": "birthd(1)",
-          "start": "2024-06-28 18:00",
+          "start": "2024-06-28 17:00",
           "url": "https://www.facebook.com/glastonburybirthdays"
         },
         {
           "end": "2024-06-29 12:00",
-          "id": "fd14c4e88b9424f433a0f75599389ddc30e23582892e8eda51f88a5fde853375",
+          "id": "eaf1fec2e1a09c521a30fcd3e8c5ac10d1a5673658a1d54daddda6c7dc28d691",
           "name": "Laughter Yoga Workshop",
-          "short": "laught1(2)",
+          "short": "laught1(3)",
           "start": "2024-06-29 11:00",
           "url": "https://www.joehoare.co.uk"
         },
@@ -21199,43 +21233,43 @@
           "url": "https://www.fuse.org.uk"
         },
         {
-          "end": "2024-06-29 19:30",
-          "id": "d5c4eaa129311fb39a36c4fa552937ab065a0f9cb5faddd72336e1dd7e9ccc12",
+          "end": "2024-06-29 18:00",
+          "id": "5a12c2170c0ffad412f184822ec44465027a237a8ad9c3f42810c199a8ee0d25",
           "name": "The Birthday Party",
-          "short": "birthd(2)",
-          "start": "2024-06-29 18:00",
+          "short": "birthd(3)",
+          "start": "2024-06-29 17:00",
           "url": "https://www.facebook.com/glastonburybirthdays"
         },
         {
           "end": "2024-06-30 12:00",
-          "id": "89a527f87e3c34138d28f1d198e799177ed3fc97fbf12c36821a9b6101f6a4ab",
+          "id": "d6300f3769b1c0c3471329cc24cf68d545fe15043dbc01469056c4012b974cd0",
+          "name": "Bosco Circus",
+          "short": "boscoc(3)",
+          "start": "2024-06-30 11:00",
+          "url": "https://www.facebook.com/boscoatglasto"
+        },
+        {
+          "end": "2024-06-30 12:00",
+          "id": "39222d807ec40547233c02fba3b5492a964579b57ebac1de2cd29a81ca77de7c",
           "name": "Laughter Yoga Workshop",
-          "short": "laught1(3)",
+          "short": "laught1(5)",
           "start": "2024-06-30 11:00",
           "url": "https://www.joehoare.co.uk"
         },
         {
-          "end": "2024-06-30 15:00",
-          "id": "57b846b81bf941b765ae8747dd0830bcb413beda65483816f2d02f262f564e10",
-          "name": "Bosco Circus",
-          "short": "boscoc(3)",
-          "start": "2024-06-30 12:00",
-          "url": "https://www.facebook.com/boscoatglasto"
-        },
-        {
-          "end": "2024-06-30 18:00",
-          "id": "2a6a0b1b28e736ddb926e86488b08c9d7d98f626b19954b60aaa40e60aca22f1",
+          "end": "2024-06-30 16:00",
+          "id": "b99c6341ef8bccf85153cc75a809a3cadd35a066e65229b0d060e018c9090068",
           "name": "Fuse Workshops",
           "short": "fusewo1(3)",
-          "start": "2024-06-30 15:00",
+          "start": "2024-06-30 13:00",
           "url": "https://www.fuse.org.uk"
         },
         {
-          "end": "2024-06-30 19:30",
-          "id": "eaa1bc9a2bbf788c7bd4fc0960f12365829039b9488e6e9c03303daadab61465",
+          "end": "2024-06-30 18:00",
+          "id": "85f389c2c9be286e69ae077d19e9ea4c01cd8ce7d224237c8f580d63b10a25ce",
           "name": "The Birthday Party",
-          "short": "birthd(3)",
-          "start": "2024-06-30 18:00",
+          "short": "birthd(6)",
+          "start": "2024-06-30 17:00",
           "url": "https://www.facebook.com/glastonburybirthdays"
         }
       ],
@@ -22729,9 +22763,9 @@
         },
         {
           "end": "2024-06-28 14:25",
-          "id": "eb5965899323d2b7ca29f46901b20607b39c6abd1f1ef6b50721623b40bdeed2",
+          "id": "d469e6a60a92f353caa16e79e706ffbe876c6e9f2b111d3e0475c6d806756de3",
           "name": "Old Time Sailors",
-          "short": "oldtim(3)",
+          "short": "oldtim(4)",
           "start": "2024-06-28 13:25",
           "url": "https://www.oldtimesailors.com/"
         },
@@ -22830,9 +22864,9 @@
         },
         {
           "end": "2024-06-29 17:30",
-          "id": "e91d264c02647efd7b9ff5d95be77df3110270842feb0a9354d0574225a42d22",
+          "id": "7755ea347ca2a496311ce7f0fabe78abe7b9bf772310d40ec4453cffeff755db",
           "name": "New York Brass Band",
-          "short": "newyor(5)",
+          "short": "newyor(6)",
           "start": "2024-06-29 17:00",
           "url": "https://www.newyorkbrassband.co.uk/"
         },
@@ -22909,9 +22943,9 @@
         },
         {
           "end": "2024-06-30 17:45",
-          "id": "0a6f50fe1713d36f0147c7246db59df09ca5e45826b437271d17ebcb8ec4a177",
+          "id": "79cc86d3a46f7c955c3cc07ed1f65b53d6bc8a3d683287e22d362b135eb0d05a",
           "name": "New York Brass Band",
-          "short": "newyor(7)",
+          "short": "newyor(8)",
           "start": "2024-06-30 17:15",
           "url": "https://www.newyorkbrassband.co.uk/"
         }
@@ -23031,22 +23065,6 @@
           "url": "https://www.instagram.com/thedrummingpuppet/"
         },
         {
-          "end": "2024-06-28 14:30",
-          "id": "5eed4bd28d0cfa76db69594f21a055f506d27a56280457559b880d5636bdfaae",
-          "name": "Watch the Birdie",
-          "short": "watchb(1)",
-          "start": "2024-06-28 12:30",
-          "url": "https://www.facebook.com/watch.birdie"
-        },
-        {
-          "end": "2024-06-28 13:45",
-          "id": "4bccc2796db415de4368cba813e446d651a702ec0981e090ffe27e905551afd9",
-          "name": "Working Boys Club",
-          "short": "workin(1)",
-          "start": "2024-06-28 13:00",
-          "url": "https://activateperformingarts.org.uk/projects/serving-sounds/"
-        },
-        {
           "end": "2024-06-28 16:00",
           "id": "bfa6d74a7d79f1fa7dedbd85ef44c8a82ed66fcb662e116f5ac2bfc8e6de517b",
           "name": "The Dig",
@@ -23061,6 +23079,22 @@
           "short": "upagai(1)",
           "start": "2024-06-28 13:00",
           "url": "https://www.foolsparadise.co.uk/"
+        },
+        {
+          "end": "2024-06-28 13:45",
+          "id": "4bccc2796db415de4368cba813e446d651a702ec0981e090ffe27e905551afd9",
+          "name": "Working Boys Club",
+          "short": "workin(1)",
+          "start": "2024-06-28 13:00",
+          "url": "https://activateperformingarts.org.uk/projects/serving-sounds/"
+        },
+        {
+          "end": "2024-06-28 15:00",
+          "id": "92a3f8515b63f393fca073a24c25601e3b3702b000d7ae719804aede785e8929",
+          "name": "Watch the Birdie",
+          "short": "watchb(1)",
+          "start": "2024-06-28 13:00",
+          "url": "https://www.facebook.com/watch.birdie"
         },
         {
           "end": "2024-06-28 14:45",
@@ -23086,11 +23120,11 @@
           "url": "https://activateperformingarts.org.uk/projects/serving-sounds/"
         },
         {
-          "end": "2024-06-28 18:00",
-          "id": "6c4e65fac3e5718f0e6096979377ffb9f8fec2c4316073bf2e0d213a918bdce5",
+          "end": "2024-06-28 17:30",
+          "id": "fe82c3aefac27fdaac93e5ea1949092b919e9bdcbef92018ab877b58dc09c650",
           "name": "Watch the Birdie",
           "short": "watchb(2)",
-          "start": "2024-06-28 16:00",
+          "start": "2024-06-28 15:30",
           "url": "https://www.facebook.com/watch.birdie"
         },
         {
@@ -23149,14 +23183,6 @@
           "url": "https://www.instagram.com/thedrummingpuppet/"
         },
         {
-          "end": "2024-06-29 14:30",
-          "id": "a644e3cd795410969791e6c1410a7be5f4a51d57850419b0f986d96c38389b67",
-          "name": "Watch the Birdie",
-          "short": "watchb(3)",
-          "start": "2024-06-29 12:30",
-          "url": "https://www.facebook.com/watch.birdie"
-        },
-        {
           "end": "2024-06-29 13:30",
           "id": "0c9d4f71c01143ca4a6f6b72484942ae3ea8fea606b83e5d6a0f45299c4f34a9",
           "name": "Mario Morris Magic",
@@ -23171,6 +23197,14 @@
           "short": "workin(3)",
           "start": "2024-06-29 13:00",
           "url": "https://activateperformingarts.org.uk/projects/serving-sounds/"
+        },
+        {
+          "end": "2024-06-29 15:00",
+          "id": "3f7bc01aac70110ad8a9fff80ecb6bc1be54f7c56980ead5461bdbfdb2f8a367",
+          "name": "Watch the Birdie",
+          "short": "watchb(3)",
+          "start": "2024-06-29 13:00",
+          "url": "https://www.facebook.com/watch.birdie"
         },
         {
           "end": "2024-06-29 16:00",
@@ -23204,11 +23238,11 @@
           "url": "https://activateperformingarts.org.uk/projects/serving-sounds/"
         },
         {
-          "end": "2024-06-29 16:00",
-          "id": "469cfacd2f2a0f8952f5085eedb2b5c2b843ca966925b118a57793f87967e802",
+          "end": "2024-06-29 17:30",
+          "id": "1f197aca005962273e9a6ecf60059c5e884dc06783bedcd5670229bea22f735f",
           "name": "Watch the Birdie",
           "short": "watchb(4)",
-          "start": "2024-06-29 16:00",
+          "start": "2024-06-29 15:30",
           "url": "https://www.facebook.com/watch.birdie"
         },
         {
@@ -23242,14 +23276,6 @@
           "start": "2024-06-30 12:00"
         },
         {
-          "end": "2024-06-30 14:30",
-          "id": "8fdfb607170e9f775bcfc332a232cb91dec90cbf92a23fd8a09b9a637ec070ac",
-          "name": "Watch the Birdie",
-          "short": "watchb(5)",
-          "start": "2024-06-30 12:30",
-          "url": "https://www.facebook.com/watch.birdie"
-        },
-        {
           "end": "2024-06-30 13:15",
           "id": "99d0863c0c364442ec9d916d6e8e7483fb77cb1dc23a1d04e1208033563e4b34",
           "name": "Mr Peewee the Drumming Puppet",
@@ -23271,6 +23297,14 @@
           "short": "workin(5)",
           "start": "2024-06-30 13:00",
           "url": "https://activateperformingarts.org.uk/projects/serving-sounds/"
+        },
+        {
+          "end": "2024-06-30 15:00",
+          "id": "dbcd21b555385f3c59c6721c869b636aef1fd910cbb5d7f9d12e8bd3ac6e98c5",
+          "name": "Watch the Birdie",
+          "short": "watchb(5)",
+          "start": "2024-06-30 13:00",
+          "url": "https://www.facebook.com/watch.birdie"
         },
         {
           "end": "2024-06-30 16:00",
@@ -23312,11 +23346,11 @@
           "url": "https://activateperformingarts.org.uk/projects/serving-sounds/"
         },
         {
-          "end": "2024-06-30 18:00",
-          "id": "62345ff14a1e4df4b542a6a3303594c935a1742c00f4342f4b028b56c8cec47c",
+          "end": "2024-06-30 17:30",
+          "id": "876f2329f581977afabb0472cbb3f4ae28be1b44a9814771b170390d18e9ecca",
           "name": "Watch the Birdie",
           "short": "watchb(6)",
-          "start": "2024-06-30 16:00",
+          "start": "2024-06-30 15:30",
           "url": "https://www.facebook.com/watch.birdie"
         }
       ],
@@ -23757,13 +23791,6 @@
           "url": "https://danevans.info"
         },
         {
-          "end": "2024-06-28 11:50",
-          "id": "b69ed26b0323ef219ae697f39c6d768c603d5c7b049070bec6a9c7e1df25fc55",
-          "name": "The Guardian Q&A",
-          "short": "guardi1(1)",
-          "start": "2024-06-28 11:00"
-        },
-        {
           "end": "2024-06-28 13:00",
           "id": "5f2eccff93b750929bac8218a50e47ac6402720ffb4391e2d38f28dea9d49567",
           "name": "Siegfried & Joy",
@@ -23890,9 +23917,9 @@
         },
         {
           "end": "2024-06-29 11:50",
-          "id": "d61c62d106b667210a2883acb4f51ee02afb2e7fdb3819535e5153a1e1673394",
-          "name": "The Guardian Q&A",
-          "short": "guardi1(2)",
+          "id": "b1afe1d9ae24cdff85a3626af238230d290bc89073a6656c7d67fd870ba6f43e",
+          "name": "Orbital in Conversation with Alexis Petridis",
+          "short": "orbita2(1)",
           "start": "2024-06-29 11:00"
         },
         {
@@ -24019,13 +24046,6 @@
           "short": "compre8(3)",
           "start": "2024-06-30 10:55",
           "url": "https://danevans.info"
-        },
-        {
-          "end": "2024-06-30 11:50",
-          "id": "da1abb3aec52c85486523df77772a9706cf1964b323e24fc20c2b3b6a3a142d8",
-          "name": "The Guardian Q&A",
-          "short": "guardi1(3)",
-          "start": "2024-06-30 11:00"
         },
         {
           "end": "2024-06-30 13:00",
@@ -24182,10 +24202,11 @@
         },
         {
           "end": "2024-06-28 16:20",
-          "id": "35bdcd22a6f0bdcb3934fc293e7b3763a0d5871f9cc714ce2fda197f501b07d8",
-          "name": "Tamar Katten",
-          "short": "tamark(1)",
-          "start": "2024-06-28 15:50"
+          "id": "a67de3e4e94e209d294dca89e4751b5514f1a4b304d90c67b3ae594d2a964fdf",
+          "name": "Emmanuel Sonubi",
+          "short": "emmanu(1)",
+          "start": "2024-06-28 15:50",
+          "url": "https://www.emmanuelstandup.com"
         },
         {
           "end": "2024-06-28 20:00",
@@ -24235,9 +24256,9 @@
         },
         {
           "end": "2024-06-28 20:10",
-          "id": "35efa1c55e30170e59f080acd987d9a45d4e781869b292abd31b2853c743e14f",
-          "name": "Talal Kartouti",
-          "short": "talalk(1)",
+          "id": "e5ed2f37c3fe4707f26e5382b8b44ec170f95ba76195d6ac4e9361957ec91cb2",
+          "name": "Talal Karkouti",
+          "short": "talalk2(1)",
           "start": "2024-06-28 19:40",
           "url": "https://www.instagram.com/talalakazam/"
         },
@@ -24275,11 +24296,10 @@
         },
         {
           "end": "2024-06-28 22:30",
-          "id": "158d9018575f7402ab1b4679e7a49351da692c31b105a65738faf1d4831fe221",
-          "name": "Emmanuel Sonubi",
-          "short": "emmanu(1)",
-          "start": "2024-06-28 22:00",
-          "url": "https://www.emmanuelstandup.com"
+          "id": "9eb1ae7ca672c379035641b65754bcd70ab1dbf50bf64df36fef53948d5deb04",
+          "name": "Tamar Katten",
+          "short": "tamark(1)",
+          "start": "2024-06-28 22:00"
         },
         {
           "end": "2024-06-28 23:05",
@@ -24461,9 +24481,9 @@
         },
         {
           "end": "2024-06-29 21:35",
-          "id": "13fbd83580363e6a13fd9d17a0bf3d6aba0c59613f3da9befd5ae6d2d747087b",
-          "name": "Talal Karkouti - Songs with His Guitar",
-          "short": "talalk1(1)",
+          "id": "581ae055c44bd0d2fb269ca26c84b1ee3a849882502925ae604162eab6118b89",
+          "name": "Talal Karkouti",
+          "short": "talalk2(2)",
           "start": "2024-06-29 21:05",
           "url": "https://www.instagram.com/talalakazam/"
         },
@@ -24632,10 +24652,11 @@
         },
         {
           "end": "2024-06-30 20:15",
-          "id": "9830cf0942d9e66a304a6eaef0a2043150e551d3b0bd2da0317821e9b0b18345",
-          "name": "Spliff Richard",
-          "short": "spliff(1)",
-          "start": "2024-06-30 19:45"
+          "id": "2c8fbba8dfbb3edf6297e31ab1930b82e7dcce0e6b6c220c1e020a3a4a95246b",
+          "name": "Tom Mones & Spliff Richard",
+          "short": "tommon1(1)",
+          "start": "2024-06-30 19:45",
+          "url": "https://www.facebook.com/franksanazi/"
         },
         {
           "end": "2024-07-01 00:00",
@@ -24737,7 +24758,8 @@
         },
         {
           "end": "2024-06-27 21:30",
-          "id": "c1ef4279665c8fef7fa289205a2670a72d0d90461505135b3db4310ad5d1b71b",
+          "id": "0b388767f69c057bd74472a343779a2c2e66486a1c46bb020af96413b409c52e",
+          "mbId": "cfb443b2-f0e6-4158-a7d7-8d90638cbf02",
           "name": "Showhawk Duo",
           "short": "showha(2)",
           "start": "2024-06-27 20:30",
@@ -24861,9 +24883,9 @@
         },
         {
           "end": "2024-06-28 17:55",
-          "id": "8fb57ffbb45e9cae20444c6c669d663d2c8910f8efa83f7f5f760bbbe818078f",
+          "id": "ce07924df21861fb89345ee85d84f907e80729bcc69d28556f552dc91925dcee",
           "name": "Old Time Sailors",
-          "short": "oldtim(4)",
+          "short": "oldtim(5)",
           "start": "2024-06-28 16:55",
           "url": "https://www.oldtimesailors.com/"
         },
@@ -24985,11 +25007,10 @@
         },
         {
           "end": "2024-06-29 15:45",
-          "id": "be931f96d586c7f3fd316df8b5d67b652683100baf542e3376e18a96425b5009",
-          "name": "Abandoman",
-          "short": "abando(1)",
-          "start": "2024-06-29 15:00",
-          "url": "https://www.abandoman.com/"
+          "id": "ba17a176cf673c956f2fca7a5caa001b3ec92fdc577f719228b19aec826c2f0e",
+          "name": "New York Brass Band",
+          "short": "newyor(5)",
+          "start": "2024-06-29 15:00"
         },
         {
           "end": "2024-06-29 16:35",
@@ -25128,11 +25149,10 @@
         },
         {
           "end": "2024-06-30 14:55",
-          "id": "cd16997201f217ae7f07f03fb8a1745467235ec189ba101f2f54d927d71fb570",
-          "name": "Abandoman",
-          "short": "abando(2)",
-          "start": "2024-06-30 14:10",
-          "url": "https://www.abandoman.com/"
+          "id": "8e044c887bf1f39a2668dc2f1bbc191beedc71f4fc1e81dd53212648d87e052b",
+          "name": "TBA",
+          "short": "tba(24)",
+          "start": "2024-06-30 14:10"
         },
         {
           "end": "2024-06-30 15:30",
@@ -29618,17 +29638,17 @@
       "events": [
         {
           "end": "2024-06-29 00:10",
-          "id": "dd3085d445e7a301f19346395d50094fbf266b9dcad9085599151475cb97d6af",
+          "id": "fcc731b8621305a9e7f8613f3c9634909ea22f6aadcc99fe38b249a4fb21c207",
           "name": "Compere - Bunny Morethan",
-          "short": "comper7(2)",
+          "short": "comper7(1)",
           "start": "2024-06-29 00:00",
           "url": "https://scarylittlegirls.co.uk/"
         },
         {
           "end": "2024-06-29 03:00",
-          "id": "130085be59c7657f1cfce499ef01acdad3a4f8c2f759530b8fc912988ef957c3",
+          "id": "5bb4b90e9425259c3926e962d9f290d0371bf0a3f575853bdd10851fbc93b793",
           "name": "Compere - Bunny Morethan",
-          "short": "comper7(1)",
+          "short": "comper7(2)",
           "start": "2024-06-29 00:00"
         },
         {
@@ -30002,10 +30022,11 @@
       "events": [
         {
           "end": "2024-06-26 12:30",
-          "id": "f2dd5ef72580129d2d62cf23fbba94a8943419f0bb24e1eeaf02b63237173e57",
+          "id": "53aa93b644642659a43eceb954566576ef1ba09f62fc2ad3a1878c15726853ca",
           "name": "Tightrope Workshop - Phoebe Baker",
           "short": "tightr(1)",
-          "start": "2024-06-26 11:30"
+          "start": "2024-06-26 11:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
         },
         {
           "end": "2024-06-26 15:30",
@@ -30017,18 +30038,57 @@
         },
         {
           "end": "2024-06-26 16:30",
-          "id": "6819310d3a3183a184ce275f598f4eb3f14c1c61fb3366d04aab49faea669ebc",
-          "name": "Street Games \u2013 Zorbing",
-          "short": "street1(1)",
+          "id": "f6c6bf951964ebdb05f400eb8946a6f9a464571dcaec3a34c4b42f242cc9fd39",
+          "name": "Street Games \u2013 Zorbing and Zorb Football",
+          "short": "street2(1)",
           "start": "2024-06-26 11:30",
           "url": "https://www.streetgames.org/"
         },
         {
-          "end": "2024-06-26 17:15",
-          "id": "819f78e089a2d8aea023fda286076e0d5b1060dc74a9287555ba11e7ed3f9a35",
-          "name": "Phoebe Baker Show - Elevateher",
-          "short": "phoebe(1)",
-          "start": "2024-06-26 15:30"
+          "end": "2024-06-26 12:45",
+          "id": "51da6422e5db13b473a174b6b247ec04de630a1fb38e161d6f23afbff838d648",
+          "name": "The Lamposts",
+          "short": "lampos(1)",
+          "start": "2024-06-26 12:00"
+        },
+        {
+          "end": "2024-06-26 14:15",
+          "id": "d0ef2293453c0d8a03d28271940df66d7a66fbd9c64c094da23e1f2a7f13104c",
+          "name": "The Lamposts",
+          "short": "lampos(2)",
+          "start": "2024-06-26 13:30"
+        },
+        {
+          "end": "2024-06-26 14:30",
+          "id": "1fdf18d3c915610c856979d04424512312233e649abcb263c3a021cca8a5d6de",
+          "name": "Tightrope Workshop - Phoebe Baker",
+          "short": "tightr(2)",
+          "start": "2024-06-26 13:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
+        },
+        {
+          "end": "2024-06-26 15:00",
+          "id": "88dadd044231220b60d829e5d0690b6e09654f973994688b1da2f3fd2b137a56",
+          "name": "RPM Bike Display Show",
+          "short": "rpmbik(1)",
+          "start": "2024-06-26 14:40",
+          "url": "http://rpmdisplay.co.uk/"
+        },
+        {
+          "end": "2024-06-26 16:20",
+          "id": "6d406137a42cfcebbd5f4f9eb421c80f7f02e3484b8fc48cc4b9a37fe03a936c",
+          "name": "RPM Bike Display Show",
+          "short": "rpmbik(2)",
+          "start": "2024-06-26 16:00",
+          "url": "http://rpmdisplay.co.uk/"
+        },
+        {
+          "end": "2024-06-26 18:15",
+          "id": "f901d92d7a43b6b41e5fdfdfdd5ccc00b1cd973b2eda496ce88153e605c450a5",
+          "name": "Elevateher Wire Walking Show",
+          "short": "elevat(1)",
+          "start": "2024-06-26 17:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
         },
         {
           "end": "2024-06-26 21:30",
@@ -30039,80 +30099,113 @@
           "url": "http://www.kwabanalindsay.com/"
         },
         {
-          "end": "2024-06-27 12:45",
-          "id": "f1bc3747d6b601ed1e4889fc16abb619a192d2d71c375a91749dd758153515f7",
-          "name": "Circus Eruption",
-          "short": "circus4(1)",
-          "start": "2024-06-27 11:00",
-          "url": "https://www.circuseruption.co.uk/"
+          "end": "2024-06-27 00:15",
+          "id": "4382934a0404351be6dfa8e53fcdceb2ffe14b7e643062e89df040ba667dcb76",
+          "name": "Midnight Playground",
+          "short": "midnig(1)",
+          "start": "2024-06-26 22:15",
+          "url": "https://www.themidnightplayground.com/"
+        },
+        {
+          "end": "2024-06-27 11:30",
+          "id": "c41fce3f4fa62f4b6c605e426e25683daaf81648132675063103bd40c25186f0",
+          "name": "The Crate Stack Challenge",
+          "short": "crates(1)",
+          "start": "2024-06-27 10:30"
         },
         {
           "end": "2024-06-27 12:30",
-          "id": "71de0c1f670c11b56f0ff8738df0773019eaf563751ca191a35527be63d07910",
+          "id": "d62a87b0450584f19044a5991b75a870113bc2dfb1f609a3eebbe82d5229a077",
           "name": "Tightrope Workshop - Phoebe Baker",
-          "short": "tightr(2)",
-          "start": "2024-06-27 11:30"
+          "short": "tightr(3)",
+          "start": "2024-06-27 11:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
+        },
+        {
+          "end": "2024-06-27 12:45",
+          "id": "a9989220598c4e7fdb5c83f46661c18386cc6a37061b1a74c113e25a97217776",
+          "name": "Circus Eruption - Games for All",
+          "short": "circus6(1)",
+          "start": "2024-06-27 11:30",
+          "url": "https://www.circuseruption.co.uk/"
         },
         {
           "end": "2024-06-27 15:30",
-          "id": "a44a74f008af59551b6ebceb3ca1aff79bfcaa6c121c47aaf3f959f3f36f765f",
-          "name": "Slackline School",
+          "id": "ebe1bf823cf35055808364e2408e5bd32075faebc1efc63c31cfdef6dd1a4d48",
+          "name": "The Slackline School",
           "short": "slackl(2)",
           "start": "2024-06-27 11:30",
           "url": "http://rpmdisplay.co.uk/"
         },
         {
           "end": "2024-06-27 17:30",
-          "id": "ab72f2fcdca517b365fe6048c1f9caeedfc65e86ae34fc0db082cac1568a998d",
-          "name": "Street Games \u2013 Zorbing",
-          "short": "street1(2)",
+          "id": "f5d53d82eb2d32870088679f8959fba8b1fb413daa47cb2a8681164393f7c44a",
+          "name": "Street Games - Zorbing and Zorb Football",
+          "short": "street3(1)",
           "start": "2024-06-27 12:30",
           "url": "https://www.streetgames.org/"
         },
         {
           "end": "2024-06-27 17:00",
-          "id": "37a04100dc9cfc0f66dcded8073bdfd07fecbf652ea4477dacd87d057796de20",
-          "name": "Daemon Or Doppleganger",
-          "short": "daemon(1)",
+          "id": "e6fcc030c236f830c27fc74e1f51470e871abc2f863428ce76d5e4638bc23362",
+          "name": "Daemon Or Doppleganger - Clay Workshop",
+          "short": "daemon1(1)",
           "start": "2024-06-27 13:00",
           "url": "https://facebook.com/daemonordoppelganger"
         },
         {
           "end": "2024-06-27 14:30",
-          "id": "8251bfdb2a9e6075100eea8822172b3458c1a0bbc4e4508099e7c021f1a1629f",
+          "id": "33e7555d65c8128997c5da0ac84dcd74bcaff199f4b6b49351845e580f866db8",
           "name": "Tightrope Workshop - Phoebe Baker",
-          "short": "tightr(3)",
-          "start": "2024-06-27 13:30"
+          "short": "tightr(4)",
+          "start": "2024-06-27 13:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
         },
         {
-          "end": "2024-06-27 15:45",
-          "id": "18f51a4c29f84781e2a6d7f886d545bb6b025fcef0c68868a87c3aee8851c6fb",
-          "name": "Circus Eruption",
-          "short": "circus4(2)",
-          "start": "2024-06-27 14:00",
+          "end": "2024-06-27 15:30",
+          "id": "9029ec4a4de65c1038eedc662100160349b96b15208bdade4dd3f984a4dee3b4",
+          "name": "Circus Eruption - Games for All",
+          "short": "circus6(2)",
+          "start": "2024-06-27 13:45",
           "url": "https://www.circuseruption.co.uk/"
         },
         {
+          "end": "2024-06-27 14:40",
+          "id": "d55ea8299caabdbc85ce7ed9ab33ae4929adbe90a654b7000b4826ebf098d805",
+          "name": "RPM Bike Display Show",
+          "short": "rpmbik(3)",
+          "start": "2024-06-27 14:20",
+          "url": "http://rpmdisplay.co.uk/"
+        },
+        {
           "end": "2024-06-27 15:15",
-          "id": "698c151ce56b3d3eb58e766df8570add72e704ec313c795dd673e5c9677c2f7f",
-          "name": "Guinness World Record Attempt - Lawnmover",
-          "short": "guinne(1)",
+          "id": "6bd0858b10bbec12fd3d667c463975fea4f7d2f3b9ece5841fc3fc0362a99296",
+          "name": "Jay Rawlings' Guinness World Record Attempt - Lawnmover",
+          "short": "jayraw2(1)",
           "start": "2024-06-27 14:45"
         },
         {
           "end": "2024-06-28 02:00",
-          "id": "f6fe166b3b564694175edf2cd95fad88517f1c71864e02eb939975f6545248fa",
-          "name": "Cockatoo Bar",
-          "short": "cockat(1)",
+          "id": "82c41c0804b3b9c099e634781826461b7befc8dfbce6f60be2e6b2ec159ef112",
+          "name": "The Birdcage",
+          "short": "birdca(1)",
           "start": "2024-06-27 15:00",
           "url": "https://www.facebook.com/thisisartbars/"
         },
         {
-          "end": "2024-06-27 17:15",
-          "id": "e2cb52ac8edcc527561817fd6db5c6bedeaff806a4fdc13865b46677e251e525",
-          "name": "Phoebe Baker Show - Elevateher",
-          "short": "phoebe(2)",
-          "start": "2024-06-27 15:30"
+          "end": "2024-06-27 15:45",
+          "id": "675d33ce27488e87ecaacd587c7ee78e0bc61835afad15f083bd67cd4711eba1",
+          "name": "The Lampposts",
+          "short": "lamppo(1)",
+          "start": "2024-06-27 15:00"
+        },
+        {
+          "end": "2024-06-27 18:15",
+          "id": "5b00f9f059f520f8940de0ec3426d70f97b5237f862fec813444667c048191b6",
+          "name": "Elevateher Wire Walking Show",
+          "short": "elevat(2)",
+          "start": "2024-06-27 17:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
         },
         {
           "end": "2024-06-27 21:30",
@@ -30121,6 +30214,13 @@
           "short": "kwaban1(2)",
           "start": "2024-06-27 21:00",
           "url": "http://www.kwabanalindsay.com/"
+        },
+        {
+          "end": "2024-06-28 04:00",
+          "id": "09eb807bd57930d161bd611ba2e0cc4e13895117e62e05344c9f8ebe7ad9b7c5",
+          "name": "Juggling TV",
+          "short": "juggli1(1)",
+          "start": "2024-06-27 22:00"
         },
         {
           "end": "2024-06-28 00:00",
@@ -30132,42 +30232,66 @@
         },
         {
           "end": "2024-06-28 01:00",
-          "id": "9bbdb1c177f3e3c8b39feffbf67968fb07e71bebcd1e7b6b3f76dab8c915d5c3",
+          "id": "b9b636bbef8ef3f8712bf05314af145b663cf6a8c6041c1f92464d7f5fb63304",
           "name": "Midnight Playground",
-          "short": "midnig(1)",
+          "short": "midnig(2)",
           "start": "2024-06-27 23:00",
           "url": "https://www.themidnightplayground.com/"
         },
         {
           "end": "2024-06-28 12:45",
-          "id": "80953c533b26fc24e0869b15429337a97b9dcf0d2482ac8fcaa24029836b5a35",
-          "name": "Circus Eruption",
-          "short": "circus4(3)",
+          "id": "4c91ab0df6d7f8208534b8d7e21ba9782ee94bfc47b29bf9204d6f646c802130",
+          "name": "Circus Eruption - Games for All",
+          "short": "circus6(3)",
           "start": "2024-06-28 11:00",
           "url": "https://www.circuseruption.co.uk/"
         },
         {
+          "end": "2024-06-28 19:00",
+          "id": "424c390601f9862b89697cb22db61a1ecb4ccc6b442b165443c295cb01669062",
+          "name": "Daemon Or Doppleganger - Clay Workshop",
+          "short": "daemon1(2)",
+          "start": "2024-06-28 11:00",
+          "url": "https://facebook.com/daemonordoppelganger"
+        },
+        {
           "end": "2024-06-28 18:00",
-          "id": "3144633fbd8ea5bec4946b67d7f222bbaa1670e7cca9a52d901b05c98780e544",
-          "name": "Slackline School",
+          "id": "c5eb63c76ce83ff84ed878eccae8fedab5b9830d8f4c3e34788f2c4c00bc9a07",
+          "name": "The Slackline School",
           "short": "slackl(3)",
           "start": "2024-06-28 11:00",
           "url": "http://rpmdisplay.co.uk/"
         },
         {
-          "end": "2024-06-28 19:00",
-          "id": "d06f2bf00a59bc0e0164a6d17d4a458560e379116272d09f49abc22d9f281ecb",
-          "name": "Daemon Or Doppleganger",
-          "short": "daemon(2)",
+          "end": "2024-06-28 12:00",
+          "id": "620e5859a434192216d28b0193a3a1e4d9107caa2d66d8c77b5a70cea84ad753",
+          "name": "Laughter Yoga Workshop",
+          "short": "laught1(2)",
           "start": "2024-06-28 11:00",
-          "url": "https://facebook.com/daemonordoppelganger"
+          "url": "https://www.facebook.com/laughteryogaforjoy/"
         },
         {
           "end": "2024-06-28 12:30",
-          "id": "b385e89964310aa278b1a0d53340e8410324fca1a61552f4bd0195dcd9e42f23",
-          "name": "Tightrope Workshop - Phoebe Baker",
-          "short": "tightr(4)",
-          "start": "2024-06-28 11:30"
+          "id": "e114f7c19544794063c8aae0ca427089700da83bb23ef5c8d4067899b83be4a7",
+          "name": "Tightrope Workshop with Phoebe Baker",
+          "short": "tightr1(1)",
+          "start": "2024-06-28 11:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
+        },
+        {
+          "end": "2024-06-28 12:45",
+          "id": "9e2324922a3b6ecc9098338ec930ab1fda834d865d3c45cb8cfcabcdfe035a3f",
+          "name": "The Lampposts",
+          "short": "lamppo(2)",
+          "start": "2024-06-28 12:00"
+        },
+        {
+          "end": "2024-06-28 15:00",
+          "id": "f86edbd1f45505b2b74f565aa1be1cc90c0e2408b9dadb994cdd9273a3cddb59",
+          "name": "Bosco Circus - Juggling Workshop",
+          "short": "boscoc1(1)",
+          "start": "2024-06-28 12:00",
+          "url": "https://www.facebook.com/boscoatglasto"
         },
         {
           "end": "2024-06-28 17:00",
@@ -30178,41 +30302,73 @@
         },
         {
           "end": "2024-06-28 14:30",
-          "id": "64a581e46ecb94a02b90009cffe6becdaa8f975fbd37e407945b5ece2a66fc5e",
-          "name": "Tightrope Workshop - Phoebe Baker",
-          "short": "tightr(5)",
-          "start": "2024-06-28 13:30"
+          "id": "0dd0c89e4629709a6c299e61deba0d188392240ac5de5c1bccdb59e3d5c1a711",
+          "name": "Tightrope Workshop with Phoebe Baker",
+          "short": "tightr1(2)",
+          "start": "2024-06-28 13:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
+        },
+        {
+          "end": "2024-06-28 14:30",
+          "id": "b625866169aacfdb139b57665d980a4ff10b4720a52896dbf6c0c2a836d95656",
+          "name": "The Lampposts",
+          "short": "lamppo(3)",
+          "start": "2024-06-28 13:45"
         },
         {
           "end": "2024-06-28 15:45",
-          "id": "ce86df87dce73772839c36bfa17e173f390d93313e9d8d68704a862cba88f9ea",
-          "name": "Circus Eruption",
-          "short": "circus4(4)",
+          "id": "7fe9e2048fb838bd2966759bcccde7eee5b8a5224fd5a955483c6c7183beddeb",
+          "name": "Circus Eruption - Games for All",
+          "short": "circus6(4)",
           "start": "2024-06-28 14:00",
           "url": "https://www.circuseruption.co.uk/"
         },
         {
           "end": "2024-06-29 02:00",
-          "id": "3b70d705538670886e72fa3ff86b934115ac76d8b366683746c80e74989d0c73",
-          "name": "Cockatoo Bar",
-          "short": "cockat(2)",
+          "id": "8b3d2bea34b1ef2feabad2aeac46322578d3dfec9f4dbae16aaec9a7c670bd63",
+          "name": "The Bird Cage",
+          "short": "birdca1(1)",
           "start": "2024-06-28 15:00",
           "url": "https://www.facebook.com/thisisartbars/"
         },
         {
-          "end": "2024-06-28 17:15",
-          "id": "adb4fc35dd68cb02e2c86771eb9c8cc724af22218475cc9f0e3d5a4cdc958214",
-          "name": "Phoebe Baker Show - Elevateher",
-          "short": "phoebe(3)",
-          "start": "2024-06-28 15:30"
+          "end": "2024-06-28 18:00",
+          "id": "a51b2cec593962ad5e78eb38b28efb909d51937b40add7b662e2393a7d7752e8",
+          "name": "Fuse - Juggling Workshop",
+          "short": "fuseju(1)",
+          "start": "2024-06-28 15:00",
+          "url": "https://www.fuse.org.uk"
+        },
+        {
+          "end": "2024-06-28 18:00",
+          "id": "dca048f59ddbd3551f22eab398b7073b55c124797abdd5125bc1b2ebb51e686e",
+          "name": "The Birthday Party",
+          "short": "birthd(2)",
+          "start": "2024-06-28 17:00",
+          "url": "https://www.facebook.com/glastonburybirthdays"
+        },
+        {
+          "end": "2024-06-28 18:15",
+          "id": "793682aa1c5bfbbc1c588ba53f98257a3d64f0e6c0557631bb4e14446e67f124",
+          "name": "Elevateher Wire Walking Show",
+          "short": "elevat(3)",
+          "start": "2024-06-28 17:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
         },
         {
           "end": "2024-06-28 21:30",
-          "id": "21c16ba906d76c9baf12d436cbbeea959ade6192d6f4a00b724ebe50938df759",
-          "name": "Kwabana Lindsay - River Walk",
-          "short": "kwaban1(3)",
+          "id": "3dbbfd94709c9adab2ea064907cf7d7369ea5ca09c6aeef53c2d3d8d1ee18466",
+          "name": "Kwabana Lindsay River Walk",
+          "short": "kwaban2(1)",
           "start": "2024-06-28 21:00",
           "url": "http://www.kwabanalindsay.com/"
+        },
+        {
+          "end": "2024-06-29 04:00",
+          "id": "6067491fe3966aa845ce1422d1aa29f99890012de1d3787685293c343786475a",
+          "name": "Juggling TV",
+          "short": "juggli1(2)",
+          "start": "2024-06-28 22:00"
         },
         {
           "end": "2024-06-29 00:00",
@@ -30224,58 +30380,67 @@
         },
         {
           "end": "2024-06-29 01:00",
-          "id": "4597c655db9d4b9c38c5313585b9b7447466053a29ffed156e7cef8d78ee51d7",
-          "name": "Midnight Playground",
-          "short": "midnig(2)",
+          "id": "2bb388d4472bc04acd901954fd1479fee10104f9e83083ca9d83e4dbc3c9788b",
+          "name": "The Midnight Playground",
+          "short": "midnig(3)",
           "start": "2024-06-28 23:00",
           "url": "https://www.themidnightplayground.com/"
         },
         {
           "end": "2024-06-29 00:30",
-          "id": "6ca80bae28e64ef3cf7d41753d1ed9e67829aecd46b920f9ee112813c5c4f2ec",
+          "id": "ffc91ec14b7257c85136c4060c8ccc4229ef572ac141db1444d7413575ff246d",
           "name": "The Magnificent Kevens",
           "short": "magnif(2)",
-          "start": "2024-06-29 00:01",
+          "start": "2024-06-29 00:00",
           "url": "https://themagnificentkevens.com/"
         },
         {
-          "end": "2024-06-29 12:45",
-          "id": "37e3274314c81fac8fe73fc35690c77d0d2a622f02d63dea7b7fb937add31c87",
-          "name": "Circus Eruption",
-          "short": "circus4(6)",
+          "end": "2024-06-29 12:00",
+          "id": "0d7e56e5de07e01b0b2b7b98475c088e2553c7e075a943a35c36aa3f11d99065",
+          "name": "Laughter Yoga Workshop",
+          "short": "laught1(4)",
           "start": "2024-06-29 11:00",
-          "url": "https://www.circuseruption.co.uk/"
+          "url": "https://www.facebook.com/laughteryogaforjoy/"
         },
         {
           "end": "2024-06-29 12:45",
-          "id": "ebfe53a00eee8e69fbbb9b014d471db2e5630d24ecd337fda206151f133075c2",
-          "name": "Circus Eruption",
-          "short": "circus4(5)",
+          "id": "541107f4028c398f729495d0c72bfe90964d14cbb78283d87844f9ef0c1424d9",
+          "name": "Circus Eruption - Games for All",
+          "short": "circus6(5)",
           "start": "2024-06-29 11:00",
           "url": "https://www.circuseruption.co.uk/"
         },
         {
           "end": "2024-06-29 18:00",
-          "id": "8a87d9930364c2874785c2082f263bf5d14937a77108ca531f335eef9e986fd4",
-          "name": "Slackline School",
+          "id": "84e4b7fa00f6cbf55da21921275a53da73b0ad83fe88475c32824a337a451305",
+          "name": "The Slackline School",
           "short": "slackl(4)",
           "start": "2024-06-29 11:00",
           "url": "http://rpmdisplay.co.uk/"
         },
         {
           "end": "2024-06-29 19:00",
-          "id": "96363ff25e9d2ecb9a8a07482fcab84382defd40fa599c3e9a0aea0260a8f1d4",
-          "name": "Daemon Or Doppleganger",
-          "short": "daemon(3)",
+          "id": "179573a84f114beff8d121bb3ed34e511cb1e9e559f1d498fa04e08746bd58ef",
+          "name": "Daemon Or Doppleganger - Clay Workshop",
+          "short": "daemon1(3)",
           "start": "2024-06-29 11:00",
           "url": "https://facebook.com/daemonordoppelganger"
         },
         {
           "end": "2024-06-29 12:30",
-          "id": "806ab35bf08153bf47f5edfa68f76fc246aa6796dd83112e50dca2b183eff100",
-          "name": "Tightrope Workshop - Phoebe Baker",
-          "short": "tightr(6)",
-          "start": "2024-06-29 11:30"
+          "id": "546e5a32cc469bb4104efd19a4bbea69d1e2e1d73607fc2f6dfb553a00af17db",
+          "name": "Tightrope Workshop with Phoebe Baker",
+          "short": "tightr1(3)",
+          "start": "2024-06-29 11:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
+        },
+        {
+          "end": "2024-06-29 15:00",
+          "id": "8cf18b982844eca0120226933120edee3421681c36da138560bbe1b2fd8d8483",
+          "name": "Bosco Circus - Juggling Workshop",
+          "short": "boscoc1(2)",
+          "start": "2024-06-29 12:00",
+          "url": "https://www.facebook.com/boscoatglasto"
         },
         {
           "end": "2024-06-29 17:00",
@@ -30286,33 +30451,66 @@
         },
         {
           "end": "2024-06-29 14:30",
-          "id": "82cf816d48522977a15ba249391080fd32aeef580a8becde014ea4f9b100b672",
-          "name": "Tightrope Workshop - Phoebe Baker",
-          "short": "tightr(7)",
-          "start": "2024-06-29 13:30"
+          "id": "2650d082174e821f694c81c4e11a0250936f9945b6f46fd4559a1ecab1b05490",
+          "name": "Tightrope Workshop with Phoebe Baker",
+          "short": "tightr1(4)",
+          "start": "2024-06-29 13:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
+        },
+        {
+          "end": "2024-06-29 15:45",
+          "id": "d8cb9658bb313cf0bab1e31a559e3a7045e0c2b753086fd57fcda794a262b37b",
+          "name": "Circus Eruption - Games for All",
+          "short": "circus6(6)",
+          "start": "2024-06-29 14:00",
+          "url": "https://www.circuseruption.co.uk/"
         },
         {
           "end": "2024-06-30 02:00",
-          "id": "a97569c1e6965d7d8a8ba3fabcd4e8094ed93117598765c731107a3512ad47ed",
-          "name": "Cockatoo Bar",
-          "short": "cockat(3)",
+          "id": "1cb618f2f5066aafc6fb6ae76ac13b44e3649c803bf2265220572b4eefc97f05",
+          "name": "The Bird Cage",
+          "short": "birdca1(2)",
           "start": "2024-06-29 15:00",
           "url": "https://www.facebook.com/thisisartbars/"
         },
         {
-          "end": "2024-06-29 17:15",
-          "id": "57875f042c0e311e6e430a5ef6f4d08dff40084e370800c2d3e1aa9a8aa52586",
-          "name": "Phoebe Baker Show - Elevateher",
-          "short": "phoebe(4)",
-          "start": "2024-06-29 15:30"
+          "end": "2024-06-29 18:00",
+          "id": "f3650c6cb80932f575ab61f90bc5a7af1986b515b3f736675825763703b3623f",
+          "name": "Fuse - Juggling Workshop",
+          "short": "fuseju(2)",
+          "start": "2024-06-29 15:00",
+          "url": "https://www.fuse.org.uk"
+        },
+        {
+          "end": "2024-06-29 18:00",
+          "id": "5f1c81f646a36b5a929aff1f52d7ae7666ea3646ccb35d33d19ed943311a872b",
+          "name": "The Birthday Party",
+          "short": "birthd(4)",
+          "start": "2024-06-29 17:00",
+          "url": "https://www.facebook.com/glastonburybirthdays"
+        },
+        {
+          "end": "2024-06-29 18:15",
+          "id": "fdd7f4170df0c6b76517046dc719fdc684f42b751c0f394b97f60ba64a5f421b",
+          "name": "Elevateher Wire Walking Show",
+          "short": "elevat(4)",
+          "start": "2024-06-29 17:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
         },
         {
           "end": "2024-06-29 21:30",
-          "id": "bbe22519713686842829a621e6f5e2e712cd2a85a65f35ec10efa6c14bf2ea0f",
-          "name": "Kwabana Lindsay - River Walk",
-          "short": "kwaban1(4)",
+          "id": "7b4644f18d9d469128ccec16efa483b39c8df6363c9b057badb126b33c9ea8ae",
+          "name": "Kwabana Lindsay River Walk",
+          "short": "kwaban2(2)",
           "start": "2024-06-29 21:00",
-          "url": "http://www.kwabanalindsay.com/"
+          "url": "https://www.wayneandwanda.co.uk"
+        },
+        {
+          "end": "2024-06-30 04:00",
+          "id": "ec411bfb006b5585d50575dddc72e0d81d80143c160d442f48fa2040b19b9f9f",
+          "name": "Juggling TV",
+          "short": "juggli1(3)",
+          "start": "2024-06-29 22:00"
         },
         {
           "end": "2024-06-30 00:00",
@@ -30324,34 +30522,35 @@
         },
         {
           "end": "2024-06-30 01:00",
-          "id": "16f51e157fe6f474ad43db5873eb075127509278310c63eef2af5ed0bfa4ae78",
-          "name": "Midnight Playground",
-          "short": "midnig(3)",
+          "id": "3fab61227107e0d762e52e68f4284afef5996791537ac1e5451b52866b931681",
+          "name": "The Midnight Playground",
+          "short": "midnig(4)",
           "start": "2024-06-29 23:00",
           "url": "https://www.themidnightplayground.com/"
         },
         {
           "end": "2024-06-30 00:30",
-          "id": "23d36478300f14029787551634fa693bda0fc36a3a27a063eba9b81c59a34110",
+          "id": "03271a1ce8842ccc2189bd85bdef8f62cb25377d3ae9c0d2042ba875015ace41",
           "name": "The Magnificent Kevens",
           "short": "magnif(4)",
-          "start": "2024-06-30 00:01",
+          "start": "2024-06-30 00:00",
           "url": "https://themagnificentkevens.com/"
         },
         {
+          "end": "2024-06-30 12:00",
+          "id": "01fa138f825b9a82fddec55cb00f3af0ac11ff644b8612a43a49440a1434ec43",
+          "name": "Laughter Yoga Workshop",
+          "short": "laught1(6)",
+          "start": "2024-06-30 11:00",
+          "url": "https://www.facebook.com/laughteryogaforjoy/"
+        },
+        {
           "end": "2024-06-30 15:30",
-          "id": "a41f87b0b9c24f3a7b3f3cf26184ba66bd1c1194fba868a27dedbf369f2a924d",
-          "name": "Slackline School",
+          "id": "303c1305e686bd042b9b284a19929cef9f87f5664113d4613ae0104ff22ca895",
+          "name": "The Slackline School",
           "short": "slackl(5)",
           "start": "2024-06-30 11:30",
           "url": "http://rpmdisplay.co.uk/"
-        },
-        {
-          "end": "2024-06-30 12:20",
-          "id": "20828e3fdf5c7b623f76aa35484004a03b5e2fec88e69b94907c306785ccea4e",
-          "name": "Phoebe Baker Show - Elevateher",
-          "short": "phoebe(5)",
-          "start": "2024-06-30 12:00"
         },
         {
           "end": "2024-06-30 17:00",
@@ -30361,37 +30560,234 @@
           "start": "2024-06-30 12:00"
         },
         {
-          "end": "2024-06-30 15:00",
-          "id": "1a7b62d5861f320b6cb38a66a4db9f89928afe9c2b6bb8a6cb571be0349d751b",
-          "name": "Tightrope Workshop - Phoebe Baker",
-          "short": "tightr(8)",
-          "start": "2024-06-30 12:30"
+          "end": "2024-06-30 16:00",
+          "id": "1d26e88b4e9e0b323c74796620161a50992d568058d861ca4b615ac42512c19a",
+          "name": "Bosco Circus - Juggling Workshop",
+          "short": "boscoc1(3)",
+          "start": "2024-06-30 13:00",
+          "url": "https://www.facebook.com/boscoatglasto"
         },
         {
           "end": "2024-06-30 17:00",
-          "id": "7607ead94f3cd480db17d3e75840d1af2adeb119637e162086e7e126709ba1d2",
-          "name": "Daemon Or Doppleganger",
-          "short": "daemon(4)",
+          "id": "d30cd2f4f9b73af3c77e706cf0f15e49f8af32f45d9304d89bc349030171a6ed",
+          "name": "Daemon Or Doppleganger - Clay Workshop",
+          "short": "daemon1(4)",
           "start": "2024-06-30 13:00",
           "url": "https://facebook.com/daemonordoppelganger"
         },
         {
           "end": "2024-07-01 02:00",
-          "id": "666580be3b395a85ab33883f2202d43162f37496e6ba0f204bb5eeae2c58dac8",
-          "name": "Cockatoo Bar",
-          "short": "cockat(4)",
+          "id": "38161d6e6ecb3fe1138c7db793ff47a45e34d85747eee854998bf41b5a915dd4",
+          "name": "The Bird Cage",
+          "short": "birdca1(3)",
           "start": "2024-06-30 15:00",
           "url": "https://www.facebook.com/thisisartbars/"
         },
         {
-          "end": "2024-06-30 17:15",
-          "id": "54073653be1bb723ade624f1badc064d90808e4d128f357ad8b4b8fd5f7d3245",
-          "name": "Phoebe Baker Show - Elevateher",
-          "short": "phoebe(6)",
-          "start": "2024-06-30 15:30"
+          "end": "2024-06-30 18:00",
+          "id": "7e3e557052108f07897b3a2325e12bc0e2c7797c29093d18ec108d5cbf7196e0",
+          "name": "The Birthday Party",
+          "short": "birthd(5)",
+          "start": "2024-06-30 17:00",
+          "url": "https://www.facebook.com/glastonburybirthdays"
+        },
+        {
+          "end": "2024-06-30 18:15",
+          "id": "21d2ea4caac2d32715d18b830fb99d28a99649523fd43e026023100a3eb5d9db",
+          "name": "Elevateher Wire Walking Show",
+          "short": "elevat(5)",
+          "start": "2024-06-30 17:30",
+          "url": "https://www.instagram.com/phoebe_babette_baker/"
+        },
+        {
+          "end": "2024-07-01 04:00",
+          "id": "a9742cead0960bb7fe595a2877f9aa594db081a767b62f89f31f947701110e3c",
+          "name": "Juggling TV",
+          "short": "juggli1(4)",
+          "start": "2024-06-30 22:00"
         }
       ],
       "name": "Circus Field"
+    },
+    {
+      "events": [
+        {
+          "end": "2024-06-27 17:00",
+          "id": "96e7a9f209f25ee4759cc3e72691a9d51e81b927627d6c8f6adc15bf125b4b87",
+          "name": "The Back Room DJs",
+          "short": "backro(1)",
+          "start": "2024-06-27 14:00"
+        },
+        {
+          "end": "2024-06-27 19:00",
+          "id": "fa348882fdb2b634870f349882516351440d27ea0daf27fb38da32208c3bec11",
+          "name": "FlyHi",
+          "short": "flyhi(1)",
+          "start": "2024-06-27 17:00"
+        },
+        {
+          "end": "2024-06-27 21:00",
+          "id": "aeaccbb0b88066fd202bfa16471d22d5b21c9162bb7a40311d42660f800934c5",
+          "name": "Will Streetwise",
+          "short": "willst(1)",
+          "start": "2024-06-27 19:00"
+        },
+        {
+          "end": "2024-06-27 23:00",
+          "id": "e52fa063265bcfd3dfe414d0d1859aff2be5a91597d42eb8c1618b3a4d3079cc",
+          "name": "George Oscar",
+          "short": "george1(1)",
+          "start": "2024-06-27 21:00"
+        },
+        {
+          "end": "2024-06-28 01:00",
+          "id": "afcda29ec1aa2abaf324d0bd2b52f4c24ce0918054cd8f228c0073b7147c1752",
+          "name": "Charlie Stoic",
+          "short": "charli11(1)",
+          "start": "2024-06-27 23:00"
+        },
+        {
+          "end": "2024-06-28 03:00",
+          "id": "bf95402aa6e3eb1d283f7e11a15fd272e88781e4211a62e3a80b611c685c685f",
+          "name": "The Back Room DJs",
+          "short": "backro(2)",
+          "start": "2024-06-28 01:00"
+        },
+        {
+          "end": "2024-06-28 16:00",
+          "id": "5bf9b8b1b5c560c71b67756b0b3f778a36dc7d8f4b1def89a3f178b86e2ff48a",
+          "name": "Simon Lloyd",
+          "short": "simonl(1)",
+          "start": "2024-06-28 14:00"
+        },
+        {
+          "end": "2024-06-28 17:30",
+          "id": "20c2debc74eefdde2605a98bd0a1438bb1651755a13d0838e1cbabb203d7aabd",
+          "name": "Sleeping Lion",
+          "short": "sleepi(1)",
+          "start": "2024-06-28 16:00"
+        },
+        {
+          "end": "2024-06-28 19:30",
+          "id": "a65c783cd7962c6e8afa364158f8d73fdeb9aa4de9adcf685a8fbf5eefd3b620",
+          "name": "Frankie G",
+          "short": "franki1(1)",
+          "start": "2024-06-28 17:30"
+        },
+        {
+          "end": "2024-06-28 21:00",
+          "id": "5c46432ef86340f9f24e1b45d7a7fbb3130803061445b001e3a6b86f4f0f4331",
+          "name": "Si\u00e2nageddon",
+          "short": "sinage(1)",
+          "start": "2024-06-28 19:30"
+        },
+        {
+          "end": "2024-06-28 23:00",
+          "id": "5c89a38e06777b3bf94cc683e5612a4ef3f524b7f61d4549ac02e6ea89519985",
+          "name": "Ross Wilson",
+          "short": "rosswi1(1)",
+          "start": "2024-06-28 21:00"
+        },
+        {
+          "end": "2024-06-29 03:00",
+          "id": "2222f196f77c84af98afdea3d78bc18abe4a68b0fe49b58434a74de04a20c4c7",
+          "name": "Beautiful People Takeover w/ Thrilogy & Emski",
+          "short": "beauti(1)",
+          "start": "2024-06-28 23:00"
+        },
+        {
+          "end": "2024-06-29 15:30",
+          "id": "26e4def3ce35e1a3070eac263db661da39c7590079592cd1898e531962a49b60",
+          "name": "The Back Room DJs",
+          "short": "backro(3)",
+          "start": "2024-06-29 14:00"
+        },
+        {
+          "end": "2024-06-29 17:00",
+          "id": "916ddb14b24286d44d1d3d10d12f92620e983f3d5f1e8055496052fe071976cd",
+          "name": "Flying Mojito Bros",
+          "short": "flying2(1)",
+          "start": "2024-06-29 15:30"
+        },
+        {
+          "end": "2024-06-29 19:00",
+          "id": "985211e54dd00631ce9427bb2cd238e3a2e55b418dcf021c43182a6004ad6270",
+          "name": "Darren Stewart",
+          "short": "darren(1)",
+          "start": "2024-06-29 17:00"
+        },
+        {
+          "end": "2024-06-29 21:00",
+          "id": "c673f0283c7b0f44991883e46b14ca6393ed8e49dc5350f18fb8141fe5dba5c1",
+          "name": "Dance Off DJs",
+          "short": "danceo(1)",
+          "start": "2024-06-29 19:00"
+        },
+        {
+          "end": "2024-06-29 23:00",
+          "id": "f99ec8347d0d083d98f3ce3a319e5c7d0a3dcab375491284d508fdb41d878a82",
+          "name": "Sunni D",
+          "short": "sunnid(1)",
+          "start": "2024-06-29 21:00"
+        },
+        {
+          "end": "2024-06-30 01:00",
+          "id": "e688d9582ae31c0808771be0a7a3e7a5cb2035203ef63f1987bd4d76e7e4c6c4",
+          "name": "MINIRIGS Takeover",
+          "short": "miniri1(1)",
+          "start": "2024-06-29 23:00"
+        },
+        {
+          "end": "2024-06-30 03:00",
+          "id": "e5f0ccff01b2857443b7e64d88e7cb2ee7250267b44f0c48454761ce5357953a",
+          "name": "Simon Lloyd",
+          "short": "simonl(2)",
+          "start": "2024-06-30 01:00"
+        },
+        {
+          "end": "2024-06-30 16:00",
+          "id": "b2b79a3622e1d97ec8b7b2481f82343710f4d55e47a1b2225336cb766d8b8281",
+          "name": "Luke Stereo",
+          "short": "lukest(1)",
+          "start": "2024-06-30 14:00"
+        },
+        {
+          "end": "2024-06-30 18:00",
+          "id": "616b04d2e4822c7d90c3d4bc4f0c692fd3e79cace30bd69597a6cf86e25a834b",
+          "name": "Whitts",
+          "short": "whitts1(1)",
+          "start": "2024-06-30 16:00"
+        },
+        {
+          "end": "2024-06-30 20:00",
+          "id": "c4ab4b80d7ebc984899b0fbfb238a03936bd58dd14c93191f7239e079756e706",
+          "name": "Greg Belson & Paul Vine present Rhythm Soul & Funk",
+          "short": "gregbe2(1)",
+          "start": "2024-06-30 18:00"
+        },
+        {
+          "end": "2024-06-30 22:00",
+          "id": "631a2b870c6ded8f1fe254c24e736cf0f95e0256ec073f45dbfe05935ec42b94",
+          "name": "Count Skylarkin",
+          "short": "counts1(1)",
+          "start": "2024-06-30 20:00"
+        },
+        {
+          "end": "2024-07-01 00:00",
+          "id": "886518ae2559d194c1d43c8a62aa15f2fd36d3634091e66942ebb755c3c2cf9c",
+          "name": "Burno",
+          "short": "burno(1)",
+          "start": "2024-06-30 22:00"
+        },
+        {
+          "end": "2024-07-01 02:00",
+          "id": "f5a4e1366d5c11bb71076c81cba9e27e0c44ab46fb39dfc10d72a5e96afdedf7",
+          "name": "Luke Stereo ",
+          "short": "lukest1(1)",
+          "start": "2024-07-01 00:00"
+        }
+      ],
+      "name": "Ridge & Furrow"
     },
     {
       "events": [
@@ -31013,189 +31409,9 @@
         }
       ],
       "name": "Pilton Palais Cinema"
-    },
-    {
-      "events": [
-        {
-          "end": "2024-06-27 17:00",
-          "id": "96e7a9f209f25ee4759cc3e72691a9d51e81b927627d6c8f6adc15bf125b4b87",
-          "name": "The Back Room DJs",
-          "short": "backro(1)",
-          "start": "2024-06-27 14:00"
-        },
-        {
-          "end": "2024-06-27 19:00",
-          "id": "fa348882fdb2b634870f349882516351440d27ea0daf27fb38da32208c3bec11",
-          "name": "FlyHi",
-          "short": "flyhi(1)",
-          "start": "2024-06-27 17:00"
-        },
-        {
-          "end": "2024-06-27 21:00",
-          "id": "aeaccbb0b88066fd202bfa16471d22d5b21c9162bb7a40311d42660f800934c5",
-          "name": "Will Streetwise",
-          "short": "willst(1)",
-          "start": "2024-06-27 19:00"
-        },
-        {
-          "end": "2024-06-27 23:00",
-          "id": "e52fa063265bcfd3dfe414d0d1859aff2be5a91597d42eb8c1618b3a4d3079cc",
-          "name": "George Oscar",
-          "short": "george1(1)",
-          "start": "2024-06-27 21:00"
-        },
-        {
-          "end": "2024-06-28 01:00",
-          "id": "afcda29ec1aa2abaf324d0bd2b52f4c24ce0918054cd8f228c0073b7147c1752",
-          "name": "Charlie Stoic",
-          "short": "charli11(1)",
-          "start": "2024-06-27 23:00"
-        },
-        {
-          "end": "2024-06-28 03:00",
-          "id": "bf95402aa6e3eb1d283f7e11a15fd272e88781e4211a62e3a80b611c685c685f",
-          "name": "The Back Room DJs",
-          "short": "backro(2)",
-          "start": "2024-06-28 01:00"
-        },
-        {
-          "end": "2024-06-28 16:00",
-          "id": "5bf9b8b1b5c560c71b67756b0b3f778a36dc7d8f4b1def89a3f178b86e2ff48a",
-          "name": "Simon Lloyd",
-          "short": "simonl(1)",
-          "start": "2024-06-28 14:00"
-        },
-        {
-          "end": "2024-06-28 17:30",
-          "id": "20c2debc74eefdde2605a98bd0a1438bb1651755a13d0838e1cbabb203d7aabd",
-          "name": "Sleeping Lion",
-          "short": "sleepi(1)",
-          "start": "2024-06-28 16:00"
-        },
-        {
-          "end": "2024-06-28 19:30",
-          "id": "a65c783cd7962c6e8afa364158f8d73fdeb9aa4de9adcf685a8fbf5eefd3b620",
-          "name": "Frankie G",
-          "short": "franki1(1)",
-          "start": "2024-06-28 17:30"
-        },
-        {
-          "end": "2024-06-28 21:00",
-          "id": "5c46432ef86340f9f24e1b45d7a7fbb3130803061445b001e3a6b86f4f0f4331",
-          "name": "Si\u00e2nageddon",
-          "short": "sinage(1)",
-          "start": "2024-06-28 19:30"
-        },
-        {
-          "end": "2024-06-28 23:00",
-          "id": "5c89a38e06777b3bf94cc683e5612a4ef3f524b7f61d4549ac02e6ea89519985",
-          "name": "Ross Wilson",
-          "short": "rosswi1(1)",
-          "start": "2024-06-28 21:00"
-        },
-        {
-          "end": "2024-06-29 03:00",
-          "id": "2222f196f77c84af98afdea3d78bc18abe4a68b0fe49b58434a74de04a20c4c7",
-          "name": "Beautiful People Takeover w/ Thrilogy & Emski",
-          "short": "beauti(1)",
-          "start": "2024-06-28 23:00"
-        },
-        {
-          "end": "2024-06-29 15:30",
-          "id": "26e4def3ce35e1a3070eac263db661da39c7590079592cd1898e531962a49b60",
-          "name": "The Back Room DJs",
-          "short": "backro(3)",
-          "start": "2024-06-29 14:00"
-        },
-        {
-          "end": "2024-06-29 17:00",
-          "id": "916ddb14b24286d44d1d3d10d12f92620e983f3d5f1e8055496052fe071976cd",
-          "name": "Flying Mojito Bros",
-          "short": "flying2(1)",
-          "start": "2024-06-29 15:30"
-        },
-        {
-          "end": "2024-06-29 19:00",
-          "id": "985211e54dd00631ce9427bb2cd238e3a2e55b418dcf021c43182a6004ad6270",
-          "name": "Darren Stewart",
-          "short": "darren(1)",
-          "start": "2024-06-29 17:00"
-        },
-        {
-          "end": "2024-06-29 21:00",
-          "id": "c673f0283c7b0f44991883e46b14ca6393ed8e49dc5350f18fb8141fe5dba5c1",
-          "name": "Dance Off DJs",
-          "short": "danceo(1)",
-          "start": "2024-06-29 19:00"
-        },
-        {
-          "end": "2024-06-29 23:00",
-          "id": "f99ec8347d0d083d98f3ce3a319e5c7d0a3dcab375491284d508fdb41d878a82",
-          "name": "Sunni D",
-          "short": "sunnid(1)",
-          "start": "2024-06-29 21:00"
-        },
-        {
-          "end": "2024-06-30 01:00",
-          "id": "e688d9582ae31c0808771be0a7a3e7a5cb2035203ef63f1987bd4d76e7e4c6c4",
-          "name": "MINIRIGS Takeover",
-          "short": "miniri1(1)",
-          "start": "2024-06-29 23:00"
-        },
-        {
-          "end": "2024-06-30 03:00",
-          "id": "e5f0ccff01b2857443b7e64d88e7cb2ee7250267b44f0c48454761ce5357953a",
-          "name": "Simon Lloyd",
-          "short": "simonl(2)",
-          "start": "2024-06-30 01:00"
-        },
-        {
-          "end": "2024-06-30 16:00",
-          "id": "b2b79a3622e1d97ec8b7b2481f82343710f4d55e47a1b2225336cb766d8b8281",
-          "name": "Luke Stereo",
-          "short": "lukest(1)",
-          "start": "2024-06-30 14:00"
-        },
-        {
-          "end": "2024-06-30 18:00",
-          "id": "616b04d2e4822c7d90c3d4bc4f0c692fd3e79cace30bd69597a6cf86e25a834b",
-          "name": "Whitts",
-          "short": "whitts1(1)",
-          "start": "2024-06-30 16:00"
-        },
-        {
-          "end": "2024-06-30 20:00",
-          "id": "c4ab4b80d7ebc984899b0fbfb238a03936bd58dd14c93191f7239e079756e706",
-          "name": "Greg Belson & Paul Vine present Rhythm Soul & Funk",
-          "short": "gregbe2(1)",
-          "start": "2024-06-30 18:00"
-        },
-        {
-          "end": "2024-06-30 22:00",
-          "id": "631a2b870c6ded8f1fe254c24e736cf0f95e0256ec073f45dbfe05935ec42b94",
-          "name": "Count Skylarkin",
-          "short": "counts1(1)",
-          "start": "2024-06-30 20:00"
-        },
-        {
-          "end": "2024-07-01 00:00",
-          "id": "886518ae2559d194c1d43c8a62aa15f2fd36d3634091e66942ebb755c3c2cf9c",
-          "name": "Burno",
-          "short": "burno(1)",
-          "start": "2024-06-30 22:00"
-        },
-        {
-          "end": "2024-07-01 02:00",
-          "id": "f5a4e1366d5c11bb71076c81cba9e27e0c44ab46fb39dfc10d72a5e96afdedf7",
-          "name": "Luke Stereo ",
-          "short": "lukest1(1)",
-          "start": "2024-07-01 00:00"
-        }
-      ],
-      "name": "Ridge & Furrow"
     }
   ],
-  "modified": "2024-06-25 14:57",
+  "modified": "2024-06-26 07:52",
   "name": "Glastonbury Festival 2024",
   "printAdvisory": 1,
   "timezone": "Europe/London",
