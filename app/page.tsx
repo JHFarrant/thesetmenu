@@ -25,6 +25,7 @@ import { shiftedDay } from "../components/itinerary";
 import testTopArtists from "../testData/jack/topArtists.json";
 import testTopTracks from "../testData/jack/topTracks.json";
 import testFollows from "../testData/jack/follows.json";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
 const USE_TEST_SPOTIFY_DATA =
   process.env.NEXT_PUBLIC_USE_TEST_SPOTIFY_DATA == "true";
@@ -81,6 +82,8 @@ export default function Home() {
 
   const [recommendationsEnabled, setRecommendationsEnabled] =
     useState<boolean>(false);
+
+  const [showSetTimesOverlay, setShowSetTimesOverlay] = useState(true);
 
   const share = () => {
     if (navigator.share) {
@@ -507,6 +510,20 @@ export default function Home() {
 
   return intialLoadDone ? (
     <main className="flex min-h-screen w-full flex-col items-center justify-start">
+      {showSetTimesOverlay && (
+        <div className="fixed top-0 left-0 w-full z-50 flex justify-center">
+          <div className="bg-yellow-200 border border-yellow-400 text-yellow-900 px-6 py-3 rounded-b-lg shadow-lg flex items-center space-x-3 mt-0">
+            <span className="font-semibold">Set times are not confirmed, glasto still to release full list</span>
+            <button
+              className="ml-2 p-1 rounded hover:bg-yellow-300 focus:outline-none"
+              onClick={() => setShowSetTimesOverlay(false)}
+              aria-label="Dismiss set times warning"
+            >
+              <XMarkIcon className="h-5 w-5" />
+            </button>
+          </div>
+        </div>
+      )}
       <div className="self-end pr-2 pt-2 h-6">
         {user && (
           <a
