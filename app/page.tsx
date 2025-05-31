@@ -11,8 +11,8 @@ import {
   Image,
 } from "@spotify/web-api-ts-sdk/dist/mjs/types";
 import { Favorite, Event } from "@/types";
-import spotifyIDs2Acts from "../public/g2024SpotifyIDs.json";
-import rawEvents from "../public/g2024.json";
+import spotifyIDs2Acts from "../public/g2025SpotifyIDs.json";
+import rawEvents from "../public/g2025.json";
 import moment from "moment";
 import { Button, Card, Spinner } from "flowbite-react";
 import { useReadLocalStorage } from "usehooks-ts";
@@ -532,7 +532,7 @@ export default function Home() {
                         </div>
                             <img src='/glasto.png' width="200" height="50"/>
                             <div className={`text-sm font-semibold `}>
-                              Glastonbury 2024
+                              Glastonbury 2025
                           </div>
                     </div>
                     <h2 className={`m-0 text-xs text-center opacity-50`}>

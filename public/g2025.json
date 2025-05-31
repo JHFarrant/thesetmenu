@@ -1,0 +1,1074 @@
+{
+  "copyright": "Licensed under a Creative Commons Attribution-NonCommercial 3.0 License https://creativecommons.org/licenses/by-nc/3.0/. Free for non-commercial use. Contact halvin@clashfinder.com for other uses.",
+  "id": "g2025",
+  "locations": [
+    {
+      "events": [
+        {
+          "end": "2025-06-27 13:00",
+          "estd": "1",
+          "id": "46fe0f4d670029faa3e28d7f51940d267a36ad4d6b1246eabfa129492980392f",
+          "name": "Supergrass",
+          "short": "superg(1)",
+          "start": "2025-06-27 12:00"
+        },
+        {
+          "end": "2025-06-27 14:30",
+          "estd": "1",
+          "id": "b6e9e9807626ba7d4db974a0479155310f4d805d77244d4dbf982d05e1556d30",
+          "mbId": "16dad944-c492-43dd-88ed-e0b7ac520c40",
+          "name": "Burning Spear",
+          "short": "burnin(1)",
+          "start": "2025-06-27 13:30"
+        },
+        {
+          "end": "2025-06-27 17:15",
+          "id": "6e8de31a3ada5599e9671a758ff8a87129c78fed40d19d3800fa815870a8f9a3",
+          "name": "Busta Rhymes",
+          "short": "bustar(1)",
+          "start": "2025-06-27 16:15"
+        },
+        {
+          "end": "2025-06-27 19:00",
+          "id": "a697f1069e1ce30e6fe2232b06501a6830c060de270b960504d328b6e8d2868b",
+          "name": "Alanis Morissette",
+          "short": "alanis(1)",
+          "start": "2025-06-27 18:00"
+        },
+        {
+          "end": "2025-06-27 21:00",
+          "id": "5eb6ed18aa9623846dbb307ad81e826268776f6743a49c97946379299d0befe1",
+          "name": "Biffy Clyro",
+          "short": "biffyc(1)",
+          "start": "2025-06-27 19:45"
+        },
+        {
+          "end": "2025-06-27 23:45",
+          "id": "5981343fc49c3a660c36bb6289724e2b5ab2a77fc2e17aeb6c60c7a3149b2e31",
+          "name": "The 1975",
+          "short": "1975(1)",
+          "start": "2025-06-27 22:00"
+        },
+        {
+          "end": "2025-06-28 20:45",
+          "id": "0f0951443d1a37a4a0facf1e65b6a2c5c4e904fac5c97c66f2c38ab878086c68",
+          "mbId": "8be564c3-dfba-440b-af8c-4ffbceeef45e",
+          "name": "Raye",
+          "short": "raye(1)",
+          "start": "2025-06-28 19:45"
+        },
+        {
+          "end": "2025-06-28 23:45",
+          "id": "5dcdcb049a0a6ec586babfba0232d51db48e6b83cf83d52edfe90f83ad1da11d",
+          "name": "Neil Young",
+          "short": "neilyo(1)",
+          "start": "2025-06-28 21:45"
+        },
+        {
+          "end": "2025-06-29 17:00",
+          "id": "fcd21ae7c69d8efab76ded5a92b156655290bc1eab9150a75767581810a436fb",
+          "mbId": "a35237a0-4f47-40a6-b6f3-1e786db23402",
+          "name": "Rod Stewart",
+          "short": "rodste(1)",
+          "start": "2025-06-29 15:45"
+        },
+        {
+          "end": "2025-06-29 18:45",
+          "id": "4ee6d01acdc31b363147f99a92967d17640697233ea7611a82fbe8f417c803b7",
+          "mbId": "c6d571dd-c0ae-4ac8-9500-780b1b9b25e5",
+          "name": "Chic and Nile Rodgers",
+          "short": "chican(1)",
+          "start": "2025-06-29 17:45"
+        },
+        {
+          "end": "2025-06-29 20:30",
+          "id": "170ce95bcd4cbcaeaedcf44d07360af1d08b109ddf906507b5711e4b82f5f50a",
+          "name": "Noah Kahan",
+          "short": "noahka(1)",
+          "start": "2025-06-29 19:30"
+        },
+        {
+          "end": "2025-06-29 23:15",
+          "id": "b37a06c993be0fd1c377c64f9f4760b70d321ad81c579394ef1db7f022b7c083",
+          "name": "Olivia Rodrigo",
+          "short": "olivia(1)",
+          "start": "2025-06-29 21:30"
+        }
+      ],
+      "name": "Pyramid Stage"
+    },
+    {
+      "events": [
+        {
+          "end": "2025-06-27 21:30",
+          "id": "f75c483e4a618ef06c5af6a0fc521ccde53b2ca6f8c2d72a493c7c80039f6472",
+          "name": "Gracie Abrams",
+          "short": "gracie(1)",
+          "start": "2025-06-27 20:30"
+        },
+        {
+          "end": "2025-06-27 23:30",
+          "id": "5201004c18f0379d6f96e7ce8af9253aa3e80e44812f8dc0c4d0c3964adcefeb",
+          "name": "Loyle Carner",
+          "short": "loylec(1)",
+          "start": "2025-06-27 22:15"
+        },
+        {
+          "end": "2025-06-28 17:00",
+          "id": "66e0941268eaffe4818f2deb25ebdf6ee544d8b634245c4c795f76ec2b452a0b",
+          "name": "beabadoobee",
+          "short": "beabad(1)",
+          "start": "2025-06-28 16:00"
+        },
+        {
+          "end": "2025-06-28 18:30",
+          "id": "f6ba771043ecb222ccd0d4f06a6c74ca7d737a83487f47bc6c2340f28a27bacf",
+          "name": "Amyl & The Sniffers",
+          "short": "amylsn(1)",
+          "start": "2025-06-28 17:30"
+        },
+        {
+          "end": "2025-06-28 20:00",
+          "id": "956659d5d1cc877fdb785b5e170261d95fbe0561a631b5f09ef3edfafbe2aa36",
+          "name": "Ezra Collective",
+          "short": "ezraco(1)",
+          "start": "2025-06-28 19:00"
+        },
+        {
+          "end": "2025-06-28 21:30",
+          "id": "055e7456252d09523b02d4d14cf382b8774dd9c9d67133afeac087fc1cc8a3a4",
+          "name": "Deftones",
+          "short": "defton(1)",
+          "start": "2025-06-28 20:30"
+        },
+        {
+          "end": "2025-06-28 23:45",
+          "id": "51d948e0d747f4107e4b55cab3fb3766852d30351a9616fc31245e922aba77de",
+          "name": "Charli XCX",
+          "short": "charli(1)",
+          "start": "2025-06-28 22:30"
+        },
+        {
+          "end": "2025-06-29 19:00",
+          "id": "b783eab61c2f8d6eda583072121baf0fd2abc40ecbc330fbbc37235131eeb155",
+          "name": "The Libertines",
+          "short": "libert(1)",
+          "start": "2025-06-29 18:00"
+        },
+        {
+          "end": "2025-06-29 20:45",
+          "id": "675bfb19c67fa0e3ef2cb21efff626541bbdd11bcf813430b5835479020c7e41",
+          "name": "Wolf Alice",
+          "short": "wolfal(1)",
+          "start": "2025-06-29 19:45"
+        },
+        {
+          "end": "2025-06-29 23:15",
+          "id": "7bf5969c508853cd599b70cdde1e965e1c541b150a590ce64a20d0d9fb63a3b3",
+          "name": "The Prodigy",
+          "short": "prodig(1)",
+          "start": "2025-06-29 21:45"
+        }
+      ],
+      "name": "Other Stage"
+    },
+    {
+      "events": [
+        {
+          "end": "2025-06-27 12:30",
+          "id": "72ac35cfbdcc750824a53c6dd85818c66317a277ebb82a517a006aa0b218e4d5",
+          "name": "corto.alto",
+          "short": "cortoa(1)",
+          "start": "2025-06-27 11:30"
+        },
+        {
+          "end": "2025-06-27 14:00",
+          "id": "903ef14ecae03fcd9a95762316bc3f9172649ccfe808f00606d3b7da93cac84c",
+          "name": "Ca7riel & Paco Amorso",
+          "short": "ca7rie(1)",
+          "start": "2025-06-27 13:00"
+        },
+        {
+          "end": "2025-06-27 15:30",
+          "id": "9ad937cfa1a6645f82b47c85d0e22594b551c05f860312c4150cb480797739bb",
+          "name": "Glass Beams",
+          "short": "glassb(1)",
+          "start": "2025-06-27 14:30"
+        },
+        {
+          "end": "2025-06-27 17:00",
+          "id": "01e3ea809e45b0564aa61af2f9f906334f389812169118ba1a34f99c76ba1f83",
+          "name": "Vieux Farka Tour\u00e9",
+          "short": "vieuxf(1)",
+          "start": "2025-06-27 16:00"
+        },
+        {
+          "end": "2025-06-27 18:30",
+          "id": "a84fd7462e894bed3644e7fe2473f5861d987b197c56e9a9d8960ac713eae2ce",
+          "name": "En Vogue",
+          "short": "envogu(1)",
+          "start": "2025-06-27 17:30"
+        },
+        {
+          "end": "2025-06-27 20:00",
+          "id": "e950741ac577692134a55801e5ca12cb09dce0dc24ceee72bb89f81e2a47bdf6",
+          "name": "Denzel Curry",
+          "short": "denzel(1)",
+          "start": "2025-06-27 19:00"
+        },
+        {
+          "end": "2025-06-27 21:30",
+          "id": "2a9e484656f6fd8d931541d7e07d303a22a88c7289d58f128f527ff05cd135c3",
+          "name": "Badbadnotgood",
+          "short": "badbad(1)",
+          "start": "2025-06-27 20:30"
+        },
+        {
+          "end": "2025-06-27 23:45",
+          "id": "e71090978cab9c37824afb1ca4ff533bfa1bd24e66cd0e1a56912750af16fb3c",
+          "name": "Maribou State",
+          "short": "maribo(1)",
+          "start": "2025-06-27 22:15"
+        },
+        {
+          "end": "2025-06-28 12:30",
+          "id": "e5b372a76f3d98200058c3d9a459aa9a4f62bc38d731ad4dbaa2022a0c87b303",
+          "name": "Infinity Song",
+          "short": "infini(1)",
+          "start": "2025-06-28 11:30"
+        },
+        {
+          "end": "2025-06-28 14:00",
+          "id": "826a824cc602e972e2b44cc78d10cc616c9a9534a4fee856ed970f42a7983afe",
+          "name": "Nil\u00fcfer Yanya",
+          "short": "nilfer(1)",
+          "start": "2025-06-28 13:00"
+        },
+        {
+          "end": "2025-06-28 15:30",
+          "id": "b4d38c8fa6740947df067a32c5574f4395e0684c5f77b1082fc524e12a5402da",
+          "name": "Bob Vylan",
+          "short": "bobvyl(1)",
+          "start": "2025-06-28 14:30"
+        },
+        {
+          "end": "2025-06-28 17:00",
+          "id": "de0926567d65b3ddec8c37df039e1c88c0d1e4d5407af97da205017ea4905f63",
+          "name": "Kneecap",
+          "short": "kneeca(1)",
+          "start": "2025-06-28 16:00"
+        },
+        {
+          "end": "2025-06-28 18:30",
+          "id": "a3843f07f2c331c279032582edc8638987c65c0558137c65ed73732e7e54e1cf",
+          "name": "Yussef Dayes",
+          "short": "yussef(1)",
+          "start": "2025-06-28 17:30"
+        },
+        {
+          "end": "2025-06-28 20:00",
+          "id": "f41fc3e8330e2a1891e6713b0a50eff5bfd321676f97e520cc1ef80ff7bf1518",
+          "name": "Greentea Peng",
+          "short": "greent(1)",
+          "start": "2025-06-28 19:00"
+        },
+        {
+          "end": "2025-06-28 21:30",
+          "id": "5f9ea047776dd5b28e2346e8a28018841e0c6c2e6f82c025e45a41d67364e429",
+          "name": "Amaarae",
+          "short": "amaara(1)",
+          "start": "2025-06-28 20:30"
+        },
+        {
+          "end": "2025-06-28 23:45",
+          "id": "9fdb6ca307c63b0d5961eed0e0a9b5937545f5688bc4fdafc4f2ee038e5c20f1",
+          "name": "Doechii",
+          "short": "doechi(1)",
+          "start": "2025-06-28 22:15"
+        },
+        {
+          "end": "2025-06-29 12:00",
+          "id": "85e843b3dc79fd43890d6273070ccf189252164ac62a1fd14ab9fc5e8ee6f36e",
+          "name": "Thandii",
+          "short": "thandi(1)",
+          "start": "2025-06-29 11:00"
+        },
+        {
+          "end": "2025-06-29 13:30",
+          "id": "d6d762e473627355a8283f04f7dddbdfc6e312d56d15a3e742e3df19d91ea287",
+          "name": "Abel Selaocoe & The Bantu Ensemble",
+          "short": "abelse(1)",
+          "start": "2025-06-29 12:30"
+        },
+        {
+          "end": "2025-06-29 15:00",
+          "id": "0ad6f5586d76dff310963b8653a0448b57865624a5de12bf6cc9dcc00c3e6e60",
+          "name": "Cymande",
+          "short": "cymand(1)",
+          "start": "2025-06-29 14:00"
+        },
+        {
+          "end": "2025-06-29 16:30",
+          "id": "2509df2e20b83a863208cc41420f73f2c1e59ea105fa257cda7810a95c9549c3",
+          "name": "Black Uhuru",
+          "short": "blacku(1)",
+          "start": "2025-06-29 15:30"
+        },
+        {
+          "end": "2025-06-29 18:00",
+          "id": "2ba261ce88f1b7bba2de4f307c0a5edb432828097807ba4a5e44839c591a903f",
+          "name": "GOAT",
+          "short": "goat(1)",
+          "start": "2025-06-29 17:00"
+        },
+        {
+          "end": "2025-06-29 19:30",
+          "id": "bbaa629cada3a4e48c1385745d6adfe337597e5f29ea01e3d2377863bacf1341",
+          "name": "The Brian Jonestown Massacre",
+          "short": "brianj(1)",
+          "start": "2025-06-29 18:30"
+        },
+        {
+          "end": "2025-06-29 21:00",
+          "id": "ed6659c0829454847dd41bc606ed7009849c49ef8560068141286016b9609bcf",
+          "name": "Parcels",
+          "short": "parcel(1)",
+          "start": "2025-06-29 20:00"
+        },
+        {
+          "end": "2025-06-29 23:15",
+          "id": "a3a8ef207e2a4d02bd6f708fabad7988d2a8aab290759fb606b9edd6bffee9fa",
+          "name": "Overmono",
+          "short": "overmo(1)",
+          "start": "2025-06-29 22:00"
+        }
+      ],
+      "name": "West Holts"
+    },
+    {
+      "events": [
+        {
+          "end": "2025-06-27 12:15",
+          "id": "2c1b753ebbd44970cfcca2289c134abf7258db3202bcdc98ed2773df7052a266",
+          "name": "Myles Smith",
+          "short": "myless(1)",
+          "start": "2025-06-27 11:30"
+        },
+        {
+          "end": "2025-06-27 13:30",
+          "id": "bd915cb8b71c87fab8adaa3ee85214e26fbf5b4f102309d1d00b93b71d4e4039",
+          "name": "Fat Dog",
+          "short": "fatdog(1)",
+          "start": "2025-06-27 12:45"
+        },
+        {
+          "end": "2025-06-27 14:45",
+          "id": "ac54e3684d48fc1e68623e282b6daf1a0cf4507d6d2a9349913859a859775dc5",
+          "name": "Shed Seven",
+          "short": "shedse(1)",
+          "start": "2025-06-27 14:00"
+        },
+        {
+          "end": "2025-06-27 17:30",
+          "id": "603af08dbff204b8a09fd01665896fb7a45769e33a0b2c2af3ec47e1071b9c8b",
+          "name": "Lola Young",
+          "short": "lolayo(1)",
+          "start": "2025-06-27 16:30"
+        },
+        {
+          "end": "2025-06-27 19:00",
+          "id": "d13588fa52992cd74a81849e48cd39e98cac8a9a0943139373c38921c8db3f3a",
+          "name": "Blossoms",
+          "short": "blosso(1)",
+          "start": "2025-06-27 18:00"
+        },
+        {
+          "end": "2025-06-27 20:30",
+          "id": "3b7ebd85792e456f7eb93670a293e98cd05578d687cf8ad8f1da713c501fd684",
+          "name": "Pinkpantheress",
+          "short": "pinkpa(1)",
+          "start": "2025-06-27 19:30"
+        },
+        {
+          "end": "2025-06-27 22:00",
+          "id": "32e32ee79dad922e688334bb11e77c7f2cae1e70fb61a083dd106829566ca159",
+          "name": "Floating Points",
+          "short": "floati(1)",
+          "start": "2025-06-27 21:00"
+        },
+        {
+          "end": "2025-06-27 23:45",
+          "id": "7389d75b53ffe749921737471cc0d69841f5275a364308a4c11adbd2c395315b",
+          "name": "Four Tet",
+          "short": "fourte(1)",
+          "start": "2025-06-27 22:30"
+        },
+        {
+          "end": "2025-06-28 12:15",
+          "id": "7fae6ebf2929c6913224526113e58d19ed71774843cf027f3023d18b036f7e37",
+          "name": "The Amazons",
+          "short": "amazon(1)",
+          "start": "2025-06-28 11:30"
+        },
+        {
+          "end": "2025-06-28 13:30",
+          "id": "2f6548d9b6a41c52994858acfcde88b8cb77bed13a63cb9cf231f8b62a7016bf",
+          "name": "Sorry",
+          "short": "sorry(1)",
+          "start": "2025-06-28 12:45"
+        },
+        {
+          "end": "2025-06-28 14:45",
+          "id": "407ea6f9495de2081c40de91773eba2203a87a4630fa5abf28fa06cefd07c238",
+          "name": "Fcukers",
+          "short": "fcuker(1)",
+          "start": "2025-06-28 14:00"
+        },
+        {
+          "end": "2025-06-28 16:00",
+          "id": "ea0b77733ac85ce573cb4960c6f05ff57ffe8eb42d7d3f6c8f72a9131367cd5a",
+          "name": "Jade",
+          "short": "jade(1)",
+          "start": "2025-06-28 15:15"
+        },
+        {
+          "end": "2025-06-28 17:30",
+          "id": "497bda408e57b35209dccaf073bd0bc49181527affc7214d2ec6dd702a1294d4",
+          "name": "Nova Twins",
+          "short": "novatw(1)",
+          "start": "2025-06-28 16:30"
+        },
+        {
+          "end": "2025-06-28 19:00",
+          "id": "5053b07c5c165c532197c7ebe4eb1b4543fb9087b870f015e965fc144c39ea80",
+          "name": "TV On The Radio",
+          "short": "tvonra(1)",
+          "start": "2025-06-28 18:00"
+        },
+        {
+          "end": "2025-06-28 20:30",
+          "id": "3d7ebcb23ef50f0912ac7a2c4774348f7341324406e91a2cc5340037610d4171",
+          "name": "Weezer",
+          "short": "weezer(1)",
+          "start": "2025-06-28 19:30"
+        },
+        {
+          "end": "2025-06-28 22:00",
+          "id": "2bfd2beec4cedbb785b287e9171be901bcb31e60e176cda27a01e6f456131575",
+          "name": "Tom Odell",
+          "short": "tomode(1)",
+          "start": "2025-06-28 21:00"
+        },
+        {
+          "end": "2025-06-28 23:45",
+          "id": "ee20d048494912d13f4091b924c2fe0d942878404f1e70d51ab8141ac9d0eae3",
+          "name": "Scissor Sisters",
+          "short": "scisso(1)",
+          "start": "2025-06-28 22:30"
+        },
+        {
+          "end": "2025-06-29 12:15",
+          "id": "71a5ac926238238b176addbb5b310e361136d3276875c675aabcc27a4aa7d921",
+          "name": "Westside Cowboy",
+          "short": "westsi(1)",
+          "start": "2025-06-29 11:30"
+        },
+        {
+          "end": "2025-06-29 13:30",
+          "id": "0ec20f726785f7c4780fd2852fddc5b50adf7f3191a9255731fb7adf17862df2",
+          "name": "Gurriers",
+          "short": "gurrie(2)",
+          "start": "2025-06-29 12:45"
+        },
+        {
+          "end": "2025-06-29 15:00",
+          "id": "6c0e5a533174c37ea1ebc16112a877e087748f75bf059050a6924aec51e31fe5",
+          "name": "Sprints",
+          "short": "sprint(1)",
+          "start": "2025-06-29 14:00"
+        },
+        {
+          "end": "2025-06-29 16:30",
+          "id": "bba1a638423b78a8162361c9b21fe16a3747a317c5a6e9b5c2184c44c47cd552",
+          "name": "Djo",
+          "short": "djo(1)",
+          "start": "2025-06-29 15:30"
+        },
+        {
+          "end": "2025-06-29 18:00",
+          "id": "398582b434dd0f952df4dccd3459603c785a796ad505e82369f732e427f36d69",
+          "name": "Black Country New Road",
+          "short": "blackc(1)",
+          "start": "2025-06-29 17:00"
+        },
+        {
+          "end": "2025-06-29 19:30",
+          "id": "5393bfcc92e7c6288a64b8759ca7740c48954a182808ec0423ef43d9cf95f320",
+          "mbId": "5334edc0-5faf-4ca5-b1df-000de3e1f752",
+          "name": "St Vincent",
+          "short": "stvinc(1)",
+          "start": "2025-06-29 18:30"
+        },
+        {
+          "end": "2025-06-29 21:00",
+          "id": "0bc9c3d3e854ebcf1f782a2d7a7019f385a6fcf31d502fc75c7aaf2b02b0b088",
+          "name": "AJ Tracey",
+          "short": "ajtrac(1)",
+          "start": "2025-06-29 20:00"
+        },
+        {
+          "end": "2025-06-29 22:45",
+          "id": "78ba5076f3a6b4da0c30f85049344decb40eb80e06250a28228c37f14160872b",
+          "name": "Jorja Smith",
+          "short": "jorjas(1)",
+          "start": "2025-06-29 21:30"
+        }
+      ],
+      "name": "Woodsies"
+    },
+    {
+      "events": [
+        {
+          "end": "2025-06-27 12:15",
+          "id": "661e33137899d6efe736241949e7b1c9657733e0db199e856c896de9e9bb6c2e",
+          "name": "Horsegirl",
+          "short": "horseg(1)",
+          "start": "2025-06-27 11:30"
+        },
+        {
+          "end": "2025-06-27 13:30",
+          "id": "903bb62e49b84f1db28be6b09bbf7d3f662a1dc739c805a6c85f9f9410bf9025",
+          "name": "Geordie Greep",
+          "short": "geordi(1)",
+          "start": "2025-06-27 12:45"
+        },
+        {
+          "end": "2025-06-27 14:45",
+          "id": "5afcb85e7c67b15aafb3b91573e9027b2edca0bf92e4c665d61e035544693962",
+          "name": "Ichiko Aoba",
+          "short": "ichiko(1)",
+          "start": "2025-06-27 14:00"
+        },
+        {
+          "end": "2025-06-27 16:00",
+          "id": "0e127a2a0c4fe0b24cddcc24715282373d466dd0f804a23b6ce73071018094fb",
+          "name": "Faye Webster",
+          "short": "fayewe(1)",
+          "start": "2025-06-27 15:15"
+        },
+        {
+          "end": "2025-06-27 17:30",
+          "id": "f7f935f644e8d7fa0e422dce90dbd36e765d5bac061edc4ec831b45909f747d0",
+          "name": "Osees",
+          "short": "osees(1)",
+          "start": "2025-06-27 16:30"
+        },
+        {
+          "end": "2025-06-27 19:00",
+          "id": "e233a80f3a8444515ff509f1b4e8a5e985a7c42d84cfb43aac9d9b66f7c89a73",
+          "name": "English Teacher",
+          "short": "englis(1)",
+          "start": "2025-06-27 18:00"
+        },
+        {
+          "end": "2025-06-27 20:30",
+          "id": "db874e0fe36e6d8bfba3dcba252cc0b90333cd077d6509f14239fa147822585a",
+          "name": "Wunderhorse",
+          "short": "wunder(1)",
+          "start": "2025-06-27 19:30"
+        },
+        {
+          "end": "2025-06-27 22:15",
+          "id": "0d1645583c3177232a58edf162c9ed46a2f30eb9eff998af29480b733cecee53",
+          "name": "Self Esteem",
+          "short": "selfes(1)",
+          "start": "2025-06-27 21:15"
+        },
+        {
+          "end": "2025-06-28 00:15",
+          "id": "e3b921f68189e6d2f0cbfc29b00f756ec4acff097415360623cd7b9d58d757c7",
+          "name": "Anohni & The Johnsons",
+          "short": "anohni(1)",
+          "start": "2025-06-27 23:00"
+        },
+        {
+          "end": "2025-06-28 12:15",
+          "id": "2a116db2daec434d307284d0c0a9433c34ff3979a2dc07df720b9f13024fef94",
+          "name": "Melin Meyln",
+          "short": "melinm(1)",
+          "start": "2025-06-28 11:30"
+        },
+        {
+          "end": "2025-06-28 13:30",
+          "id": "6f54760f44c6171c0558784c581e94899951d0dfc8021ca558f98378a4149ccc",
+          "name": "John Glacier",
+          "short": "johngl(1)",
+          "start": "2025-06-28 12:45"
+        },
+        {
+          "end": "2025-06-28 14:45",
+          "id": "33d90eca88b7dfce3c0d548b58b295f7b3d7cd4080eb414e558864587db750e0",
+          "name": "Japanese Breakfast",
+          "short": "japane(1)",
+          "start": "2025-06-28 14:00"
+        },
+        {
+          "end": "2025-06-28 16:00",
+          "id": "4674c9fdf18eb183b7de4c4bae6d44408a48ceb3af894e2c7ad4f87622c6a899",
+          "name": "Jalen Ngonda",
+          "short": "jalenn(1)",
+          "start": "2025-06-28 15:15"
+        },
+        {
+          "end": "2025-06-28 17:30",
+          "id": "796073c56bef22d7842f199a917a3246719a9ba28a7da1a183817c0d2d5c6b18",
+          "name": "Lucy Dacus",
+          "short": "lucyda(1)",
+          "start": "2025-06-28 16:30"
+        },
+        {
+          "end": "2025-06-28 19:00",
+          "id": "2a585a04bc26acf11151af82237df4d672fb654857ab65ba5fa935836ad823f0",
+          "name": "Pa Salieu",
+          "short": "pasali(1)",
+          "start": "2025-06-28 18:00"
+        },
+        {
+          "end": "2025-06-28 20:30",
+          "id": "e16f64bec1bccba2e291f3cc1ad7ddb2d00780b59c2429aacc0edf3db45a5666",
+          "name": "Beth Gibbons",
+          "short": "bethgi(1)",
+          "start": "2025-06-28 19:30"
+        },
+        {
+          "end": "2025-06-28 22:15",
+          "id": "2bab3ec34ae05a1deae3d6f1700203c3d401df8ef8b87c1af3b610c3724f4f05",
+          "name": "Gary Numan",
+          "short": "garynu(1)",
+          "start": "2025-06-28 21:15"
+        },
+        {
+          "end": "2025-06-29 00:15",
+          "id": "d1b533d3007164767b6ea7748a49b35ab863f4982fdbd26d445a235a066e748c",
+          "name": "Caribou",
+          "short": "caribo(1)",
+          "start": "2025-06-28 23:00"
+        },
+        {
+          "end": "2025-06-29 12:15",
+          "id": "17a0c82787225c82300db4aeb7d288a4aeadb81a6df6416880a7d9c30c6ede20",
+          "name": "Yann Tiersen",
+          "short": "yannti(1)",
+          "start": "2025-06-29 11:30"
+        },
+        {
+          "end": "2025-06-29 13:30",
+          "id": "35b3434ffb00f72499269628c6bde51734d4f9dbdd99f380ee90e9f16346a123",
+          "name": "Katy J Pearson",
+          "short": "katyjp(1)",
+          "start": "2025-06-29 12:45"
+        },
+        {
+          "end": "2025-06-29 14:45",
+          "id": "c6f3c5237eb04344be03b71b7f414fb7f8c0f62ca3035399756a93f69a13fb79",
+          "name": "girl in red",
+          "short": "girlin(1)",
+          "start": "2025-06-29 14:00"
+        },
+        {
+          "end": "2025-06-29 16:00",
+          "id": "61ddb1a80a28ae3b4598e8488177164f362699d978937e8d7efec513baf3df3b",
+          "name": "Royel Otis",
+          "short": "royelo(1)",
+          "start": "2025-06-29 15:15"
+        },
+        {
+          "end": "2025-06-29 17:30",
+          "id": "b8c18a0fa732f22017159bd0c9544a5899a497ea1c8ff0177386cc6edbd56e26",
+          "name": "Kae Tempest",
+          "short": "kaetem(1)",
+          "start": "2025-06-29 16:30"
+        },
+        {
+          "end": "2025-06-29 20:30",
+          "id": "5eaf08e810aa47bad125b22f72bd375c93fd34205914ff4e5a5544f01d11d9bf",
+          "name": "Future Islands",
+          "short": "future(1)",
+          "start": "2025-06-29 19:30"
+        },
+        {
+          "end": "2025-06-29 22:30",
+          "id": "b1d70a819e38b9653830ebe6ad1d71449b8b17db78139312d041246e62118668",
+          "name": "The Maccabees",
+          "short": "maccab(1)",
+          "start": "2025-06-29 21:15"
+        }
+      ],
+      "name": "The Park"
+    },
+    {
+      "events": [
+        {
+          "end": "2025-06-27 17:05",
+          "id": "09c389fcb9b24885646ddfc0d588871c40f57f23616683a2f3b67885be8160ae",
+          "name": "The Meffs",
+          "short": "meffs(1)",
+          "start": "2025-06-27 16:30"
+        },
+        {
+          "end": "2025-06-27 18:10",
+          "id": "9f49fec0a9e71739cf7fdf800d1de2eab749e5e25de4401c667fb87fd34dd790",
+          "name": "Gurriers",
+          "short": "gurrie(1)",
+          "start": "2025-06-27 17:35"
+        },
+        {
+          "end": "2025-06-27 19:20",
+          "id": "a268f3550ae530b00dec5ef865c47f142b05b73b74a5a78e4a4dea061e9f1dcf",
+          "name": "Jasmine.4.t",
+          "short": "jasmin(1)",
+          "start": "2025-06-27 18:40"
+        },
+        {
+          "end": "2025-06-27 20:30",
+          "id": "9bb132f1176d943d1cddac0ce75ffa34b89e4c517b035bd2874c726007e7bf75",
+          "name": "Antony Szmierek",
+          "short": "antony(1)",
+          "start": "2025-06-27 19:50"
+        },
+        {
+          "end": "2025-06-27 22:00",
+          "id": "c28a6c727fa8def010b416547f458fa64465b2049f54b657765ea383e7c4e7b8",
+          "name": "Billy Bragg",
+          "short": "billyb(1)",
+          "start": "2025-06-27 21:00"
+        },
+        {
+          "end": "2025-06-28 17:05",
+          "id": "59fe07e23bd83e6c836c74df9c70f6397e8a41fa9d2439f156af35770e8e5603",
+          "name": "Girlband!",
+          "short": "girlba(1)",
+          "start": "2025-06-28 16:30"
+        },
+        {
+          "end": "2025-06-28 18:10",
+          "id": "3873c60418e2dcb2da9c8dcd5b1277332c16f221d1b7da1aeb704668962e6fd1",
+          "name": "Chloe Slater",
+          "short": "chloes(1)",
+          "start": "2025-06-28 17:35"
+        },
+        {
+          "end": "2025-06-28 19:20",
+          "id": "673cfeeca501cfc4e94cb3340f760edb7aa6f1f12f46ca9fc612ed4178340a99",
+          "name": "The Guest List",
+          "short": "guestl(1)",
+          "start": "2025-06-28 18:40"
+        },
+        {
+          "end": "2025-06-28 20:30",
+          "id": "d5939641ab461434500ce00a640db368d7c3842d1383ab30fc30d7e47c06e84e",
+          "name": "Lambrini Girls",
+          "short": "lambri(1)",
+          "start": "2025-06-28 19:50"
+        },
+        {
+          "end": "2025-06-28 22:00",
+          "id": "e617a1137f7ba3e31c1557eae54e3f39c01607a22378a0bd7d22315c96158708",
+          "name": "Kate Nash",
+          "short": "katena(1)",
+          "start": "2025-06-28 21:00"
+        },
+        {
+          "end": "2025-06-29 17:05",
+          "id": "c2d82bf5ad751aced8a5a50b57b09fd47969c5539dc48a95b5e30777bfb69bde",
+          "name": "The Halfway Kid",
+          "short": "halfwa(1)",
+          "start": "2025-06-29 16:30"
+        },
+        {
+          "end": "2025-06-29 18:05",
+          "id": "ded99bd291cfea566a0841f57c78b191e147f0ba521248056c2556f27faa8cf6",
+          "name": "Du Blonde",
+          "short": "dublon(1)",
+          "start": "2025-06-29 17:30"
+        },
+        {
+          "end": "2025-06-29 19:15",
+          "id": "429ccae375b97bc4998885154cb0ee12f8045b15554065d91cb6add0af216b2e",
+          "name": "Red Rum Club",
+          "short": "redrum(1)",
+          "start": "2025-06-29 18:30"
+        },
+        {
+          "end": "2025-06-29 20:30",
+          "id": "108204be33b719742a8ed294e75a389e69145aa77640832bc7e867bb37028ff1",
+          "name": "Reverend & The Makers",
+          "short": "revere(1)",
+          "start": "2025-06-29 19:45"
+        },
+        {
+          "end": "2025-06-29 22:00",
+          "id": "a6237fab2ac00ad97e922a33baf93bfe98879465d3548de2898e2a7dd4917a15",
+          "name": "Grandson",
+          "short": "grands(1)",
+          "start": "2025-06-29 21:00"
+        }
+      ],
+      "name": "Leftfield"
+    },
+    {
+      "events": [
+        {
+          "end": "2025-06-25 19:35",
+          "estd": "1",
+          "id": "2a6cd67972d4bae37eef9f70a315626a9c53a06aef01d08d5832f31fdadf821a",
+          "name": "Orchestra Mambo International",
+          "short": "orches(1)",
+          "start": "2025-06-25 17:50"
+        },
+        {
+          "end": "2025-06-26 19:45",
+          "id": "b6316261718baca62fdb83eb313d04e8aa7f146f0c4abeaad1dbf0002df083b9",
+          "name": "Orchestra Mambo International",
+          "short": "orches(2)",
+          "start": "2025-06-26 17:55"
+        },
+        {
+          "end": "2025-06-28 00:15",
+          "estd": "1",
+          "id": "0826062fbdfd6681a8b87c2fb6399501797758d48b2cecbc4b2815d199774367",
+          "name": "Havana D'Primera",
+          "short": "havana(1)",
+          "start": "2025-06-27 22:25"
+        },
+        {
+          "end": "2025-06-29 00:40",
+          "estd": "1",
+          "id": "376453702d1bfb54a76fe93c1de6ecc710e518cc92b03a1670b2ec78c656cd87",
+          "name": "Interactivo",
+          "short": "intera(1)",
+          "start": "2025-06-28 22:55"
+        },
+        {
+          "end": "2025-06-30 00:00",
+          "id": "a679eec1208acf6980eb9ab5caac265876b31101584c08994569831b5be77167",
+          "name": "Alvarez Funk",
+          "short": "alvare(1)",
+          "start": "2025-06-29 22:15"
+        }
+      ],
+      "name": "Glasto Latino"
+    },
+    {
+      "events": [
+        {
+          "end": "2025-06-27 12:15",
+          "estd": "1",
+          "id": "a9906ae96d1048a7970efce9c98bf180d7fcded2fa55df2364407486f905e83a",
+          "name": "Terrorvision",
+          "short": "terror(1)",
+          "start": "2025-06-27 11:30"
+        },
+        {
+          "end": "2025-06-27 13:20",
+          "estd": "1",
+          "id": "d850dcf5425597cc4de87da33aca1fdb73e7962f1602a45f91f2af84c9c7264e",
+          "name": "Rumba De Bodas",
+          "short": "rumbad(1)",
+          "start": "2025-06-27 12:35"
+        },
+        {
+          "end": "2025-06-27 14:40",
+          "estd": "1",
+          "id": "fe9c6ed3e9ba1de51c95517f6d7daeb80515a41c33b4d3aaae69b0f548e429a8",
+          "name": "Paris Paloma",
+          "short": "parisp(1)",
+          "start": "2025-06-27 13:45"
+        },
+        {
+          "end": "2025-06-27 16:00",
+          "estd": "1",
+          "id": "a9c2e786e798da16b52248fbb8920efadd119147a8206963451d8b2dcf65e8b3",
+          "name": "Orla Gartland",
+          "short": "orlaga(1)",
+          "start": "2025-06-27 15:05"
+        },
+        {
+          "end": "2025-06-27 17:35",
+          "estd": "1",
+          "id": "6ca86e0b26e377516dc1d307ec09e0405152e17eb2ad8e3b155328788dedc593",
+          "name": "Old Time Sailors",
+          "short": "oldtim(1)",
+          "start": "2025-06-27 16:30"
+        },
+        {
+          "end": "2025-06-27 19:15",
+          "estd": "1",
+          "id": "447c83ac4ff4c4dec47c2c27c0d7cd7c03f45325df9267bfd528b9503aa3d2a3",
+          "name": "The Magic Numbers",
+          "short": "magicn(1)",
+          "start": "2025-06-27 18:05"
+        },
+        {
+          "end": "2025-06-27 21:10",
+          "estd": "1",
+          "id": "f3783495bee3c783104832496f2a71cd5219327655ad5f7f8c88c3920b089f9e",
+          "name": "The Fratellis",
+          "short": "fratel(1)",
+          "start": "2025-06-27 19:50"
+        },
+        {
+          "end": "2025-06-27 23:15",
+          "id": "0bd0638e83a683947db394eef0a7063293c8b3b1360f29c95311abf38ba01e2d",
+          "name": "Ash",
+          "short": "ash(1)",
+          "start": "2025-06-27 21:50"
+        },
+        {
+          "end": "2025-06-28 12:20",
+          "estd": "1",
+          "id": "3b5e35cb63d54b9023edfcffe0df408568b224a21ecb77a5a5f088ce206133b7",
+          "name": "Tom Walker",
+          "short": "tomwal(1)",
+          "start": "2025-06-28 11:20"
+        },
+        {
+          "end": "2025-06-28 13:45",
+          "estd": "1",
+          "id": "1ac78d1e8a7ea54924d715f0bbf08d426e26e2bdd49d159cc143fdd1471c9f3c",
+          "name": "Stephen Wilson Jr.",
+          "short": "stephe(1)",
+          "start": "2025-06-28 12:45"
+        },
+        {
+          "end": "2025-06-28 15:10",
+          "estd": "1",
+          "id": "3d1d3c9c71b5dc000bebcafadf31703ad6417b6ccdfc91e1a2e418efba2579ba",
+          "name": "Rachel Chinouriri",
+          "short": "rachel(1)",
+          "start": "2025-06-28 14:15"
+        },
+        {
+          "end": "2025-06-28 16:35",
+          "estd": "1",
+          "id": "59ffcc1e29ff887522c59541d09f6f50290311cd85245f1b5580d6a7350328dc",
+          "name": "Jamie Cullum",
+          "short": "jamiec(1)",
+          "start": "2025-06-28 15:40"
+        },
+        {
+          "end": "2025-06-28 18:05",
+          "estd": "1",
+          "id": "9cbb7de865d5bb197a25a3a9ed4306c809fe8d137a981ccb6d6e065d77348e0e",
+          "name": "Jade Bird",
+          "short": "jadebi(1)",
+          "start": "2025-06-28 17:05"
+        },
+        {
+          "end": "2025-06-28 19:30",
+          "estd": "1",
+          "id": "1d9855f047a639ee5ab664349070c0b0140b2b5bf6fa415339f943dcb0bf6358",
+          "name": "Hard-Fi",
+          "short": "hardfi(1)",
+          "start": "2025-06-28 18:35"
+        },
+        {
+          "end": "2025-06-28 20:55",
+          "estd": "1",
+          "id": "fbe0f9394c58260190805f5cd2996050f1db4b6a45fd44f08af5079795531442",
+          "name": "Fulu",
+          "short": "fulu(1)",
+          "start": "2025-06-28 20:00"
+        },
+        {
+          "end": "2025-06-28 22:25",
+          "estd": "1",
+          "id": "0c9096c66c0bbe4960bd525711bca7578626aa7e78128c4b93f6614bb118e51b",
+          "name": "Bess Atwell",
+          "short": "bessat(1)",
+          "start": "2025-06-28 21:25"
+        },
+        {
+          "end": "2025-06-28 23:50",
+          "estd": "1",
+          "id": "33ff8f353a95acf1a670c3ef57b589ee62cef24387946a24f642dac52e4c46c0",
+          "name": "The Amy Winehouse Band",
+          "short": "amywin(1)",
+          "start": "2025-06-28 22:50"
+        },
+        {
+          "end": "2025-06-29 11:50",
+          "estd": "1",
+          "id": "25ba479d8fd1ef9719881d07d6d62702e0bb2217418f4c0e0f24ebdd0eb0a8f4",
+          "name": "Talisk",
+          "short": "talisk(1)",
+          "start": "2025-06-29 10:50"
+        },
+        {
+          "end": "2025-06-29 13:20",
+          "estd": "1",
+          "id": "893561224f49abed6b7394ae5450d487cd73aeb763bb47d71bf58a0a31b2e19d",
+          "name": "Sam Ryder",
+          "short": "samryd(1)",
+          "start": "2025-06-29 12:20"
+        },
+        {
+          "end": "2025-06-29 14:50",
+          "estd": "1",
+          "id": "031ac5d7c274de8183a42bd151a98863a4f6c75196f19490af15746c09b2505b",
+          "name": "MY BABY",
+          "short": "mybaby(1)",
+          "start": "2025-06-29 13:50"
+        },
+        {
+          "end": "2025-06-29 16:20",
+          "estd": "1",
+          "id": "ffae621fd18b5a6622d421b10768df5723f35f53d9f251f569d6c2294095612c",
+          "name": "The Horne Section",
+          "short": "hornes(1)",
+          "start": "2025-06-29 15:20"
+        },
+        {
+          "end": "2025-06-29 17:45",
+          "estd": "1",
+          "id": "2d7195f8e730c53b5868f41e135fb96dc3307091ff7b9a59f1e273a650ef9d04",
+          "name": "Brooke Combe",
+          "short": "brooke(1)",
+          "start": "2025-06-29 16:45"
+        },
+        {
+          "end": "2025-06-29 19:15",
+          "estd": "1",
+          "id": "d44bf161ee76e3a16b7deef34aa497c762887944156c9bb1d2e7f56e9da15d30",
+          "name": "The Big Moon",
+          "short": "bigmoo(1)",
+          "start": "2025-06-29 18:15"
+        },
+        {
+          "end": "2025-06-29 20:45",
+          "estd": "1",
+          "id": "66b4a2c9d6561af2515022999fe1b8a6838fcb5a1e2a17cbf62d49b3f91d70b9",
+          "name": "Bear's Den",
+          "short": "bears(1)",
+          "start": "2025-06-29 19:45"
+        },
+        {
+          "end": "2025-06-29 22:30",
+          "estd": "1",
+          "id": "8bbec57163f0bb87792ff73c46964c41a0a3ba609241bdcf331d3c15d0c166d8",
+          "name": "Alabama 3",
+          "short": "alabam(1)",
+          "start": "2025-06-29 21:05"
+        }
+      ],
+      "name": "Field of Avalon"
+    }
+  ],
+  "modified": "2025-05-31 11:07",
+  "name": "Glastonbury Festival 2025",
+  "printAdvisory": 5,
+  "timezone": "Europe/London",
+  "tzNote": "Start and end times are given in the timezone of the event. Offset by -tzOffset for UTC.",
+  "tzOffset": 3600,
+  "url": "https://clashfinder.com/s/g2025/"
+}
