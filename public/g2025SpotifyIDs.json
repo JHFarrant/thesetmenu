@@ -669,6 +669,35 @@
     "act_name": "Bess Atwell",
     "related_artist_name": "Sorcha Richardson"
   },
+  "04gDigrS5kc9YWfZHwBETP": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3yDIp0kaq9EFKe07X1X2rz"
+      },
+      "id": "3yDIp0kaq9EFKe07X1X2rz",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebede7b4f5a5316f0cf586ec7e",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174ede7b4f5a5316f0cf586ec7e",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178ede7b4f5a5316f0cf586ec7e",
+          "width": 160
+        }
+      ],
+      "name": "Nile Rodgers"
+    },
+    "act_id": "3yDIp0kaq9EFKe07X1X2rz",
+    "act_name": "Chic and Nile Rodgers",
+    "related_artist_name": "Maroon 5"
+  },
   "057gc1fxmJ2vkctjQJ7Tal": {
     "act_artist_data": {
       "external_urls": {
@@ -1798,35 +1827,6 @@
     "act_name": "Jade Bird",
     "related_artist_name": "Ruen Brothers"
   },
-  "0CdbG1eHVjqjkQsGoH2u1V": {
-    "act_artist_data": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/0nJaMZM8paoA5HEUTUXPqi"
-      },
-      "id": "0nJaMZM8paoA5HEUTUXPqi",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb9b3993b7de9e5e75e78cddc0",
-          "width": 640
-        },
-        {
-          "height": 320,
-          "url": "https://i.scdn.co/image/ab676161000051749b3993b7de9e5e75e78cddc0",
-          "width": 320
-        },
-        {
-          "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f1789b3993b7de9e5e75e78cddc0",
-          "width": 160
-        }
-      ],
-      "name": "Bear's Den"
-    },
-    "act_id": "0nJaMZM8paoA5HEUTUXPqi",
-    "act_name": "Bear's Den",
-    "related_artist_name": "Peter Bradley Adams"
-  },
   "0D20qC9WhCXDlPBFZf7cmP": {
     "act_artist_data": {
       "external_urls": {
@@ -1884,6 +1884,35 @@
     "act_id": "6RKOqm8A3960vhcYYG97SB",
     "act_name": "The Halfway Kid",
     "related_artist_name": "Ruby Vidor"
+  },
+  "0Dkj3iE06TJGxGIrGCmwVf": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Nxdia"
   },
   "0DpJl9MRib7qywJOoYqEZg": {
     "act_artist_data": {
@@ -2641,6 +2670,35 @@
     "act_name": "GOAT",
     "related_artist_name": "WITCH"
   },
+  "0LVrQUinPUBFvVD5pLqmWY": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Doves"
+  },
   "0LbLWjaweRbO4FDKYlbfNt": {
     "act_artist_data": {
       "external_urls": {
@@ -2757,6 +2815,35 @@
     "act_name": "Katy J Pearson",
     "related_artist_name": "Girl Ray"
   },
+  "0NAPmlw3oOKJ3BD7qcjLdQ": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Delays"
+  },
   "0NB5HROxc8dDBXpkIi1v3d": {
     "act_artist_data": {
       "external_urls": {
@@ -2872,35 +2959,6 @@
     "act_id": "2evydP72Z45DouM4uMGsIE",
     "act_name": "Ash",
     "related_artist_name": "Sleeper"
-  },
-  "0NbfKEOTQCcwd6o7wSDOHI": {
-    "act_artist_data": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1YfEcTuGvBQ8xSD1f53UnK"
-      },
-      "id": "1YfEcTuGvBQ8xSD1f53UnK",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb7b31aba081ef084510cde4e3",
-          "width": 640
-        },
-        {
-          "height": 320,
-          "url": "https://i.scdn.co/image/ab676161000051747b31aba081ef084510cde4e3",
-          "width": 320
-        },
-        {
-          "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f1787b31aba081ef084510cde4e3",
-          "width": 160
-        }
-      ],
-      "name": "Busta Rhymes"
-    },
-    "act_id": "1YfEcTuGvBQ8xSD1f53UnK",
-    "act_name": "Busta Rhymes",
-    "related_artist_name": "The Game"
   },
   "0NhKCHTPG7Sz62S3zxV1Cf": {
     "act_artist_data": {
@@ -3075,6 +3133,34 @@
     "act_id": "3qYfqdVwX0fil71onLpLkh",
     "act_name": "Osees",
     "related_artist_name": "Damaged Bug"
+  },
+  "0P2q6xyNc2hVFkG3ThjYcJ": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_name": "The Magic Numbers",
+    "related_artist_name": null
   },
   "0P3nj57hRgjiNJexuW3CjL": {
     "act_artist_data": {
@@ -3746,6 +3832,35 @@
     "act_id": "6v8FB84lnmJs434UJf2Mrm",
     "act_name": "Neil Young",
     "related_artist_name": "Dire Straits"
+  },
+  "0X2BH1fck6amBIoJhDVmmJ": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3yDIp0kaq9EFKe07X1X2rz"
+      },
+      "id": "3yDIp0kaq9EFKe07X1X2rz",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebede7b4f5a5316f0cf586ec7e",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174ede7b4f5a5316f0cf586ec7e",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178ede7b4f5a5316f0cf586ec7e",
+          "width": 160
+        }
+      ],
+      "name": "Nile Rodgers"
+    },
+    "act_id": "3yDIp0kaq9EFKe07X1X2rz",
+    "act_name": "Chic and Nile Rodgers",
+    "related_artist_name": "Ellie Goulding"
   },
   "0XGV1FXgyGB0yg6lPcfQg1": {
     "act_artist_data": {
@@ -6213,6 +6328,35 @@
     "act_name": "Jalen Ngonda",
     "related_artist_name": "Drugdealer"
   },
+  "0tYc0gVOzssZmLpVO6wh7L": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "The Thrills"
+  },
   "0uAjBatvB4ubpd4kCfjmNt": {
     "act_artist_data": {
       "external_urls": {
@@ -6762,35 +6906,6 @@
     "act_id": "3QSwq9CQMjqe01RtbKqz0F",
     "act_name": "Girlband!",
     "related_artist_name": "Chelsea King"
-  },
-  "0ygIgsjUzKivFgxgjQ9iV9": {
-    "act_artist_data": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/2AR42Ur9PcchQDtEdwkv4L"
-      },
-      "id": "2AR42Ur9PcchQDtEdwkv4L",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb5843f638712f9f0ac1491e4a",
-          "width": 640
-        },
-        {
-          "height": 320,
-          "url": "https://i.scdn.co/image/ab676161000051745843f638712f9f0ac1491e4a",
-          "width": 320
-        },
-        {
-          "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f1785843f638712f9f0ac1491e4a",
-          "width": 160
-        }
-      ],
-      "name": "Floating Points"
-    },
-    "act_id": "2AR42Ur9PcchQDtEdwkv4L",
-    "act_name": "Floating Points",
-    "related_artist_name": "Jacques Greene"
   },
   "0z9hynUsIjf0ddI4uHqPWX": {
     "act_artist_data": {
@@ -7429,6 +7544,35 @@
     "act_id": "3jNwnthjUjHYvjyvRGfWuQ",
     "act_name": "Terrorvision",
     "related_artist_name": "The Supernaturals"
+  },
+  "12tZvy2xFpWSkuJ3FsfisZ": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Weval"
   },
   "12zbUHbPHL5DGuJtiUfsip": {
     "act_artist_data": {
@@ -8123,6 +8267,35 @@
     "act_id": "3qYfqdVwX0fil71onLpLkh",
     "act_name": "Osees",
     "related_artist_name": "Metz"
+  },
+  "18Zv2g2vUcEGqJf6WnjfXN": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Brandon Flowers"
   },
   "191Koh7PSIi28IrGAGoINO": {
     "act_artist_data": {
@@ -9571,6 +9744,35 @@
     "act_name": "Shed Seven",
     "related_artist_name": "Courteeners"
   },
+  "1O10apSOoAPjOu6UhUNmeI": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "SBTRKT"
+  },
   "1OHnmln4huMiBLyxBHNx0k": {
     "act_artist_data": {
       "external_urls": {
@@ -10296,6 +10498,35 @@
     "act_name": "Nil\u00fcfer Yanya",
     "related_artist_name": "Cassandra Jenkins"
   },
+  "1WgXqy2Dd70QQOU7Ay074N": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "AURORA"
+  },
   "1WrqUPWlHN5FXCRcQgrkas": {
     "act_artist_data": {
       "external_urls": {
@@ -10443,30 +10674,30 @@
   "1XkoF8ryArs86LZvFOkbyr": {
     "act_artist_data": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/5fikk4h5qbEebqK2Fc6e48"
+        "spotify": "https://open.spotify.com/artist/1YfEcTuGvBQ8xSD1f53UnK"
       },
-      "id": "5fikk4h5qbEebqK2Fc6e48",
+      "id": "1YfEcTuGvBQ8xSD1f53UnK",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb6bb7f8ea26ac28c8d18efd8e",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb7b31aba081ef084510cde4e3",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab676161000051746bb7f8ea26ac28c8d18efd8e",
+          "url": "https://i.scdn.co/image/ab676161000051747b31aba081ef084510cde4e3",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f1786bb7f8ea26ac28c8d18efd8e",
+          "url": "https://i.scdn.co/image/ab6761610000f1787b31aba081ef084510cde4e3",
           "width": 160
         }
       ],
-      "name": "En Vogue"
+      "name": "Busta Rhymes"
     },
-    "act_id": "5fikk4h5qbEebqK2Fc6e48",
-    "act_name": "En Vogue",
+    "act_id": "1YfEcTuGvBQ8xSD1f53UnK",
+    "act_name": "Busta Rhymes",
     "related_artist_name": "Mary J. Blige"
   },
   "1Xyo4u8uXC1ZmMpatF05PJ": {
@@ -10611,6 +10842,35 @@
     "act_id": "6ignRjbPmLvKdtMLj9a5Xs",
     "act_name": "Ichiko Aoba",
     "related_artist_name": "\u30d5\u30ec\u30cd\u30b7"
+  },
+  "1Yq3rS7K1SQKqjMOHXpqqt": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Towa Bird"
   },
   "1ZVACPeq7ccGCoUXwtafUU": {
     "act_artist_data": {
@@ -11132,35 +11392,6 @@
     "act_id": "2PZThLYBW7XtcYVzQms8oM",
     "act_name": "Infinity Song",
     "related_artist_name": "Evangeline"
-  },
-  "1h6Cn3P4NGzXbaXidqURXs": {
-    "act_artist_data": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3yDIp0kaq9EFKe07X1X2rz"
-      },
-      "id": "3yDIp0kaq9EFKe07X1X2rz",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5ebede7b4f5a5316f0cf586ec7e",
-          "width": 640
-        },
-        {
-          "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174ede7b4f5a5316f0cf586ec7e",
-          "width": 320
-        },
-        {
-          "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178ede7b4f5a5316f0cf586ec7e",
-          "width": 160
-        }
-      ],
-      "name": "Nile Rodgers"
-    },
-    "act_id": "3yDIp0kaq9EFKe07X1X2rz",
-    "act_name": "Chic and Nile Rodgers",
-    "related_artist_name": "Swedish House Mafia"
   },
   "1hE5imhaIrCEKoHLHW9aCO": {
     "act_artist_data": {
@@ -12904,6 +13135,35 @@
     "act_name": "Rod Stewart",
     "related_artist_name": "Tina Turner"
   },
+  "21TinSsF5ytwsfdyz5VSVS": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "dodie"
+  },
   "21UJ7PRWb3Etgsu99f8yo8": {
     "act_artist_data": {
       "external_urls": {
@@ -13221,34 +13481,34 @@
     "act_name": "The Brian Jonestown Massacre",
     "related_artist_name": "Parquet Courts"
   },
-  "23fqKkggKUBHNkbKtXEls4": {
+  "244fcyNSuyhbRlMGfMbYrO": {
     "act_artist_data": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/3yDIp0kaq9EFKe07X1X2rz"
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
       },
-      "id": "3yDIp0kaq9EFKe07X1X2rz",
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5ebede7b4f5a5316f0cf586ec7e",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174ede7b4f5a5316f0cf586ec7e",
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178ede7b4f5a5316f0cf586ec7e",
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
           "width": 160
         }
       ],
-      "name": "Nile Rodgers"
+      "name": "The Magic Numbers"
     },
-    "act_id": "3yDIp0kaq9EFKe07X1X2rz",
-    "act_name": "Chic and Nile Rodgers",
-    "related_artist_name": "Kygo"
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Badly Drawn Boy"
   },
   "24b0qNYNgeOfpP5rbljIB3": {
     "act_artist_data": {
@@ -14375,6 +14635,34 @@
     "act_id": "5KQMtyPE8DCQNUzoNqlEsE",
     "act_name": "Gary Numan",
     "related_artist_name": "Q Lazzarus"
+  },
+  "2EXpthNgSeTDeX8nGwxppp": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_name": "Paris Paloma",
+    "related_artist_name": null
   },
   "2FDvUb4YgyUPpmnm1ILPra": {
     "act_artist_data": {
@@ -15509,6 +15797,35 @@
     "act_name": "Noah Kahan",
     "related_artist_name": null
   },
+  "2RVvqRBon9NgaGXKfywDSs": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Maisie Peters"
+  },
   "2RdwBSPQiwcmiDo9kixcl8": {
     "act_artist_data": {
       "external_urls": {
@@ -15943,6 +16260,35 @@
     "act_id": "44LUiqh2zLIWA4UPdPmvWU",
     "act_name": "Abel Selaocoe & The Bantu Ensemble",
     "related_artist_name": "Kaiser Quartett"
+  },
+  "2W8yFh0Ga6Yf3jiayVxwkE": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Dove Cameron"
   },
   "2WOMBqEsllg2ICn7D2L8ta": {
     "act_artist_data": {
@@ -16441,6 +16787,35 @@
     "act_id": "0FNfiTQCR5o3ounOlWzm1d",
     "act_name": "John Glacier",
     "related_artist_name": "a.s.o."
+  },
+  "2aB0EWdEH6BcGTbUfYAqqD": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "The Spinto Band"
   },
   "2aFDkXJvi1jsvhu5lHIu6F": {
     "act_artist_data": {
@@ -17078,6 +17453,35 @@
     "act_id": "7Eu1txygG6nJttLHbZdQOh",
     "act_name": "Four Tet",
     "related_artist_name": "Moderat"
+  },
+  "2f7VJ37O9YUj6kpMKph9YC": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Cherry Ghost"
   },
   "2ffhJMXvdEJFZISX76ccQL": {
     "act_artist_data": {
@@ -17749,6 +18153,35 @@
     "act_id": "5LfO4rbJarBvHjB34mU9m2",
     "act_name": "Westside Cowboy",
     "related_artist_name": "Delivery Service"
+  },
+  "2mAYpnSe3g2Y22JcZ2ddku": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Soap&Skin"
   },
   "2mQLwfvZtvtTbipKn3xHmK": {
     "act_artist_data": {
@@ -18618,6 +19051,35 @@
     "act_name": "Fcukers",
     "related_artist_name": "yun\u00e8 pinku"
   },
+  "2t9yJDJIEtvPmr2iRIdqBf": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0nJaMZM8paoA5HEUTUXPqi"
+      },
+      "id": "0nJaMZM8paoA5HEUTUXPqi",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb9b3993b7de9e5e75e78cddc0",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051749b3993b7de9e5e75e78cddc0",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1789b3993b7de9e5e75e78cddc0",
+          "width": 160
+        }
+      ],
+      "name": "Bear's Den"
+    },
+    "act_id": "0nJaMZM8paoA5HEUTUXPqi",
+    "act_name": "Bear's Den",
+    "related_artist_name": "Fink"
+  },
   "2tBWWgGv7H5ymPtJrT1rNu": {
     "act_artist_data": {
       "external_urls": {
@@ -19312,6 +19774,35 @@
     "act_id": "3XxxEq6BREC57nCWXbQZ7o",
     "act_name": "Jamie Cullum",
     "related_artist_name": "Ida Sand"
+  },
+  "2xtmoxSauQs0TQFUoHmbfy": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Crawlers"
   },
   "2y3PEaAgTdxYfbyeSXORv8": {
     "act_artist_data": {
@@ -20356,30 +20847,30 @@
   "37uLId6Z5ZXCx19vuruvv5": {
     "act_artist_data": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1WvvwcQx0tj6NdDhZZ2zZz"
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
       },
-      "id": "1WvvwcQx0tj6NdDhZZ2zZz",
+      "id": "4aEnNH9PuU1HF3TsZTru54",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5ebccc1db114a0e4d39231a6e84",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174ccc1db114a0e4d39231a6e84",
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178ccc1db114a0e4d39231a6e84",
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
           "width": 160
         }
       ],
-      "name": "Future Islands"
+      "name": "Caribou"
     },
-    "act_id": "1WvvwcQx0tj6NdDhZZ2zZz",
-    "act_name": "Future Islands",
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
     "related_artist_name": "Hot Chip"
   },
   "37w38cCSGgKLdayTRjna4W": {
@@ -20439,6 +20930,35 @@
     "act_id": "6RKOqm8A3960vhcYYG97SB",
     "act_name": "The Halfway Kid",
     "related_artist_name": "CAITLIN"
+  },
+  "380fnmlGnkyueBMqGWx2k5": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Joe Goddard"
   },
   "389zc5Rwe0MPcE6mSF4AjC": {
     "act_artist_data": {
@@ -21428,6 +21948,35 @@
     "act_name": "Self Esteem",
     "related_artist_name": null
   },
+  "3KOHpygRuo1ruQAbEneR3t": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "George FitzGerald"
+  },
   "3KlPjpVKfm6vESPL46NDCh": {
     "act_artist_data": {
       "external_urls": {
@@ -21751,6 +22300,35 @@
     "act_name": "TV On The Radio",
     "related_artist_name": "Bloc Party"
   },
+  "3MNLhvqJkWsO6tcjY9ps62": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Maude Latour"
+  },
   "3MkIU5jhXTMK9pYQTRVI6p": {
     "act_artist_data": {
       "external_urls": {
@@ -22038,6 +22616,35 @@
     "act_id": "3uwAm6vQy7kWPS2bciKWx9",
     "act_name": "girl in red",
     "related_artist_name": "Cults"
+  },
+  "3P4vW5tzQvmuoNaFQqzy9q": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "chloe moriondo"
   },
   "3PP6ghmOlDl2jaKaH0avUN": {
     "act_artist_data": {
@@ -23753,31 +24360,59 @@
   "3ajf12ub55b51qcS94d9Co": {
     "act_artist_data": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/07D1Bjaof0NFlU32KXiqUP"
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
       },
-      "id": "07D1Bjaof0NFlU32KXiqUP",
+      "id": "3ajf12ub55b51qcS94d9Co",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eba5a55fb2f2c129da51b7676e",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174a5a55fb2f2c129da51b7676e",
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178a5a55fb2f2c129da51b7676e",
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
           "width": 160
         }
       ],
-      "name": "Lucy Dacus"
+      "name": "Orla Gartland"
     },
-    "act_id": "07D1Bjaof0NFlU32KXiqUP",
-    "act_name": "Lucy Dacus",
-    "related_artist_name": "Orla Gartland"
+    "act_name": "Orla Gartland",
+    "related_artist_name": null
+  },
+  "3bAJYz1UylrqS4DgaU9aOu": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Chloe Ament"
   },
   "3bD0qDLbGmvMvbaP8vHr9e": {
     "act_artist_data": {
@@ -23864,6 +24499,35 @@
     "act_id": "6jP9Z7o6WlbYvKUOeO5SbP",
     "act_name": "GOAT",
     "related_artist_name": "Hollow Ship"
+  },
+  "3bUwxJgNakzYKkqAVgZLlh": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Travis"
   },
   "3bg5rmICvmA8dmYVAdKGYH": {
     "act_artist_data": {
@@ -24182,6 +24846,35 @@
     "act_id": "67FB4n52MgexGQIG8s0yUH",
     "act_name": "Lola Young",
     "related_artist_name": "WizTheMc"
+  },
+  "3ejIpQTvOb6XjUhX96RrMw": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "FIGHTMASTER"
   },
   "3ep1YmatQ8L9UKCGYiJNBh": {
     "act_artist_data": {
@@ -25569,6 +26262,35 @@
     "act_name": "Fat Dog",
     "related_artist_name": "Chalk"
   },
+  "3rRyfgGByetsaaujkjQ7rY": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Yaelokre"
+  },
   "3rbtPd0NcvhO2AzMfzx90z": {
     "act_artist_data": {
       "external_urls": {
@@ -26177,6 +26899,35 @@
     "act_name": "GOAT",
     "related_artist_name": "Glyders"
   },
+  "3vldh5Ceynytj6Iglw4haP": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Tommy Lefroy"
+  },
   "3wcj11K77LjEY1PkEazffa": {
     "act_artist_data": {
       "external_urls": {
@@ -26639,6 +27390,35 @@
     "act_id": "44LUiqh2zLIWA4UPdPmvWU",
     "act_name": "Abel Selaocoe & The Bantu Ensemble",
     "related_artist_name": "Daniel Herskedal"
+  },
+  "40Aif8AfzbNGA2s52ESEE2": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "SOFIA ISELLA"
   },
   "40SwTLJmxQgWXTFi4YUKyP": {
     "act_artist_data": {
@@ -27448,6 +28228,35 @@
     "act_name": "Gurriers",
     "related_artist_name": "The 113"
   },
+  "478peoEkoKPsTgRiVzkvPl": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Glasvegas"
+  },
   "47DpSgD00hWJA970gp7nlZ": {
     "act_artist_data": {
       "external_urls": {
@@ -27679,6 +28488,35 @@
     "act_id": "5b5bt4mZQpJMoCRbiQ7diH",
     "act_name": "Royel Otis",
     "related_artist_name": "Palace"
+  },
+  "49gaZqfow2v8EEQmjGyEIw": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Todd Terje"
   },
   "49haq8aaaDI1pXbY1XcQaK": {
     "act_artist_data": {
@@ -30582,6 +31420,35 @@
     "act_name": "Antony Szmierek",
     "related_artist_name": "Skeleten"
   },
+  "4VqlewwKZJoIcA88PYHUDd": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Baby Queen"
+  },
   "4W48hZAnAHVOC2c8WH8pcq": {
     "act_artist_data": {
       "external_urls": {
@@ -30936,31 +31803,59 @@
   "4aEnNH9PuU1HF3TsZTru54": {
     "act_artist_data": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/7zrkALJ9ayRjzysp4QYoEg"
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
       },
-      "id": "7zrkALJ9ayRjzysp4QYoEg",
+      "id": "4aEnNH9PuU1HF3TsZTru54",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb8226ea46d749763f4e650015",
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab676161000051748226ea46d749763f4e650015",
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f1788226ea46d749763f4e650015",
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
           "width": 160
         }
       ],
-      "name": "Maribou State"
+      "name": "Caribou"
     },
-    "act_id": "7zrkALJ9ayRjzysp4QYoEg",
-    "act_name": "Maribou State",
-    "related_artist_name": "Caribou"
+    "act_name": "Caribou",
+    "related_artist_name": null
+  },
+  "4aEuFytRb43SAgjchJDk5e": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4wrzxtBZw20ufDstKyTnnP"
+      },
+      "id": "4wrzxtBZw20ufDstKyTnnP",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1cbc805e89343f30e20fb066",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051741cbc805e89343f30e20fb066",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1781cbc805e89343f30e20fb066",
+          "width": 160
+        }
+      ],
+      "name": "Rachel Chinouriri"
+    },
+    "act_id": "4wrzxtBZw20ufDstKyTnnP",
+    "act_name": "Rachel Chinouriri",
+    "related_artist_name": "quinnie"
   },
   "4aKWmkWAKviFlyvHYPTNQY": {
     "act_artist_data": {
@@ -31019,6 +31914,35 @@
     "act_id": "4ZgQDCtRqZlhLswVS6MHN4",
     "act_name": "Grandson",
     "related_artist_name": "Bohnes"
+  },
+  "4aod1iTcme51QFe0kRUvvI": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Jake Fior"
   },
   "4bUqnkrDrb4f7rqmDR9yDu": {
     "act_artist_data": {
@@ -31280,6 +32204,35 @@
     "act_id": "3yDIp0kaq9EFKe07X1X2rz",
     "act_name": "Chic and Nile Rodgers",
     "related_artist_name": "Ray Dalton"
+  },
+  "4e9vQfyvvDlcQAkjSdFE4x": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Maya Hawke"
   },
   "4etFFWEsaFOkYCmPKHgVxn": {
     "act_artist_data": {
@@ -33392,6 +34345,35 @@
     "act_name": "Rachel Chinouriri",
     "related_artist_name": null
   },
+  "4wucqyuotyHg3kBk1aMTTN": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "The Cloud Room"
+  },
   "4xX2QeWsypmEv9w4u9P6xC": {
     "act_artist_data": {
       "external_urls": {
@@ -33565,6 +34547,35 @@
     "act_id": "7zrkALJ9ayRjzysp4QYoEg",
     "act_name": "Maribou State",
     "related_artist_name": "Catching Flies"
+  },
+  "4zPGlyitRvJo7iz6OKlETa": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Gomez"
   },
   "4ze7HHThfzYo15SuunBKhd": {
     "act_artist_data": {
@@ -34581,6 +35592,35 @@
     "act_name": "AJ Tracey",
     "related_artist_name": "Digga D"
   },
+  "57nPqD7z62gDdq37US9XJR": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Arcane"
+  },
   "57vWImR43h4CaDao012Ofp": {
     "act_artist_data": {
       "external_urls": {
@@ -34696,6 +35736,35 @@
     "act_id": "6jP9Z7o6WlbYvKUOeO5SbP",
     "act_name": "GOAT",
     "related_artist_name": "Ty Segall"
+  },
+  "58jk0945bnQBG9xfij6hHw": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Annie DiRusso"
   },
   "59MDSNIYoOY0WRYuodzJPD": {
     "act_artist_data": {
@@ -35275,6 +36344,35 @@
     "act_id": "0PY1X64i2EWLucPpunaJRy",
     "act_name": "The Meffs",
     "related_artist_name": "The Pill"
+  },
+  "5H8NL83Hl16bYRy4LCqriO": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3"
+      },
+      "id": "01PnN11ovfen6xUOHfNpn3",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebddeeadc7793743f12a7a3959",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174ddeeadc7793743f12a7a3959",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178ddeeadc7793743f12a7a3959",
+          "width": 160
+        }
+      ],
+      "name": "Overmono"
+    },
+    "act_id": "01PnN11ovfen6xUOHfNpn3",
+    "act_name": "Overmono",
+    "related_artist_name": "Borai"
   },
   "5H9IFTRxSICj24uxO15ScU": {
     "act_artist_data": {
@@ -35972,34 +37070,34 @@
     "act_name": "Red Rum Club",
     "related_artist_name": "Corella"
   },
-  "5Ly0z60jjgsY4rkmjRFtPS": {
+  "5MaQlvNGOaTj39apHsXVq1": {
     "act_artist_data": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/01PnN11ovfen6xUOHfNpn3"
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
       },
-      "id": "01PnN11ovfen6xUOHfNpn3",
+      "id": "3ajf12ub55b51qcS94d9Co",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5ebddeeadc7793743f12a7a3959",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174ddeeadc7793743f12a7a3959",
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178ddeeadc7793743f12a7a3959",
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
           "width": 160
         }
       ],
-      "name": "Overmono"
+      "name": "Orla Gartland"
     },
-    "act_id": "01PnN11ovfen6xUOHfNpn3",
-    "act_name": "Overmono",
-    "related_artist_name": "Elkka"
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "Claud"
   },
   "5MbNzCW3qokGyoo9giHA3V": {
     "act_artist_data": {
@@ -37577,6 +38675,35 @@
     "act_name": "Red Rum Club",
     "related_artist_name": "Shambolics"
   },
+  "5a0etAzO5V26gvlbmHzT9W": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Nicolas Jaar"
+  },
   "5a94ihfgkkItCundHIPxP4": {
     "act_artist_data": {
       "external_urls": {
@@ -37634,6 +38761,35 @@
     "act_id": "5BRAUN0yN8557PLRZIr02W",
     "act_name": "Ezra Collective",
     "related_artist_name": "Gaidaa"
+  },
+  "5arKwJZEvT5uKq4o0JfqR4": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Isabel LaRosa"
   },
   "5b5bt4mZQpJMoCRbiQ7diH": {
     "act_artist_data": {
@@ -40610,6 +41766,35 @@
     "act_name": "Yussef Dayes",
     "related_artist_name": "Bluestaeb"
   },
+  "67tgMwUfnmqzYsNAtnP6YJ": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Groove Armada"
+  },
   "67yGrC4QoCSD0g7YMcGIgJ": {
     "act_artist_data": {
       "external_urls": {
@@ -41161,6 +42346,35 @@
     "act_name": "Floating Points",
     "related_artist_name": "Andy Stott"
   },
+  "6C0JkmxU2cgkVzotHJgfW7": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0P2q6xyNc2hVFkG3ThjYcJ"
+      },
+      "id": "0P2q6xyNc2hVFkG3ThjYcJ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb8fe0f477db7178d5696954ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051748fe0f477db7178d5696954ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1788fe0f477db7178d5696954ee",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Numbers"
+    },
+    "act_id": "0P2q6xyNc2hVFkG3ThjYcJ",
+    "act_name": "The Magic Numbers",
+    "related_artist_name": "Athlete"
+  },
   "6C28zKEQyk8yNoiQcqWbcQ": {
     "act_artist_data": {
       "external_urls": {
@@ -41248,6 +42462,35 @@
     "act_name": "Girlband!",
     "related_artist_name": "Fright Years"
   },
+  "6CwfuxIqcltXDGjfZsMd9A": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "MARINA"
+  },
   "6DFbqiI3rjhM8QpjEUQHAQ": {
     "act_artist_data": {
       "external_urls": {
@@ -41334,6 +42577,35 @@
     "act_id": "22RISwgVJyZu9lpqAcv1F5",
     "act_name": "Blossoms",
     "related_artist_name": "The K's"
+  },
+  "6EBPmRpxRECf55nXUERPZn": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6RKOqm8A3960vhcYYG97SB"
+      },
+      "id": "6RKOqm8A3960vhcYYG97SB",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebc396f2526a0369b5d436c57d",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174c396f2526a0369b5d436c57d",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178c396f2526a0369b5d436c57d",
+          "width": 160
+        }
+      ],
+      "name": "The Halfway Kid"
+    },
+    "act_id": "6RKOqm8A3960vhcYYG97SB",
+    "act_name": "The Halfway Kid",
+    "related_artist_name": "Mandelbro"
   },
   "6EMWMUO2B9Nt39O7SXdZUw": {
     "act_artist_data": {
@@ -42757,6 +44029,35 @@
     "act_name": "The Halfway Kid",
     "related_artist_name": "Lewis McLaughlin"
   },
+  "6Tyzp9KzpiZ04DABQoedps": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Little Dragon"
+  },
   "6U1hXHFTV27cbQVXZvnX27": {
     "act_artist_data": {
       "external_urls": {
@@ -43659,6 +44960,35 @@
     "act_name": "Terrorvision",
     "related_artist_name": "Kula Shaker"
   },
+  "6beUvFUlKliUYJdLOXNj9C": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "King Princess"
+  },
   "6bh228LGC3eAzbplPWV02r": {
     "act_artist_data": {
       "external_urls": {
@@ -44526,6 +45856,35 @@
     "act_id": "1odn2oz1bEsGWugQ8W3zhn",
     "act_name": "Antony Szmierek",
     "related_artist_name": "Pollena"
+  },
+  "6jOz2B9qeID4dLP1o8bFGf": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Crazy P"
   },
   "6jP9Z7o6WlbYvKUOeO5SbP": {
     "act_artist_data": {
@@ -46093,6 +47452,64 @@
     "act_name": "Black Uhuru",
     "related_artist_name": "Mikey Dread"
   },
+  "6xRbdqe7I2llmjw533rYnG": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Am\u00e9lie Farren"
+  },
+  "6xdRb2GypJ7DqnWAI2mHGn": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
+      },
+      "id": "3ajf12ub55b51qcS94d9Co",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
+          "width": 160
+        }
+      ],
+      "name": "Orla Gartland"
+    },
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
+    "related_artist_name": "MUNA"
+  },
   "6yJ6QQ3Y5l0s0tn7b0arrO": {
     "act_artist_data": {
       "external_urls": {
@@ -47086,30 +48503,30 @@
   "76oY04bOzECod3aGVTDtzu": {
     "act_artist_data": {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/4wrzxtBZw20ufDstKyTnnP"
+        "spotify": "https://open.spotify.com/artist/3ajf12ub55b51qcS94d9Co"
       },
-      "id": "4wrzxtBZw20ufDstKyTnnP",
+      "id": "3ajf12ub55b51qcS94d9Co",
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb1cbc805e89343f30e20fb066",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5813a4d06c1d982f78370abe",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab676161000051741cbc805e89343f30e20fb066",
+          "url": "https://i.scdn.co/image/ab676161000051745813a4d06c1d982f78370abe",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f1781cbc805e89343f30e20fb066",
+          "url": "https://i.scdn.co/image/ab6761610000f1785813a4d06c1d982f78370abe",
           "width": 160
         }
       ],
-      "name": "Rachel Chinouriri"
+      "name": "Orla Gartland"
     },
-    "act_id": "4wrzxtBZw20ufDstKyTnnP",
-    "act_name": "Rachel Chinouriri",
+    "act_id": "3ajf12ub55b51qcS94d9Co",
+    "act_name": "Orla Gartland",
     "related_artist_name": "Matilda Mann"
   },
   "76vZk3TWaVcNiP7H7in9fu": {
@@ -47314,35 +48731,6 @@
     "act_name": "Beth Gibbons",
     "related_artist_name": "Elizabeth Fraser"
   },
-  "79EqLrXbrtaK3sNgSQYoRE": {
-    "act_artist_data": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/6RKOqm8A3960vhcYYG97SB"
-      },
-      "id": "6RKOqm8A3960vhcYYG97SB",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5ebc396f2526a0369b5d436c57d",
-          "width": 640
-        },
-        {
-          "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174c396f2526a0369b5d436c57d",
-          "width": 320
-        },
-        {
-          "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178c396f2526a0369b5d436c57d",
-          "width": 160
-        }
-      ],
-      "name": "The Halfway Kid"
-    },
-    "act_id": "6RKOqm8A3960vhcYYG97SB",
-    "act_name": "The Halfway Kid",
-    "related_artist_name": "Anna Moss"
-  },
   "7A0awCXkE1FtSU8B0qwOJQ": {
     "act_artist_data": {
       "external_urls": {
@@ -47429,6 +48817,35 @@
     "act_id": "24b0qNYNgeOfpP5rbljIB3",
     "act_name": "Jade",
     "related_artist_name": "Blusher"
+  },
+  "7AiamoV760pPGGM5PbOC6X": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2AR42Ur9PcchQDtEdwkv4L"
+      },
+      "id": "2AR42Ur9PcchQDtEdwkv4L",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb5843f638712f9f0ac1491e4a",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051745843f638712f9f0ac1491e4a",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1785843f638712f9f0ac1491e4a",
+          "width": 160
+        }
+      ],
+      "name": "Floating Points"
+    },
+    "act_id": "2AR42Ur9PcchQDtEdwkv4L",
+    "act_name": "Floating Points",
+    "related_artist_name": "\u00b5-Ziq"
   },
   "7BDvurihyagH0uSPNDJX7d": {
     "act_artist_data": {
@@ -49426,6 +50843,35 @@
     "act_name": "beabadoobee",
     "related_artist_name": "Malcolm Todd"
   },
+  "7eZRt08LoDy0nfIS6OwyMP": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4aEnNH9PuU1HF3TsZTru54"
+      },
+      "id": "4aEnNH9PuU1HF3TsZTru54",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd25c967e7df50abe5581d4f5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d25c967e7df50abe5581d4f5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d25c967e7df50abe5581d4f5",
+          "width": 160
+        }
+      ],
+      "name": "Caribou"
+    },
+    "act_id": "4aEnNH9PuU1HF3TsZTru54",
+    "act_name": "Caribou",
+    "related_artist_name": "Fatima Yamaha"
+  },
   "7eZbNxarrTW4VkRI8u9aDX": {
     "act_artist_data": {
       "external_urls": {
@@ -49571,6 +51017,35 @@
     "act_name": "Westside Cowboy",
     "related_artist_name": "fantasy of a broken heart"
   },
+  "7fw0E8WHdG3r9SuPBcGmWk": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5z9wLR0RGBcWMXr4fCZW0K"
+      },
+      "id": "5z9wLR0RGBcWMXr4fCZW0K",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb300e5644dd9b6c4a178632d5",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174300e5644dd9b6c4a178632d5",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178300e5644dd9b6c4a178632d5",
+          "width": 160
+        }
+      ],
+      "name": "Greentea Peng"
+    },
+    "act_id": "5z9wLR0RGBcWMXr4fCZW0K",
+    "act_name": "Greentea Peng",
+    "related_artist_name": "Sampa the Great"
+  },
   "7gW0r5CkdEUMm42w9XpyZO": {
     "act_artist_data": {
       "external_urls": {
@@ -49715,6 +51190,35 @@
     "act_id": "1YfEcTuGvBQ8xSD1f53UnK",
     "act_name": "Busta Rhymes",
     "related_artist_name": "Snoop Dogg"
+  },
+  "7iNrvS80wnHDGVxw3qNRiI": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "CHINCHILLA"
   },
   "7iUF39q93Xixo33E6IvNYm": {
     "act_artist_data": {
@@ -50035,18 +51539,6 @@
     "act_name": "Myles Smith",
     "related_artist_name": "Ella Henderson"
   },
-  "7nFj31QiQll8sRmWagex1M": {
-    "act_artist_data": {
-      "external_urls": {
-        "spotify": "https://open.spotify.com/artist/7nFj31QiQll8sRmWagex1M"
-      },
-      "id": "7nFj31QiQll8sRmWagex1M",
-      "images": [],
-      "name": "Caribou"
-    },
-    "act_name": "Caribou",
-    "related_artist_name": null
-  },
   "7nXyULtoL8k7wP9l6kg8Ef": {
     "act_artist_data": {
       "external_urls": {
@@ -50249,6 +51741,35 @@
     "act_id": "3mIj9lX2MWuHmhNCA7LSCW",
     "act_name": "The 1975",
     "related_artist_name": "Rex Orange County"
+  },
+  "7pwufEBGfggjoI8twqlsmQ": {
+    "act_artist_data": {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2EXpthNgSeTDeX8nGwxppp"
+      },
+      "id": "2EXpthNgSeTDeX8nGwxppp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe3405040145b2ab1d8e25651",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e3405040145b2ab1d8e25651",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e3405040145b2ab1d8e25651",
+          "width": 160
+        }
+      ],
+      "name": "Paris Paloma"
+    },
+    "act_id": "2EXpthNgSeTDeX8nGwxppp",
+    "act_name": "Paris Paloma",
+    "related_artist_name": "Nessa Barrett"
   },
   "7pyhre5oEEFMqcgMEvJY7q": {
     "act_artist_data": {
