@@ -529,24 +529,24 @@
     {
       "events": [
         {
-          "end": "2025-06-27 12:15",
-          "id": "661e33137899d6efe736241949e7b1c9657733e0db199e856c896de9e9bb6c2e",
+          "end": "2025-06-27 12:10",
+          "id": "3bc2bc0bd9757bd601a5f91bfed6b0cc18c8b350559284e7f58a2c579208b53d",
           "name": "Horsegirl",
           "short": "horseg(1)",
           "start": "2025-06-27 11:30"
         },
         {
           "end": "2025-06-27 13:30",
-          "id": "903bb62e49b84f1db28be6b09bbf7d3f662a1dc739c805a6c85f9f9410bf9025",
-          "name": "Geordie Greep",
-          "short": "geordi(1)",
+          "id": "653804476e3e30f0ec28f9499b4515f79e3198cbd59ca020dfdce06a2e2e11c0",
+          "name": "John Glacier",
+          "short": "johngl(1)",
           "start": "2025-06-27 12:45"
         },
         {
           "end": "2025-06-27 14:45",
-          "id": "5afcb85e7c67b15aafb3b91573e9027b2edca0bf92e4c665d61e035544693962",
-          "name": "Ichiko Aoba",
-          "short": "ichiko(1)",
+          "id": "c1c369e03c5fd556bf3d851b49d3736fc576135fd03abec52f1cde67cae9d168",
+          "name": "Jalen Ngonda",
+          "short": "jalenn(1)",
           "start": "2025-06-27 14:00"
         },
         {
@@ -558,16 +558,16 @@
         },
         {
           "end": "2025-06-27 17:30",
-          "id": "f7f935f644e8d7fa0e422dce90dbd36e765d5bac061edc4ec831b45909f747d0",
-          "name": "Osees",
-          "short": "osees(1)",
+          "id": "e2df201393e72aed09af6565df000a26a361df10e8c3388f76f1ed2d269d6f47",
+          "name": "English Teacher",
+          "short": "englis(1)",
           "start": "2025-06-27 16:30"
         },
         {
           "end": "2025-06-27 19:00",
-          "id": "e233a80f3a8444515ff509f1b4e8a5e985a7c42d84cfb43aac9d9b66f7c89a73",
-          "name": "English Teacher",
-          "short": "englis(1)",
+          "id": "82f96e0c4c99a98aa85b45ce3e374812eb64a84b9dea66c47c2b2eee3e20cda0",
+          "name": "Osees",
+          "short": "osees(1)",
           "start": "2025-06-27 18:00"
         },
         {
@@ -592,17 +592,17 @@
           "start": "2025-06-27 23:00"
         },
         {
-          "end": "2025-06-28 12:15",
-          "id": "2a116db2daec434d307284d0c0a9433c34ff3979a2dc07df720b9f13024fef94",
-          "name": "Melin Meyln",
-          "short": "melinm(1)",
-          "start": "2025-06-28 11:30"
+          "end": "2025-06-28 12:10",
+          "id": "215add9ee8dde5d5fef425b62ebcd2a497b479e2bcc5fb57b7ea40a9ea58b681",
+          "name": "Yann Tiersen",
+          "short": "yannti(1)",
+          "start": "2025-06-28 11:10"
         },
         {
           "end": "2025-06-28 13:30",
-          "id": "6f54760f44c6171c0558784c581e94899951d0dfc8021ca558f98378a4149ccc",
-          "name": "John Glacier",
-          "short": "johngl(1)",
+          "id": "6cd4bef379d7ba57c871a020a367292db5446cf8c9513e9b42ab773c1c63d95a",
+          "name": "Ichiko Aoba",
+          "short": "ichiko(1)",
           "start": "2025-06-28 12:45"
         },
         {
@@ -614,37 +614,37 @@
         },
         {
           "end": "2025-06-28 16:00",
-          "id": "4674c9fdf18eb183b7de4c4bae6d44408a48ceb3af894e2c7ad4f87622c6a899",
-          "name": "Jalen Ngonda",
-          "short": "jalenn(1)",
+          "id": "42e9fd71640e1b7af00cd5706cfe880bdc6f329eab9d79b439dc6f8a4fc30b33",
+          "name": "Lucy Dacus",
+          "short": "lucyda(1)",
           "start": "2025-06-28 15:15"
         },
         {
           "end": "2025-06-28 17:30",
-          "id": "796073c56bef22d7842f199a917a3246719a9ba28a7da1a183817c0d2d5c6b18",
-          "name": "Lucy Dacus",
-          "short": "lucyda(1)",
+          "id": "8376ad20f4be4ecfcb076045d2f14f9c17a585da0a356fa0ad5c7d71b0b41353",
+          "name": "Pa Salieu",
+          "short": "pasali(1)",
           "start": "2025-06-28 16:30"
         },
         {
           "end": "2025-06-28 19:00",
-          "id": "2a585a04bc26acf11151af82237df4d672fb654857ab65ba5fa935836ad823f0",
-          "name": "Pa Salieu",
-          "short": "pasali(1)",
+          "id": "76ca848d24d93db5eb708f6f45bba7706b33c3002a3e4b500250489f5b943d15",
+          "name": "Gary Numan",
+          "short": "garynu(1)",
           "start": "2025-06-28 18:00"
         },
         {
           "end": "2025-06-28 20:30",
-          "id": "e16f64bec1bccba2e291f3cc1ad7ddb2d00780b59c2429aacc0edf3db45a5666",
-          "name": "Beth Gibbons",
-          "short": "bethgi(1)",
+          "id": "92b5f84041a861e1dcde0490b3b66431457ed7c9174a51a4fc4c07663b3c8b1c",
+          "name": "TBA",
+          "short": "tba(1)",
           "start": "2025-06-28 19:30"
         },
         {
           "end": "2025-06-28 22:15",
-          "id": "2bab3ec34ae05a1deae3d6f1700203c3d401df8ef8b87c1af3b610c3724f4f05",
-          "name": "Gary Numan",
-          "short": "garynu(1)",
+          "id": "1312469b592f7106812d26e23e0048442b11abad44802f791796c164f3b15cbc",
+          "name": "Beth Gibbons",
+          "short": "bethgi(1)",
           "start": "2025-06-28 21:15"
         },
         {
@@ -656,23 +656,23 @@
         },
         {
           "end": "2025-06-29 12:15",
-          "id": "17a0c82787225c82300db4aeb7d288a4aeadb81a6df6416880a7d9c30c6ede20",
-          "name": "Yann Tiersen",
-          "short": "yannti(1)",
+          "id": "bcc3ec3aed914b59467187acd8c3df2d11a810f9a4138cd3f0332e0aa0adb889",
+          "name": "Melin Melyn",
+          "short": "melinm1(1)",
           "start": "2025-06-29 11:30"
         },
         {
           "end": "2025-06-29 13:30",
-          "id": "35b3434ffb00f72499269628c6bde51734d4f9dbdd99f380ee90e9f16346a123",
-          "name": "Katy J Pearson",
-          "short": "katyjp(1)",
+          "id": "fcf0ccdee59b035da7efcdadfd51635c0972b711b5cb225a9802c969bc8f294f",
+          "name": "Geordie Greep",
+          "short": "geordi(1)",
           "start": "2025-06-29 12:45"
         },
         {
           "end": "2025-06-29 14:45",
-          "id": "c6f3c5237eb04344be03b71b7f414fb7f8c0f62ca3035399756a93f69a13fb79",
-          "name": "girl in red",
-          "short": "girlin(1)",
+          "id": "21c5df54d59feaf714f9921eb2553fab814f5109ce11c7882687e7ddccdf08cd",
+          "name": "Katy J Pearson",
+          "short": "katyjp(1)",
           "start": "2025-06-29 14:00"
         },
         {
@@ -684,17 +684,24 @@
         },
         {
           "end": "2025-06-29 17:30",
-          "id": "b8c18a0fa732f22017159bd0c9544a5899a497ea1c8ff0177386cc6edbd56e26",
-          "name": "Kae Tempest",
-          "short": "kaetem(1)",
+          "id": "0d79ef65cc00b0e0616dd752377af24a8b3be988ae4aee2135edacdcc636793f",
+          "name": "girl in red",
+          "short": "girlin(1)",
           "start": "2025-06-29 16:30"
         },
         {
-          "end": "2025-06-29 20:30",
-          "id": "5eaf08e810aa47bad125b22f72bd375c93fd34205914ff4e5a5544f01d11d9bf",
+          "end": "2025-06-29 19:00",
+          "id": "90bd066746a0c41d336802a6aa34655e832fba99d71a8e9a6008ca6454c7ca9c",
+          "name": "Kae Tempest",
+          "short": "kaetem(1)",
+          "start": "2025-06-29 18:00"
+        },
+        {
+          "end": "2025-06-29 20:35",
+          "id": "e7a68d47cd545df8df34efeaf6594c8d19999f377d8ef557ade7a77625254f02",
           "name": "Future Islands",
           "short": "future(1)",
-          "start": "2025-06-29 19:30"
+          "start": "2025-06-29 19:35"
         },
         {
           "end": "2025-06-29 22:30",
@@ -1064,7 +1071,7 @@
       "name": "Field of Avalon"
     }
   ],
-  "modified": "2025-05-31 11:07",
+  "modified": "2025-06-01 22:30",
   "name": "Glastonbury Festival 2025",
   "printAdvisory": 5,
   "timezone": "Europe/London",
