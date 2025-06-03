@@ -65,7 +65,8 @@
         },
         {
           "end": "2025-06-28 14:30",
-          "id": "eef1c415b2f8a87a166cdf58e44d52e60b64edc42443d89030cb25a119e3c1dd",
+          "id": "6a17426203924409ace8662f7676694d46fc41c22ae0c040bf183c1091aa6261",
+          "mbId": "baf05baf-69fb-47dd-93c2-033536b8c385",
           "name": "Brandi Carlile",
           "short": "brandi(1)",
           "start": "2025-06-28 13:30"
@@ -219,14 +220,16 @@
         },
         {
           "end": "2025-06-28 12:15",
-          "id": "5cd8e870f896d76532ba0826e24676e4f85b9119927c9b16d86a98d50117aef5",
+          "id": "3f0c1bf0eb62c6dd24714c91f1ba676735c706e077ca63f453a583f6f70190a1",
+          "mbId": "7bb3d914-0a4d-4e96-a00e-d9815725244b",
           "name": "Alessi Rose",
           "short": "alessi(1)",
           "start": "2025-06-28 11:30"
         },
         {
           "end": "2025-06-28 13:30",
-          "id": "3ff91b0098d2a3edd83e899a948215270b7e06122a1d8c9dfb02a1b44ba14526",
+          "id": "c55f6192efb2cc27cf6beb3a520a126134ed97f339fc2293e95d4def8acb56ed",
+          "mbId": "a84a3df1-a873-4be9-b6ff-4238393d46d7",
           "name": "Good Neighbours",
           "short": "goodne(1)",
           "start": "2025-06-28 12:45"
