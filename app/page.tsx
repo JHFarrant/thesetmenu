@@ -83,7 +83,7 @@ export default function Home() {
   const [recommendationsEnabled, setRecommendationsEnabled] =
     useState<boolean>(false);
 
-  const [showSetTimesOverlay, setShowSetTimesOverlay] = useState(true);
+  const [showSetTimesOverlay, setShowSetTimesOverlay] = useState(false);
 
   const share = () => {
     if (navigator.share) {
