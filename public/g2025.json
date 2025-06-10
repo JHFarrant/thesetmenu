@@ -89,7 +89,8 @@
         },
         {
           "end": "2025-06-28 19:15",
-          "id": "4b347070087b6cf6cc0daa2d3122f09d53e9bbe5bb0603d74346ce36c4e993bd",
+          "id": "6ec4f86abca64baf20c2625af97721ca4af5707459e133357d03553d934fb18a",
+          "mbId": "76b2e842-5e85-4c97-ab62-d5bc315595b5",
           "name": "Patchwork",
           "short": "patchw(1)",
           "start": "2025-06-28 18:15"
@@ -454,15 +455,16 @@
           "start": "2025-06-28 20:30"
         },
         {
-          "end": "2025-06-28 23:45",
-          "id": "9fdb6ca307c63b0d5961eed0e0a9b5937545f5688bc4fdafc4f2ee038e5c20f1",
+          "end": "2025-06-28 23:30",
+          "id": "39bf84e91021915548a45f5e7d95fdd45a8ef6fa04b45a9f0d1233aaea41e29e",
           "name": "Doechii",
           "short": "doechi(1)",
-          "start": "2025-06-28 22:15"
+          "start": "2025-06-28 22:45"
         },
         {
           "end": "2025-06-29 12:00",
-          "id": "85e843b3dc79fd43890d6273070ccf189252164ac62a1fd14ab9fc5e8ee6f36e",
+          "id": "76bfc5e04ae241fdba1ad1ddecf832d166c8d5615c9c8b1a5a651a66cd3a2038",
+          "mbId": "5054d3a9-6386-4027-a1af-b2ea09fe0203",
           "name": "Thandii",
           "short": "thandi(1)",
           "start": "2025-06-29 11:00"
@@ -27226,7 +27228,7 @@
       "name": "Kidzfield Big Top"
     }
   ],
-  "modified": "2025-06-06 15:36",
+  "modified": "2025-06-08 15:53",
   "name": "Glastonbury Festival 2025",
   "printAdvisory": 4,
   "timezone": "Europe/London",
