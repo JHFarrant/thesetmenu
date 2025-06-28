@@ -34,9 +34,10 @@
         },
         {
           "end": "2025-06-27 17:30",
-          "id": "8e03044f086eaf3cdc79b2a2415123f714642888a26c184d4c8af47c2331e08a",
-          "name": "TBA",
-          "short": "tba(6)",
+          "id": "ebb1ead3f6efbbc13b6bd1c4063ea2055c4e249033c29bed3a6b92dd118b9739",
+          "mbId": "526aab94-697f-44a9-b630-41d1c0505953",
+          "name": "Lewis Capaldi (s)",
+          "short": "lewisc(1)",
           "start": "2025-06-27 16:55"
         },
         {
@@ -362,7 +363,8 @@
         },
         {
           "end": "2025-06-27 14:00",
-          "id": "570a0c9b110e3371a5628a8db63408b410702f2ac847bbb851822ea1fd3ae6e5",
+          "id": "5a33424f83052c79814e8a4ac8ed32061d08fe669033bf92e14ed74f3aa23c26",
+          "mbId": "d069bf52-d213-49ac-8f9c-31841405bc9d",
           "name": "Ca7riel & Paco Amoroso",
           "short": "ca7rie1(1)",
           "start": "2025-06-27 13:00"
@@ -376,14 +378,16 @@
         },
         {
           "end": "2025-06-27 17:00",
-          "id": "2a2277cc709f5cd884ad6dbde304f0fd54e5f7cd7fabf11345f86cff09cd80f2",
+          "id": "635b54c7d4f5a068504962671a2a77cfbd0fd3cafe582003fad0cf004404fdb2",
+          "mbId": "7682d624-9e0b-45b2-b7d0-d1b18b3ebd05",
           "name": "Vieux Farka Toure",
           "short": "vieuxf1(1)",
           "start": "2025-06-27 16:00"
         },
         {
           "end": "2025-06-27 18:30",
-          "id": "a84fd7462e894bed3644e7fe2473f5861d987b197c56e9a9d8960ac713eae2ce",
+          "id": "7b51fc2f6cdf42a0e74eedf41aaa0c94a4e8276074665af1498ce4991f5616e3",
+          "mbId": "9a883a69-436b-4d17-9ffd-122a9bf4419a",
           "name": "En Vogue",
           "short": "envogu(1)",
           "start": "2025-06-27 17:30"
@@ -530,9 +534,10 @@
       "events": [
         {
           "end": "2025-06-27 12:15",
-          "id": "ba9fb77c8d78695e1c4486b6317e60b2d7d9880112c1e99a159b4c0684d4342f",
-          "name": "TBA",
-          "short": "tba(5)",
+          "id": "0fc6c92e9a65441282c3d1cf151b0f38f2ae21bb426596a9e19613ada2246d57",
+          "mbId": "8e494408-8620-4c6a-82c2-c2ca4a1e4f12",
+          "name": "Lorde (s)",
+          "short": "lordes1(1)",
           "start": "2025-06-27 11:30"
         },
         {
@@ -825,9 +830,10 @@
         },
         {
           "end": "2025-06-28 20:30",
-          "id": "4336f2bf176452e19aa613dcac9c1fe1b5d1222cfe15d260fb015c6e2fa16d2c",
+          "id": "343e4eae837e2d72768b79f0ca1dc23dea4bb8ab2487bc0ff14f016722476afb",
+          "mbId": "aef06569-098f-4218-a577-b413944d9493",
           "name": "TBA",
-          "short": "tba(16)",
+          "short": "tba(14)",
           "start": "2025-06-28 19:30"
         },
         {
@@ -3486,9 +3492,9 @@
         },
         {
           "end": "2025-06-27 21:20",
-          "id": "69a2988942aa2f03f8a16ef13a458a578bf00d71a720ac202eb5a7fab62fb5eb",
+          "id": "7a0346b5481d29157c1f87655419516615f8b225c6c3967056997c6dd745573c",
           "name": "TBA",
-          "short": "tba(8)",
+          "short": "tba(6)",
           "start": "2025-06-27 20:40"
         },
         {
@@ -4101,9 +4107,10 @@
         },
         {
           "end": "2025-06-28 23:30",
-          "id": "e26a67c0e33317808554cc55845be60f70e2111c6d428ff064b906e9568e9688",
+          "id": "9230e02a00b779588e35fb82da3ce7933039bf305ab3998f6610066085d19ba2",
+          "mbId": "na",
           "name": "TBA",
-          "short": "tba(19)",
+          "short": "tba(17)",
           "start": "2025-06-28 22:30"
         },
         {
@@ -4641,9 +4648,9 @@
         },
         {
           "end": "2025-06-28 01:15",
-          "id": "818d8e82bb45b974ec87399d5ae2c7d12f96b5dff51c606046224aef99ce8fee",
+          "id": "eb3656d82f72737d73f69303ef0622a5a13a2397752395947118b9224e4f4893",
           "name": "TBA",
-          "short": "tba(9)",
+          "short": "tba(7)",
           "start": "2025-06-28 00:15"
         },
         {
@@ -4802,9 +4809,9 @@
         },
         {
           "end": "2025-06-30 02:30",
-          "id": "40b7867e7abfe44b922a0d08f44f3a354fe6d98875ef2d2878d7baf448f0c96c",
+          "id": "3391f76cb0fb7248faeb0b845f19f4f71a1fa32474149ddf2c66c79fcb159446",
           "name": "TBA",
-          "short": "tba(25)",
+          "short": "tba(23)",
           "start": "2025-06-30 01:00"
         },
         {
@@ -7134,9 +7141,9 @@
         },
         {
           "end": "2025-06-28 17:00",
-          "id": "a0f15f4c60743270441038e8c27657175af40b724db79deba1cc0f97a0d428be",
+          "id": "9c38a2571866ffd1ba4ba622f34c27094264abd12748022d730f2a2bdcf4b379",
           "name": "TBA",
-          "short": "tba(12)",
+          "short": "tba(10)",
           "start": "2025-06-28 14:00"
         },
         {
@@ -8782,7 +8789,8 @@
         },
         {
           "end": "2025-06-28 02:15",
-          "id": "10fdba81e7dfa1a408d914ef4be2c4ce438a1b5269f6b5828980bd98bd5bb2b6",
+          "id": "93182e212c2f919eab6b2d33cc6c8d18b112019798a612952e31db9f10099f1b",
+          "mbId": "d069bf52-d213-49ac-8f9c-31841405bc9d",
           "name": "Ca7riel & Paco Amoroso",
           "short": "ca7rie1(2)",
           "start": "2025-06-28 01:15"
@@ -10906,9 +10914,9 @@
         },
         {
           "end": "2025-06-28 22:30",
-          "id": "c2c92f6e17ea5f7a54d6d0d1555b3086692deabb08263efd1a2000a78eb5bd6d",
+          "id": "fd9dc06df2497ce26a1e00a5dee26cf7c259605c70cee296a5b8c0b703b3a338",
           "name": "TBA",
-          "short": "tba(18)",
+          "short": "tba(16)",
           "start": "2025-06-28 22:00"
         },
         {
@@ -13209,9 +13217,9 @@
         },
         {
           "end": "2025-06-28 15:00",
-          "id": "d7f5a3f3d475bef0a31ec4989f27e3b85ed40ec91d356df2dd78d59f346355d0",
+          "id": "01bfe4c7e3ba8b06831258de3c85e6babffd344ba4a94065793f8b58594d3ea7",
           "name": "TBA",
-          "short": "tba(13)",
+          "short": "tba(11)",
           "start": "2025-06-28 14:00"
         },
         {
@@ -13223,9 +13231,9 @@
         },
         {
           "end": "2025-06-28 18:00",
-          "id": "9c639d74a7a9a75a75a8bc99e400ade9d4f942914f37cc4293ff7ec4fa1f8b7c",
+          "id": "5640660fa24179b4ee60589164a63a00a934a31801df9388ce91770cdc90293d",
           "name": "TBA",
-          "short": "tba(14)",
+          "short": "tba(12)",
           "start": "2025-06-28 17:00"
         },
         {
@@ -13244,10 +13252,9 @@
         },
         {
           "end": "2025-06-28 22:30",
-          "id": "81eddb9b45fc379f5da11e59dc60861cd9bb0c4a3789d6956d633cb21490f417",
-          "mbId": "na",
+          "id": "857b110c6badbc145021d2a81e1c61b109989cc4f154da3aca97ebb8599955b7",
           "name": "TBA",
-          "short": "tba(17)",
+          "short": "tba(15)",
           "start": "2025-06-28 21:30"
         },
         {
@@ -13301,9 +13308,9 @@
         },
         {
           "end": "2025-06-29 15:00",
-          "id": "78ff634b173e67e47582894232c42909f4e75053e5e5887563ddd8367ee630ec",
+          "id": "a1f85ab81ab9deeb6977e1f598497d3132ffe1d553fa3529a0edc75f81a305dc",
           "name": "TBA",
-          "short": "tba(20)",
+          "short": "tba(18)",
           "start": "2025-06-29 14:00"
         },
         {
@@ -13336,9 +13343,9 @@
         },
         {
           "end": "2025-06-29 22:30",
-          "id": "bf6c4ec0c2d93c076c20ae9480459869f788ba5ecc1c4163f69479e94947cee6",
+          "id": "8c767ef38f5b0d53dd0611acb07c167b4bdeae9899a07f54762c2ae56740b745",
           "name": "TBA",
-          "short": "tba(23)",
+          "short": "tba(21)",
           "start": "2025-06-29 21:30"
         },
         {
@@ -14372,9 +14379,9 @@
         },
         {
           "end": "2025-06-27 21:00",
-          "id": "78710df5d6f9a6ae0c9323e1a28bd7f647a676ce18a02ffa951d1d97522b0d12",
+          "id": "57812aafdaab94d1ce329e6c7bc2b6dbca63e3a77e4c80df575e6345fbbe9061",
           "name": "TBA",
-          "short": "tba(7)",
+          "short": "tba(5)",
           "start": "2025-06-27 20:30"
         },
         {
@@ -14401,9 +14408,9 @@
         },
         {
           "end": "2025-06-28 14:00",
-          "id": "8e79e1f34353188ae544bda99db159252297a6273e549f9c8520edf0b67ca112",
+          "id": "08a8e5965fac93994cb46594fc4f4d4a98bde9843d2baaff8eac28e375df1a40",
           "name": "TBA",
-          "short": "tba(11)",
+          "short": "tba(9)",
           "start": "2025-06-28 13:30"
         },
         {
@@ -14522,9 +14529,9 @@
         },
         {
           "end": "2025-06-29 21:00",
-          "id": "8b0d640e4d7e7d0ae205533c81f13a5b6c31a704a2882e63f04b22e7c7f9c186",
+          "id": "06f14d7db81905e4febaf89155cf7f668d778beff2d0ee77ec3c25b8df64a891",
           "name": "TBA",
-          "short": "tba(22)",
+          "short": "tba(20)",
           "start": "2025-06-29 20:30"
         }
       ],
@@ -21018,9 +21025,9 @@
         },
         {
           "end": "2025-06-28 18:05",
-          "id": "4a62f12d7235712fbf46c70a76d2d5b3732eba4ebf7f37badb8b1e0fbd43746b",
+          "id": "407a35a5d7b32be01fb77bf95331ef73322ee4bd3b887aa7d787d3ab4d25ff82",
           "name": "TBA",
-          "short": "tba(15)",
+          "short": "tba(13)",
           "start": "2025-06-28 17:35"
         },
         {
@@ -23542,16 +23549,16 @@
         },
         {
           "end": "2025-06-29 18:00",
-          "id": "8b144a476bfcf6abd812e6209d81643ca70e44be20c3a772ea9dc194a4400043",
+          "id": "1f5e0f0bcfa1f8e52aacfb9dd615d4330d9c3af175a4dd3489e841877bcdc163",
           "name": "TBA",
-          "short": "tba(21)",
+          "short": "tba(19)",
           "start": "2025-06-29 17:30"
         },
         {
           "end": "2025-06-29 22:53",
-          "id": "881dfb5ee8f0e040c334df3b9819bb90613d5cb025e676ebe6da86698d02a316",
+          "id": "8582e24bbddabc6ca25d16b3ebd6194fa711a4c5e40fe8788ce5c5ce34c6455d",
           "name": "TBA",
-          "short": "tba(24)",
+          "short": "tba(22)",
           "start": "2025-06-29 21:45"
         },
         {
@@ -26790,9 +26797,9 @@
         },
         {
           "end": "2025-06-28 02:42",
-          "id": "ccef71b8f310bae1f41d226a7692e1857f4fdd9ec48a2b8639bae3a59a7b67db",
+          "id": "42498d47bcf9d1ae21cbfa5c599efb27ab48c411751dff43f2a492cf64de80c7",
           "name": "TBA",
-          "short": "tba(10)",
+          "short": "tba(8)",
           "start": "2025-06-28 02:32"
         },
         {
@@ -29214,7 +29221,7 @@
       "name": "Open Arms"
     }
   ],
-  "modified": "2025-06-25 21:20",
+  "modified": "2025-06-27 12:56",
   "name": "Glastonbury Festival 2025",
   "printAdvisory": 1,
   "timezone": "Europe/London",
